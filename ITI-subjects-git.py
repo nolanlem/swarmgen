@@ -46,7 +46,7 @@ import csv
 
 import seaborn as sns
 sns.set()
-os.chdir('/Users/nolanlem/Documents/kura/kura-git/py/psychopy/swarm-tapping-study/')
+os.chdir('/Users/nolanlem/Documents/kura/swarmgen/')
 
 
 sr=22050
@@ -158,7 +158,7 @@ def impute_mx(csv_file):
 idealperiods, sndbeatbins, centerbpms, centerperiods = {},{},{},{}
 
 # load beatbins for no-timbre type
-datadirs = ['../stim-no-timbre-5', '../stim-timbre-5']
+datadirs = ['./stim-no-timbre-5', './stim-timbre-5']
 timbre_tags = ['n','t']
 stimuli_dirs = ['stimuli_1', 'stimuli_2', 'stimuli_3', 'stimuli_4']
 #beatbins_dir = os.path.join(datadir, stimuli_dir, 'phases', 'beat-windows')
@@ -261,7 +261,7 @@ for csv_file, person in zip(csvfiles, subject):
 
 #%% ### reformat trials subjects did not perform with empty list '' -> [] ###
   
-subjectplotdir = './analysis-scripts/plots/' + batch_folder + "/subjects/"
+subjectplotdir = './plots/' + batch_folder + "/subjects/"
 
 # replace all empty trials with [] (tried with np.nan but not good for plotting... )
 for person in subject:
@@ -354,7 +354,7 @@ all_timbre_conds = [timbre_conds, notimbre_conds]
 ########################################################
 
 # make directories for individual ITI subject plots
-subject_iti_dir = './analysis-scripts/plots/usable-batch/subject-10-6-plots/'
+subject_iti_dir = './plots/usable-batch/subject-10-6-plots/'
 for person in subject:
     the_subject_iti_dir = subject_iti_dir + person
     if os.path.exists(the_subject_iti_dir) == False:
@@ -369,7 +369,7 @@ def plotSubjectITIperTap(means, stds, label_str, person_str):
     xrange = np.linspace(0, len(means) -1 , len(means))
     ax.errorbar(xrange, means, yerr=stds, marker='.', label=label_str, capsize=3)
     ax.set_title(' '.join([person_str, sync_str]))
-    plt.savefig('./analysis-scripts/plots/usable-batch/subject-10-6-plots/' + person_str + '/' + person_str + ' ' + label_str + '.png', dpi=160)
+    plt.savefig('./plots/usable-batch/subject-10-6-plots/' + person_str + '/' + person_str + ' ' + label_str + '.png', dpi=160)
 
 #%% MUST INTIALIZE DICTIONARIES BEFORE LOOP 
 ### NB: MUST DO THIS EVERYTIME BEFORE RUNNING ITI ANALYSIS depending on no bb, bb, or outlier algo 
@@ -477,7 +477,7 @@ iti_mx_error, iti_sx_error = {}, {}
 # beat str array for csv file output 
 beat_strs = [str(i) for i in range(len(beatsegments))]
 
-beat_segment_dir = './analysis-scripts/plots/beat-segment-analysis/' + str(len(beatsegments)) + '-beat-segments/' 
+beat_segment_dir = './plots/beat-segment-analysis/' + str(len(beatsegments)) + '-beat-segments/' 
 itis_dir = beat_segment_dir + '/ITIs/'
 pcs_dir = beat_segment_dir + '/PCs/'
 csvs_dir = beat_segment_dir + '/csvs/'
@@ -503,7 +503,7 @@ makeDir(subject_dir + 'phases/')
 now = datetime.datetime.now()
 timestamp = str(now.month) + '-' + str(now.day) + '_' + str(now.hour) + '-' + str(now.minute)   
 
-makeDir('./analysis-scripts/ITIs/')
+makeDir('./ITIs/')
 
 
 #%%#### FILTER OUT SUBJECTS remove subjects with constraint: avg iti across beatsegs on 'weak' < 0.67
