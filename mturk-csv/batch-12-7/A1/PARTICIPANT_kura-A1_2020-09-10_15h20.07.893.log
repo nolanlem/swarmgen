@@ -1,0 +1,694 @@
+0.10899999999999999	EXP	Created Window = Window( name=Window, fullscr=true, color=#808080, units=height, waitBlanking=true, autoLog=true, size=[1920,938] )
+4.409000000000001	DATA	Keydown: Shift
+4.577999999999999	DATA	Keydown: C
+4.683	DATA	Keydown: L
+8.245	DATA	Keydown: c
+8.448	DATA	Keydown: l
+8.584	DATA	Keydown: o
+8.658	DATA	Keydown: r
+8.795	DATA	Keydown: t
+8.884	DATA	Keydown: i
+8.975999999999999	DATA	Keydown: e
+11.405999999999999	DATA	Keydown: Shift
+11.583	DATA	Keydown: Y
+11.744	DATA	Keydown: E
+11.859	DATA	Keydown: Shift
+12.387	DATA	Keydown: Backspace
+12.778	DATA	Keydown: e
+12.964	DATA	Keydown: s
+17.458000000000002	DATA	Keydown: Shift
+17.836000000000002	DATA	Keydown: B
+18.077	DATA	Keydown: o
+18.172	DATA	Keydown: s
+18.343	DATA	Keydown: e
+18.459	DATA	Keydown:  
+18.537000000000003	DATA	Keydown: Shift
+18.630000000000003	DATA	Keydown: S
+18.997	DATA	Keydown: u
+19.314	DATA	Keydown: Backspace
+19.531000000000002	DATA	Keydown: o
+19.720000000000002	DATA	Keydown: u
+19.857000000000003	DATA	Keydown: n
+19.928	DATA	Keydown: d
+20.137	DATA	Keydown: Shift
+20.229000000000003	DATA	Keydown: L
+20.411	DATA	Keydown: i
+20.559	DATA	Keydown: n
+20.694000000000003	DATA	Keydown: k
+30.782000000000004	DATA	Keydown: 1
+31.037	DATA	Keydown: 8
+35.008	DATA	Keydown: Shift
+35.121	DATA	Keydown: N
+35.323	DATA	Keydown: o
+37.289	DATA	Keydown: Shift
+37.369	DATA	Keydown: M
+39.03	DATA	Keydown: 2
+39.242000000000004	DATA	Keydown: 7
+40.885	DATA	Keydown: Shift
+40.976	DATA	Keydown: R
+43.394	DATA	Keydown: y
+43.463	DATA	Keydown: e
+43.625	DATA	Keydown: s
+46.396	EXP	Created instructiontxt = TextStim( name=instructiontxt, win=Window( name=Window, fullscr=true, color=#808080, ~), autoDraw=null, autoLog=true, units=height, ori=null, opacity=1, pos=[0,0], size=undefined, text=Welcome to tapping experiment. 
+
+You will hear a s~, font=Arial, color=#FFFFFF, contrast=1, height=0.05, bold=null, italic=null, alignHoriz=left, alignVert=center, wrapWidth=1, flipHoriz=null, flipVert=null )
+46.406	EXP	Created TonePlayer = TonePlayer( name=TonePlayer, note=A4, duration_s=-1, volume=1, loops=null, soundLibrary="TONE_JS", autoLog=true )
+46.408	EXP	Created text = TextStim( name=text, win=Window( name=Window, fullscr=true, color=#808080, ~), autoDraw=null, autoLog=true, units=height, ori=null, opacity=1, pos=[0,0], size=undefined, text=Ready for the next trial?
+
+press space bar to star~, font=Arial, color=#FFFFFF, contrast=1, height=0.05, bold=null, italic=null, alignHoriz=left, alignVert=center, wrapWidth=1, flipHoriz=null, flipVert=null )
+46.409	EXP	Created text_2 = TextStim( name=text_2, win=Window( name=Window, fullscr=true, color=#808080, ~), autoDraw=null, autoLog=true, units=height, ori=null, opacity=1, pos=[0,0], size=undefined, text=Practice trials are over.
+
+Now we are going to sta~, font=Arial, color=#FFFFFF, contrast=1, height=0.05, bold=null, italic=null, alignHoriz=left, alignVert=center, wrapWidth=1, flipHoriz=null, flipVert=null )
+46.411	EXP	Created TonePlayer = TonePlayer( name=TonePlayer, note=A4, duration_s=-1, volume=1, loops=null, soundLibrary="TONE_JS", autoLog=true )
+46.413000000000004	EXP	Created text_3 = TextStim( name=text_3, win=Window( name=Window, fullscr=true, color=#808080, ~), autoDraw=null, autoLog=true, units=height, ori=null, opacity=1, pos=[0,0], size=undefined, text=Ready for the next trial?
+
+Press space bar to star~, font=Arial, color=#FFFFFF, contrast=1, height=0.05, bold=null, italic=null, alignHoriz=left, alignVert=center, wrapWidth=1, flipHoriz=null, flipVert=null )
+46.414	EXP	Created text_4 = TextStim( name=text_4, win=Window( name=Window, fullscr=true, color=#808080, ~), autoDraw=null, autoLog=true, units=height, ori=null, opacity=1, pos=[0,0], size=undefined, text=Great! This is the half-way break. 
+
+Please take y~, font=Arial, color=#FFFFFF, contrast=1, height=0.05, bold=null, italic=null, alignHoriz=left, alignVert=center, wrapWidth=1, flipHoriz=null, flipVert=null )
+46.416000000000004	EXP	Created TonePlayer = TonePlayer( name=TonePlayer, note=A4, duration_s=-1, volume=1, loops=null, soundLibrary="TONE_JS", autoLog=true )
+46.416000000000004	EXP	Created next_prompt_trial2 = TextStim( name=next_prompt_trial2, win=Window( name=Window, fullscr=true, color=#808080, ~), autoDraw=null, autoLog=true, units=height, ori=null, opacity=1, pos=[0,0], size=undefined, text=Ready for the next trial? 
+
+Press space bar to sta~, font=Arial, color=#FFFFFF, contrast=1, height=0.05, bold=null, italic=null, alignHoriz=left, alignVert=center, wrapWidth=1, flipHoriz=null, flipVert=null )
+46.418	EXP	Created completion_text = TextStim( name=completion_text, win=Window( name=Window, fullscr=true, color=#808080, ~), autoDraw=null, autoLog=true, units=height, ori=null, opacity=1, pos=[0,0], size=undefined, text=Thanks for your participation! 
+
+Here is your expe~, font=Arial, color=#FFFFFF, contrast=1, height=0.05, bold=null, italic=null, alignHoriz=left, alignVert=center, wrapWidth=1, flipHoriz=null, flipVert=null )
+46.418	EXP	Created goodbyetxt = TextStim( name=goodbyetxt, win=Window( name=Window, fullscr=true, color=#808080, ~), autoDraw=null, autoLog=true, units=height, ori=null, opacity=1, pos=[0,0], size=undefined, text=The test is over!
+
+Thank you so much!!, font=Arial, color=#FFFFFF, contrast=1, height=0.05, bold=null, italic=null, alignHoriz=left, alignVert=center, wrapWidth=1, flipHoriz=null, flipVert=null )
+46.436	EXP	instructiontxt: units = "height"
+46.436	EXP	instructiontxt: ori = 0
+46.436	EXP	instructiontxt: opacity = 1
+46.436	EXP	instructiontxt: pos = [0,0]
+46.436	EXP	instructiontxt: size = undefined
+46.436	EXP	instructiontxt: text = "Welcome to tapping experiment. \n\nYou will hear a sequence of tones.\nUse the index finger of your dominant hand \nto tap the spacebar at where you think the beat \nis throughout the sound file at each trial. \n\nWhen you are ready, press the spacebar to begin the practice."
+46.436	EXP	instructiontxt: font = "Arial"
+46.436	EXP	instructiontxt: color = {"_hex":"#FFFFFF","_rgb":[1,1,1]}
+46.436	EXP	instructiontxt: contrast = 1
+46.436	EXP	instructiontxt: height = 0.05
+46.436	EXP	instructiontxt: bold = false
+46.436	EXP	instructiontxt: italic = false
+46.436	EXP	instructiontxt: alignHoriz = "left"
+46.436	EXP	instructiontxt: alignVert = "center"
+46.436	EXP	instructiontxt: wrapWidth = 1
+46.436	EXP	instructiontxt: flipHoriz = false
+46.436	EXP	instructiontxt: flipVert = false
+46.436	EXP	Sound: secs = -1
+46.436	EXP	Sound: volume = 1
+46.436	EXP	Sound: loops = 0
+46.436	EXP	Sound: volume = 1
+46.436	EXP	text: units = "height"
+46.436	EXP	text: ori = 0
+46.436	EXP	text: opacity = 1
+46.436	EXP	text: pos = [0,0]
+46.436	EXP	text: size = undefined
+46.436	EXP	text: text = "Ready for the next trial?\n\npress space bar to start."
+46.436	EXP	text: font = "Arial"
+46.436	EXP	text: color = {"_hex":"#FFFFFF","_rgb":[1,1,1]}
+46.436	EXP	text: contrast = 1
+46.436	EXP	text: height = 0.05
+46.436	EXP	text: bold = false
+46.436	EXP	text: italic = false
+46.436	EXP	text: alignHoriz = "left"
+46.436	EXP	text: alignVert = "center"
+46.436	EXP	text: wrapWidth = 1
+46.436	EXP	text: flipHoriz = false
+46.436	EXP	text: flipVert = false
+46.436	EXP	text_2: units = "height"
+46.436	EXP	text_2: ori = 0
+46.436	EXP	text_2: opacity = 1
+46.436	EXP	text_2: pos = [0,0]
+46.436	EXP	text_2: size = undefined
+46.436	EXP	text_2: text = "Practice trials are over.\n\nNow we are going to start the real test trials.\nThe total session length will be about 28 minutes, but we will have a short break at the half way mark.\n\nIf you are ready, please space bar."
+46.436	EXP	text_2: font = "Arial"
+46.436	EXP	text_2: color = {"_hex":"#FFFFFF","_rgb":[1,1,1]}
+46.436	EXP	text_2: contrast = 1
+46.436	EXP	text_2: height = 0.05
+46.436	EXP	text_2: bold = false
+46.436	EXP	text_2: italic = false
+46.436	EXP	text_2: alignHoriz = "left"
+46.436	EXP	text_2: alignVert = "center"
+46.436	EXP	text_2: wrapWidth = 1
+46.436	EXP	text_2: flipHoriz = false
+46.436	EXP	text_2: flipVert = false
+46.436	EXP	Sound: secs = -1
+46.436	EXP	Sound: volume = 1
+46.436	EXP	Sound: loops = 0
+46.436	EXP	Sound: volume = 1
+46.436	EXP	text_3: units = "height"
+46.436	EXP	text_3: ori = 0
+46.436	EXP	text_3: opacity = 1
+46.436	EXP	text_3: pos = [0,0]
+46.436	EXP	text_3: size = undefined
+46.436	EXP	text_3: text = "Ready for the next trial?\n\nPress space bar to start."
+46.436	EXP	text_3: font = "Arial"
+46.436	EXP	text_3: color = {"_hex":"#FFFFFF","_rgb":[1,1,1]}
+46.436	EXP	text_3: contrast = 1
+46.436	EXP	text_3: height = 0.05
+46.436	EXP	text_3: bold = false
+46.436	EXP	text_3: italic = false
+46.436	EXP	text_3: alignHoriz = "left"
+46.436	EXP	text_3: alignVert = "center"
+46.436	EXP	text_3: wrapWidth = 1
+46.436	EXP	text_3: flipHoriz = false
+46.436	EXP	text_3: flipVert = false
+46.436	EXP	text_4: units = "height"
+46.436	EXP	text_4: ori = 0
+46.436	EXP	text_4: opacity = 1
+46.436	EXP	text_4: pos = [0,0]
+46.436	EXP	text_4: size = undefined
+46.436	EXP	text_4: text = "Great! This is the half-way break. \n\nPlease take your time. \n\nWhen you are ready to start the second-half of the test trials, please press space bar. "
+46.436	EXP	text_4: font = "Arial"
+46.436	EXP	text_4: color = {"_hex":"#FFFFFF","_rgb":[1,1,1]}
+46.436	EXP	text_4: contrast = 1
+46.436	EXP	text_4: height = 0.05
+46.436	EXP	text_4: bold = false
+46.436	EXP	text_4: italic = false
+46.436	EXP	text_4: alignHoriz = "left"
+46.436	EXP	text_4: alignVert = "center"
+46.436	EXP	text_4: wrapWidth = 1
+46.436	EXP	text_4: flipHoriz = false
+46.436	EXP	text_4: flipVert = false
+46.436	EXP	Sound: secs = -1
+46.436	EXP	Sound: volume = 1
+46.436	EXP	Sound: loops = 0
+46.436	EXP	Sound: volume = 1
+46.436	EXP	next_prompt_trial2: units = "height"
+46.436	EXP	next_prompt_trial2: ori = 0
+46.436	EXP	next_prompt_trial2: opacity = 1
+46.436	EXP	next_prompt_trial2: pos = [0,0]
+46.436	EXP	next_prompt_trial2: size = undefined
+46.436	EXP	next_prompt_trial2: text = "Ready for the next trial? \n\nPress space bar to start. "
+46.436	EXP	next_prompt_trial2: font = "Arial"
+46.436	EXP	next_prompt_trial2: color = {"_hex":"#FFFFFF","_rgb":[1,1,1]}
+46.436	EXP	next_prompt_trial2: contrast = 1
+46.436	EXP	next_prompt_trial2: height = 0.05
+46.436	EXP	next_prompt_trial2: bold = false
+46.436	EXP	next_prompt_trial2: italic = false
+46.436	EXP	next_prompt_trial2: alignHoriz = "left"
+46.436	EXP	next_prompt_trial2: alignVert = "center"
+46.436	EXP	next_prompt_trial2: wrapWidth = 1
+46.436	EXP	next_prompt_trial2: flipHoriz = false
+46.436	EXP	next_prompt_trial2: flipVert = false
+46.436	EXP	completion_text: units = "height"
+46.436	EXP	completion_text: ori = 0
+46.436	EXP	completion_text: opacity = 1
+46.436	EXP	completion_text: pos = [0,0]
+46.436	EXP	completion_text: size = undefined
+46.436	EXP	completion_text: text = "Thanks for your participation! \n\nHere is your experiment completion code: \n\n9158 \n\nPlease write down this code as you will need it in order to receive payment.\n\nIf you are not an MTurk worker, please send an email to nolan.lem@gmail.com with the Experiment Completion Code as the subject of the email. In order to complete the \nexperiment, when you are ready please press space bar and wait until you see a text box appear that says \"Thanks for your patience\" where you can click 'ok'. \n\nIf you are an MTurk worker, please press the space bar to be redirected to the MTurk experiment \nhomepage where you can input the code into the Experiment Completion Code box. "
+46.436	EXP	completion_text: font = "Arial"
+46.436	EXP	completion_text: color = {"_hex":"#FFFFFF","_rgb":[1,1,1]}
+46.436	EXP	completion_text: contrast = 1
+46.436	EXP	completion_text: height = 0.05
+46.436	EXP	completion_text: bold = false
+46.436	EXP	completion_text: italic = false
+46.436	EXP	completion_text: alignHoriz = "left"
+46.436	EXP	completion_text: alignVert = "center"
+46.436	EXP	completion_text: wrapWidth = 1
+46.436	EXP	completion_text: flipHoriz = false
+46.436	EXP	completion_text: flipVert = false
+46.436	EXP	goodbyetxt: units = "height"
+46.436	EXP	goodbyetxt: ori = 0
+46.436	EXP	goodbyetxt: opacity = 1
+46.436	EXP	goodbyetxt: pos = [0,0]
+46.436	EXP	goodbyetxt: size = undefined
+46.436	EXP	goodbyetxt: text = "The test is over!\n\nThank you so much!!"
+46.436	EXP	goodbyetxt: font = "Arial"
+46.436	EXP	goodbyetxt: color = {"_hex":"#FFFFFF","_rgb":[1,1,1]}
+46.436	EXP	goodbyetxt: contrast = 1
+46.436	EXP	goodbyetxt: height = 0.05
+46.436	EXP	goodbyetxt: bold = false
+46.436	EXP	goodbyetxt: italic = false
+46.436	EXP	goodbyetxt: alignHoriz = "left"
+46.436	EXP	goodbyetxt: alignVert = "center"
+46.436	EXP	goodbyetxt: wrapWidth = 1
+46.436	EXP	goodbyetxt: flipHoriz = false
+46.436	EXP	goodbyetxt: flipVert = false
+46.436	EXP	instructiontxt: autoDraw = true
+56.905	DATA	Keydown:  
+56.917	EXP	instructiontxt: autoDraw = false
+56.917	EXP	Sound: secs = -1
+56.917	EXP	Sound: volume = 1
+56.917	EXP	Sound: loops = 0
+56.917	EXP	Sound: volume = 1
+59.68	DATA	Keydown:  
+60.492000000000004	DATA	Keydown:  
+61.27	DATA	Keydown:  
+62.029	DATA	Keydown:  
+62.786	DATA	Keydown:  
+63.528999999999996	DATA	Keydown:  
+64.286	DATA	Keydown:  
+65.014	DATA	Keydown:  
+65.766	DATA	Keydown:  
+66.59100000000001	DATA	Keydown:  
+67.304	DATA	Keydown:  
+68.042	DATA	Keydown:  
+68.862	DATA	Keydown:  
+69.603	DATA	Keydown:  
+70.368	DATA	Keydown:  
+71.133	DATA	Keydown:  
+71.904	DATA	Keydown:  
+72.619	DATA	Keydown:  
+73.399	DATA	Keydown:  
+74.117	DATA	Keydown:  
+75.20700000000001	EXP	text: autoDraw = true
+76.391	DATA	Keydown:  
+76.415	EXP	text: autoDraw = false
+76.415	EXP	text_2: autoDraw = true
+86.772	DATA	Keydown:  
+86.792	EXP	text_2: autoDraw = false
+86.792	EXP	Sound: secs = -1
+86.792	EXP	Sound: volume = 1
+86.792	EXP	Sound: loops = 0
+86.792	EXP	Sound: volume = 1
+88.746	DATA	Keydown:  
+89.28	DATA	Keydown:  
+91.294	DATA	Keydown:  
+92.236	DATA	Keydown:  
+93.156	DATA	Keydown:  
+94.04	DATA	Keydown:  
+94.97200000000001	DATA	Keydown:  
+95.95400000000001	DATA	Keydown:  
+96.711	DATA	Keydown:  
+97.674	DATA	Keydown:  
+98.508	DATA	Keydown:  
+99.46000000000001	DATA	Keydown:  
+100.25	DATA	Keydown:  
+101.182	DATA	Keydown:  
+102.112	DATA	Keydown:  
+104.051	EXP	text_3: autoDraw = true
+105.109	DATA	Keydown:  
+105.123	EXP	text_3: autoDraw = false
+105.123	EXP	text_4: autoDraw = true
+112.004	DATA	Keydown:  
+112.014	EXP	text_4: autoDraw = false
+112.014	EXP	Sound: secs = -1
+112.014	EXP	Sound: volume = 1
+112.014	EXP	Sound: loops = 0
+112.014	EXP	Sound: volume = 1
+114.82900000000001	DATA	Keydown:  
+115.574	DATA	Keydown:  
+116.605	DATA	Keydown:  
+117.516	DATA	Keydown:  
+118.459	DATA	Keydown:  
+119.398	DATA	Keydown:  
+120.158	DATA	Keydown:  
+121.057	DATA	Keydown:  
+121.944	DATA	Keydown:  
+122.783	DATA	Keydown:  
+123.968	DATA	Keydown:  
+124.73	DATA	Keydown:  
+125.61	DATA	Keydown:  
+126.40899999999999	DATA	Keydown:  
+127.30000000000001	DATA	Keydown:  
+129.193	EXP	next_prompt_trial2: autoDraw = true
+130.112	DATA	Keydown:  
+130.138	EXP	next_prompt_trial2: autoDraw = false
+130.138	EXP	completion_text: autoDraw = true
+131.637	DATA	Mouse: wheel shift=(0,-4.95), pos=(1150,729)
+131.637	DATA	Mouse: wheel shift=(0,-1.55), pos=(1150,729)
+131.64600000000002	DATA	Mouse: wheel shift=(0,-1.475), pos=(1150,729)
+131.659	DATA	Mouse: wheel shift=(0,-1.725), pos=(1150,729)
+131.659	DATA	Mouse: wheel shift=(0,-1.425), pos=(1150,729)
+131.667	DATA	Mouse: wheel shift=(0,-1.275), pos=(1150,729)
+131.673	DATA	Mouse: wheel shift=(0,-1.375), pos=(1150,729)
+131.683	DATA	Mouse: wheel shift=(0,-1.15), pos=(1150,729)
+131.698	DATA	Mouse: wheel shift=(0,-0.95), pos=(1150,729)
+131.699	DATA	Mouse: wheel shift=(0,-0.75), pos=(1150,729)
+131.708	DATA	Mouse: wheel shift=(0,-0.625), pos=(1150,729)
+131.709	DATA	Mouse: wheel shift=(0,-0.475), pos=(1150,729)
+131.714	DATA	Mouse: wheel shift=(0,-0.275), pos=(1150,729)
+131.724	DATA	Mouse: wheel shift=(0,-0.225), pos=(1150,729)
+131.731	DATA	Mouse: wheel shift=(0,-0.125), pos=(1150,729)
+131.736	DATA	Mouse: wheel shift=(0,-0.05), pos=(1150,729)
+131.744	DATA	Mouse: wheel shift=(0,-0.05), pos=(1150,729)
+131.75900000000001	DATA	Mouse: wheel shift=(0,-0.05), pos=(1150,729)
+131.75900000000001	DATA	Mouse: wheel shift=(0,-0.075), pos=(1150,729)
+131.78	DATA	Mouse: wheel shift=(0,-0.05), pos=(1150,729)
+131.799	DATA	Mouse: wheel shift=(0,-0.05), pos=(1150,729)
+131.929	DATA	Mouse: wheel shift=(0,-0.05), pos=(1150,729)
+131.959	DATA	Mouse: wheel shift=(0,-0.05), pos=(1150,729)
+131.965	DATA	Mouse: wheel shift=(0,-0.175), pos=(1150,729)
+131.973	DATA	Mouse: wheel shift=(0,-0.275), pos=(1150,729)
+131.979	DATA	Mouse: wheel shift=(0,-0.325), pos=(1150,729)
+131.991	DATA	Mouse: wheel shift=(0,-0.5), pos=(1150,729)
+132.006	DATA	Mouse: wheel shift=(0,-0.775), pos=(1150,729)
+132.006	DATA	Mouse: wheel shift=(0,-0.725), pos=(1150,729)
+132.016	DATA	Mouse: wheel shift=(0,-0.55), pos=(1150,729)
+132.017	DATA	Mouse: wheel shift=(0,-0.65), pos=(1150,729)
+132.028	DATA	Mouse: wheel shift=(0,-0.6), pos=(1150,729)
+132.039	DATA	Mouse: wheel shift=(0,-0.625), pos=(1150,729)
+132.039	DATA	Mouse: wheel shift=(0,-0.425), pos=(1150,729)
+132.047	DATA	Mouse: wheel shift=(0,-0.45), pos=(1150,729)
+132.056	DATA	Mouse: wheel shift=(0,-0.375), pos=(1150,729)
+132.062	DATA	Mouse: wheel shift=(0,-0.45), pos=(1150,729)
+132.076	DATA	Mouse: wheel shift=(0,-0.55), pos=(1150,729)
+132.076	DATA	Mouse: wheel shift=(0,-0.5), pos=(1150,729)
+132.089	DATA	Mouse: wheel shift=(0,-0.425), pos=(1150,729)
+132.089	DATA	Mouse: wheel shift=(0,-0.225), pos=(1150,729)
+132.098	DATA	Mouse: wheel shift=(0,-0.225), pos=(1150,729)
+132.109	DATA	Mouse: wheel shift=(0,-0.225), pos=(1150,729)
+132.109	DATA	Mouse: wheel shift=(0,-0.175), pos=(1150,729)
+132.118	DATA	Mouse: wheel shift=(0,-0.2), pos=(1150,729)
+132.131	DATA	Mouse: wheel shift=(0,-0.125), pos=(1150,729)
+132.131	DATA	Mouse: wheel shift=(0,-0.1), pos=(1150,729)
+132.139	DATA	Mouse: wheel shift=(0,-0.125), pos=(1150,729)
+132.159	DATA	Mouse: wheel shift=(0,-0.05), pos=(1150,729)
+132.17	DATA	Mouse: wheel shift=(0,-0.05), pos=(1150,729)
+132.183	DATA	Mouse: wheel shift=(0,-0.05), pos=(1150,729)
+132.205	DATA	Mouse: wheel shift=(0,-0.05), pos=(1150,729)
+132.525	DATA	Mouse: wheel shift=(0,-3.025), pos=(1150,729)
+132.534	DATA	Mouse: wheel shift=(0,-1.475), pos=(1150,729)
+132.542	DATA	Mouse: wheel shift=(0,-1.6), pos=(1150,729)
+132.548	DATA	Mouse: wheel shift=(0,-1.5), pos=(1150,729)
+132.56	DATA	Mouse: wheel shift=(0,-1.825), pos=(1150,729)
+132.56	DATA	Mouse: wheel shift=(0,-1.3), pos=(1150,729)
+132.568	DATA	Mouse: wheel shift=(0,-1.45), pos=(1150,729)
+132.577	DATA	Mouse: wheel shift=(0,-1.475), pos=(1150,729)
+132.586	DATA	Mouse: wheel shift=(0,-1.05), pos=(1150,729)
+132.594	DATA	Mouse: wheel shift=(0,-1), pos=(1150,729)
+132.594	DATA	Mouse: wheel shift=(0,-1), pos=(1150,729)
+132.606	DATA	Mouse: wheel shift=(0,-0.875), pos=(1150,729)
+132.608	DATA	Mouse: wheel shift=(0,-0.775), pos=(1150,729)
+132.617	DATA	Mouse: wheel shift=(0,-0.55), pos=(1150,729)
+132.63	DATA	Mouse: wheel shift=(0,-0.5), pos=(1150,729)
+132.63	DATA	Mouse: wheel shift=(0,-0.375), pos=(1150,729)
+132.643	DATA	Mouse: wheel shift=(0,-0.325), pos=(1150,729)
+132.644	DATA	Mouse: wheel shift=(0,-0.225), pos=(1150,729)
+132.653	DATA	Mouse: wheel shift=(0,-0.125), pos=(1150,729)
+132.664	DATA	Mouse: wheel shift=(0,-0.1), pos=(1150,729)
+132.664	DATA	Mouse: wheel shift=(0,-0.05), pos=(1150,729)
+132.672	DATA	Mouse: wheel shift=(0,-0.05), pos=(1150,729)
+132.686	DATA	Mouse: wheel shift=(0,-0.075), pos=(1150,729)
+132.703	DATA	Mouse: wheel shift=(0,-0.05), pos=(1150,729)
+132.715	DATA	Mouse: wheel shift=(0,-0.05), pos=(1150,729)
+133.082	DATA	Mouse: wheel shift=(0,2.85), pos=(1150,729)
+133.095	DATA	Mouse: wheel shift=(0,0.45), pos=(1150,729)
+133.095	DATA	Mouse: wheel shift=(0,0.5), pos=(1150,729)
+133.105	DATA	Mouse: wheel shift=(0,0.475), pos=(1150,729)
+133.105	DATA	Mouse: wheel shift=(0,0.5), pos=(1150,729)
+133.112	DATA	Mouse: wheel shift=(0,0.45), pos=(1150,729)
+133.129	DATA	Mouse: wheel shift=(0,0.375), pos=(1150,729)
+133.129	DATA	Mouse: wheel shift=(0,0.275), pos=(1150,729)
+133.137	DATA	Mouse: wheel shift=(0,0.275), pos=(1150,729)
+133.153	DATA	Mouse: wheel shift=(0,0.175), pos=(1150,729)
+133.153	DATA	Mouse: wheel shift=(0,0.225), pos=(1150,729)
+133.169	DATA	Mouse: wheel shift=(0,0.225), pos=(1150,729)
+133.171	DATA	Mouse: wheel shift=(0,0.225), pos=(1150,729)
+133.19	DATA	Mouse: wheel shift=(0,0.15), pos=(1150,729)
+133.19	DATA	Mouse: wheel shift=(0,0.175), pos=(1150,729)
+133.19	DATA	Mouse: wheel shift=(0,0.1), pos=(1150,729)
+133.192	DATA	Mouse: wheel shift=(0,0.125), pos=(1150,729)
+133.205	DATA	Mouse: wheel shift=(0,0.1), pos=(1150,729)
+133.221	DATA	Mouse: wheel shift=(0,0.05), pos=(1150,729)
+133.233	DATA	Mouse: wheel shift=(0,0.05), pos=(1150,729)
+133.414	DATA	Mouse: wheel shift=(0,0.075), pos=(1150,729)
+133.453	DATA	Mouse: wheel shift=(0,0.05), pos=(1150,729)
+133.459	DATA	Mouse: wheel shift=(0,0.15), pos=(1150,729)
+133.475	DATA	Mouse: wheel shift=(0,0.225), pos=(1150,729)
+133.475	DATA	Mouse: wheel shift=(0,0.325), pos=(1150,729)
+133.491	DATA	Mouse: wheel shift=(0,0.35), pos=(1150,729)
+133.491	DATA	Mouse: wheel shift=(0,0.275), pos=(1150,729)
+133.501	DATA	Mouse: wheel shift=(0,0.275), pos=(1150,729)
+133.50900000000001	DATA	Mouse: wheel shift=(0,0.275), pos=(1150,729)
+133.516	DATA	Mouse: wheel shift=(0,0.225), pos=(1150,729)
+133.518	DATA	Mouse: wheel shift=(0,0.2), pos=(1150,729)
+133.532	DATA	Mouse: wheel shift=(0,0.225), pos=(1150,729)
+133.532	DATA	Mouse: wheel shift=(0,0.225), pos=(1150,729)
+133.538	DATA	Mouse: wheel shift=(0,0.175), pos=(1150,729)
+133.552	DATA	Mouse: wheel shift=(0,0.1), pos=(1150,729)
+133.563	DATA	Mouse: wheel shift=(0,0.1), pos=(1150,729)
+133.563	DATA	Mouse: wheel shift=(0,0.125), pos=(1150,729)
+133.568	DATA	Mouse: wheel shift=(0,0.1), pos=(1150,729)
+133.575	DATA	Mouse: wheel shift=(0,0.05), pos=(1150,729)
+133.584	DATA	Mouse: wheel shift=(0,0.075), pos=(1150,729)
+133.591	DATA	Mouse: wheel shift=(0,0.05), pos=(1150,729)
+133.601	DATA	Mouse: wheel shift=(0,0.05), pos=(1150,729)
+133.61	DATA	Mouse: wheel shift=(0,0.05), pos=(1150,729)
+133.629	DATA	Mouse: wheel shift=(0,0.075), pos=(1150,729)
+134.229	DATA	Mouse: wheel shift=(0,-0.05), pos=(1150,729)
+134.275	DATA	Mouse: wheel shift=(0,-0.05), pos=(1150,729)
+134.304	DATA	Mouse: wheel shift=(0,-0.05), pos=(1150,729)
+134.331	DATA	Mouse: wheel shift=(0,-0.05), pos=(1150,729)
+134.348	DATA	Mouse: wheel shift=(0,-0.075), pos=(1150,729)
+134.363	DATA	Mouse: wheel shift=(0,-0.05), pos=(1150,729)
+134.375	DATA	Mouse: wheel shift=(0,-0.05), pos=(1150,729)
+134.382	DATA	Mouse: wheel shift=(0,-0.05), pos=(1150,729)
+134.389	DATA	Mouse: wheel shift=(0,-0.05), pos=(1150,729)
+134.397	DATA	Mouse: wheel shift=(0,-0.075), pos=(1150,729)
+134.40800000000002	DATA	Mouse: wheel shift=(0,-0.1), pos=(1150,729)
+134.416	DATA	Mouse: wheel shift=(0,-0.175), pos=(1150,729)
+134.426	DATA	Mouse: wheel shift=(0,-0.1), pos=(1150,729)
+134.426	DATA	Mouse: wheel shift=(0,-0.175), pos=(1150,729)
+134.439	DATA	Mouse: wheel shift=(0,-0.15), pos=(1150,729)
+134.447	DATA	Mouse: wheel shift=(0,-0.125), pos=(1150,729)
+134.464	DATA	Mouse: wheel shift=(0,-0.05), pos=(1150,729)
+134.464	DATA	Mouse: wheel shift=(0,-0.05), pos=(1150,729)
+134.465	DATA	Mouse: wheel shift=(0,-0.05), pos=(1150,729)
+134.471	DATA	Mouse: wheel shift=(0,-0.05), pos=(1150,729)
+134.489	DATA	Mouse: wheel shift=(0,-0.075), pos=(1150,729)
+134.502	DATA	Mouse: wheel shift=(0,-0.05), pos=(1150,729)
+134.523	DATA	Mouse: wheel shift=(0,-0.05), pos=(1150,729)
+134.657	DATA	Mouse: wheel shift=(0,0.025), pos=(1150,729)
+134.677	DATA	Mouse: wheel shift=(0,0.05), pos=(1150,729)
+134.688	DATA	Mouse: wheel shift=(0,0.125), pos=(1150,729)
+134.688	DATA	Mouse: wheel shift=(0,0.15), pos=(1150,729)
+134.692	DATA	Mouse: wheel shift=(0,0.275), pos=(1150,729)
+134.707	DATA	Mouse: wheel shift=(0,0.55), pos=(1150,729)
+134.707	DATA	Mouse: wheel shift=(0,0.675), pos=(1150,729)
+134.715	DATA	Mouse: wheel shift=(0,0.775), pos=(1150,729)
+134.72	DATA	Mouse: wheel shift=(0,0.925), pos=(1150,729)
+134.731	DATA	Mouse: wheel shift=(0,0.725), pos=(1150,729)
+134.738	DATA	Mouse: wheel shift=(0,0.775), pos=(1150,729)
+134.743	DATA	Mouse: wheel shift=(0,0.65), pos=(1150,729)
+134.751	DATA	Mouse: wheel shift=(0,0.675), pos=(1150,729)
+134.75900000000001	DATA	Mouse: wheel shift=(0,0.6), pos=(1150,729)
+134.769	DATA	Mouse: wheel shift=(0,0.45), pos=(1150,729)
+134.784	DATA	Mouse: wheel shift=(0,0.325), pos=(1150,729)
+134.785	DATA	Mouse: wheel shift=(0,0.275), pos=(1150,729)
+134.799	DATA	Mouse: wheel shift=(0,0.225), pos=(1150,729)
+134.799	DATA	Mouse: wheel shift=(0,0.15), pos=(1150,729)
+134.799	DATA	Mouse: wheel shift=(0,0.225), pos=(1150,729)
+134.817	DATA	Mouse: wheel shift=(0,0.125), pos=(1150,729)
+134.818	DATA	Mouse: wheel shift=(0,0.15), pos=(1150,729)
+134.826	DATA	Mouse: wheel shift=(0,0.125), pos=(1150,729)
+134.841	DATA	Mouse: wheel shift=(0,0.1), pos=(1150,729)
+134.841	DATA	Mouse: wheel shift=(0,0.05), pos=(1150,729)
+134.845	DATA	Mouse: wheel shift=(0,0.05), pos=(1150,729)
+134.868	DATA	Mouse: wheel shift=(0,0.075), pos=(1150,729)
+134.877	DATA	Mouse: wheel shift=(0,0.05), pos=(1150,729)
+135.424	DATA	Mouse: wheel shift=(0,0.05), pos=(1150,729)
+135.47	DATA	Mouse: wheel shift=(0,0.05), pos=(1150,729)
+135.491	DATA	Mouse: wheel shift=(0,0.125), pos=(1150,729)
+135.493	DATA	Mouse: wheel shift=(0,0.1), pos=(1150,729)
+135.5	DATA	Mouse: wheel shift=(0,0.05), pos=(1150,729)
+135.512	DATA	Mouse: wheel shift=(0,0.05), pos=(1150,729)
+135.532	DATA	Mouse: wheel shift=(0,0.075), pos=(1150,729)
+135.544	DATA	Mouse: wheel shift=(0,0.05), pos=(1150,729)
+136.192	DATA	Mouse: wheel shift=(0,0.1), pos=(1150,729)
+136.2	DATA	Mouse: wheel shift=(0,0.225), pos=(1150,729)
+136.212	DATA	Mouse: wheel shift=(0,0.15), pos=(1150,729)
+136.213	DATA	Mouse: wheel shift=(0,0.225), pos=(1150,729)
+136.222	DATA	Mouse: wheel shift=(0,0.225), pos=(1150,729)
+136.234	DATA	Mouse: wheel shift=(0,0.225), pos=(1150,729)
+136.241	DATA	Mouse: wheel shift=(0,0.15), pos=(1150,729)
+136.242	DATA	Mouse: wheel shift=(0,0.175), pos=(1150,729)
+136.254	DATA	Mouse: wheel shift=(0,0.175), pos=(1150,729)
+136.256	DATA	Mouse: wheel shift=(0,0.1), pos=(1150,729)
+136.264	DATA	Mouse: wheel shift=(0,0.1), pos=(1150,729)
+136.273	DATA	Mouse: wheel shift=(0,0.075), pos=(1150,729)
+136.279	DATA	Mouse: wheel shift=(0,0.05), pos=(1150,729)
+136.302	DATA	Mouse: wheel shift=(0,0.05), pos=(1150,729)
+136.522	DATA	Mouse: wheel shift=(0,0.05), pos=(1150,729)
+136.911	DATA	Mouse: wheel shift=(0,-0.05), pos=(1150,729)
+136.914	DATA	Mouse: wheel shift=(0,-0.275), pos=(1150,729)
+136.923	DATA	Mouse: wheel shift=(0,-0.275), pos=(1150,729)
+136.932	DATA	Mouse: wheel shift=(0,-0.325), pos=(1150,729)
+136.939	DATA	Mouse: wheel shift=(0,-0.225), pos=(1150,729)
+136.942	DATA	Mouse: wheel shift=(0,-0.225), pos=(1150,729)
+136.957	DATA	Mouse: wheel shift=(0,-0.2), pos=(1150,729)
+136.957	DATA	Mouse: wheel shift=(0,-0.275), pos=(1150,729)
+136.966	DATA	Mouse: wheel shift=(0,-0.225), pos=(1150,729)
+136.979	DATA	Mouse: wheel shift=(0,-0.225), pos=(1150,729)
+136.979	DATA	Mouse: wheel shift=(0,-0.225), pos=(1150,729)
+136.992	DATA	Mouse: wheel shift=(0,-0.225), pos=(1150,729)
+136.992	DATA	Mouse: wheel shift=(0,-0.15), pos=(1150,729)
+137.001	DATA	Mouse: wheel shift=(0,-0.175), pos=(1150,729)
+137.008	DATA	Mouse: wheel shift=(0,-0.1), pos=(1150,729)
+137.014	DATA	Mouse: wheel shift=(0,-0.125), pos=(1150,729)
+137.024	DATA	Mouse: wheel shift=(0,-0.1), pos=(1150,729)
+137.03300000000002	DATA	Mouse: wheel shift=(0,-0.125), pos=(1150,729)
+137.042	DATA	Mouse: wheel shift=(0,-0.05), pos=(1150,729)
+137.042	DATA	Mouse: wheel shift=(0,-0.05), pos=(1150,729)
+137.055	DATA	Mouse: wheel shift=(0,-0.05), pos=(1150,729)
+137.065	DATA	Mouse: wheel shift=(0,-0.05), pos=(1150,729)
+137.077	DATA	Mouse: wheel shift=(0,-0.075), pos=(1150,729)
+137.078	DATA	Mouse: wheel shift=(0,-0.05), pos=(1150,729)
+137.09	DATA	Mouse: wheel shift=(0,-0.05), pos=(1150,729)
+137.109	DATA	Mouse: wheel shift=(0,-0.05), pos=(1150,729)
+137.131	DATA	Mouse: wheel shift=(0,-0.05), pos=(1150,729)
+137.139	DATA	Mouse: wheel shift=(0,-0.075), pos=(1150,729)
+137.171	DATA	Mouse: wheel shift=(0,-0.05), pos=(1150,729)
+138.524	DATA	Mouse: 0 button down, pos=(487,134)
+138.573	DATA	Mouse: 0 button down, pos=(487,134)
+138.706	DATA	Mouse: 0 button down, pos=(487,134)
+138.77700000000002	DATA	Mouse: 0 button down, pos=(487,134)
+139.11	DATA	Mouse: 0 button down, pos=(485,118)
+139.549	DATA	Mouse: 0 button down, pos=(424,114)
+141.297	DATA	Mouse: wheel shift=(0,1.3), pos=(331,552)
+141.305	DATA	Mouse: wheel shift=(0,0.275), pos=(331,552)
+141.313	DATA	Mouse: wheel shift=(0,0.225), pos=(331,552)
+141.326	DATA	Mouse: wheel shift=(0,0.325), pos=(331,552)
+141.326	DATA	Mouse: wheel shift=(0,0.3), pos=(331,552)
+141.334	DATA	Mouse: wheel shift=(0,0.325), pos=(331,552)
+141.348	DATA	Mouse: wheel shift=(0,0.275), pos=(331,552)
+141.36	DATA	Mouse: wheel shift=(0,0.15), pos=(331,552)
+141.36	DATA	Mouse: wheel shift=(0,0.175), pos=(331,552)
+141.366	DATA	Mouse: wheel shift=(0,0.1), pos=(331,552)
+141.38400000000001	DATA	Mouse: wheel shift=(0,0.125), pos=(331,552)
+141.38400000000001	DATA	Mouse: wheel shift=(0,0.1), pos=(331,552)
+141.394	DATA	Mouse: wheel shift=(0,0.125), pos=(331,552)
+141.395	DATA	Mouse: wheel shift=(0,0.05), pos=(331,552)
+141.401	DATA	Mouse: wheel shift=(0,0.05), pos=(331,552)
+141.42	DATA	Mouse: wheel shift=(0,0.05), pos=(331,552)
+141.429	DATA	Mouse: wheel shift=(0,0.05), pos=(331,552)
+142.443	DATA	Mouse: wheel shift=(0,0.075), pos=(331,552)
+142.48	DATA	Mouse: wheel shift=(0,0.05), pos=(331,552)
+142.492	DATA	Mouse: wheel shift=(0,0.05), pos=(331,552)
+142.501	DATA	Mouse: wheel shift=(0,0.05), pos=(331,552)
+142.519	DATA	Mouse: wheel shift=(0,0.05), pos=(331,552)
+142.532	DATA	Mouse: wheel shift=(0,0.075), pos=(331,552)
+142.552	DATA	Mouse: wheel shift=(0,0.05), pos=(331,552)
+142.56	DATA	Mouse: wheel shift=(0,0.05), pos=(331,552)
+142.569	DATA	Mouse: wheel shift=(0,0.05), pos=(331,552)
+142.58	DATA	Mouse: wheel shift=(0,0.125), pos=(331,552)
+142.58	DATA	Mouse: wheel shift=(0,0.05), pos=(331,552)
+142.597	DATA	Mouse: wheel shift=(0,0.05), pos=(331,552)
+142.607	DATA	Mouse: wheel shift=(0,0.05), pos=(331,552)
+142.626	DATA	Mouse: wheel shift=(0,0.075), pos=(331,552)
+143.443	DATA	Mouse: wheel shift=(0,0.05), pos=(331,552)
+143.456	DATA	Mouse: wheel shift=(0,0.05), pos=(331,552)
+143.456	DATA	Mouse: wheel shift=(0,0.05), pos=(331,552)
+143.466	DATA	Mouse: wheel shift=(0,0.05), pos=(331,552)
+143.469	DATA	Mouse: wheel shift=(0,0.125), pos=(331,552)
+143.478	DATA	Mouse: wheel shift=(0,0.15), pos=(331,552)
+143.486	DATA	Mouse: wheel shift=(0,0.125), pos=(331,552)
+143.498	DATA	Mouse: wheel shift=(0,0.05), pos=(331,552)
+143.498	DATA	Mouse: wheel shift=(0,0.05), pos=(331,552)
+143.506	DATA	Mouse: wheel shift=(0,0.05), pos=(331,552)
+143.52	DATA	Mouse: wheel shift=(0,0.075), pos=(331,552)
+143.644	DATA	Mouse: wheel shift=(0,0.05), pos=(331,552)
+144.693	DATA	Mouse: wheel shift=(0,-0.025), pos=(331,552)
+146.891	DATA	Mouse: wheel shift=(0,0.2), pos=(252,593)
+146.89600000000002	DATA	Mouse: wheel shift=(0,0.45), pos=(252,593)
+146.9	DATA	Mouse: wheel shift=(0,0.45), pos=(252,593)
+146.911	DATA	Mouse: wheel shift=(0,0.325), pos=(252,593)
+146.922	DATA	Mouse: wheel shift=(0,0.275), pos=(252,593)
+146.922	DATA	Mouse: wheel shift=(0,0.325), pos=(252,593)
+146.93	DATA	Mouse: wheel shift=(0,0.325), pos=(252,593)
+146.939	DATA	Mouse: wheel shift=(0,0.275), pos=(252,593)
+146.944	DATA	Mouse: wheel shift=(0,0.275), pos=(252,593)
+146.953	DATA	Mouse: wheel shift=(0,0.225), pos=(252,593)
+146.959	DATA	Mouse: wheel shift=(0,0.175), pos=(252,593)
+146.965	DATA	Mouse: wheel shift=(0,0.15), pos=(252,593)
+146.974	DATA	Mouse: wheel shift=(0,0.175), pos=(252,593)
+146.987	DATA	Mouse: wheel shift=(0,0.1), pos=(252,593)
+146.987	DATA	Mouse: wheel shift=(0,0.075), pos=(252,593)
+147.00300000000001	DATA	Mouse: wheel shift=(0,0.05), pos=(252,593)
+147.004	DATA	Mouse: wheel shift=(0,0.05), pos=(252,593)
+147.01500000000001	DATA	Mouse: wheel shift=(0,0.05), pos=(252,593)
+147.031	DATA	Mouse: wheel shift=(0,0.05), pos=(252,593)
+148.142	DATA	Mouse: wheel shift=(0,1.375), pos=(799,759)
+148.148	DATA	Mouse: wheel shift=(0,0.2), pos=(799,759)
+148.162	DATA	Mouse: wheel shift=(0,0.225), pos=(799,759)
+148.163	DATA	Mouse: wheel shift=(0,0.175), pos=(799,759)
+148.169	DATA	Mouse: wheel shift=(0,0.15), pos=(799,759)
+148.182	DATA	Mouse: wheel shift=(0,0.225), pos=(799,759)
+148.187	DATA	Mouse: wheel shift=(0,0.225), pos=(799,759)
+148.19	DATA	Mouse: wheel shift=(0,0.175), pos=(799,759)
+148.2	DATA	Mouse: wheel shift=(0,0.225), pos=(799,759)
+148.208	DATA	Mouse: wheel shift=(0,0.15), pos=(799,759)
+148.22	DATA	Mouse: wheel shift=(0,0.225), pos=(799,759)
+148.221	DATA	Mouse: wheel shift=(0,0.175), pos=(799,759)
+148.229	DATA	Mouse: wheel shift=(0,0.1), pos=(799,759)
+148.235	DATA	Mouse: wheel shift=(0,0.1), pos=(799,759)
+148.242	DATA	Mouse: wheel shift=(0,0.125), pos=(799,759)
+148.25	DATA	Mouse: wheel shift=(0,0.05), pos=(799,759)
+148.262	DATA	Mouse: wheel shift=(0,0.05), pos=(799,759)
+148.269	DATA	Mouse: wheel shift=(0,0.05), pos=(799,759)
+148.279	DATA	Mouse: wheel shift=(0,0.075), pos=(799,759)
+151.847	DATA	Mouse: wheel shift=(0,-0.175), pos=(1887,13)
+151.868	DATA	Mouse: wheel shift=(0,-0.05), pos=(1825,46)
+151.882	DATA	Mouse: wheel shift=(0,-0.05), pos=(1786,63)
+151.899	DATA	Mouse: wheel shift=(0,-0.075), pos=(1744,85)
+152.49	DATA	Mouse: wheel shift=(0,2.35), pos=(1505,502)
+152.498	DATA	Mouse: wheel shift=(0,0.675), pos=(1505,502)
+152.507	DATA	Mouse: wheel shift=(0,0.6), pos=(1505,502)
+152.519	DATA	Mouse: wheel shift=(0,0.65), pos=(1505,502)
+152.519	DATA	Mouse: wheel shift=(0,0.625), pos=(1505,502)
+152.528	DATA	Mouse: wheel shift=(0,0.6), pos=(1505,502)
+152.541	DATA	Mouse: wheel shift=(0,0.65), pos=(1505,502)
+152.541	DATA	Mouse: wheel shift=(0,0.625), pos=(1505,502)
+152.556	DATA	Mouse: wheel shift=(0,0.55), pos=(1505,502)
+152.557	DATA	Mouse: wheel shift=(0,0.425), pos=(1505,502)
+152.568	DATA	Mouse: wheel shift=(0,0.45), pos=(1505,502)
+152.568	DATA	Mouse: wheel shift=(0,0.45), pos=(1505,502)
+152.574	DATA	Mouse: wheel shift=(0,0.375), pos=(1505,502)
+152.589	DATA	Mouse: wheel shift=(0,0.325), pos=(1505,502)
+152.589	DATA	Mouse: wheel shift=(0,0.35), pos=(1505,502)
+152.598	DATA	Mouse: wheel shift=(0,0.2), pos=(1505,502)
+152.604	DATA	Mouse: wheel shift=(0,0.225), pos=(1505,502)
+152.613	DATA	Mouse: wheel shift=(0,0.175), pos=(1505,502)
+152.619	DATA	Mouse: wheel shift=(0,0.15), pos=(1505,502)
+152.624	DATA	Mouse: wheel shift=(0,0.125), pos=(1505,502)
+152.638	DATA	Mouse: wheel shift=(0,0.05), pos=(1505,502)
+152.649	DATA	Mouse: wheel shift=(0,0.05), pos=(1505,502)
+152.663	DATA	Mouse: wheel shift=(0,0.05), pos=(1505,502)
+152.726	DATA	Mouse: wheel shift=(0,0.075), pos=(1505,502)
+152.804	DATA	Mouse: wheel shift=(0,0.05), pos=(1505,502)
+152.812	DATA	Mouse: wheel shift=(0,0.15), pos=(1505,502)
+152.814	DATA	Mouse: wheel shift=(0,0.4), pos=(1505,502)
+152.819	DATA	Mouse: wheel shift=(0,0.55), pos=(1505,502)
+152.836	DATA	Mouse: wheel shift=(0,0.6), pos=(1505,502)
+152.836	DATA	Mouse: wheel shift=(0,0.55), pos=(1505,502)
+152.842	DATA	Mouse: wheel shift=(0,0.55), pos=(1505,502)
+152.857	DATA	Mouse: wheel shift=(0,0.55), pos=(1505,502)
+152.858	DATA	Mouse: wheel shift=(0,0.625), pos=(1505,502)
+152.866	DATA	Mouse: wheel shift=(0,0.6), pos=(1505,502)
+152.877	DATA	Mouse: wheel shift=(0,0.5), pos=(1505,502)
+152.882	DATA	Mouse: wheel shift=(0,0.375), pos=(1505,502)
+152.88400000000001	DATA	Mouse: wheel shift=(0,0.4), pos=(1505,502)
+152.894	DATA	Mouse: wheel shift=(0,0.325), pos=(1505,502)
+152.90200000000002	DATA	Mouse: wheel shift=(0,0.275), pos=(1505,502)
+152.915	DATA	Mouse: wheel shift=(0,0.225), pos=(1505,502)
+152.915	DATA	Mouse: wheel shift=(0,0.15), pos=(1505,502)
+152.924	DATA	Mouse: wheel shift=(0,0.175), pos=(1505,502)
+152.928	DATA	Mouse: wheel shift=(0,0.1), pos=(1505,502)
+152.937	DATA	Mouse: wheel shift=(0,0.05), pos=(1505,502)
+152.944	DATA	Mouse: wheel shift=(0,0.075), pos=(1505,502)
+152.967	DATA	Mouse: wheel shift=(0,0.05), pos=(1505,502)
+152.971	DATA	Mouse: wheel shift=(0,0.05), pos=(1505,502)
+153.131	DATA	Mouse: wheel shift=(0,0.05), pos=(1505,502)
+153.141	DATA	Mouse: wheel shift=(0,0.125), pos=(1505,502)
+153.407	DATA	Keydown:  
+153.42	EXP	completion_text: autoDraw = false
+153.42	EXP	goodbyetxt: autoDraw = true
+154.279	DATA	Keydown:  
+155.617	DATA	Mouse: wheel shift=(0,0.2), pos=(1439,544)
+155.624	DATA	Mouse: wheel shift=(0,0.5), pos=(1439,544)
+155.635	DATA	Mouse: wheel shift=(0,0.45), pos=(1439,544)
+155.639	DATA	Mouse: wheel shift=(0,0.375), pos=(1439,544)
+155.64600000000002	DATA	Mouse: wheel shift=(0,0.325), pos=(1439,544)
+155.662	DATA	Mouse: wheel shift=(0,0.35), pos=(1439,544)
+155.662	DATA	Mouse: wheel shift=(0,0.275), pos=(1439,544)
+155.668	DATA	Mouse: wheel shift=(0,0.275), pos=(1439,544)
+155.681	DATA	Mouse: wheel shift=(0,0.275), pos=(1439,544)
+155.689	DATA	Mouse: wheel shift=(0,0.15), pos=(1439,544)
+155.691	DATA	Mouse: wheel shift=(0,0.175), pos=(1439,544)
+155.702	DATA	Mouse: wheel shift=(0,0.175), pos=(1439,544)
+155.707	DATA	Mouse: wheel shift=(0,0.1), pos=(1439,544)
+155.711	DATA	Mouse: wheel shift=(0,0.05), pos=(1439,544)
+155.721	DATA	Mouse: wheel shift=(0,0.05), pos=(1439,544)
+155.736	DATA	Mouse: wheel shift=(0,0.075), pos=(1439,544)
+156.02100000000002	DATA	Mouse: wheel shift=(0,0.05), pos=(1439,544)
+156.279	DATA	Keydown:  

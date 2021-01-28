@@ -1,0 +1,1691 @@
+7.9948 	WARNING 	User requested fullscreen with size [1024  768], but screen is actually [1440, 900]. Using actual size
+8.9268 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, args=UNKNOWN, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', color=array([0., 0., 0.]), colorSpace='rgb', fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x12bcb7b38>, gamma=None, kwargs=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x12c54b4a8>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([2880, 1800]), stereo=False, units='height', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+8.9269 	EXP 	window1: recordFrameIntervals = False
+9.0937 	EXP 	window1: recordFrameIntervals = True
+9.2769 	EXP 	window1: recordFrameIntervals = False
+9.4105 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+9.4255 	EXP 	Sound  set volume 1.000
+9.4403 	EXP 	Created text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_2', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+9.4839 	EXP 	Created text_5 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_5', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+9.4840 	EXP 	Sound  set volume 1.000
+9.4923 	EXP 	Created text_3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_3', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='Ready for next trial?\n\npress space bar.', units='height', win=Window(...), wrapWidth=1)
+9.5182 	EXP 	Created text_6 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_6', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+9.5183 	EXP 	Sound  set volume 1.000
+9.5268 	EXP 	Created text_4 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_4', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='Ready for next trial?\n\npress space bar.', units='height', win=Window(...), wrapWidth=1)
+9.5497 	EXP 	Created text_7 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text_7', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='The test is over!\n\nThank you so much!!', units='height', win=Window(...), wrapWidth=1)
+9.5768 	EXP 	text: autoDraw = True
+18.1881 	DATA 	Keypress: space
+18.1966 	EXP 	Imported condition_practice.csv as conditions, 5 conditions, 4 params
+18.1970 	EXP 	Created sequence: random, trialTypes=5, nReps=1, seed=None
+18.1974 	EXP 	New trial (rep=0, index=0): OrderedDict([('sndfile', './stimuli_1/tmp/strong_90_1.wav'), ('tempo', 90), ('cond', 'strong'), ('delay', 1.013023596)])
+18.2333 	EXP 	text: autoDraw = False
+22.3971 	DATA 	Keypress: space
+23.0810 	DATA 	Keypress: space
+23.7817 	DATA 	Keypress: space
+24.5142 	DATA 	Keypress: space
+25.1974 	DATA 	Keypress: space
+25.9049 	DATA 	Keypress: space
+26.5975 	DATA 	Keypress: space
+27.3145 	DATA 	Keypress: space
+28.0658 	DATA 	Keypress: space
+28.7873 	DATA 	Keypress: space
+30.2294 	EXP 	text_2: autoDraw = True
+31.2667 	DATA 	Keypress: space
+31.2684 	EXP 	New trial (rep=0, index=1): OrderedDict([('sndfile', './stimuli_1/tmp/medium_110_1.wav'), ('tempo', 110), ('cond', 'medium'), ('delay', 0.970866786)])
+31.3293 	EXP 	text_2: autoDraw = False
+34.1165 	DATA 	Keypress: space
+34.6828 	DATA 	Keypress: space
+35.3000 	DATA 	Keypress: space
+35.8328 	DATA 	Keypress: space
+36.3992 	DATA 	Keypress: space
+36.9825 	DATA 	Keypress: space
+37.5333 	DATA 	Keypress: space
+38.1171 	DATA 	Keypress: space
+38.6494 	DATA 	Keypress: space
+39.2338 	DATA 	Keypress: space
+39.8174 	DATA 	Keypress: space
+40.3899 	DATA 	Keypress: space
+40.9999 	DATA 	Keypress: space
+41.5507 	DATA 	Keypress: space
+43.2490 	EXP 	text_2: autoDraw = True
+43.9931 	DATA 	Keypress: space
+43.9945 	EXP 	New trial (rep=0, index=2): OrderedDict([('sndfile', './stimuli_1/tmp/medium_100_1.wav'), ('tempo', 100), ('cond', 'medium'), ('delay', 1.797198505)])
+44.0202 	EXP 	text_2: autoDraw = False
+47.6841 	DATA 	Keypress: space
+48.2850 	DATA 	Keypress: space
+48.9236 	DATA 	Keypress: space
+49.5675 	DATA 	Keypress: space
+50.2360 	DATA 	Keypress: space
+50.8681 	DATA 	Keypress: space
+51.5189 	DATA 	Keypress: space
+52.1517 	DATA 	Keypress: space
+52.8020 	DATA 	Keypress: space
+53.4526 	DATA 	Keypress: space
+54.1215 	DATA 	Keypress: space
+54.7530 	DATA 	Keypress: space
+56.8009 	EXP 	text_2: autoDraw = True
+57.6451 	DATA 	Keypress: space
+57.6464 	EXP 	New trial (rep=0, index=3): OrderedDict([('sndfile', './stimuli_1/tmp/vweak_105_1.wav'), ('tempo', 105), ('cond', 'veryweak'), ('delay', 1.91267155)])
+57.6731 	EXP 	text_2: autoDraw = False
+61.4701 	DATA 	Keypress: space
+62.0538 	DATA 	Keypress: space
+62.6436 	DATA 	Keypress: space
+63.2378 	DATA 	Keypress: space
+63.8378 	DATA 	Keypress: space
+64.4374 	DATA 	Keypress: space
+65.0205 	DATA 	Keypress: space
+65.5876 	DATA 	Keypress: space
+66.1784 	DATA 	Keypress: space
+66.7709 	DATA 	Keypress: space
+67.3540 	DATA 	Keypress: space
+67.9214 	DATA 	Keypress: space
+68.4889 	DATA 	Keypress: space
+70.5696 	EXP 	text_2: autoDraw = True
+71.1484 	DATA 	Keypress: space
+71.1499 	EXP 	New trial (rep=0, index=4): OrderedDict([('sndfile', './stimuli_1/tmp/medium_110_1.wav'), ('tempo', 110), ('cond', 'medium'), ('delay', 1.222685394)])
+71.1750 	EXP 	text_2: autoDraw = False
+74.1976 	DATA 	Keypress: space
+74.7733 	DATA 	Keypress: space
+75.3731 	DATA 	Keypress: space
+75.9631 	DATA 	Keypress: space
+76.5563 	DATA 	Keypress: space
+77.1232 	DATA 	Keypress: space
+77.6956 	DATA 	Keypress: space
+78.2731 	DATA 	Keypress: space
+78.8402 	DATA 	Keypress: space
+79.3903 	DATA 	Keypress: space
+80.0063 	DATA 	Keypress: space
+80.5734 	DATA 	Keypress: space
+81.1466 	DATA 	Keypress: space
+81.7237 	DATA 	Keypress: space
+83.3885 	EXP 	text_2: autoDraw = True
+84.3086 	DATA 	Keypress: space
+84.3231 	EXP 	text_2: autoDraw = False
+84.3231 	EXP 	text_5: autoDraw = True
+89.2805 	DATA 	Keypress: space
+89.2883 	EXP 	Imported condition_test_1.csv as conditions, 50 conditions, 4 params
+89.2887 	EXP 	Created sequence: random, trialTypes=50, nReps=1, seed=None
+89.2892 	EXP 	New trial (rep=0, index=0): OrderedDict([('sndfile', './stimuli_1/tmp/vweak_110_2.wav'), ('tempo', 110), ('cond', 'veryweak'), ('delay', 1.2375564653250335)])
+89.3113 	EXP 	text_5: autoDraw = False
+92.8157 	DATA 	Keypress: space
+93.2592 	DATA 	Keypress: space
+93.8424 	DATA 	Keypress: space
+94.3173 	DATA 	Keypress: space
+94.8419 	DATA 	Keypress: space
+95.3425 	DATA 	Keypress: space
+95.9754 	DATA 	Keypress: space
+96.5258 	DATA 	Keypress: space
+97.0763 	DATA 	Keypress: space
+97.5757 	DATA 	Keypress: space
+97.9930 	DATA 	Keypress: space
+98.5263 	DATA 	Keypress: space
+99.0261 	DATA 	Keypress: space
+99.5430 	DATA 	Keypress: space
+100.0602 	DATA 	Keypress: space
+101.5413 	EXP 	text_3: autoDraw = True
+102.0481 	DATA 	Keypress: space
+102.0496 	EXP 	New trial (rep=0, index=1): OrderedDict([('sndfile', './stimuli_1/tmp/strong_100_1.wav'), ('tempo', 100), ('cond', 'strong'), ('delay', 1.2298337616078612)])
+102.0799 	EXP 	text_3: autoDraw = False
+105.4268 	DATA 	Keypress: space
+106.1110 	DATA 	Keypress: space
+106.7770 	DATA 	Keypress: space
+107.4010 	DATA 	Keypress: space
+108.0276 	DATA 	Keypress: space
+108.6774 	DATA 	Keypress: space
+109.3618 	DATA 	Keypress: space
+110.0110 	DATA 	Keypress: space
+110.6289 	DATA 	Keypress: space
+111.2783 	DATA 	Keypress: space
+111.9618 	DATA 	Keypress: space
+112.5616 	DATA 	Keypress: space
+114.2932 	EXP 	text_3: autoDraw = True
+115.0504 	DATA 	Keypress: space
+115.0517 	EXP 	New trial (rep=0, index=2): OrderedDict([('sndfile', './stimuli_1/tmp/strong_105_2.wav'), ('tempo', 105), ('cond', 'strong'), ('delay', 0.9615404084728899)])
+115.0819 	EXP 	text_3: autoDraw = False
+117.9295 	DATA 	Keypress: space
+118.5625 	DATA 	Keypress: space
+119.2294 	DATA 	Keypress: space
+119.8794 	DATA 	Keypress: space
+120.5140 	DATA 	Keypress: space
+121.1804 	DATA 	Keypress: space
+121.7966 	DATA 	Keypress: space
+122.4476 	DATA 	Keypress: space
+123.0537 	DATA 	Keypress: space
+123.7300 	DATA 	Keypress: space
+124.3707 	DATA 	Keypress: space
+124.9968 	DATA 	Keypress: space
+127.0206 	EXP 	text_3: autoDraw = True
+127.5468 	DATA 	Keypress: space
+127.5480 	EXP 	New trial (rep=0, index=3): OrderedDict([('sndfile', './stimuli_1/tmp/strong_100_2.wav'), ('tempo', 100), ('cond', 'strong'), ('delay', 1.5994648074282498)])
+127.5621 	EXP 	text_3: autoDraw = False
+131.0979 	DATA 	Keypress: space
+131.6651 	DATA 	Keypress: space
+132.2656 	DATA 	Keypress: space
+132.8817 	DATA 	Keypress: space
+133.5036 	DATA 	Keypress: space
+134.0817 	DATA 	Keypress: space
+134.7327 	DATA 	Keypress: space
+135.3488 	DATA 	Keypress: space
+135.9486 	DATA 	Keypress: space
+136.5561 	DATA 	Keypress: space
+137.1825 	DATA 	Keypress: space
+137.7823 	DATA 	Keypress: space
+138.3991 	DATA 	Keypress: space
+140.1640 	EXP 	text_3: autoDraw = True
+141.0900 	DATA 	Keypress: space
+141.0914 	EXP 	New trial (rep=0, index=4): OrderedDict([('sndfile', './stimuli_1/tmp/perfect_100_0.wav'), ('tempo', 100), ('cond', 'perfect'), ('delay', 2.1771183722066985)])
+141.1140 	EXP 	text_3: autoDraw = False
+144.9167 	DATA 	Keypress: space
+145.4386 	DATA 	Keypress: space
+146.0670 	DATA 	Keypress: space
+146.6507 	DATA 	Keypress: space
+147.2675 	DATA 	Keypress: space
+147.8507 	DATA 	Keypress: space
+148.4506 	DATA 	Keypress: space
+149.1255 	DATA 	Keypress: space
+154.2826 	EXP 	text_3: autoDraw = True
+154.9348 	DATA 	Keypress: space
+154.9362 	EXP 	New trial (rep=0, index=5): OrderedDict([('sndfile', './stimuli_1/tmp/medium_100_1.wav'), ('tempo', 100), ('cond', 'medium'), ('delay', 0.9469441789171564)])
+154.9496 	EXP 	text_3: autoDraw = False
+157.6948 	DATA 	Keypress: space
+158.3193 	DATA 	Keypress: space
+158.9854 	DATA 	Keypress: space
+159.6579 	DATA 	Keypress: space
+160.2858 	DATA 	Keypress: space
+160.9358 	DATA 	Keypress: space
+161.6028 	DATA 	Keypress: space
+162.2529 	DATA 	Keypress: space
+162.8527 	DATA 	Keypress: space
+163.4861 	DATA 	Keypress: space
+164.1594 	DATA 	Keypress: space
+164.8201 	DATA 	Keypress: space
+166.9013 	EXP 	text_3: autoDraw = True
+167.4204 	DATA 	Keypress: space
+167.4216 	EXP 	New trial (rep=0, index=6): OrderedDict([('sndfile', './stimuli_1/tmp/weak_110_1.wav'), ('tempo', 110), ('cond', 'weak'), ('delay', 2.302762081100819)])
+167.4516 	EXP 	text_3: autoDraw = False
+171.5876 	DATA 	Keypress: space
+172.1447 	DATA 	Keypress: space
+172.7042 	DATA 	Keypress: space
+173.2547 	DATA 	Keypress: space
+173.8212 	DATA 	Keypress: space
+174.4216 	DATA 	Keypress: space
+175.0215 	DATA 	Keypress: space
+175.6283 	DATA 	Keypress: space
+176.2050 	DATA 	Keypress: space
+176.8051 	DATA 	Keypress: space
+177.3944 	DATA 	Keypress: space
+177.9722 	DATA 	Keypress: space
+178.5220 	DATA 	Keypress: space
+179.1054 	DATA 	Keypress: space
+180.7367 	EXP 	text_3: autoDraw = True
+181.1991 	DATA 	Keypress: space
+181.2008 	EXP 	New trial (rep=0, index=7): OrderedDict([('sndfile', './stimuli_1/tmp/weak_105_1.wav'), ('tempo', 105), ('cond', 'weak'), ('delay', 2.3476680969619683)])
+181.2255 	EXP 	text_3: autoDraw = False
+186.1399 	DATA 	Keypress: space
+186.7403 	DATA 	Keypress: space
+187.4397 	DATA 	Keypress: space
+188.0735 	DATA 	Keypress: space
+188.7066 	DATA 	Keypress: space
+189.3643 	DATA 	Keypress: space
+189.9743 	DATA 	Keypress: space
+190.6071 	DATA 	Keypress: space
+191.2308 	DATA 	Keypress: space
+191.7738 	DATA 	Keypress: space
+192.2982 	DATA 	Keypress: space
+192.8574 	DATA 	Keypress: space
+194.5556 	EXP 	text_3: autoDraw = True
+195.0076 	DATA 	Keypress: space
+195.0090 	EXP 	New trial (rep=0, index=8): OrderedDict([('sndfile', './stimuli_1/tmp/vweak_90_2.wav'), ('tempo', 90), ('cond', 'veryweak'), ('delay', 1.0044987578235975)])
+195.0223 	EXP 	text_3: autoDraw = False
+197.6754 	DATA 	Keypress: space
+198.3085 	DATA 	Keypress: space
+198.9596 	DATA 	Keypress: space
+199.5920 	DATA 	Keypress: space
+200.2757 	DATA 	Keypress: space
+200.9421 	DATA 	Keypress: space
+201.5435 	DATA 	Keypress: space
+202.1757 	DATA 	Keypress: space
+202.8092 	DATA 	Keypress: space
+203.4338 	DATA 	Keypress: space
+204.0766 	DATA 	Keypress: space
+204.7096 	DATA 	Keypress: space
+205.3263 	DATA 	Keypress: space
+207.0244 	EXP 	text_3: autoDraw = True
+207.5313 	DATA 	Keypress: space
+207.5326 	EXP 	New trial (rep=0, index=9): OrderedDict([('sndfile', './stimuli_1/tmp/medium_110_2.wav'), ('tempo', 110), ('cond', 'medium'), ('delay', 1.962096670593472)])
+207.5794 	EXP 	text_3: autoDraw = False
+210.9605 	DATA 	Keypress: space
+211.4868 	DATA 	Keypress: space
+212.1108 	DATA 	Keypress: space
+212.6937 	DATA 	Keypress: space
+213.2103 	DATA 	Keypress: space
+213.7276 	DATA 	Keypress: space
+214.3515 	DATA 	Keypress: space
+214.9276 	DATA 	Keypress: space
+215.4615 	DATA 	Keypress: space
+216.0332 	DATA 	Keypress: space
+216.6114 	DATA 	Keypress: space
+217.1458 	DATA 	Keypress: space
+217.6947 	DATA 	Keypress: space
+218.2618 	DATA 	Keypress: space
+218.8447 	DATA 	Keypress: space
+220.5147 	EXP 	text_3: autoDraw = True
+220.9782 	DATA 	Keypress: space
+220.9796 	EXP 	New trial (rep=0, index=10): OrderedDict([('sndfile', './stimuli_1/tmp/perfect_90_0.wav'), ('tempo', 90), ('cond', 'perfect'), ('delay', 1.6568604876231643)])
+220.9931 	EXP 	text_3: autoDraw = False
+223.9628 	DATA 	Keypress: space
+224.6961 	DATA 	Keypress: space
+225.3308 	DATA 	Keypress: space
+226.0127 	DATA 	Keypress: space
+226.6625 	DATA 	Keypress: space
+227.3293 	DATA 	Keypress: space
+227.9798 	DATA 	Keypress: space
+228.6302 	DATA 	Keypress: space
+229.3143 	DATA 	Keypress: space
+233.6454 	EXP 	text_3: autoDraw = True
+234.1340 	DATA 	Keypress: space
+234.1353 	EXP 	New trial (rep=0, index=11): OrderedDict([('sndfile', './stimuli_1/tmp/vweak_95_2.wav'), ('tempo', 95), ('cond', 'veryweak'), ('delay', 1.1399322262275913)])
+234.1467 	EXP 	text_3: autoDraw = False
+237.1811 	DATA 	Keypress: space
+237.8312 	DATA 	Keypress: space
+238.4481 	DATA 	Keypress: space
+239.0645 	DATA 	Keypress: space
+239.6650 	DATA 	Keypress: space
+240.2483 	DATA 	Keypress: space
+240.9153 	DATA 	Keypress: space
+241.5047 	DATA 	Keypress: space
+242.1148 	DATA 	Keypress: space
+242.7653 	DATA 	Keypress: space
+243.4326 	DATA 	Keypress: space
+244.0554 	DATA 	Keypress: space
+244.6663 	DATA 	Keypress: space
+246.2805 	EXP 	text_3: autoDraw = True
+246.7988 	DATA 	Keypress: space
+246.8002 	EXP 	New trial (rep=0, index=12): OrderedDict([('sndfile', './stimuli_1/tmp/weak_105_2.wav'), ('tempo', 105), ('cond', 'weak'), ('delay', 2.065051120273794)])
+246.8140 	EXP 	text_3: autoDraw = False
+250.4163 	DATA 	Keypress: space
+250.9504 	DATA 	Keypress: space
+251.5385 	DATA 	Keypress: space
+252.0673 	DATA 	Keypress: space
+252.6502 	DATA 	Keypress: space
+253.2077 	DATA 	Keypress: space
+253.8342 	DATA 	Keypress: space
+254.4845 	DATA 	Keypress: space
+255.1508 	DATA 	Keypress: space
+255.7542 	DATA 	Keypress: space
+256.3505 	DATA 	Keypress: space
+256.9511 	DATA 	Keypress: space
+257.5730 	DATA 	Keypress: space
+258.1508 	DATA 	Keypress: space
+259.8829 	EXP 	text_3: autoDraw = True
+260.3608 	DATA 	Keypress: space
+260.3889 	EXP 	New trial (rep=0, index=13): OrderedDict([('sndfile', './stimuli_1/tmp/vweak_105_1.wav'), ('tempo', 105), ('cond', 'veryweak'), ('delay', 2.000868469173824)])
+260.4074 	EXP 	text_3: autoDraw = False
+264.3037 	DATA 	Keypress: space
+264.8684 	DATA 	Keypress: space
+265.4529 	DATA 	Keypress: space
+266.0194 	DATA 	Keypress: space
+266.6602 	DATA 	Keypress: space
+267.2524 	DATA 	Keypress: space
+267.8703 	DATA 	Keypress: space
+268.4196 	DATA 	Keypress: space
+268.9692 	DATA 	Keypress: space
+269.5705 	DATA 	Keypress: space
+270.1536 	DATA 	Keypress: space
+270.7364 	DATA 	Keypress: space
+271.3103 	DATA 	Keypress: space
+273.4020 	EXP 	text_3: autoDraw = True
+274.0866 	DATA 	Keypress: space
+274.0879 	EXP 	New trial (rep=0, index=14): OrderedDict([('sndfile', './stimuli_1/tmp/perfect_110_1.wav'), ('tempo', 110), ('cond', 'perfect'), ('delay', 1.7704271467992068)])
+274.1186 	EXP 	text_3: autoDraw = False
+277.5546 	DATA 	Keypress: space
+278.0880 	DATA 	Keypress: space
+278.6550 	DATA 	Keypress: space
+279.1776 	DATA 	Keypress: space
+279.7050 	DATA 	Keypress: space
+280.3045 	DATA 	Keypress: space
+286.8709 	EXP 	text_3: autoDraw = True
+287.3550 	DATA 	Keypress: space
+287.3563 	EXP 	New trial (rep=0, index=15): OrderedDict([('sndfile', './stimuli_1/tmp/perfect_105_0.wav'), ('tempo', 105), ('cond', 'perfect'), ('delay', 2.376167666662905)])
+287.3701 	EXP 	text_3: autoDraw = False
+291.0749 	DATA 	Keypress: space
+291.6734 	DATA 	Keypress: space
+292.2401 	DATA 	Keypress: space
+292.7741 	DATA 	Keypress: space
+293.3955 	DATA 	Keypress: space
+293.9410 	DATA 	Keypress: space
+294.5405 	DATA 	Keypress: space
+295.1571 	DATA 	Keypress: space
+300.7390 	EXP 	text_3: autoDraw = True
+301.3417 	DATA 	Keypress: space
+301.3430 	EXP 	New trial (rep=0, index=16): OrderedDict([('sndfile', './stimuli_1/tmp/perfect_105_1.wav'), ('tempo', 105), ('cond', 'perfect'), ('delay', 1.612711409659772)])
+301.3556 	EXP 	text_3: autoDraw = False
+304.2922 	DATA 	Keypress: space
+304.8836 	DATA 	Keypress: space
+305.4423 	DATA 	Keypress: space
+305.9926 	DATA 	Keypress: space
+306.5929 	DATA 	Keypress: space
+307.1594 	DATA 	Keypress: space
+307.7091 	DATA 	Keypress: space
+308.3092 	DATA 	Keypress: space
+313.9748 	EXP 	text_3: autoDraw = True
+315.1928 	DATA 	Keypress: space
+315.1940 	EXP 	New trial (rep=0, index=17): OrderedDict([('sndfile', './stimuli_1/tmp/medium_95_2.wav'), ('tempo', 95), ('cond', 'medium'), ('delay', 2.475357682924177)])
+315.2074 	EXP 	text_3: autoDraw = False
+320.5452 	DATA 	Keypress: space
+321.1615 	DATA 	Keypress: space
+321.8614 	DATA 	Keypress: space
+322.5037 	DATA 	Keypress: space
+323.1787 	DATA 	Keypress: space
+323.8631 	DATA 	Keypress: space
+324.5791 	DATA 	Keypress: space
+325.2791 	DATA 	Keypress: space
+325.9616 	DATA 	Keypress: space
+326.6451 	DATA 	Keypress: space
+328.6860 	EXP 	text_3: autoDraw = True
+329.1794 	DATA 	Keypress: space
+329.1807 	EXP 	New trial (rep=0, index=18): OrderedDict([('sndfile', './stimuli_1/tmp/perfect_110_0.wav'), ('tempo', 110), ('cond', 'perfect'), ('delay', 1.8837210676143408)])
+329.2112 	EXP 	text_3: autoDraw = False
+332.7967 	DATA 	Keypress: space
+333.2970 	DATA 	Keypress: space
+333.8474 	DATA 	Keypress: space
+334.3800 	DATA 	Keypress: space
+334.9474 	DATA 	Keypress: space
+335.4802 	DATA 	Keypress: space
+336.0533 	DATA 	Keypress: space
+342.0877 	EXP 	text_3: autoDraw = True
+342.5306 	DATA 	Keypress: space
+342.5319 	EXP 	New trial (rep=0, index=19): OrderedDict([('sndfile', './stimuli_1/tmp/vweak_105_2.wav'), ('tempo', 105), ('cond', 'veryweak'), ('delay', 1.1450150374808907)])
+342.5467 	EXP 	text_3: autoDraw = False
+345.6818 	DATA 	Keypress: space
+346.3485 	DATA 	Keypress: space
+346.9821 	DATA 	Keypress: space
+347.6062 	DATA 	Keypress: space
+348.2327 	DATA 	Keypress: space
+348.8662 	DATA 	Keypress: space
+349.4662 	DATA 	Keypress: space
+350.1336 	DATA 	Keypress: space
+350.7739 	DATA 	Keypress: space
+351.4161 	DATA 	Keypress: space
+352.0876 	DATA 	Keypress: space
+352.7165 	DATA 	Keypress: space
+354.6983 	EXP 	text_3: autoDraw = True
+355.5663 	DATA 	Keypress: space
+355.5676 	EXP 	New trial (rep=0, index=20): OrderedDict([('sndfile', './stimuli_1/tmp/strong_105_1.wav'), ('tempo', 105), ('cond', 'strong'), ('delay', 1.8750845453371756)])
+355.5865 	EXP 	text_3: autoDraw = False
+359.1341 	DATA 	Keypress: space
+359.6564 	DATA 	Keypress: space
+360.1682 	DATA 	Keypress: space
+360.7010 	DATA 	Keypress: space
+361.2505 	DATA 	Keypress: space
+361.8175 	DATA 	Keypress: space
+362.3508 	DATA 	Keypress: space
+362.9058 	DATA 	Keypress: space
+363.4682 	DATA 	Keypress: space
+363.9853 	DATA 	Keypress: space
+364.5522 	DATA 	Keypress: space
+365.1018 	DATA 	Keypress: space
+365.6742 	DATA 	Keypress: space
+366.2184 	DATA 	Keypress: space
+366.7616 	DATA 	Keypress: space
+368.4497 	EXP 	text_3: autoDraw = True
+368.9020 	DATA 	Keypress: space
+368.9033 	EXP 	New trial (rep=0, index=21): OrderedDict([('sndfile', './stimuli_1/tmp/weak_90_2.wav'), ('tempo', 90), ('cond', 'weak'), ('delay', 2.0384375203910188)])
+368.9167 	EXP 	text_3: autoDraw = False
+372.7449 	DATA 	Keypress: space
+373.3706 	DATA 	Keypress: space
+374.0194 	DATA 	Keypress: space
+374.7203 	DATA 	Keypress: space
+375.3122 	DATA 	Keypress: space
+376.0037 	DATA 	Keypress: space
+376.6387 	DATA 	Keypress: space
+377.2698 	DATA 	Keypress: space
+377.9214 	DATA 	Keypress: space
+378.6044 	DATA 	Keypress: space
+379.2538 	DATA 	Keypress: space
+379.8750 	DATA 	Keypress: space
+381.9524 	EXP 	text_3: autoDraw = True
+382.4878 	DATA 	Keypress: space
+382.4890 	EXP 	New trial (rep=0, index=22): OrderedDict([('sndfile', './stimuli_1/tmp/vweak_90_1.wav'), ('tempo', 90), ('cond', 'veryweak'), ('delay', 0.8362780865168179)])
+382.5021 	EXP 	text_3: autoDraw = False
+385.4384 	DATA 	Keypress: space
+386.1712 	DATA 	Keypress: space
+386.9059 	DATA 	Keypress: space
+387.6223 	DATA 	Keypress: space
+388.3730 	DATA 	Keypress: space
+389.1223 	DATA 	Keypress: space
+389.8462 	DATA 	Keypress: space
+390.5899 	DATA 	Keypress: space
+391.2790 	DATA 	Keypress: space
+392.0229 	DATA 	Keypress: space
+394.3385 	EXP 	text_3: autoDraw = True
+394.7907 	DATA 	Keypress: space
+394.7920 	EXP 	New trial (rep=0, index=23): OrderedDict([('sndfile', './stimuli_1/tmp/medium_95_1.wav'), ('tempo', 95), ('cond', 'medium'), ('delay', 1.3706215803300168)])
+394.8262 	EXP 	text_3: autoDraw = False
+397.7910 	DATA 	Keypress: space
+398.4235 	DATA 	Keypress: space
+399.1070 	DATA 	Keypress: space
+399.7741 	DATA 	Keypress: space
+400.3902 	DATA 	Keypress: space
+401.1075 	DATA 	Keypress: space
+401.7900 	DATA 	Keypress: space
+402.4843 	DATA 	Keypress: space
+403.1583 	DATA 	Keypress: space
+403.8746 	DATA 	Keypress: space
+404.5579 	DATA 	Keypress: space
+405.2415 	DATA 	Keypress: space
+407.1734 	EXP 	text_3: autoDraw = True
+407.7680 	DATA 	Keypress: space
+407.7697 	EXP 	New trial (rep=0, index=24): OrderedDict([('sndfile', './stimuli_1/tmp/medium_105_1.wav'), ('tempo', 105), ('cond', 'medium'), ('delay', 1.6663985327680324)])
+407.7943 	EXP 	text_3: autoDraw = False
+411.9429 	DATA 	Keypress: space
+412.4329 	DATA 	Keypress: space
+412.9266 	DATA 	Keypress: space
+413.5103 	DATA 	Keypress: space
+414.0758 	DATA 	Keypress: space
+414.6319 	DATA 	Keypress: space
+415.2269 	DATA 	Keypress: space
+415.7774 	DATA 	Keypress: space
+416.3604 	DATA 	Keypress: space
+416.9140 	DATA 	Keypress: space
+417.5100 	DATA 	Keypress: space
+418.0767 	DATA 	Keypress: space
+418.6315 	DATA 	Keypress: space
+419.1941 	DATA 	Keypress: space
+420.4421 	EXP 	text_3: autoDraw = True
+421.0835 	DATA 	Keypress: space
+421.0850 	EXP 	New trial (rep=0, index=25): OrderedDict([('sndfile', './stimuli_1/tmp/vweak_95_1.wav'), ('tempo', 95), ('cond', 'veryweak'), ('delay', 2.279644213301781)])
+421.1146 	EXP 	text_3: autoDraw = False
+425.5280 	DATA 	Keypress: space
+426.0877 	DATA 	Keypress: space
+426.6792 	DATA 	Keypress: space
+427.2784 	DATA 	Keypress: space
+427.8621 	DATA 	Keypress: space
+428.5455 	DATA 	Keypress: space
+429.1451 	DATA 	Keypress: space
+429.7630 	DATA 	Keypress: space
+430.3785 	DATA 	Keypress: space
+430.9962 	DATA 	Keypress: space
+431.6126 	DATA 	Keypress: space
+432.2291 	DATA 	Keypress: space
+432.7956 	DATA 	Keypress: space
+434.3771 	EXP 	text_3: autoDraw = True
+434.8336 	DATA 	Keypress: space
+434.8352 	EXP 	New trial (rep=0, index=26): OrderedDict([('sndfile', './stimuli_1/tmp/medium_100_2.wav'), ('tempo', 100), ('cond', 'medium'), ('delay', 1.5709881706161974)])
+434.8532 	EXP 	text_3: autoDraw = False
+438.0523 	DATA 	Keypress: space
+438.5967 	DATA 	Keypress: space
+439.1224 	DATA 	Keypress: space
+439.6302 	DATA 	Keypress: space
+440.1638 	DATA 	Keypress: space
+440.6800 	DATA 	Keypress: space
+441.2645 	DATA 	Keypress: space
+441.7481 	DATA 	Keypress: space
+442.2473 	DATA 	Keypress: space
+442.8145 	DATA 	Keypress: space
+443.3639 	DATA 	Keypress: space
+443.9149 	DATA 	Keypress: space
+444.4818 	DATA 	Keypress: space
+445.0487 	DATA 	Keypress: space
+445.5492 	DATA 	Keypress: space
+447.4134 	EXP 	text_3: autoDraw = True
+447.8653 	DATA 	Keypress: space
+447.8666 	EXP 	New trial (rep=0, index=27): OrderedDict([('sndfile', './stimuli_1/tmp/strong_90_1.wav'), ('tempo', 90), ('cond', 'strong'), ('delay', 1.0878185010355936)])
+447.8804 	EXP 	text_3: autoDraw = False
+450.6828 	DATA 	Keypress: space
+451.4001 	DATA 	Keypress: space
+452.1161 	DATA 	Keypress: space
+452.7998 	DATA 	Keypress: space
+453.5331 	DATA 	Keypress: space
+454.2423 	DATA 	Keypress: space
+454.9498 	DATA 	Keypress: space
+455.6376 	DATA 	Keypress: space
+456.3498 	DATA 	Keypress: space
+457.0508 	DATA 	Keypress: space
+457.7923 	DATA 	Keypress: space
+458.4839 	DATA 	Keypress: space
+459.9655 	EXP 	text_3: autoDraw = True
+460.4174 	DATA 	Keypress: space
+460.4188 	EXP 	New trial (rep=0, index=28): OrderedDict([('sndfile', './stimuli_1/tmp/vweak_100_1.wav'), ('tempo', 100), ('cond', 'veryweak'), ('delay', 1.441965324529146)])
+460.4320 	EXP 	text_3: autoDraw = False
+464.3014 	DATA 	Keypress: space
+464.7765 	DATA 	Keypress: space
+465.2515 	DATA 	Keypress: space
+465.7352 	DATA 	Keypress: space
+466.3101 	DATA 	Keypress: space
+466.9188 	DATA 	Keypress: space
+467.4854 	DATA 	Keypress: space
+467.9345 	DATA 	Keypress: space
+468.4521 	DATA 	Keypress: space
+469.0022 	DATA 	Keypress: space
+469.4857 	DATA 	Keypress: space
+470.0023 	DATA 	Keypress: space
+470.5866 	DATA 	Keypress: space
+471.1186 	DATA 	Keypress: space
+472.8886 	EXP 	text_3: autoDraw = True
+473.3028 	DATA 	Keypress: space
+473.3040 	EXP 	New trial (rep=0, index=29): OrderedDict([('sndfile', './stimuli_1/tmp/weak_90_1.wav'), ('tempo', 90), ('cond', 'weak'), ('delay', 1.282481392037714)])
+473.3172 	EXP 	text_3: autoDraw = False
+477.6031 	DATA 	Keypress: space
+478.2377 	DATA 	Keypress: space
+478.8278 	DATA 	Keypress: space
+479.4539 	DATA 	Keypress: space
+480.0871 	DATA 	Keypress: space
+480.6374 	DATA 	Keypress: space
+481.2708 	DATA 	Keypress: space
+481.8624 	DATA 	Keypress: space
+482.4868 	DATA 	Keypress: space
+483.1546 	DATA 	Keypress: space
+483.7714 	DATA 	Keypress: space
+485.6030 	EXP 	text_3: autoDraw = True
+485.9552 	DATA 	Keypress: space
+485.9566 	EXP 	New trial (rep=0, index=30): OrderedDict([('sndfile', './stimuli_1/tmp/perfect_90_1.wav'), ('tempo', 90), ('cond', 'perfect'), ('delay', 0.8790589196072783)])
+485.9685 	EXP 	text_3: autoDraw = False
+488.9051 	DATA 	Keypress: space
+489.5389 	DATA 	Keypress: space
+490.2053 	DATA 	Keypress: space
+490.8390 	DATA 	Keypress: space
+491.5222 	DATA 	Keypress: space
+492.2066 	DATA 	Keypress: space
+492.8400 	DATA 	Keypress: space
+493.5228 	DATA 	Keypress: space
+497.8545 	EXP 	text_3: autoDraw = True
+498.4566 	DATA 	Keypress: space
+498.4579 	EXP 	New trial (rep=0, index=31): OrderedDict([('sndfile', './stimuli_1/tmp/strong_90_2.wav'), ('tempo', 90), ('cond', 'strong'), ('delay', 1.29545815814535)])
+498.4719 	EXP 	text_3: autoDraw = False
+501.3568 	DATA 	Keypress: space
+502.0075 	DATA 	Keypress: space
+502.6241 	DATA 	Keypress: space
+503.2417 	DATA 	Keypress: space
+503.9256 	DATA 	Keypress: space
+504.5577 	DATA 	Keypress: space
+505.2076 	DATA 	Keypress: space
+505.8747 	DATA 	Keypress: space
+506.5247 	DATA 	Keypress: space
+507.1750 	DATA 	Keypress: space
+507.8425 	DATA 	Keypress: space
+508.4919 	DATA 	Keypress: space
+509.1752 	DATA 	Keypress: space
+510.7732 	EXP 	text_3: autoDraw = True
+511.7421 	DATA 	Keypress: space
+511.7433 	EXP 	New trial (rep=0, index=32): OrderedDict([('sndfile', './stimuli_1/tmp/vweak_100_2.wav'), ('tempo', 100), ('cond', 'veryweak'), ('delay', 0.9843923106260049)])
+511.7569 	EXP 	text_3: autoDraw = False
+514.1759 	DATA 	Keypress: space
+514.8101 	DATA 	Keypress: space
+515.4427 	DATA 	Keypress: space
+516.1008 	DATA 	Keypress: space
+516.7605 	DATA 	Keypress: space
+517.3435 	DATA 	Keypress: space
+517.9597 	DATA 	Keypress: space
+518.5848 	DATA 	Keypress: space
+519.2103 	DATA 	Keypress: space
+519.8440 	DATA 	Keypress: space
+520.4995 	DATA 	Keypress: space
+521.1273 	DATA 	Keypress: space
+521.7935 	DATA 	Keypress: space
+523.7420 	EXP 	text_3: autoDraw = True
+524.4110 	DATA 	Keypress: space
+524.4122 	EXP 	New trial (rep=0, index=33): OrderedDict([('sndfile', './stimuli_1/tmp/medium_90_2.wav'), ('tempo', 90), ('cond', 'medium'), ('delay', 2.1384331573709567)])
+524.4256 	EXP 	text_3: autoDraw = False
+528.3787 	DATA 	Keypress: space
+529.0454 	DATA 	Keypress: space
+529.7037 	DATA 	Keypress: space
+530.3616 	DATA 	Keypress: space
+531.0459 	DATA 	Keypress: space
+531.7118 	DATA 	Keypress: space
+532.3957 	DATA 	Keypress: space
+533.1117 	DATA 	Keypress: space
+533.7461 	DATA 	Keypress: space
+534.4459 	DATA 	Keypress: space
+535.1120 	DATA 	Keypress: space
+535.8134 	DATA 	Keypress: space
+537.5607 	EXP 	text_3: autoDraw = True
+538.1717 	DATA 	Keypress: space
+538.1730 	EXP 	New trial (rep=0, index=34): OrderedDict([('sndfile', './stimuli_1/tmp/medium_110_1.wav'), ('tempo', 110), ('cond', 'medium'), ('delay', 1.6223651347148935)])
+538.1985 	EXP 	text_3: autoDraw = False
+541.5975 	DATA 	Keypress: space
+542.1634 	DATA 	Keypress: space
+542.7306 	DATA 	Keypress: space
+543.2886 	DATA 	Keypress: space
+543.8813 	DATA 	Keypress: space
+544.4635 	DATA 	Keypress: space
+545.0641 	DATA 	Keypress: space
+545.6641 	DATA 	Keypress: space
+546.2223 	DATA 	Keypress: space
+546.7642 	DATA 	Keypress: space
+547.3651 	DATA 	Keypress: space
+547.9319 	DATA 	Keypress: space
+548.4983 	DATA 	Keypress: space
+549.0818 	DATA 	Keypress: space
+550.8136 	EXP 	text_3: autoDraw = True
+551.2484 	DATA 	Keypress: space
+551.2497 	EXP 	New trial (rep=0, index=35): OrderedDict([('sndfile', './stimuli_1/tmp/strong_95_2.wav'), ('tempo', 95), ('cond', 'strong'), ('delay', 1.1173507911145857)])
+551.2629 	EXP 	text_3: autoDraw = False
+554.2902 	DATA 	Keypress: space
+554.9825 	DATA 	Keypress: space
+555.6003 	DATA 	Keypress: space
+556.2392 	DATA 	Keypress: space
+556.9170 	DATA 	Keypress: space
+557.5831 	DATA 	Keypress: space
+558.2384 	DATA 	Keypress: space
+558.9001 	DATA 	Keypress: space
+559.5508 	DATA 	Keypress: space
+560.2567 	DATA 	Keypress: space
+560.8843 	DATA 	Keypress: space
+561.4944 	DATA 	Keypress: space
+563.3823 	EXP 	text_3: autoDraw = True
+564.0010 	DATA 	Keypress: space
+564.0023 	EXP 	New trial (rep=0, index=36): OrderedDict([('sndfile', './stimuli_1/tmp/weak_95_2.wav'), ('tempo', 95), ('cond', 'weak'), ('delay', 1.3391653351857111)])
+564.0156 	EXP 	text_3: autoDraw = False
+567.5347 	DATA 	Keypress: space
+568.1686 	DATA 	Keypress: space
+568.7755 	DATA 	Keypress: space
+569.4848 	DATA 	Keypress: space
+570.2027 	DATA 	Keypress: space
+570.9183 	DATA 	Keypress: space
+571.6021 	DATA 	Keypress: space
+572.3364 	DATA 	Keypress: space
+573.0856 	DATA 	Keypress: space
+573.7733 	DATA 	Keypress: space
+574.4193 	DATA 	Keypress: space
+576.3511 	EXP 	text_3: autoDraw = True
+576.9254 	DATA 	Keypress: space
+576.9274 	EXP 	New trial (rep=0, index=37): OrderedDict([('sndfile', './stimuli_1/tmp/strong_95_1.wav'), ('tempo', 95), ('cond', 'strong'), ('delay', 1.2238592690797745)])
+576.9556 	EXP 	text_3: autoDraw = False
+580.0536 	DATA 	Keypress: space
+580.6701 	DATA 	Keypress: space
+581.2706 	DATA 	Keypress: space
+581.8587 	DATA 	Keypress: space
+582.4877 	DATA 	Keypress: space
+583.0875 	DATA 	Keypress: space
+583.6705 	DATA 	Keypress: space
+584.3041 	DATA 	Keypress: space
+584.9038 	DATA 	Keypress: space
+585.5114 	DATA 	Keypress: space
+586.0875 	DATA 	Keypress: space
+586.7207 	DATA 	Keypress: space
+587.3396 	DATA 	Keypress: space
+589.1695 	EXP 	text_3: autoDraw = True
+589.7718 	DATA 	Keypress: space
+589.7733 	EXP 	New trial (rep=0, index=38): OrderedDict([('sndfile', './stimuli_1/tmp/weak_95_1.wav'), ('tempo', 95), ('cond', 'weak'), ('delay', 1.9726481258285025)])
+589.7851 	EXP 	text_3: autoDraw = False
+593.3754 	DATA 	Keypress: space
+594.0559 	DATA 	Keypress: space
+594.7390 	DATA 	Keypress: space
+595.4224 	DATA 	Keypress: space
+596.0732 	DATA 	Keypress: space
+596.7233 	DATA 	Keypress: space
+597.3926 	DATA 	Keypress: space
+598.0561 	DATA 	Keypress: space
+598.7063 	DATA 	Keypress: space
+599.3732 	DATA 	Keypress: space
+600.0240 	DATA 	Keypress: space
+600.6898 	DATA 	Keypress: space
+602.7552 	EXP 	text_3: autoDraw = True
+603.2073 	DATA 	Keypress: space
+603.2086 	EXP 	New trial (rep=0, index=39): OrderedDict([('sndfile', './stimuli_1/tmp/strong_110_2.wav'), ('tempo', 110), ('cond', 'strong'), ('delay', 1.9369911731854192)])
+603.2215 	EXP 	text_3: autoDraw = False
+606.8744 	DATA 	Keypress: space
+607.4250 	DATA 	Keypress: space
+607.9913 	DATA 	Keypress: space
+608.5907 	DATA 	Keypress: space
+609.1919 	DATA 	Keypress: space
+609.7744 	DATA 	Keypress: space
+610.3588 	DATA 	Keypress: space
+610.9586 	DATA 	Keypress: space
+611.5428 	DATA 	Keypress: space
+612.1325 	DATA 	Keypress: space
+612.7253 	DATA 	Keypress: space
+613.3254 	DATA 	Keypress: space
+613.9084 	DATA 	Keypress: space
+614.5158 	DATA 	Keypress: space
+616.1572 	EXP 	text_3: autoDraw = True
+616.9932 	DATA 	Keypress: space
+616.9944 	EXP 	New trial (rep=0, index=40): OrderedDict([('sndfile', './stimuli_1/tmp/perfect_95_1.wav'), ('tempo', 95), ('cond', 'perfect'), ('delay', 0.8659592093324232)])
+617.0074 	EXP 	text_3: autoDraw = False
+619.5833 	DATA 	Keypress: space
+620.2607 	DATA 	Keypress: space
+620.9104 	DATA 	Keypress: space
+621.5323 	DATA 	Keypress: space
+622.1601 	DATA 	Keypress: space
+622.7768 	DATA 	Keypress: space
+623.3953 	DATA 	Keypress: space
+624.0782 	DATA 	Keypress: space
+628.8761 	EXP 	text_3: autoDraw = True
+629.4782 	DATA 	Keypress: space
+629.4800 	EXP 	New trial (rep=0, index=41): OrderedDict([('sndfile', './stimuli_1/tmp/weak_100_1.wav'), ('tempo', 100), ('cond', 'weak'), ('delay', 0.9200911357943652)])
+629.5092 	EXP 	text_3: autoDraw = False
+632.2115 	DATA 	Keypress: space
+632.8286 	DATA 	Keypress: space
+633.4116 	DATA 	Keypress: space
+634.0122 	DATA 	Keypress: space
+634.6168 	DATA 	Keypress: space
+635.2454 	DATA 	Keypress: space
+635.8457 	DATA 	Keypress: space
+636.4296 	DATA 	Keypress: space
+637.0290 	DATA 	Keypress: space
+637.6298 	DATA 	Keypress: space
+638.2361 	DATA 	Keypress: space
+638.7793 	DATA 	Keypress: space
+639.3958 	DATA 	Keypress: space
+639.9629 	DATA 	Keypress: space
+641.4110 	EXP 	text_3: autoDraw = True
+642.0809 	DATA 	Keypress: space
+642.0823 	EXP 	New trial (rep=0, index=42): OrderedDict([('sndfile', './stimuli_1/tmp/medium_90_1.wav'), ('tempo', 90), ('cond', 'medium'), ('delay', 1.3827594725962091)])
+642.1114 	EXP 	text_3: autoDraw = False
+645.6808 	DATA 	Keypress: space
+646.3988 	DATA 	Keypress: space
+647.0974 	DATA 	Keypress: space
+647.8043 	DATA 	Keypress: space
+648.4643 	DATA 	Keypress: space
+649.0647 	DATA 	Keypress: space
+649.7373 	DATA 	Keypress: space
+650.4815 	DATA 	Keypress: space
+651.1989 	DATA 	Keypress: space
+651.9477 	DATA 	Keypress: space
+652.5817 	DATA 	Keypress: space
+654.4804 	EXP 	text_3: autoDraw = True
+654.9827 	DATA 	Keypress: space
+654.9976 	EXP 	New trial (rep=0, index=43): OrderedDict([('sndfile', './stimuli_1/tmp/weak_100_2.wav'), ('tempo', 100), ('cond', 'weak'), ('delay', 0.9744812486321696)])
+655.0134 	EXP 	text_3: autoDraw = False
+658.0658 	DATA 	Keypress: space
+658.6002 	DATA 	Keypress: space
+659.1668 	DATA 	Keypress: space
+659.7663 	DATA 	Keypress: space
+660.4067 	DATA 	Keypress: space
+661.0668 	DATA 	Keypress: space
+661.6502 	DATA 	Keypress: space
+662.2875 	DATA 	Keypress: space
+662.8179 	DATA 	Keypress: space
+663.4067 	DATA 	Keypress: space
+664.0172 	DATA 	Keypress: space
+664.6340 	DATA 	Keypress: space
+665.2832 	DATA 	Keypress: space
+666.9910 	EXP 	text_3: autoDraw = True
+667.5343 	DATA 	Keypress: space
+667.5355 	EXP 	New trial (rep=0, index=44): OrderedDict([('sndfile', './stimuli_1/tmp/perfect_95_0.wav'), ('tempo', 95), ('cond', 'perfect'), ('delay', 1.4400885785760469)])
+667.5492 	EXP 	text_3: autoDraw = False
+670.7678 	DATA 	Keypress: space
+671.3248 	DATA 	Keypress: space
+671.9687 	DATA 	Keypress: space
+672.6354 	DATA 	Keypress: space
+673.2515 	DATA 	Keypress: space
+673.8920 	DATA 	Keypress: space
+674.5188 	DATA 	Keypress: space
+675.1691 	DATA 	Keypress: space
+679.9847 	EXP 	text_3: autoDraw = True
+681.6370 	DATA 	Keypress: space
+681.6382 	EXP 	New trial (rep=0, index=45): OrderedDict([('sndfile', './stimuli_1/tmp/medium_105_2.wav'), ('tempo', 105), ('cond', 'medium'), ('delay', 0.8825097572066065)])
+681.6512 	EXP 	text_3: autoDraw = False
+684.3201 	DATA 	Keypress: space
+684.8709 	DATA 	Keypress: space
+685.5206 	DATA 	Keypress: space
+686.1374 	DATA 	Keypress: space
+686.7542 	DATA 	Keypress: space
+687.3045 	DATA 	Keypress: space
+687.8045 	DATA 	Keypress: space
+688.3887 	DATA 	Keypress: space
+688.9705 	DATA 	Keypress: space
+689.5740 	DATA 	Keypress: space
+690.2047 	DATA 	Keypress: space
+690.8542 	DATA 	Keypress: space
+691.5049 	DATA 	Keypress: space
+693.5362 	EXP 	text_3: autoDraw = True
+694.1050 	DATA 	Keypress: space
+694.1062 	EXP 	New trial (rep=0, index=46): OrderedDict([('sndfile', './stimuli_1/tmp/weak_110_2.wav'), ('tempo', 110), ('cond', 'weak'), ('delay', 1.1450489585925383)])
+694.1195 	EXP 	text_3: autoDraw = False
+697.4893 	DATA 	Keypress: space
+698.0289 	DATA 	Keypress: space
+698.5559 	DATA 	Keypress: space
+699.0559 	DATA 	Keypress: space
+699.5724 	DATA 	Keypress: space
+700.0957 	DATA 	Keypress: space
+700.5731 	DATA 	Keypress: space
+701.1125 	DATA 	Keypress: space
+701.5728 	DATA 	Keypress: space
+702.1071 	DATA 	Keypress: space
+702.5411 	DATA 	Keypress: space
+703.0295 	DATA 	Keypress: space
+703.4907 	DATA 	Keypress: space
+704.0062 	DATA 	Keypress: space
+704.4958 	DATA 	Keypress: space
+706.2714 	EXP 	text_3: autoDraw = True
+707.3739 	DATA 	Keypress: space
+707.3752 	EXP 	New trial (rep=0, index=47): OrderedDict([('sndfile', './stimuli_1/tmp/perfect_100_1.wav'), ('tempo', 100), ('cond', 'perfect'), ('delay', 2.462429502310373)])
+707.3890 	EXP 	text_3: autoDraw = False
+711.3917 	DATA 	Keypress: space
+711.9919 	DATA 	Keypress: space
+712.5652 	DATA 	Keypress: space
+713.2091 	DATA 	Keypress: space
+713.7749 	DATA 	Keypress: space
+714.3586 	DATA 	Keypress: space
+715.0096 	DATA 	Keypress: space
+715.6425 	DATA 	Keypress: space
+720.8570 	EXP 	text_3: autoDraw = True
+722.9933 	DATA 	Keypress: space
+722.9946 	EXP 	New trial (rep=0, index=48): OrderedDict([('sndfile', './stimuli_1/tmp/vweak_110_1.wav'), ('tempo', 110), ('cond', 'veryweak'), ('delay', 1.3407186132175697)])
+723.0090 	EXP 	text_3: autoDraw = False
+727.1439 	DATA 	Keypress: space
+727.6607 	DATA 	Keypress: space
+728.2334 	DATA 	Keypress: space
+728.7272 	DATA 	Keypress: space
+729.2612 	DATA 	Keypress: space
+729.8613 	DATA 	Keypress: space
+730.4107 	DATA 	Keypress: space
+730.9273 	DATA 	Keypress: space
+731.4942 	DATA 	Keypress: space
+732.0450 	DATA 	Keypress: space
+732.6296 	DATA 	Keypress: space
+733.2842 	DATA 	Keypress: space
+733.8621 	DATA 	Keypress: space
+735.3427 	EXP 	text_3: autoDraw = True
+735.9952 	DATA 	Keypress: space
+735.9970 	EXP 	New trial (rep=0, index=49): OrderedDict([('sndfile', './stimuli_1/tmp/strong_110_1.wav'), ('tempo', 110), ('cond', 'strong'), ('delay', 2.342405954917332)])
+736.0097 	EXP 	text_3: autoDraw = False
+740.1302 	DATA 	Keypress: space
+740.6793 	DATA 	Keypress: space
+741.2966 	DATA 	Keypress: space
+741.8800 	DATA 	Keypress: space
+742.4468 	DATA 	Keypress: space
+742.9975 	DATA 	Keypress: space
+743.5468 	DATA 	Keypress: space
+744.1298 	DATA 	Keypress: space
+744.7361 	DATA 	Keypress: space
+745.3303 	DATA 	Keypress: space
+745.8806 	DATA 	Keypress: space
+746.4304 	DATA 	Keypress: space
+746.9803 	DATA 	Keypress: space
+747.5309 	DATA 	Keypress: space
+749.3455 	EXP 	text_3: autoDraw = True
+750.0663 	DATA 	Keypress: space
+750.0953 	EXP 	text_3: autoDraw = False
+750.0953 	EXP 	text_6: autoDraw = True
+777.4184 	DATA 	Keypress: space
+777.4253 	EXP 	Imported condition_test_2.csv as conditions, 50 conditions, 4 params
+777.4258 	EXP 	Created sequence: random, trialTypes=50, nReps=1, seed=None
+777.4262 	EXP 	New trial (rep=0, index=0): OrderedDict([('sndfile', './stimuli_2/tmp/weak_110_4.wav'), ('tempo', 110), ('cond', 'weak'), ('delay', 1.2158046753843554)])
+777.4497 	EXP 	text_6: autoDraw = False
+780.9535 	DATA 	Keypress: space
+781.4690 	DATA 	Keypress: space
+782.0536 	DATA 	Keypress: space
+782.5753 	DATA 	Keypress: space
+783.1862 	DATA 	Keypress: space
+783.7366 	DATA 	Keypress: space
+784.2874 	DATA 	Keypress: space
+784.8534 	DATA 	Keypress: space
+785.4203 	DATA 	Keypress: space
+786.0530 	DATA 	Keypress: space
+786.6037 	DATA 	Keypress: space
+787.1870 	DATA 	Keypress: space
+787.7709 	DATA 	Keypress: space
+789.6512 	EXP 	text_4: autoDraw = True
+790.7035 	DATA 	Keypress: space
+790.7050 	EXP 	New trial (rep=0, index=1): OrderedDict([('sndfile', './stimuli_2/tmp/weak_95_3.wav'), ('tempo', 95), ('cond', 'weak'), ('delay', 1.2112449492962023)])
+790.7189 	EXP 	text_4: autoDraw = False
+794.0599 	DATA 	Keypress: space
+794.7054 	DATA 	Keypress: space
+795.3895 	DATA 	Keypress: space
+796.0435 	DATA 	Keypress: space
+796.7389 	DATA 	Keypress: space
+797.4385 	DATA 	Keypress: space
+798.1225 	DATA 	Keypress: space
+798.8236 	DATA 	Keypress: space
+799.4730 	DATA 	Keypress: space
+800.1562 	DATA 	Keypress: space
+800.8561 	DATA 	Keypress: space
+802.9206 	EXP 	text_4: autoDraw = True
+803.4729 	DATA 	Keypress: space
+803.4742 	EXP 	New trial (rep=0, index=2): OrderedDict([('sndfile', './stimuli_2/tmp/strong_90_3.wav'), ('tempo', 90), ('cond', 'strong'), ('delay', 1.6244125943376004)])
+803.4874 	EXP 	text_4: autoDraw = False
+807.0572 	DATA 	Keypress: space
+807.7456 	DATA 	Keypress: space
+808.4070 	DATA 	Keypress: space
+809.0747 	DATA 	Keypress: space
+809.7456 	DATA 	Keypress: space
+810.4412 	DATA 	Keypress: space
+811.1291 	DATA 	Keypress: space
+811.8402 	DATA 	Keypress: space
+812.5578 	DATA 	Keypress: space
+813.1965 	DATA 	Keypress: space
+813.8752 	DATA 	Keypress: space
+816.1066 	EXP 	text_4: autoDraw = True
+817.2643 	DATA 	Keypress: space
+817.2655 	EXP 	New trial (rep=0, index=3): OrderedDict([('sndfile', './stimuli_2/tmp/vweak_110_3.wav'), ('tempo', 110), ('cond', 'veryweak'), ('delay', 1.9493514140483303)])
+817.2850 	EXP 	text_4: autoDraw = False
+822.7978 	DATA 	Keypress: space
+823.3269 	DATA 	Keypress: space
+824.0428 	DATA 	Keypress: space
+824.6099 	DATA 	Keypress: space
+825.4760 	DATA 	Keypress: space
+826.0440 	DATA 	Keypress: space
+826.5604 	DATA 	Keypress: space
+827.0764 	DATA 	Keypress: space
+827.6935 	DATA 	Keypress: space
+828.2657 	DATA 	Keypress: space
+828.8772 	DATA 	Keypress: space
+830.2254 	EXP 	text_4: autoDraw = True
+831.1104 	DATA 	Keypress: space
+831.1117 	EXP 	New trial (rep=0, index=4): OrderedDict([('sndfile', './stimuli_2/tmp/weak_90_3.wav'), ('tempo', 90), ('cond', 'weak'), ('delay', 1.336733561564532)])
+831.1253 	EXP 	text_4: autoDraw = False
+834.3110 	DATA 	Keypress: space
+834.9620 	DATA 	Keypress: space
+835.6288 	DATA 	Keypress: space
+836.1969 	DATA 	Keypress: space
+836.8610 	DATA 	Keypress: space
+837.4953 	DATA 	Keypress: space
+838.1798 	DATA 	Keypress: space
+838.9117 	DATA 	Keypress: space
+839.5626 	DATA 	Keypress: space
+840.2672 	DATA 	Keypress: space
+840.9294 	DATA 	Keypress: space
+841.5956 	DATA 	Keypress: space
+843.4611 	EXP 	text_4: autoDraw = True
+844.2294 	DATA 	Keypress: space
+844.2306 	EXP 	New trial (rep=0, index=5): OrderedDict([('sndfile', './stimuli_2/tmp/vweak_95_3.wav'), ('tempo', 95), ('cond', 'veryweak'), ('delay', 2.160580057702042)])
+844.2438 	EXP 	text_4: autoDraw = False
+848.2126 	DATA 	Keypress: space
+848.8353 	DATA 	Keypress: space
+849.4469 	DATA 	Keypress: space
+850.0464 	DATA 	Keypress: space
+850.6638 	DATA 	Keypress: space
+851.2651 	DATA 	Keypress: space
+851.8690 	DATA 	Keypress: space
+852.4147 	DATA 	Keypress: space
+853.0144 	DATA 	Keypress: space
+853.6148 	DATA 	Keypress: space
+854.2157 	DATA 	Keypress: space
+854.8143 	DATA 	Keypress: space
+855.4028 	DATA 	Keypress: space
+857.4017 	EXP 	text_4: autoDraw = True
+858.5820 	DATA 	Keypress: space
+858.5833 	EXP 	New trial (rep=0, index=6): OrderedDict([('sndfile', './stimuli_2/tmp/perfect_110_0.wav'), ('tempo', 110), ('cond', 'perfect'), ('delay', 1.6760608294086363)])
+858.5957 	EXP 	text_4: autoDraw = False
+861.9654 	DATA 	Keypress: space
+862.5206 	DATA 	Keypress: space
+863.0331 	DATA 	Keypress: space
+863.6038 	DATA 	Keypress: space
+864.1324 	DATA 	Keypress: space
+864.6659 	DATA 	Keypress: space
+865.2328 	DATA 	Keypress: space
+865.7824 	DATA 	Keypress: space
+871.2652 	EXP 	text_4: autoDraw = True
+871.7340 	DATA 	Keypress: space
+871.7357 	EXP 	New trial (rep=0, index=7): OrderedDict([('sndfile', './stimuli_2/tmp/weak_95_4.wav'), ('tempo', 95), ('cond', 'weak'), ('delay', 1.59401142701977)])
+871.7655 	EXP 	text_4: autoDraw = False
+876.3839 	DATA 	Keypress: space
+877.0520 	DATA 	Keypress: space
+877.7849 	DATA 	Keypress: space
+878.4524 	DATA 	Keypress: space
+879.2517 	DATA 	Keypress: space
+879.9852 	DATA 	Keypress: space
+880.6682 	DATA 	Keypress: space
+881.3685 	DATA 	Keypress: space
+882.1235 	DATA 	Keypress: space
+884.3524 	EXP 	text_4: autoDraw = True
+886.6523 	DATA 	Keypress: space
+886.6536 	EXP 	New trial (rep=0, index=8): OrderedDict([('sndfile', './stimuli_2/tmp/medium_95_4.wav'), ('tempo', 95), ('cond', 'medium'), ('delay', 1.5689377747074644)])
+886.6675 	EXP 	text_4: autoDraw = False
+890.0375 	DATA 	Keypress: space
+890.7040 	DATA 	Keypress: space
+891.3710 	DATA 	Keypress: space
+892.0881 	DATA 	Keypress: space
+892.7710 	DATA 	Keypress: space
+893.4371 	DATA 	Keypress: space
+894.1050 	DATA 	Keypress: space
+894.7216 	DATA 	Keypress: space
+895.4047 	DATA 	Keypress: space
+896.0880 	DATA 	Keypress: space
+896.7876 	DATA 	Keypress: space
+897.4720 	DATA 	Keypress: space
+899.2365 	EXP 	text_4: autoDraw = True
+900.3551 	DATA 	Keypress: space
+900.3564 	EXP 	New trial (rep=0, index=9): OrderedDict([('sndfile', './stimuli_2/tmp/vweak_95_4.wav'), ('tempo', 95), ('cond', 'veryweak'), ('delay', 1.2922043074511544)])
+900.3706 	EXP 	text_4: autoDraw = False
+903.5053 	DATA 	Keypress: space
+904.0724 	DATA 	Keypress: space
+904.6765 	DATA 	Keypress: space
+905.2893 	DATA 	Keypress: space
+905.8731 	DATA 	Keypress: space
+906.4555 	DATA 	Keypress: space
+907.1069 	DATA 	Keypress: space
+907.7231 	DATA 	Keypress: space
+908.3579 	DATA 	Keypress: space
+908.9234 	DATA 	Keypress: space
+909.5566 	DATA 	Keypress: space
+910.2075 	DATA 	Keypress: space
+910.8233 	DATA 	Keypress: space
+912.6557 	EXP 	text_4: autoDraw = True
+913.9572 	DATA 	Keypress: space
+913.9585 	EXP 	New trial (rep=0, index=10): OrderedDict([('sndfile', './stimuli_2/tmp/vweak_110_4.wav'), ('tempo', 110), ('cond', 'veryweak'), ('delay', 1.4056094097142195)])
+913.9719 	EXP 	text_4: autoDraw = False
+917.1750 	DATA 	Keypress: space
+917.7463 	DATA 	Keypress: space
+918.2255 	DATA 	Keypress: space
+918.6955 	DATA 	Keypress: space
+919.2587 	DATA 	Keypress: space
+919.8263 	DATA 	Keypress: space
+920.3303 	DATA 	Keypress: space
+920.8422 	DATA 	Keypress: space
+921.4298 	DATA 	Keypress: space
+921.9761 	DATA 	Keypress: space
+922.5247 	DATA 	Keypress: space
+923.0596 	DATA 	Keypress: space
+923.5760 	DATA 	Keypress: space
+924.1253 	DATA 	Keypress: space
+924.6927 	DATA 	Keypress: space
+926.3738 	EXP 	text_4: autoDraw = True
+927.2423 	DATA 	Keypress: space
+927.2435 	EXP 	New trial (rep=0, index=11): OrderedDict([('sndfile', './stimuli_2/tmp/weak_100_3.wav'), ('tempo', 100), ('cond', 'weak'), ('delay', 0.8397616430138637)])
+927.2567 	EXP 	text_4: autoDraw = False
+930.0770 	DATA 	Keypress: space
+930.6103 	DATA 	Keypress: space
+931.1938 	DATA 	Keypress: space
+931.7979 	DATA 	Keypress: space
+932.3766 	DATA 	Keypress: space
+932.9773 	DATA 	Keypress: space
+933.5275 	DATA 	Keypress: space
+934.0946 	DATA 	Keypress: space
+934.6272 	DATA 	Keypress: space
+935.1943 	DATA 	Keypress: space
+935.7444 	DATA 	Keypress: space
+936.3113 	DATA 	Keypress: space
+936.8979 	DATA 	Keypress: space
+937.4778 	DATA 	Keypress: space
+939.0920 	EXP 	text_4: autoDraw = True
+940.2119 	DATA 	Keypress: space
+940.2134 	EXP 	New trial (rep=0, index=12): OrderedDict([('sndfile', './stimuli_2/tmp/strong_110_4.wav'), ('tempo', 110), ('cond', 'strong'), ('delay', 1.9935472881648024)])
+940.2259 	EXP 	text_4: autoDraw = False
+944.1455 	DATA 	Keypress: space
+944.7290 	DATA 	Keypress: space
+945.3164 	DATA 	Keypress: space
+945.8789 	DATA 	Keypress: space
+946.4790 	DATA 	Keypress: space
+947.0789 	DATA 	Keypress: space
+947.6630 	DATA 	Keypress: space
+948.2627 	DATA 	Keypress: space
+948.8830 	DATA 	Keypress: space
+949.4793 	DATA 	Keypress: space
+950.0633 	DATA 	Keypress: space
+950.6632 	DATA 	Keypress: space
+951.2804 	DATA 	Keypress: space
+951.9176 	DATA 	Keypress: space
+953.2287 	EXP 	text_4: autoDraw = True
+953.9307 	DATA 	Keypress: space
+953.9321 	EXP 	New trial (rep=0, index=13): OrderedDict([('sndfile', './stimuli_2/tmp/weak_105_4.wav'), ('tempo', 105), ('cond', 'weak'), ('delay', 2.3797932117961262)])
+953.9450 	EXP 	text_4: autoDraw = False
+958.0649 	DATA 	Keypress: space
+958.7318 	DATA 	Keypress: space
+959.4156 	DATA 	Keypress: space
+959.9814 	DATA 	Keypress: space
+960.6154 	DATA 	Keypress: space
+961.2654 	DATA 	Keypress: space
+961.8481 	DATA 	Keypress: space
+962.5198 	DATA 	Keypress: space
+963.1322 	DATA 	Keypress: space
+963.6985 	DATA 	Keypress: space
+964.2659 	DATA 	Keypress: space
+964.9163 	DATA 	Keypress: space
+965.5325 	DATA 	Keypress: space
+967.3313 	EXP 	text_4: autoDraw = True
+968.7162 	DATA 	Keypress: space
+968.7174 	EXP 	New trial (rep=0, index=14): OrderedDict([('sndfile', './stimuli_2/tmp/strong_105_3.wav'), ('tempo', 105), ('cond', 'strong'), ('delay', 1.2846849156286215)])
+968.7308 	EXP 	text_4: autoDraw = False
+971.4504 	DATA 	Keypress: space
+972.0335 	DATA 	Keypress: space
+972.6501 	DATA 	Keypress: space
+973.2176 	DATA 	Keypress: space
+973.7503 	DATA 	Keypress: space
+974.3334 	DATA 	Keypress: space
+974.8843 	DATA 	Keypress: space
+975.4674 	DATA 	Keypress: space
+976.0176 	DATA 	Keypress: space
+976.5400 	DATA 	Keypress: space
+977.0850 	DATA 	Keypress: space
+977.6358 	DATA 	Keypress: space
+978.2178 	DATA 	Keypress: space
+978.8019 	DATA 	Keypress: space
+979.3514 	DATA 	Keypress: space
+981.0201 	EXP 	text_4: autoDraw = True
+982.0415 	DATA 	Keypress: space
+982.0429 	EXP 	New trial (rep=0, index=15): OrderedDict([('sndfile', './stimuli_2/tmp/perfect_100_1.wav'), ('tempo', 100), ('cond', 'perfect'), ('delay', 1.900582361571024)])
+982.0717 	EXP 	text_4: autoDraw = False
+985.5393 	DATA 	Keypress: space
+986.1198 	DATA 	Keypress: space
+986.7191 	DATA 	Keypress: space
+987.2875 	DATA 	Keypress: space
+987.9201 	DATA 	Keypress: space
+988.4963 	DATA 	Keypress: space
+989.1030 	DATA 	Keypress: space
+989.6956 	DATA 	Keypress: space
+994.9521 	EXP 	text_4: autoDraw = True
+996.2305 	DATA 	Keypress: space
+996.2321 	EXP 	New trial (rep=0, index=16): OrderedDict([('sndfile', './stimuli_2/tmp/medium_95_3.wav'), ('tempo', 95), ('cond', 'medium'), ('delay', 0.9787884089584356)])
+996.2569 	EXP 	text_4: autoDraw = False
+999.2483 	DATA 	Keypress: space
+999.8552 	DATA 	Keypress: space
+1000.4878 	DATA 	Keypress: space
+1001.1054 	DATA 	Keypress: space
+1001.7719 	DATA 	Keypress: space
+1002.3982 	DATA 	Keypress: space
+1003.0487 	DATA 	Keypress: space
+1003.6900 	DATA 	Keypress: space
+1004.3226 	DATA 	Keypress: space
+1004.9299 	DATA 	Keypress: space
+1005.5891 	DATA 	Keypress: space
+1006.2555 	DATA 	Keypress: space
+1008.2211 	EXP 	text_4: autoDraw = True
+1008.7895 	DATA 	Keypress: space
+1008.7908 	EXP 	New trial (rep=0, index=17): OrderedDict([('sndfile', './stimuli_2/tmp/medium_110_3.wav'), ('tempo', 110), ('cond', 'medium'), ('delay', 1.2616218191127295)])
+1008.8045 	EXP 	text_4: autoDraw = False
+1012.1068 	DATA 	Keypress: space
+1012.7409 	DATA 	Keypress: space
+1013.3503 	DATA 	Keypress: space
+1013.9737 	DATA 	Keypress: space
+1014.5903 	DATA 	Keypress: space
+1015.2298 	DATA 	Keypress: space
+1015.8640 	DATA 	Keypress: space
+1016.4741 	DATA 	Keypress: space
+1017.0746 	DATA 	Keypress: space
+1017.7515 	DATA 	Keypress: space
+1018.3738 	DATA 	Keypress: space
+1018.9915 	DATA 	Keypress: space
+1021.0724 	EXP 	text_4: autoDraw = True
+1022.0085 	DATA 	Keypress: space
+1022.0097 	EXP 	New trial (rep=0, index=18): OrderedDict([('sndfile', './stimuli_2/tmp/strong_100_3.wav'), ('tempo', 100), ('cond', 'strong'), ('delay', 1.4654700353387642)])
+1022.0231 	EXP 	text_4: autoDraw = False
+1025.6085 	DATA 	Keypress: space
+1026.2588 	DATA 	Keypress: space
+1026.8808 	DATA 	Keypress: space
+1027.5262 	DATA 	Keypress: space
+1028.1763 	DATA 	Keypress: space
+1028.7996 	DATA 	Keypress: space
+1029.4349 	DATA 	Keypress: space
+1030.0592 	DATA 	Keypress: space
+1030.7596 	DATA 	Keypress: space
+1031.3848 	DATA 	Keypress: space
+1032.0534 	DATA 	Keypress: space
+1032.6933 	DATA 	Keypress: space
+1034.4915 	EXP 	text_4: autoDraw = True
+1035.3346 	DATA 	Keypress: space
+1035.3359 	EXP 	New trial (rep=0, index=19): OrderedDict([('sndfile', './stimuli_2/tmp/perfect_105_0.wav'), ('tempo', 105), ('cond', 'perfect'), ('delay', 2.471825489115851)])
+1035.3652 	EXP 	text_4: autoDraw = False
+1039.7605 	DATA 	Keypress: space
+1040.3178 	DATA 	Keypress: space
+1040.8538 	DATA 	Keypress: space
+1041.4121 	DATA 	Keypress: space
+1042.0116 	DATA 	Keypress: space
+1042.5688 	DATA 	Keypress: space
+1043.1618 	DATA 	Keypress: space
+1048.8383 	EXP 	text_4: autoDraw = True
+1049.5394 	DATA 	Keypress: space
+1049.5407 	EXP 	New trial (rep=0, index=20): OrderedDict([('sndfile', './stimuli_2/tmp/vweak_105_3.wav'), ('tempo', 105), ('cond', 'veryweak'), ('delay', 1.505363686413271)])
+1049.5671 	EXP 	text_4: autoDraw = False
+1053.5629 	DATA 	Keypress: space
+1054.1055 	DATA 	Keypress: space
+1054.7311 	DATA 	Keypress: space
+1055.3471 	DATA 	Keypress: space
+1055.9884 	DATA 	Keypress: space
+1056.5738 	DATA 	Keypress: space
+1057.2302 	DATA 	Keypress: space
+1057.8645 	DATA 	Keypress: space
+1058.5076 	DATA 	Keypress: space
+1059.1310 	DATA 	Keypress: space
+1059.7148 	DATA 	Keypress: space
+1060.3237 	DATA 	Keypress: space
+1062.0625 	EXP 	text_4: autoDraw = True
+1062.9616 	DATA 	Keypress: space
+1062.9872 	EXP 	New trial (rep=0, index=21): OrderedDict([('sndfile', './stimuli_2/tmp/weak_90_4.wav'), ('tempo', 90), ('cond', 'weak'), ('delay', 2.0685733483084743)])
+1063.0062 	EXP 	text_4: autoDraw = False
+1067.0384 	DATA 	Keypress: space
+1067.6393 	DATA 	Keypress: space
+1068.3163 	DATA 	Keypress: space
+1068.9664 	DATA 	Keypress: space
+1069.6549 	DATA 	Keypress: space
+1070.3500 	DATA 	Keypress: space
+1070.9672 	DATA 	Keypress: space
+1071.6428 	DATA 	Keypress: space
+1072.3326 	DATA 	Keypress: space
+1073.0000 	DATA 	Keypress: space
+1073.7400 	DATA 	Keypress: space
+1074.4080 	DATA 	Keypress: space
+1076.0883 	EXP 	text_4: autoDraw = True
+1076.9764 	DATA 	Keypress: space
+1076.9777 	EXP 	New trial (rep=0, index=22): OrderedDict([('sndfile', './stimuli_2/tmp/perfect_90_1.wav'), ('tempo', 90), ('cond', 'perfect'), ('delay', 0.9437088291454946)])
+1077.0047 	EXP 	text_4: autoDraw = False
+1079.9843 	DATA 	Keypress: space
+1080.6777 	DATA 	Keypress: space
+1081.3085 	DATA 	Keypress: space
+1081.9753 	DATA 	Keypress: space
+1082.6289 	DATA 	Keypress: space
+1083.2746 	DATA 	Keypress: space
+1083.9355 	DATA 	Keypress: space
+1084.6098 	DATA 	Keypress: space
+1088.9336 	EXP 	text_4: autoDraw = True
+1089.9752 	DATA 	Keypress: space
+1089.9766 	EXP 	New trial (rep=0, index=23): OrderedDict([('sndfile', './stimuli_2/tmp/perfect_105_1.wav'), ('tempo', 105), ('cond', 'perfect'), ('delay', 1.9598890814615504)])
+1090.0068 	EXP 	text_4: autoDraw = False
+1093.3108 	DATA 	Keypress: space
+1093.8872 	DATA 	Keypress: space
+1094.4362 	DATA 	Keypress: space
+1095.0135 	DATA 	Keypress: space
+1095.5539 	DATA 	Keypress: space
+1096.1781 	DATA 	Keypress: space
+1096.7379 	DATA 	Keypress: space
+1097.3196 	DATA 	Keypress: space
+1102.9590 	EXP 	text_4: autoDraw = True
+1103.5332 	DATA 	Keypress: space
+1103.5616 	EXP 	New trial (rep=0, index=24): OrderedDict([('sndfile', './stimuli_2/tmp/medium_90_3.wav'), ('tempo', 90), ('cond', 'medium'), ('delay', 2.469674326004891)])
+1103.5930 	EXP 	text_4: autoDraw = False
+1107.9657 	DATA 	Keypress: space
+1108.5967 	DATA 	Keypress: space
+1109.2295 	DATA 	Keypress: space
+1109.8628 	DATA 	Keypress: space
+1110.5175 	DATA 	Keypress: space
+1111.2133 	DATA 	Keypress: space
+1111.8457 	DATA 	Keypress: space
+1112.5067 	DATA 	Keypress: space
+1113.1400 	DATA 	Keypress: space
+1113.7903 	DATA 	Keypress: space
+1114.4572 	DATA 	Keypress: space
+1115.0998 	DATA 	Keypress: space
+1117.0385 	EXP 	text_4: autoDraw = True
+1117.9575 	DATA 	Keypress: space
+1117.9590 	EXP 	New trial (rep=0, index=25): OrderedDict([('sndfile', './stimuli_2/tmp/perfect_100_0.wav'), ('tempo', 100), ('cond', 'perfect'), ('delay', 1.3424117839845908)])
+1117.9716 	EXP 	text_4: autoDraw = False
+1120.8746 	DATA 	Keypress: space
+1121.4748 	DATA 	Keypress: space
+1122.0812 	DATA 	Keypress: space
+1122.6747 	DATA 	Keypress: space
+1123.2582 	DATA 	Keypress: space
+1123.8819 	DATA 	Keypress: space
+1124.4752 	DATA 	Keypress: space
+1125.0922 	DATA 	Keypress: space
+1130.3071 	EXP 	text_4: autoDraw = True
+1130.9167 	DATA 	Keypress: space
+1130.9181 	EXP 	New trial (rep=0, index=26): OrderedDict([('sndfile', './stimuli_2/tmp/medium_100_4.wav'), ('tempo', 100), ('cond', 'medium'), ('delay', 1.1108721091211078)])
+1130.9466 	EXP 	text_4: autoDraw = False
+1134.2933 	DATA 	Keypress: space
+1134.8762 	DATA 	Keypress: space
+1135.4845 	DATA 	Keypress: space
+1136.1267 	DATA 	Keypress: space
+1136.7932 	DATA 	Keypress: space
+1137.4188 	DATA 	Keypress: space
+1138.0775 	DATA 	Keypress: space
+1138.6945 	DATA 	Keypress: space
+1139.3614 	DATA 	Keypress: space
+1140.0114 	DATA 	Keypress: space
+1140.6447 	DATA 	Keypress: space
+1141.2775 	DATA 	Keypress: space
+1143.0495 	EXP 	text_4: autoDraw = True
+1144.2848 	DATA 	Keypress: space
+1144.2866 	EXP 	New trial (rep=0, index=27): OrderedDict([('sndfile', './stimuli_2/tmp/vweak_90_4.wav'), ('tempo', 90), ('cond', 'veryweak'), ('delay', 2.01675312210347)])
+1144.3153 	EXP 	text_4: autoDraw = False
+1149.1453 	DATA 	Keypress: space
+1149.7804 	DATA 	Keypress: space
+1150.4124 	DATA 	Keypress: space
+1151.1126 	DATA 	Keypress: space
+1151.8301 	DATA 	Keypress: space
+1152.5790 	DATA 	Keypress: space
+1153.3468 	DATA 	Keypress: space
+1154.1045 	DATA 	Keypress: space
+1154.8389 	DATA 	Keypress: space
+1155.5913 	DATA 	Keypress: space
+1157.3119 	EXP 	text_4: autoDraw = True
+1158.2033 	DATA 	Keypress: space
+1158.2046 	EXP 	New trial (rep=0, index=28): OrderedDict([('sndfile', './stimuli_2/tmp/medium_100_3.wav'), ('tempo', 100), ('cond', 'medium'), ('delay', 0.9227517929886035)])
+1158.2341 	EXP 	text_4: autoDraw = False
+1161.5329 	DATA 	Keypress: space
+1162.0147 	DATA 	Keypress: space
+1162.5719 	DATA 	Keypress: space
+1163.0889 	DATA 	Keypress: space
+1163.6146 	DATA 	Keypress: space
+1164.1210 	DATA 	Keypress: space
+1164.6651 	DATA 	Keypress: space
+1165.1478 	DATA 	Keypress: space
+1165.7326 	DATA 	Keypress: space
+1166.2718 	DATA 	Keypress: space
+1166.7377 	DATA 	Keypress: space
+1167.2651 	DATA 	Keypress: space
+1167.8157 	DATA 	Keypress: space
+1168.2817 	DATA 	Keypress: space
+1170.1465 	EXP 	text_4: autoDraw = True
+1170.7999 	DATA 	Keypress: space
+1170.8017 	EXP 	New trial (rep=0, index=29): OrderedDict([('sndfile', './stimuli_2/tmp/perfect_95_0.wav'), ('tempo', 95), ('cond', 'perfect'), ('delay', 2.0105466277142785)])
+1170.8130 	EXP 	text_4: autoDraw = False
+1174.6174 	DATA 	Keypress: space
+1175.2421 	DATA 	Keypress: space
+1175.8660 	DATA 	Keypress: space
+1176.4841 	DATA 	Keypress: space
+1177.0998 	DATA 	Keypress: space
+1177.7509 	DATA 	Keypress: space
+1178.3335 	DATA 	Keypress: space
+1179.0505 	DATA 	Keypress: space
+1183.8324 	EXP 	text_4: autoDraw = True
+1184.2431 	DATA 	Keypress: space
+1184.2451 	EXP 	New trial (rep=0, index=30): OrderedDict([('sndfile', './stimuli_2/tmp/perfect_95_1.wav'), ('tempo', 95), ('cond', 'perfect'), ('delay', 1.6931350678865988)])
+1184.2718 	EXP 	text_4: autoDraw = False
+1187.7356 	DATA 	Keypress: space
+1188.3523 	DATA 	Keypress: space
+1188.9924 	DATA 	Keypress: space
+1189.6293 	DATA 	Keypress: space
+1190.2606 	DATA 	Keypress: space
+1190.8763 	DATA 	Keypress: space
+1191.4927 	DATA 	Keypress: space
+1192.1628 	DATA 	Keypress: space
+1196.9513 	EXP 	text_4: autoDraw = True
+1197.6034 	DATA 	Keypress: space
+1197.6048 	EXP 	New trial (rep=0, index=31): OrderedDict([('sndfile', './stimuli_2/tmp/strong_100_4.wav'), ('tempo', 100), ('cond', 'strong'), ('delay', 1.3398198733573277)])
+1197.6183 	EXP 	text_4: autoDraw = False
+1200.9115 	DATA 	Keypress: space
+1201.4955 	DATA 	Keypress: space
+1202.1116 	DATA 	Keypress: space
+1202.7459 	DATA 	Keypress: space
+1203.3378 	DATA 	Keypress: space
+1203.9446 	DATA 	Keypress: space
+1204.5388 	DATA 	Keypress: space
+1205.1549 	DATA 	Keypress: space
+1205.7551 	DATA 	Keypress: space
+1206.3798 	DATA 	Keypress: space
+1206.9800 	DATA 	Keypress: space
+1207.5878 	DATA 	Keypress: space
+1208.1886 	DATA 	Keypress: space
+1209.9634 	EXP 	text_4: autoDraw = True
+1211.0788 	DATA 	Keypress: space
+1211.0801 	EXP 	New trial (rep=0, index=32): OrderedDict([('sndfile', './stimuli_2/tmp/medium_105_4.wav'), ('tempo', 105), ('cond', 'medium'), ('delay', 1.8823047760740792)])
+1211.1101 	EXP 	text_4: autoDraw = False
+1214.4066 	DATA 	Keypress: space
+1214.9404 	DATA 	Keypress: space
+1215.5397 	DATA 	Keypress: space
+1216.0904 	DATA 	Keypress: space
+1216.6491 	DATA 	Keypress: space
+1217.2070 	DATA 	Keypress: space
+1217.7905 	DATA 	Keypress: space
+1218.4074 	DATA 	Keypress: space
+1218.9737 	DATA 	Keypress: space
+1219.5472 	DATA 	Keypress: space
+1220.1747 	DATA 	Keypress: space
+1220.7574 	DATA 	Keypress: space
+1221.3076 	DATA 	Keypress: space
+1221.9240 	DATA 	Keypress: space
+1223.9816 	EXP 	text_4: autoDraw = True
+1225.5992 	DATA 	Keypress: space
+1225.6004 	EXP 	New trial (rep=0, index=33): OrderedDict([('sndfile', './stimuli_2/tmp/strong_95_4.wav'), ('tempo', 95), ('cond', 'strong'), ('delay', 1.3122188661972012)])
+1225.6280 	EXP 	text_4: autoDraw = False
+1229.2347 	DATA 	Keypress: space
+1229.8753 	DATA 	Keypress: space
+1230.6096 	DATA 	Keypress: space
+1231.3088 	DATA 	Keypress: space
+1231.9987 	DATA 	Keypress: space
+1232.6591 	DATA 	Keypress: space
+1233.3261 	DATA 	Keypress: space
+1234.0667 	DATA 	Keypress: space
+1234.7097 	DATA 	Keypress: space
+1235.4676 	DATA 	Keypress: space
+1236.1437 	DATA 	Keypress: space
+1237.9246 	EXP 	text_4: autoDraw = True
+1238.5355 	DATA 	Keypress: space
+1238.5369 	EXP 	New trial (rep=0, index=34): OrderedDict([('sndfile', './stimuli_2/tmp/strong_90_4.wav'), ('tempo', 90), ('cond', 'strong'), ('delay', 0.9547797326956972)])
+1238.5651 	EXP 	text_4: autoDraw = False
+1241.3442 	DATA 	Keypress: space
+1242.0197 	DATA 	Keypress: space
+1242.6770 	DATA 	Keypress: space
+1243.4112 	DATA 	Keypress: space
+1244.0684 	DATA 	Keypress: space
+1244.7445 	DATA 	Keypress: space
+1245.4451 	DATA 	Keypress: space
+1246.1520 	DATA 	Keypress: space
+1246.8523 	DATA 	Keypress: space
+1247.5212 	DATA 	Keypress: space
+1248.1781 	DATA 	Keypress: space
+1248.8458 	DATA 	Keypress: space
+1250.5096 	EXP 	text_4: autoDraw = True
+1251.2958 	DATA 	Keypress: space
+1251.2971 	EXP 	New trial (rep=0, index=35): OrderedDict([('sndfile', './stimuli_2/tmp/perfect_110_1.wav'), ('tempo', 110), ('cond', 'perfect'), ('delay', 1.960810456770172)])
+1251.3102 	EXP 	text_4: autoDraw = False
+1254.9790 	DATA 	Keypress: space
+1255.5130 	DATA 	Keypress: space
+1256.0467 	DATA 	Keypress: space
+1256.5708 	DATA 	Keypress: space
+1257.1467 	DATA 	Keypress: space
+1257.7041 	DATA 	Keypress: space
+1258.2236 	DATA 	Keypress: space
+1264.2622 	EXP 	text_4: autoDraw = True
+1264.7323 	DATA 	Keypress: space
+1264.7475 	EXP 	New trial (rep=0, index=36): OrderedDict([('sndfile', './stimuli_2/tmp/medium_110_4.wav'), ('tempo', 110), ('cond', 'medium'), ('delay', 1.2412593574024813)])
+1264.7631 	EXP 	text_4: autoDraw = False
+1267.4744 	DATA 	Keypress: space
+1268.0820 	DATA 	Keypress: space
+1268.6578 	DATA 	Keypress: space
+1269.2221 	DATA 	Keypress: space
+1269.7881 	DATA 	Keypress: space
+1270.3159 	DATA 	Keypress: space
+1270.9148 	DATA 	Keypress: space
+1271.4821 	DATA 	Keypress: space
+1272.0317 	DATA 	Keypress: space
+1272.6151 	DATA 	Keypress: space
+1273.1742 	DATA 	Keypress: space
+1273.7494 	DATA 	Keypress: space
+1274.3164 	DATA 	Keypress: space
+1274.8656 	DATA 	Keypress: space
+1276.9978 	EXP 	text_4: autoDraw = True
+1279.1569 	DATA 	Keypress: space
+1279.1583 	EXP 	New trial (rep=0, index=37): OrderedDict([('sndfile', './stimuli_2/tmp/vweak_100_4.wav'), ('tempo', 100), ('cond', 'veryweak'), ('delay', 1.7061160215264062)])
+1279.1885 	EXP 	text_4: autoDraw = False
+1283.1503 	DATA 	Keypress: space
+1283.6179 	DATA 	Keypress: space
+1284.2094 	DATA 	Keypress: space
+1284.8009 	DATA 	Keypress: space
+1285.4514 	DATA 	Keypress: space
+1286.0584 	DATA 	Keypress: space
+1286.6916 	DATA 	Keypress: space
+1287.3268 	DATA 	Keypress: space
+1287.9351 	DATA 	Keypress: space
+1288.7015 	DATA 	Keypress: space
+1289.3183 	DATA 	Keypress: space
+1289.9018 	DATA 	Keypress: space
+1290.5116 	DATA 	Keypress: space
+1291.8760 	EXP 	text_4: autoDraw = True
+1292.2862 	DATA 	Keypress: space
+1292.2876 	EXP 	New trial (rep=0, index=38): OrderedDict([('sndfile', './stimuli_2/tmp/medium_90_4.wav'), ('tempo', 90), ('cond', 'medium'), ('delay', 1.4187547606829107)])
+1292.2998 	EXP 	text_4: autoDraw = False
+1295.7372 	DATA 	Keypress: space
+1296.3360 	DATA 	Keypress: space
+1296.9526 	DATA 	Keypress: space
+1297.5593 	DATA 	Keypress: space
+1298.1864 	DATA 	Keypress: space
+1298.7927 	DATA 	Keypress: space
+1299.4041 	DATA 	Keypress: space
+1300.0707 	DATA 	Keypress: space
+1300.7200 	DATA 	Keypress: space
+1301.3204 	DATA 	Keypress: space
+1301.9780 	DATA 	Keypress: space
+1302.6201 	DATA 	Keypress: space
+1304.7189 	EXP 	text_4: autoDraw = True
+1305.2275 	DATA 	Keypress: space
+1305.2288 	EXP 	New trial (rep=0, index=39): OrderedDict([('sndfile', './stimuli_2/tmp/weak_110_3.wav'), ('tempo', 110), ('cond', 'weak'), ('delay', 1.4034951095242638)])
+1305.2581 	EXP 	text_4: autoDraw = False
+1309.4147 	DATA 	Keypress: space
+1309.8886 	DATA 	Keypress: space
+1310.5554 	DATA 	Keypress: space
+1311.1483 	DATA 	Keypress: space
+1311.7550 	DATA 	Keypress: space
+1312.3394 	DATA 	Keypress: space
+1312.9396 	DATA 	Keypress: space
+1313.5487 	DATA 	Keypress: space
+1314.1560 	DATA 	Keypress: space
+1314.8064 	DATA 	Keypress: space
+1315.5236 	DATA 	Keypress: space
+1316.1806 	DATA 	Keypress: space
+1317.6384 	EXP 	text_4: autoDraw = True
+1318.2569 	DATA 	Keypress: space
+1318.2583 	EXP 	New trial (rep=0, index=40): OrderedDict([('sndfile', './stimuli_2/tmp/strong_105_4.wav'), ('tempo', 105), ('cond', 'strong'), ('delay', 1.0619213958525664)])
+1318.2710 	EXP 	text_4: autoDraw = False
+1320.7246 	DATA 	Keypress: space
+1321.2896 	DATA 	Keypress: space
+1321.8240 	DATA 	Keypress: space
+1322.3905 	DATA 	Keypress: space
+1322.9576 	DATA 	Keypress: space
+1323.5151 	DATA 	Keypress: space
+1324.1238 	DATA 	Keypress: space
+1324.6587 	DATA 	Keypress: space
+1325.2637 	DATA 	Keypress: space
+1325.7905 	DATA 	Keypress: space
+1326.3923 	DATA 	Keypress: space
+1326.9247 	DATA 	Keypress: space
+1327.5413 	DATA 	Keypress: space
+1328.0751 	DATA 	Keypress: space
+1330.3333 	EXP 	text_4: autoDraw = True
+1331.1984 	DATA 	Keypress: space
+1331.2001 	EXP 	New trial (rep=0, index=41): OrderedDict([('sndfile', './stimuli_2/tmp/strong_110_3.wav'), ('tempo', 110), ('cond', 'strong'), ('delay', 2.128797507874421)])
+1331.2284 	EXP 	text_4: autoDraw = False
+1334.9926 	DATA 	Keypress: space
+1335.5444 	DATA 	Keypress: space
+1336.0352 	DATA 	Keypress: space
+1336.5758 	DATA 	Keypress: space
+1337.0436 	DATA 	Keypress: space
+1337.5988 	DATA 	Keypress: space
+1338.1093 	DATA 	Keypress: space
+1338.6436 	DATA 	Keypress: space
+1339.1838 	DATA 	Keypress: space
+1339.6927 	DATA 	Keypress: space
+1340.2449 	DATA 	Keypress: space
+1340.7363 	DATA 	Keypress: space
+1341.2942 	DATA 	Keypress: space
+1341.8096 	DATA 	Keypress: space
+1342.3347 	DATA 	Keypress: space
+1344.3479 	EXP 	text_4: autoDraw = True
+1345.3431 	DATA 	Keypress: space
+1345.3445 	EXP 	New trial (rep=0, index=42): OrderedDict([('sndfile', './stimuli_2/tmp/vweak_100_3.wav'), ('tempo', 100), ('cond', 'veryweak'), ('delay', 0.8472696952655959)])
+1345.3579 	EXP 	text_4: autoDraw = False
+1347.7952 	DATA 	Keypress: space
+1348.3951 	DATA 	Keypress: space
+1348.9776 	DATA 	Keypress: space
+1349.6457 	DATA 	Keypress: space
+1350.3363 	DATA 	Keypress: space
+1351.0128 	DATA 	Keypress: space
+1351.6863 	DATA 	Keypress: space
+1352.3469 	DATA 	Keypress: space
+1353.0138 	DATA 	Keypress: space
+1353.6958 	DATA 	Keypress: space
+1354.3476 	DATA 	Keypress: space
+1354.9814 	DATA 	Keypress: space
+1355.6130 	DATA 	Keypress: space
+1357.2035 	EXP 	text_4: autoDraw = True
+1357.6968 	DATA 	Keypress: space
+1357.6980 	EXP 	New trial (rep=0, index=43): OrderedDict([('sndfile', './stimuli_2/tmp/vweak_90_3.wav'), ('tempo', 90), ('cond', 'veryweak'), ('delay', 0.8098621072043313)])
+1357.7101 	EXP 	text_4: autoDraw = False
+1361.1526 	DATA 	Keypress: space
+1361.7807 	DATA 	Keypress: space
+1362.4053 	DATA 	Keypress: space
+1363.0316 	DATA 	Keypress: space
+1363.6131 	DATA 	Keypress: space
+1364.2059 	DATA 	Keypress: space
+1364.7968 	DATA 	Keypress: space
+1365.3478 	DATA 	Keypress: space
+1365.9043 	DATA 	Keypress: space
+1366.3828 	DATA 	Keypress: space
+1366.9480 	DATA 	Keypress: space
+1367.5475 	DATA 	Keypress: space
+1368.1159 	DATA 	Keypress: space
+1369.5124 	EXP 	text_4: autoDraw = True
+1369.9009 	DATA 	Keypress: space
+1369.9139 	EXP 	New trial (rep=0, index=44): OrderedDict([('sndfile', './stimuli_2/tmp/medium_105_3.wav'), ('tempo', 105), ('cond', 'medium'), ('delay', 0.9417007635762324)])
+1369.9311 	EXP 	text_4: autoDraw = False
+1373.3084 	DATA 	Keypress: space
+1373.8674 	DATA 	Keypress: space
+1374.4068 	DATA 	Keypress: space
+1374.9501 	DATA 	Keypress: space
+1375.5324 	DATA 	Keypress: space
+1376.1336 	DATA 	Keypress: space
+1376.7503 	DATA 	Keypress: space
+1377.3994 	DATA 	Keypress: space
+1378.0393 	DATA 	Keypress: space
+1378.6845 	DATA 	Keypress: space
+1379.3347 	DATA 	Keypress: space
+1379.8600 	DATA 	Keypress: space
+1380.4670 	DATA 	Keypress: space
+1381.8662 	EXP 	text_4: autoDraw = True
+1382.3344 	DATA 	Keypress: space
+1382.3356 	EXP 	New trial (rep=0, index=45): OrderedDict([('sndfile', './stimuli_2/tmp/weak_100_4.wav'), ('tempo', 100), ('cond', 'weak'), ('delay', 1.8643156091783653)])
+1382.3481 	EXP 	text_4: autoDraw = False
+1385.8739 	DATA 	Keypress: space
+1386.4685 	DATA 	Keypress: space
+1387.1005 	DATA 	Keypress: space
+1387.7239 	DATA 	Keypress: space
+1388.3676 	DATA 	Keypress: space
+1389.0262 	DATA 	Keypress: space
+1389.6176 	DATA 	Keypress: space
+1390.2696 	DATA 	Keypress: space
+1390.9200 	DATA 	Keypress: space
+1391.5351 	DATA 	Keypress: space
+1392.1696 	DATA 	Keypress: space
+1392.8012 	DATA 	Keypress: space
+1393.4443 	DATA 	Keypress: space
+1395.2261 	EXP 	text_4: autoDraw = True
+1396.6192 	DATA 	Keypress: space
+1396.6204 	EXP 	New trial (rep=0, index=46): OrderedDict([('sndfile', './stimuli_2/tmp/weak_105_3.wav'), ('tempo', 105), ('cond', 'weak'), ('delay', 1.8785671226313851)])
+1396.6338 	EXP 	text_4: autoDraw = False
+1400.3862 	DATA 	Keypress: space
+1401.0212 	DATA 	Keypress: space
+1401.7376 	DATA 	Keypress: space
+1402.4055 	DATA 	Keypress: space
+1403.1052 	DATA 	Keypress: space
+1403.7881 	DATA 	Keypress: space
+1404.4866 	DATA 	Keypress: space
+1405.1388 	DATA 	Keypress: space
+1405.8721 	DATA 	Keypress: space
+1406.5532 	DATA 	Keypress: space
+1407.2207 	DATA 	Keypress: space
+1407.8976 	DATA 	Keypress: space
+1409.5038 	EXP 	text_4: autoDraw = True
+1410.0132 	DATA 	Keypress: space
+1410.0145 	EXP 	New trial (rep=0, index=47): OrderedDict([('sndfile', './stimuli_2/tmp/perfect_90_0.wav'), ('tempo', 90), ('cond', 'perfect'), ('delay', 1.8471350139820657)])
+1410.0423 	EXP 	text_4: autoDraw = False
+1413.9570 	DATA 	Keypress: space
+1414.6070 	DATA 	Keypress: space
+1415.2571 	DATA 	Keypress: space
+1415.9073 	DATA 	Keypress: space
+1416.5566 	DATA 	Keypress: space
+1417.1909 	DATA 	Keypress: space
+1417.9051 	DATA 	Keypress: space
+1418.5243 	DATA 	Keypress: space
+1422.8727 	EXP 	text_4: autoDraw = True
+1423.7577 	DATA 	Keypress: space
+1423.7590 	EXP 	New trial (rep=0, index=48): OrderedDict([('sndfile', './stimuli_2/tmp/vweak_105_4.wav'), ('tempo', 105), ('cond', 'veryweak'), ('delay', 1.6327958275835193)])
+1423.7726 	EXP 	text_4: autoDraw = False
+1427.3916 	DATA 	Keypress: space
+1427.9934 	DATA 	Keypress: space
+1428.5145 	DATA 	Keypress: space
+1429.0763 	DATA 	Keypress: space
+1429.6924 	DATA 	Keypress: space
+1430.2423 	DATA 	Keypress: space
+1430.8264 	DATA 	Keypress: space
+1431.4249 	DATA 	Keypress: space
+1432.0312 	DATA 	Keypress: space
+1432.6263 	DATA 	Keypress: space
+1433.2183 	DATA 	Keypress: space
+1433.8099 	DATA 	Keypress: space
+1434.3934 	DATA 	Keypress: space
+1435.0441 	DATA 	Keypress: space
+1436.4081 	EXP 	text_4: autoDraw = True
+1436.9087 	DATA 	Keypress: space
+1436.9100 	EXP 	New trial (rep=0, index=49): OrderedDict([('sndfile', './stimuli_2/tmp/strong_95_3.wav'), ('tempo', 95), ('cond', 'strong'), ('delay', 2.368023631857328)])
+1436.9249 	EXP 	text_4: autoDraw = False
+1441.3950 	DATA 	Keypress: space
+1441.9947 	DATA 	Keypress: space
+1442.6101 	DATA 	Keypress: space
+1443.2284 	DATA 	Keypress: space
+1443.9182 	DATA 	Keypress: space
+1444.5126 	DATA 	Keypress: space
+1445.1283 	DATA 	Keypress: space
+1445.7671 	DATA 	Keypress: space
+1446.3783 	DATA 	Keypress: space
+1446.9965 	DATA 	Keypress: space
+1447.6360 	DATA 	Keypress: space
+1448.2455 	DATA 	Keypress: space
+1450.2937 	EXP 	text_4: autoDraw = True
+1451.5167 	DATA 	Keypress: space
+1451.5480 	EXP 	text_4: autoDraw = False
+1451.5480 	EXP 	text_7: autoDraw = True
+1453.9642 	DATA 	Keypress: space
+1456.8450 	EXP 	window1: mouseVisible = True

@@ -1,0 +1,399 @@
+0.02770000000600703	EXP	Created Window = Window( name=Window, fullscr=true, color=#808080, units=height, waitBlanking=true, autoLog=true, size=[1366,657] )
+22.885049999982584	DATA	Keydown: CapsLock
+24.000659999990603	DATA	Keydown: a
+27.729300000006333	DATA	Keydown: undefined
+66.35884999998962	DATA	Keydown: undefined
+74.8783799999801	DATA	Keydown: CapsLock
+76.27413000000524	DATA	Keydown: Y
+79.29811499998323	DATA	Keydown: E
+81.22671499999706	DATA	Keydown: Backspace
+81.59901499998523	DATA	Keydown: CapsLock
+82.28162500000326	DATA	Keydown: e
+82.92829999999958	DATA	Keydown: s
+83.13532000000123	DATA	Keydown: Tab
+89.95292999999947	DATA	Keydown: CapsLock
+90.5266100000008	DATA	Keydown: J
+91.00047500000801	DATA	Keydown: B
+92.42834499999299	DATA	Keydown: L
+98.42486500000814	DATA	Keydown: undefined
+102.75290999998106	DATA	Keydown: undefined
+108.20298499998171	DATA	Keydown: undefined
+112.67369500000495	DATA	Keydown: undefined
+117.0213099999819	DATA	Keydown: undefined
+123.93748999998206	DATA	Keydown: CapsLock
+124.36446499999147	DATA	Keydown: y
+127.09746499999892	DATA	Keydown: Backspace
+127.10324999998556	DATA	Keydown: Backspace
+127.10373000000254	DATA	Keydown: CapsLock
+127.57718500000192	DATA	Keydown: Y
+128.3415999999852	DATA	Keydown: CapsLock
+128.47935499998857	DATA	Keydown: e
+129.38039499998558	DATA	Keydown: s
+264.53104499998153	DATA	Keydown:  
+264.69779999999446	DATA	Keydown: Control
+265.08392499998445	DATA	Keydown: v
+814.571094999992	EXP	Created instructiontxt = TextStim( name=instructiontxt, win=Window( name=Window, fullscr=true, color=#808080, ~), autoDraw=null, autoLog=true, units=height, ori=null, opacity=1, pos=[0,0], size=undefined, text=Welcome to tapping experiment. 
+
+You will hear a s~, font=Arial, color=#FFFFFF, contrast=1, height=0.05, bold=null, italic=null, alignHoriz=left, alignVert=center, wrapWidth=1, flipHoriz=null, flipVert=null )
+814.588144999987	EXP	Created TonePlayer = TonePlayer( name=TonePlayer, note=A4, duration_s=-1, volume=1, loops=null, soundLibrary="TONE_JS", autoLog=true )
+814.5992249999836	EXP	Created text = TextStim( name=text, win=Window( name=Window, fullscr=true, color=#808080, ~), autoDraw=null, autoLog=true, units=height, ori=null, opacity=1, pos=[0,0], size=undefined, text=Ready for the next trial?
+
+press space bar to star~, font=Arial, color=#FFFFFF, contrast=1, height=0.05, bold=null, italic=null, alignHoriz=left, alignVert=center, wrapWidth=1, flipHoriz=null, flipVert=null )
+814.600774999999	EXP	Created text_2 = TextStim( name=text_2, win=Window( name=Window, fullscr=true, color=#808080, ~), autoDraw=null, autoLog=true, units=height, ori=null, opacity=1, pos=[0,0], size=undefined, text=Practice trials are over.
+
+Now we are going to sta~, font=Arial, color=#FFFFFF, contrast=1, height=0.05, bold=null, italic=null, alignHoriz=left, alignVert=center, wrapWidth=1, flipHoriz=null, flipVert=null )
+814.6036399999866	EXP	Created TonePlayer = TonePlayer( name=TonePlayer, note=A4, duration_s=-1, volume=1, loops=null, soundLibrary="TONE_JS", autoLog=true )
+814.6045499999891	EXP	Created text_3 = TextStim( name=text_3, win=Window( name=Window, fullscr=true, color=#808080, ~), autoDraw=null, autoLog=true, units=height, ori=null, opacity=1, pos=[0,0], size=undefined, text=Ready for the next trial?
+
+Press space bar to star~, font=Arial, color=#FFFFFF, contrast=1, height=0.05, bold=null, italic=null, alignHoriz=left, alignVert=center, wrapWidth=1, flipHoriz=null, flipVert=null )
+814.6059949999908	EXP	Created text_4 = TextStim( name=text_4, win=Window( name=Window, fullscr=true, color=#808080, ~), autoDraw=null, autoLog=true, units=height, ori=null, opacity=1, pos=[0,0], size=undefined, text=Great! This is the half-way break. 
+
+Please take y~, font=Arial, color=#FFFFFF, contrast=1, height=0.05, bold=null, italic=null, alignHoriz=left, alignVert=center, wrapWidth=1, flipHoriz=null, flipVert=null )
+814.6075399999972	EXP	Created TonePlayer = TonePlayer( name=TonePlayer, note=A4, duration_s=-1, volume=1, loops=null, soundLibrary="TONE_JS", autoLog=true )
+814.6083349999972	EXP	Created next_prompt_trial2 = TextStim( name=next_prompt_trial2, win=Window( name=Window, fullscr=true, color=#808080, ~), autoDraw=null, autoLog=true, units=height, ori=null, opacity=1, pos=[0,0], size=undefined, text=Ready for the next trial? 
+
+Press space bar to sta~, font=Arial, color=#FFFFFF, contrast=1, height=0.05, bold=null, italic=null, alignHoriz=left, alignVert=center, wrapWidth=1, flipHoriz=null, flipVert=null )
+814.6097299999965	EXP	Created completion_text = TextStim( name=completion_text, win=Window( name=Window, fullscr=true, color=#808080, ~), autoDraw=null, autoLog=true, units=height, ori=null, opacity=1, pos=[0,0], size=undefined, text=Thanks for your participation! 
+
+Here is your expe~, font=Arial, color=#FFFFFF, contrast=1, height=0.05, bold=null, italic=null, alignHoriz=left, alignVert=center, wrapWidth=1, flipHoriz=null, flipVert=null )
+814.6104300000006	EXP	Created goodbyetxt = TextStim( name=goodbyetxt, win=Window( name=Window, fullscr=true, color=#808080, ~), autoDraw=null, autoLog=true, units=height, ori=null, opacity=1, pos=[0,0], size=undefined, text=The test is over!
+
+Thank you so much!!, font=Arial, color=#FFFFFF, contrast=1, height=0.05, bold=null, italic=null, alignHoriz=left, alignVert=center, wrapWidth=1, flipHoriz=null, flipVert=null )
+814.6350099999981	EXP	instructiontxt: units = "height"
+814.6350099999981	EXP	instructiontxt: ori = 0
+814.6350099999981	EXP	instructiontxt: opacity = 1
+814.6350099999981	EXP	instructiontxt: pos = [0,0]
+814.6350099999981	EXP	instructiontxt: size = undefined
+814.6350099999981	EXP	instructiontxt: text = "Welcome to tapping experiment. \n\nYou will hear a sequence of tones.\nUse the index finger of your dominant hand \nto tap the spacebar at where you think the beat \nis throughout the sound file at each trial. \n\nWhen you are ready, press the spacebar to begin the practice."
+814.6350099999981	EXP	instructiontxt: font = "Arial"
+814.6350099999981	EXP	instructiontxt: color = {"_hex":"#FFFFFF","_rgb":[1,1,1]}
+814.6350099999981	EXP	instructiontxt: contrast = 1
+814.6350099999981	EXP	instructiontxt: height = 0.05
+814.6350099999981	EXP	instructiontxt: bold = false
+814.6350099999981	EXP	instructiontxt: italic = false
+814.6350099999981	EXP	instructiontxt: alignHoriz = "left"
+814.6350099999981	EXP	instructiontxt: alignVert = "center"
+814.6350099999981	EXP	instructiontxt: wrapWidth = 1
+814.6350099999981	EXP	instructiontxt: flipHoriz = false
+814.6350099999981	EXP	instructiontxt: flipVert = false
+814.6350099999981	EXP	Sound: secs = -1
+814.6350099999981	EXP	Sound: volume = 1
+814.6350099999981	EXP	Sound: loops = 0
+814.6350099999981	EXP	Sound: volume = 1
+814.6350099999981	EXP	text: units = "height"
+814.6350099999981	EXP	text: ori = 0
+814.6350099999981	EXP	text: opacity = 1
+814.6350099999981	EXP	text: pos = [0,0]
+814.6350099999981	EXP	text: size = undefined
+814.6350099999981	EXP	text: text = "Ready for the next trial?\n\npress space bar to start."
+814.6350099999981	EXP	text: font = "Arial"
+814.6350099999981	EXP	text: color = {"_hex":"#FFFFFF","_rgb":[1,1,1]}
+814.6350099999981	EXP	text: contrast = 1
+814.6350099999981	EXP	text: height = 0.05
+814.6350099999981	EXP	text: bold = false
+814.6350099999981	EXP	text: italic = false
+814.6350099999981	EXP	text: alignHoriz = "left"
+814.6350099999981	EXP	text: alignVert = "center"
+814.6350099999981	EXP	text: wrapWidth = 1
+814.6350099999981	EXP	text: flipHoriz = false
+814.6350099999981	EXP	text: flipVert = false
+814.6350099999981	EXP	text_2: units = "height"
+814.6350099999981	EXP	text_2: ori = 0
+814.6350099999981	EXP	text_2: opacity = 1
+814.6350099999981	EXP	text_2: pos = [0,0]
+814.6350099999981	EXP	text_2: size = undefined
+814.6350099999981	EXP	text_2: text = "Practice trials are over.\n\nNow we are going to start the real test trials.\nThe total session length will be about 28 minutes, but we will have a short break at the half way mark.\n\nIf you are ready, please space bar."
+814.6350099999981	EXP	text_2: font = "Arial"
+814.6350099999981	EXP	text_2: color = {"_hex":"#FFFFFF","_rgb":[1,1,1]}
+814.6350099999981	EXP	text_2: contrast = 1
+814.6350099999981	EXP	text_2: height = 0.05
+814.6350099999981	EXP	text_2: bold = false
+814.6350099999981	EXP	text_2: italic = false
+814.6350099999981	EXP	text_2: alignHoriz = "left"
+814.6350099999981	EXP	text_2: alignVert = "center"
+814.6350099999981	EXP	text_2: wrapWidth = 1
+814.6350099999981	EXP	text_2: flipHoriz = false
+814.6350099999981	EXP	text_2: flipVert = false
+814.6350099999981	EXP	Sound: secs = -1
+814.6350099999981	EXP	Sound: volume = 1
+814.6350099999981	EXP	Sound: loops = 0
+814.6350099999981	EXP	Sound: volume = 1
+814.6350099999981	EXP	text_3: units = "height"
+814.6350099999981	EXP	text_3: ori = 0
+814.6350099999981	EXP	text_3: opacity = 1
+814.6350099999981	EXP	text_3: pos = [0,0]
+814.6350099999981	EXP	text_3: size = undefined
+814.6350099999981	EXP	text_3: text = "Ready for the next trial?\n\nPress space bar to start."
+814.6350099999981	EXP	text_3: font = "Arial"
+814.6350099999981	EXP	text_3: color = {"_hex":"#FFFFFF","_rgb":[1,1,1]}
+814.6350099999981	EXP	text_3: contrast = 1
+814.6350099999981	EXP	text_3: height = 0.05
+814.6350099999981	EXP	text_3: bold = false
+814.6350099999981	EXP	text_3: italic = false
+814.6350099999981	EXP	text_3: alignHoriz = "left"
+814.6350099999981	EXP	text_3: alignVert = "center"
+814.6350099999981	EXP	text_3: wrapWidth = 1
+814.6350099999981	EXP	text_3: flipHoriz = false
+814.6350099999981	EXP	text_3: flipVert = false
+814.6350099999981	EXP	text_4: units = "height"
+814.6350099999981	EXP	text_4: ori = 0
+814.6350099999981	EXP	text_4: opacity = 1
+814.6350099999981	EXP	text_4: pos = [0,0]
+814.6350099999981	EXP	text_4: size = undefined
+814.6350099999981	EXP	text_4: text = "Great! This is the half-way break. \n\nPlease take your time. \n\nWhen you are ready to start the second-half of the test trials, please press space bar. "
+814.6350099999981	EXP	text_4: font = "Arial"
+814.6350099999981	EXP	text_4: color = {"_hex":"#FFFFFF","_rgb":[1,1,1]}
+814.6350099999981	EXP	text_4: contrast = 1
+814.6350099999981	EXP	text_4: height = 0.05
+814.6350099999981	EXP	text_4: bold = false
+814.6350099999981	EXP	text_4: italic = false
+814.6350099999981	EXP	text_4: alignHoriz = "left"
+814.6350099999981	EXP	text_4: alignVert = "center"
+814.6350099999981	EXP	text_4: wrapWidth = 1
+814.6350099999981	EXP	text_4: flipHoriz = false
+814.6350099999981	EXP	text_4: flipVert = false
+814.6350099999981	EXP	Sound: secs = -1
+814.6350099999981	EXP	Sound: volume = 1
+814.6350099999981	EXP	Sound: loops = 0
+814.6350099999981	EXP	Sound: volume = 1
+814.6350099999981	EXP	next_prompt_trial2: units = "height"
+814.6350099999981	EXP	next_prompt_trial2: ori = 0
+814.6350099999981	EXP	next_prompt_trial2: opacity = 1
+814.6350099999981	EXP	next_prompt_trial2: pos = [0,0]
+814.6350099999981	EXP	next_prompt_trial2: size = undefined
+814.6350099999981	EXP	next_prompt_trial2: text = "Ready for the next trial? \n\nPress space bar to start. "
+814.6350099999981	EXP	next_prompt_trial2: font = "Arial"
+814.6350099999981	EXP	next_prompt_trial2: color = {"_hex":"#FFFFFF","_rgb":[1,1,1]}
+814.6350099999981	EXP	next_prompt_trial2: contrast = 1
+814.6350099999981	EXP	next_prompt_trial2: height = 0.05
+814.6350099999981	EXP	next_prompt_trial2: bold = false
+814.6350099999981	EXP	next_prompt_trial2: italic = false
+814.6350099999981	EXP	next_prompt_trial2: alignHoriz = "left"
+814.6350099999981	EXP	next_prompt_trial2: alignVert = "center"
+814.6350099999981	EXP	next_prompt_trial2: wrapWidth = 1
+814.6350099999981	EXP	next_prompt_trial2: flipHoriz = false
+814.6350099999981	EXP	next_prompt_trial2: flipVert = false
+814.6350099999981	EXP	completion_text: units = "height"
+814.6350099999981	EXP	completion_text: ori = 0
+814.6350099999981	EXP	completion_text: opacity = 1
+814.6350099999981	EXP	completion_text: pos = [0,0]
+814.6350099999981	EXP	completion_text: size = undefined
+814.6350099999981	EXP	completion_text: text = "Thanks for your participation! \n\nHere is your experiment completion code: \n\n9158 \n\nPlease write down this code as you will need it in order to receive payment.\n\nIf you are not an MTurk worker, please send an email to nolan.lem@gmail.com with the Experiment Completion Code as the subject of the email. In order to complete the \nexperiment, when you are ready please press space bar and wait until you see a text box appear that says \"Thanks for your patience\" where you can click 'ok'. \n\nIf you are an MTurk worker, please press the space bar to be redirected to the MTurk experiment \nhomepage where you can input the code into the Experiment Completion Code box. "
+814.6350099999981	EXP	completion_text: font = "Arial"
+814.6350099999981	EXP	completion_text: color = {"_hex":"#FFFFFF","_rgb":[1,1,1]}
+814.6350099999981	EXP	completion_text: contrast = 1
+814.6350099999981	EXP	completion_text: height = 0.05
+814.6350099999981	EXP	completion_text: bold = false
+814.6350099999981	EXP	completion_text: italic = false
+814.6350099999981	EXP	completion_text: alignHoriz = "left"
+814.6350099999981	EXP	completion_text: alignVert = "center"
+814.6350099999981	EXP	completion_text: wrapWidth = 1
+814.6350099999981	EXP	completion_text: flipHoriz = false
+814.6350099999981	EXP	completion_text: flipVert = false
+814.6350099999981	EXP	goodbyetxt: units = "height"
+814.6350099999981	EXP	goodbyetxt: ori = 0
+814.6350099999981	EXP	goodbyetxt: opacity = 1
+814.6350099999981	EXP	goodbyetxt: pos = [0,0]
+814.6350099999981	EXP	goodbyetxt: size = undefined
+814.6350099999981	EXP	goodbyetxt: text = "The test is over!\n\nThank you so much!!"
+814.6350099999981	EXP	goodbyetxt: font = "Arial"
+814.6350099999981	EXP	goodbyetxt: color = {"_hex":"#FFFFFF","_rgb":[1,1,1]}
+814.6350099999981	EXP	goodbyetxt: contrast = 1
+814.6350099999981	EXP	goodbyetxt: height = 0.05
+814.6350099999981	EXP	goodbyetxt: bold = false
+814.6350099999981	EXP	goodbyetxt: italic = false
+814.6350099999981	EXP	goodbyetxt: alignHoriz = "left"
+814.6350099999981	EXP	goodbyetxt: alignVert = "center"
+814.6350099999981	EXP	goodbyetxt: wrapWidth = 1
+814.6350099999981	EXP	goodbyetxt: flipHoriz = false
+814.6350099999981	EXP	goodbyetxt: flipVert = false
+814.6350099999981	EXP	instructiontxt: autoDraw = true
+852.1835349999892	DATA	Keydown:  
+852.2069949999859	EXP	instructiontxt: autoDraw = false
+852.2069949999859	EXP	Sound: secs = -1
+852.2069949999859	EXP	Sound: volume = 1
+852.2069949999859	EXP	Sound: loops = 0
+852.2069949999859	EXP	Sound: volume = 1
+857.3278549999814	DATA	Keydown: CapsLock
+860.0927450000017	DATA	Keydown:  
+861.0126349999919	DATA	Keydown: A
+862.4658199999831	DATA	Keydown: S
+863.1940750000067	DATA	Keydown: D
+866.8325449999829	DATA	Mouse: 0 button down, pos=(762,419)
+866.8340650000027	DATA	Mouse: 0 button down, pos=(762,419)
+866.8350199999986	DATA	Mouse: 0 button down, pos=(762,419)
+867.2051199999987	DATA	Mouse: 0 button down, pos=(762,419)
+868.4449650000024	DATA	Mouse: 0 button down, pos=(546,397)
+868.8628549999848	DATA	Mouse: 0 button down, pos=(546,397)
+868.8649450000084	DATA	Mouse: 0 button down, pos=(816,307)
+869.2396500000032	DATA	Mouse: 0 button down, pos=(816,307)
+870.5029599999834	EXP	text: autoDraw = true
+873.711645000003	DATA	Keydown:  
+873.7294750000001	EXP	text: autoDraw = false
+873.7294750000001	EXP	text_2: autoDraw = true
+883.8872700000065	DATA	Keydown:  
+883.909090000001	EXP	text_2: autoDraw = false
+883.909090000001	EXP	Sound: secs = -1
+883.909090000001	EXP	Sound: volume = 1
+883.909090000001	EXP	Sound: loops = 0
+883.909090000001	EXP	Sound: volume = 1
+886.9443350000074	DATA	Keydown: F
+887.2168449999881	DATA	Keydown: H
+887.961169999995	DATA	Keydown: V
+888.3103450000053	DATA	Keydown:  
+888.4991499999887	DATA	Keydown:  
+889.0927549999906	DATA	Keydown: E
+889.3280349999841	DATA	Keydown: F
+892.900330000004	DATA	Keydown: I
+893.144089999987	DATA	Keydown: F
+893.2958400000061	DATA	Keydown: H
+894.352744999982	DATA	Keydown: W
+894.8898849999823	DATA	Keydown: F
+895.2045949999883	DATA	Keydown: U
+896.0896549999889	DATA	Keydown: E
+896.2969250000024	DATA	Keydown: G
+896.5476299999864	DATA	Keydown: I
+901.1618599999929	EXP	text_3: autoDraw = true
+904.9872000000032	DATA	Keydown: B
+904.9877099999867	DATA	Keydown:  
+904.9884549999842	DATA	Keydown:  
+904.99265499998	EXP	text_3: autoDraw = false
+904.99265499998	EXP	text_4: autoDraw = true
+908.8446199999889	DATA	Keydown:  
+908.8711599999806	EXP	text_4: autoDraw = false
+908.8711599999806	EXP	Sound: secs = -1
+908.8711599999806	EXP	Sound: volume = 1
+908.8711599999806	EXP	Sound: loops = 0
+908.8711599999806	EXP	Sound: volume = 1
+919.6555749999825	DATA	Keydown:  
+926.045769999997	EXP	next_prompt_trial2: autoDraw = true
+926.6820699999807	DATA	Keydown:  
+926.7295499999891	EXP	next_prompt_trial2: autoDraw = false
+926.7295499999891	EXP	completion_text: autoDraw = true
+930.0977100000018	DATA	Mouse: wheel shift=(0,100), pos=(805,348)
+930.2868399999861	DATA	Mouse: wheel shift=(0,100), pos=(805,348)
+930.2869399999909	DATA	Mouse: wheel shift=(0,-100), pos=(805,348)
+930.3622449999966	DATA	Mouse: wheel shift=(0,-500), pos=(805,348)
+930.5517950000067	DATA	Mouse: wheel shift=(0,-100), pos=(800,335)
+930.5874599999806	DATA	Mouse: wheel shift=(0,-100), pos=(800,335)
+930.6203199999873	DATA	Mouse: wheel shift=(0,-100), pos=(783,309)
+930.6512199999997	DATA	Mouse: wheel shift=(0,-100), pos=(727,267)
+930.6845299999986	DATA	Mouse: wheel shift=(0,-100), pos=(706,256)
+932.9343700000027	DATA	Mouse: wheel shift=(0,100), pos=(463,409)
+932.9692700000014	DATA	Mouse: wheel shift=(0,200), pos=(462,414)
+933.0364349999873	DATA	Mouse: wheel shift=(0,100), pos=(462,414)
+933.0706800000044	DATA	Mouse: wheel shift=(0,100), pos=(462,414)
+933.1097799999989	DATA	Mouse: wheel shift=(0,100), pos=(462,415)
+933.7416800000065	DATA	Mouse: wheel shift=(0,100), pos=(486,445)
+933.7733399999852	DATA	Mouse: wheel shift=(0,100), pos=(486,445)
+933.7734249999921	DATA	Mouse: wheel shift=(0,100), pos=(486,445)
+933.8058200000087	DATA	Mouse: wheel shift=(0,100), pos=(486,445)
+933.8427899999951	DATA	Mouse: wheel shift=(0,100), pos=(486,445)
+934.2208300000057	DATA	Mouse: wheel shift=(0,100), pos=(486,445)
+934.2530399999814	DATA	Mouse: wheel shift=(0,100), pos=(571,462)
+934.6277549999941	DATA	Mouse: wheel shift=(0,-100), pos=(580,420)
+935.0721750000084	DATA	Mouse: wheel shift=(0,-100), pos=(585,399)
+935.1049800000037	DATA	Mouse: wheel shift=(0,-200), pos=(585,399)
+936.3447100000049	DATA	Mouse: wheel shift=(0,100), pos=(402,244)
+936.3685100000002	DATA	Mouse: wheel shift=(0,200), pos=(402,244)
+937.0931299999938	DATA	Mouse: 0 button down, pos=(332,82)
+937.2265499999921	DATA	Mouse: 0 button down, pos=(332,82)
+937.6325349999825	DATA	Mouse: 0 button down, pos=(332,82)
+937.6334599999827	DATA	Mouse: 0 button down, pos=(332,82)
+938.5970300000045	DATA	Mouse: wheel shift=(0,100), pos=(612,353)
+938.6308049999934	DATA	Mouse: wheel shift=(0,100), pos=(612,353)
+938.6650349999836	DATA	Mouse: wheel shift=(0,100), pos=(629,379)
+938.6988049999927	DATA	Mouse: wheel shift=(0,200), pos=(644,399)
+938.7337849999894	DATA	Mouse: wheel shift=(0,100), pos=(666,417)
+939.0388950000051	DATA	Mouse: wheel shift=(0,100), pos=(714,458)
+939.0733449999825	DATA	Mouse: wheel shift=(0,100), pos=(728,479)
+939.1069649999845	DATA	Mouse: wheel shift=(0,100), pos=(736,491)
+939.1411049999879	DATA	Mouse: wheel shift=(0,200), pos=(737,493)
+939.1759449999954	DATA	Mouse: wheel shift=(0,100), pos=(738,495)
+948.1005200000072	DATA	Mouse: wheel shift=(0,100), pos=(382,251)
+948.2250549999881	DATA	Mouse: wheel shift=(0,100), pos=(382,251)
+948.2588150000083	DATA	Mouse: wheel shift=(0,100), pos=(543,310)
+948.296405000001	DATA	Mouse: wheel shift=(0,100), pos=(543,310)
+948.3307499999937	DATA	Mouse: wheel shift=(0,100), pos=(543,310)
+948.3609949999955	DATA	Mouse: wheel shift=(0,100), pos=(700,343)
+949.6028099999821	DATA	Mouse: wheel shift=(0,100), pos=(787,707)
+949.63446999999	DATA	Mouse: wheel shift=(0,300), pos=(787,707)
+949.668399999995	DATA	Mouse: wheel shift=(0,100), pos=(787,707)
+951.793949999992	DATA	Mouse: wheel shift=(0,-200), pos=(615,209)
+951.8321050000086	DATA	Mouse: wheel shift=(0,-100), pos=(615,209)
+951.9886999999871	DATA	Mouse: wheel shift=(0,-200), pos=(615,209)
+952.1299549999821	DATA	Mouse: wheel shift=(0,-100), pos=(615,209)
+952.531404999987	DATA	Mouse: wheel shift=(0,-500), pos=(619,201)
+952.8712050000031	DATA	Mouse: wheel shift=(0,-200), pos=(644,206)
+952.9042250000057	DATA	Mouse: wheel shift=(0,-400), pos=(644,206)
+953.3129799999879	DATA	Mouse: wheel shift=(0,-100), pos=(645,204)
+953.754889999982	DATA	Mouse: wheel shift=(0,-500), pos=(645,204)
+954.1637999999803	DATA	Mouse: wheel shift=(0,-600), pos=(645,204)
+954.5360250000085	DATA	Mouse: wheel shift=(0,-100), pos=(645,204)
+954.6383199999982	DATA	Mouse: wheel shift=(0,-100), pos=(645,204)
+954.6725600000063	DATA	Mouse: wheel shift=(0,-200), pos=(645,204)
+955.1165399999882	DATA	Mouse: wheel shift=(0,-100), pos=(529,104)
+955.1487799999886	DATA	Mouse: wheel shift=(0,-100), pos=(529,104)
+955.3524650000036	DATA	Mouse: wheel shift=(0,-100), pos=(541,131)
+955.6624549999833	DATA	Mouse: wheel shift=(0,100), pos=(543,136)
+955.6959349999961	DATA	Mouse: wheel shift=(0,100), pos=(543,136)
+955.7314699999988	DATA	Mouse: wheel shift=(0,100), pos=(547,157)
+955.7631699999911	DATA	Mouse: wheel shift=(0,200), pos=(558,175)
+955.7632299999823	DATA	Mouse: wheel shift=(0,100), pos=(558,175)
+955.7955399999919	DATA	Mouse: wheel shift=(0,100), pos=(558,175)
+955.7959799999953	DATA	Mouse: wheel shift=(0,100), pos=(565,193)
+959.4646950000024	DATA	Mouse: wheel shift=(0,100), pos=(566,379)
+959.8414300000004	DATA	Mouse: wheel shift=(0,100), pos=(605,437)
+959.8414999999804	DATA	Mouse: wheel shift=(0,100), pos=(605,437)
+959.8728100000008	DATA	Mouse: wheel shift=(0,300), pos=(605,437)
+960.2134150000056	DATA	Mouse: wheel shift=(0,100), pos=(523,444)
+960.2466450000065	DATA	Mouse: wheel shift=(0,500), pos=(523,444)
+960.8555999999808	DATA	Mouse: 0 button down, pos=(405,44)
+960.9339549999859	DATA	Mouse: 0 button down, pos=(405,44)
+961.0938599999936	DATA	Mouse: 0 button down, pos=(405,44)
+961.230745000008	DATA	Mouse: 0 button down, pos=(405,44)
+961.841619999992	DATA	Mouse: 0 button down, pos=(405,59)
+961.9437249999901	DATA	Mouse: 0 button down, pos=(405,59)
+962.300185	DATA	Mouse: 0 button down, pos=(405,59)
+962.3010399999912	DATA	Mouse: 0 button down, pos=(405,59)
+1014.0553599999985	DATA	Mouse: wheel shift=(0,-100), pos=(577,393)
+1014.088149999996	DATA	Mouse: wheel shift=(0,-100), pos=(577,393)
+1014.1220650000032	DATA	Mouse: wheel shift=(0,-100), pos=(577,393)
+1014.1559300000081	DATA	Mouse: wheel shift=(0,-100), pos=(577,393)
+1014.7690249999869	DATA	Mouse: wheel shift=(0,-200), pos=(635,252)
+1014.8035800000071	DATA	Mouse: wheel shift=(0,-100), pos=(636,248)
+1014.8377699999837	DATA	Mouse: wheel shift=(0,-100), pos=(636,248)
+1015.0048499999975	DATA	Mouse: wheel shift=(0,-100), pos=(636,248)
+1015.5992399999814	DATA	Mouse: 0 button down, pos=(397,62)
+1015.7344949999824	DATA	Mouse: 0 button down, pos=(397,62)
+1015.8311950000061	DATA	Mouse: 0 button down, pos=(397,62)
+1015.9591699999874	DATA	Mouse: 0 button down, pos=(397,62)
+1016.530150000006	DATA	Mouse: wheel shift=(0,100), pos=(625,244)
+1016.5638650000037	DATA	Mouse: wheel shift=(0,100), pos=(625,245)
+1016.5980549999804	DATA	Mouse: wheel shift=(0,200), pos=(625,245)
+1016.6321349999926	DATA	Mouse: wheel shift=(0,100), pos=(626,251)
+1016.6662349999824	DATA	Mouse: wheel shift=(0,100), pos=(627,251)
+1017.1765149999992	DATA	Mouse: wheel shift=(0,-100), pos=(644,257)
+1017.2101050000056	DATA	Mouse: wheel shift=(0,-200), pos=(640,252)
+1017.210625000007	DATA	Mouse: wheel shift=(0,-100), pos=(630,220)
+1017.2791399999987	DATA	Mouse: wheel shift=(0,-100), pos=(628,212)
+1035.455734999996	DATA	Mouse: wheel shift=(0,-100), pos=(507,315)
+1035.4908050000085	DATA	Mouse: wheel shift=(0,-100), pos=(512,291)
+1035.4908749999886	DATA	Mouse: wheel shift=(0,-100), pos=(512,291)
+1035.5562900000077	DATA	Mouse: wheel shift=(0,-100), pos=(532,235)
+1039.16737499999	DATA	Mouse: 0 button down, pos=(560,116)
+1039.2667800000054	DATA	Mouse: 0 button down, pos=(560,116)
+1039.9339949999994	DATA	Mouse: wheel shift=(0,-100), pos=(693,196)
+1039.9687050000066	DATA	Mouse: wheel shift=(0,-200), pos=(693,196)
+1040.0360499999952	DATA	Mouse: wheel shift=(0,-100), pos=(693,196)
+1047.524550000002	DATA	Mouse: wheel shift=(0,100), pos=(366,533)
+1047.5581200000015	DATA	Mouse: wheel shift=(0,100), pos=(366,533)
+1047.591775000008	DATA	Mouse: wheel shift=(0,100), pos=(370,535)
+1047.5922750000027	DATA	Mouse: wheel shift=(0,100), pos=(382,536)
+1047.6281949999975	DATA	Mouse: wheel shift=(0,100), pos=(382,536)
+1060.3022549999878	DATA	Mouse: 0 button down, pos=(882,274)
+1060.4729149999912	DATA	Mouse: 0 button down, pos=(882,274)
+1061.4946000000054	DATA	Keydown:  
+1061.5083549999981	EXP	completion_text: autoDraw = false
+1061.5083549999981	EXP	goodbyetxt: autoDraw = true
+1064.7950249999994	DATA	Keydown:  

@@ -1,0 +1,4144 @@
+0.369	EXP	Created Window = Window( name=Window, fullscr=true, color=#808080, units=height, waitBlanking=true, autoLog=true, size=[1095,699] )
+15.932999999999998	DATA	Keydown: d
+15.964999999999998	DATA	Keydown: s
+16.442	DATA	Keydown: Tab
+18.66	DATA	Keydown: Tab
+20.498	DATA	Keydown: d
+21.25	DATA	Keydown: a
+21.466	DATA	Keydown: v
+21.62	DATA	Keydown: i
+21.734	DATA	Keydown: d
+21.885	DATA	Keydown: s
+22.020000000000003	DATA	Keydown: c
+22.126	DATA	Keydown: h
+22.221	DATA	Keydown: a
+22.294	DATA	Keydown: y
+22.462000000000003	DATA	Keydown: n
+22.587000000000003	DATA	Keydown: e
+22.855	DATA	Keydown: 2
+23.541	DATA	Keydown: Backspace
+24.216	DATA	Keydown: Shift
+24.36	DATA	Keydown: @
+25.163	DATA	Keydown: g
+25.346	DATA	Keydown: m
+25.53	DATA	Keydown: a
+25.638	DATA	Keydown: i
+25.831000000000003	DATA	Keydown: l
+26.048000000000002	DATA	Keydown: .
+26.207	DATA	Keydown: c
+26.268	DATA	Keydown: o
+26.366000000000003	DATA	Keydown: m
+26.818	DATA	Keydown: Tab
+27.679000000000002	DATA	Keydown: y
+27.786	DATA	Keydown: e
+27.982000000000003	DATA	Keydown: s
+29.522000000000002	DATA	Keydown: Tab
+29.896	DATA	Keydown: Tab
+30.916	DATA	Keydown: 1
+31.232000000000003	DATA	Keydown: Tab
+33.478	DATA	Keydown: n
+33.582	DATA	Keydown: o
+33.814	DATA	Keydown: Tab
+35.143	DATA	Keydown: m
+35.318000000000005	DATA	Keydown: a
+35.437000000000005	DATA	Keydown: l
+35.595	DATA	Keydown: e
+36.637	DATA	Keydown: Tab
+37.017	DATA	Keydown: 3
+37.436	DATA	Keydown: 4
+38.943000000000005	DATA	Keydown: Tab
+39.550000000000004	DATA	Keydown: e
+39.885000000000005	DATA	Keydown: Backspace
+39.96	DATA	Keydown: r
+40.349000000000004	DATA	Keydown: Tab
+41.499	DATA	Keydown: Tab
+44.725	DATA	Keydown: t
+45.343	DATA	Keydown: Backspace
+45.445	DATA	Keydown: y
+45.965	DATA	Keydown: e
+46.18	DATA	Keydown: s
+48.227000000000004	EXP	Created instructiontxt = TextStim( name=instructiontxt, win=Window( name=Window, fullscr=true, color=#808080, ~), autoDraw=null, autoLog=true, units=height, ori=null, opacity=1, pos=[0,0], size=undefined, text=Welcome to tapping experiment. 
+
+You will hear a s~, font=Arial, color=#FFFFFF, contrast=1, height=0.05, bold=null, italic=null, alignHoriz=left, alignVert=center, wrapWidth=1, flipHoriz=null, flipVert=null )
+48.233000000000004	EXP	Created TonePlayer = TonePlayer( name=TonePlayer, note=A4, duration_s=-1, volume=1, loops=null, soundLibrary="TONE_JS", autoLog=true )
+48.235	EXP	Created text = TextStim( name=text, win=Window( name=Window, fullscr=true, color=#808080, ~), autoDraw=null, autoLog=true, units=height, ori=null, opacity=1, pos=[0,0], size=undefined, text=Ready for the next trial?
+
+press space bar to star~, font=Arial, color=#FFFFFF, contrast=1, height=0.05, bold=null, italic=null, alignHoriz=left, alignVert=center, wrapWidth=1, flipHoriz=null, flipVert=null )
+48.236000000000004	EXP	Created text_2 = TextStim( name=text_2, win=Window( name=Window, fullscr=true, color=#808080, ~), autoDraw=null, autoLog=true, units=height, ori=null, opacity=1, pos=[0,0], size=undefined, text=Practice trials are over.
+
+Now we are going to sta~, font=Arial, color=#FFFFFF, contrast=1, height=0.05, bold=null, italic=null, alignHoriz=left, alignVert=center, wrapWidth=1, flipHoriz=null, flipVert=null )
+48.24	EXP	Created TonePlayer = TonePlayer( name=TonePlayer, note=A4, duration_s=-1, volume=1, loops=null, soundLibrary="TONE_JS", autoLog=true )
+48.241	EXP	Created text_3 = TextStim( name=text_3, win=Window( name=Window, fullscr=true, color=#808080, ~), autoDraw=null, autoLog=true, units=height, ori=null, opacity=1, pos=[0,0], size=undefined, text=Ready for the next trial?
+
+Press space bar to star~, font=Arial, color=#FFFFFF, contrast=1, height=0.05, bold=null, italic=null, alignHoriz=left, alignVert=center, wrapWidth=1, flipHoriz=null, flipVert=null )
+48.242000000000004	EXP	Created text_4 = TextStim( name=text_4, win=Window( name=Window, fullscr=true, color=#808080, ~), autoDraw=null, autoLog=true, units=height, ori=null, opacity=1, pos=[0,0], size=undefined, text=Great! This is the half-way break. 
+
+Please take y~, font=Arial, color=#FFFFFF, contrast=1, height=0.05, bold=null, italic=null, alignHoriz=left, alignVert=center, wrapWidth=1, flipHoriz=null, flipVert=null )
+48.245000000000005	EXP	Created TonePlayer = TonePlayer( name=TonePlayer, note=A4, duration_s=-1, volume=1, loops=null, soundLibrary="TONE_JS", autoLog=true )
+48.246	EXP	Created next_prompt_trial2 = TextStim( name=next_prompt_trial2, win=Window( name=Window, fullscr=true, color=#808080, ~), autoDraw=null, autoLog=true, units=height, ori=null, opacity=1, pos=[0,0], size=undefined, text=Ready for the next trial? 
+
+Press space bar to sta~, font=Arial, color=#FFFFFF, contrast=1, height=0.05, bold=null, italic=null, alignHoriz=left, alignVert=center, wrapWidth=1, flipHoriz=null, flipVert=null )
+48.247	EXP	Created text_5 = TextStim( name=text_5, win=Window( name=Window, fullscr=true, color=#808080, ~), autoDraw=null, autoLog=true, units=height, ori=null, opacity=1, pos=[0,0], size=undefined, text=Thanks for your participation! 
+
+Here is your expe~, font=Arial, color=#FFFFFF, contrast=1, height=0.05, bold=null, italic=null, alignHoriz=left, alignVert=center, wrapWidth=1, flipHoriz=null, flipVert=null )
+48.248000000000005	EXP	Created goodbyetxt = TextStim( name=goodbyetxt, win=Window( name=Window, fullscr=true, color=#808080, ~), autoDraw=null, autoLog=true, units=height, ori=null, opacity=1, pos=[0,0], size=undefined, text=The test is over!
+
+Thank you so much!!, font=Arial, color=#FFFFFF, contrast=1, height=0.05, bold=null, italic=null, alignHoriz=left, alignVert=center, wrapWidth=1, flipHoriz=null, flipVert=null )
+48.281	EXP	instructiontxt: units = "height"
+48.281	EXP	instructiontxt: ori = 0
+48.281	EXP	instructiontxt: opacity = 1
+48.281	EXP	instructiontxt: pos = [0,0]
+48.281	EXP	instructiontxt: size = undefined
+48.281	EXP	instructiontxt: text = "Welcome to tapping experiment. \n\nYou will hear a sequence of tones.\nUse the index finger of your dominant hand \nto tap the spacebar at where you think the beat is throughout the sound file at each trial. . \n\nWhen you are ready, press the spacebar to begin the practice."
+48.281	EXP	instructiontxt: font = "Arial"
+48.281	EXP	instructiontxt: color = {"_hex":"#FFFFFF","_rgb":[1,1,1]}
+48.281	EXP	instructiontxt: contrast = 1
+48.281	EXP	instructiontxt: height = 0.05
+48.281	EXP	instructiontxt: bold = false
+48.281	EXP	instructiontxt: italic = false
+48.281	EXP	instructiontxt: alignHoriz = "left"
+48.281	EXP	instructiontxt: alignVert = "center"
+48.281	EXP	instructiontxt: wrapWidth = 1
+48.281	EXP	instructiontxt: flipHoriz = false
+48.281	EXP	instructiontxt: flipVert = false
+48.281	EXP	Sound: secs = -1
+48.281	EXP	Sound: volume = 1
+48.281	EXP	Sound: loops = 0
+48.281	EXP	Sound: volume = 1
+48.281	EXP	text: units = "height"
+48.281	EXP	text: ori = 0
+48.281	EXP	text: opacity = 1
+48.281	EXP	text: pos = [0,0]
+48.281	EXP	text: size = undefined
+48.281	EXP	text: text = "Ready for the next trial?\n\npress space bar to start."
+48.281	EXP	text: font = "Arial"
+48.281	EXP	text: color = {"_hex":"#FFFFFF","_rgb":[1,1,1]}
+48.281	EXP	text: contrast = 1
+48.281	EXP	text: height = 0.05
+48.281	EXP	text: bold = false
+48.281	EXP	text: italic = false
+48.281	EXP	text: alignHoriz = "left"
+48.281	EXP	text: alignVert = "center"
+48.281	EXP	text: wrapWidth = 1
+48.281	EXP	text: flipHoriz = false
+48.281	EXP	text: flipVert = false
+48.281	EXP	text_2: units = "height"
+48.281	EXP	text_2: ori = 0
+48.281	EXP	text_2: opacity = 1
+48.281	EXP	text_2: pos = [0,0]
+48.281	EXP	text_2: size = undefined
+48.281	EXP	text_2: text = "Practice trials are over.\n\nNow we are going to start the real test trials.\nThe total session length will be about 28 minutes, but we will have a short break at the half way mark.\n\nIf you are ready, please space bar."
+48.281	EXP	text_2: font = "Arial"
+48.281	EXP	text_2: color = {"_hex":"#FFFFFF","_rgb":[1,1,1]}
+48.281	EXP	text_2: contrast = 1
+48.281	EXP	text_2: height = 0.05
+48.281	EXP	text_2: bold = false
+48.281	EXP	text_2: italic = false
+48.281	EXP	text_2: alignHoriz = "left"
+48.281	EXP	text_2: alignVert = "center"
+48.281	EXP	text_2: wrapWidth = 1
+48.281	EXP	text_2: flipHoriz = false
+48.281	EXP	text_2: flipVert = false
+48.281	EXP	Sound: secs = -1
+48.281	EXP	Sound: volume = 1
+48.281	EXP	Sound: loops = 0
+48.281	EXP	Sound: volume = 1
+48.281	EXP	text_3: units = "height"
+48.281	EXP	text_3: ori = 0
+48.281	EXP	text_3: opacity = 1
+48.281	EXP	text_3: pos = [0,0]
+48.281	EXP	text_3: size = undefined
+48.281	EXP	text_3: text = "Ready for the next trial?\n\nPress space bar to start."
+48.281	EXP	text_3: font = "Arial"
+48.281	EXP	text_3: color = {"_hex":"#FFFFFF","_rgb":[1,1,1]}
+48.281	EXP	text_3: contrast = 1
+48.281	EXP	text_3: height = 0.05
+48.281	EXP	text_3: bold = false
+48.281	EXP	text_3: italic = false
+48.281	EXP	text_3: alignHoriz = "left"
+48.281	EXP	text_3: alignVert = "center"
+48.281	EXP	text_3: wrapWidth = 1
+48.281	EXP	text_3: flipHoriz = false
+48.281	EXP	text_3: flipVert = false
+48.281	EXP	text_4: units = "height"
+48.281	EXP	text_4: ori = 0
+48.281	EXP	text_4: opacity = 1
+48.281	EXP	text_4: pos = [0,0]
+48.281	EXP	text_4: size = undefined
+48.281	EXP	text_4: text = "Great! This is the half-way break. \n\nPlease take your time. \n\nWhen you are ready to start the second-half of the test trials, please press space bar. "
+48.281	EXP	text_4: font = "Arial"
+48.281	EXP	text_4: color = {"_hex":"#FFFFFF","_rgb":[1,1,1]}
+48.281	EXP	text_4: contrast = 1
+48.281	EXP	text_4: height = 0.05
+48.281	EXP	text_4: bold = false
+48.281	EXP	text_4: italic = false
+48.281	EXP	text_4: alignHoriz = "left"
+48.281	EXP	text_4: alignVert = "center"
+48.281	EXP	text_4: wrapWidth = 1
+48.281	EXP	text_4: flipHoriz = false
+48.281	EXP	text_4: flipVert = false
+48.281	EXP	Sound: secs = -1
+48.281	EXP	Sound: volume = 1
+48.281	EXP	Sound: loops = 0
+48.281	EXP	Sound: volume = 1
+48.281	EXP	next_prompt_trial2: units = "height"
+48.281	EXP	next_prompt_trial2: ori = 0
+48.281	EXP	next_prompt_trial2: opacity = 1
+48.281	EXP	next_prompt_trial2: pos = [0,0]
+48.281	EXP	next_prompt_trial2: size = undefined
+48.281	EXP	next_prompt_trial2: text = "Ready for the next trial? \n\nPress space bar to start. "
+48.281	EXP	next_prompt_trial2: font = "Arial"
+48.281	EXP	next_prompt_trial2: color = {"_hex":"#FFFFFF","_rgb":[1,1,1]}
+48.281	EXP	next_prompt_trial2: contrast = 1
+48.281	EXP	next_prompt_trial2: height = 0.05
+48.281	EXP	next_prompt_trial2: bold = false
+48.281	EXP	next_prompt_trial2: italic = false
+48.281	EXP	next_prompt_trial2: alignHoriz = "left"
+48.281	EXP	next_prompt_trial2: alignVert = "center"
+48.281	EXP	next_prompt_trial2: wrapWidth = 1
+48.281	EXP	next_prompt_trial2: flipHoriz = false
+48.281	EXP	next_prompt_trial2: flipVert = false
+48.281	EXP	text_5: units = "height"
+48.281	EXP	text_5: ori = 0
+48.281	EXP	text_5: opacity = 1
+48.281	EXP	text_5: pos = [0,0]
+48.281	EXP	text_5: size = undefined
+48.281	EXP	text_5: text = "Thanks for your participation! \n\nHere is your experiment completion code: \n\n9158 \n\nPlease write down this code as you will need it in order to receive payment.\n\nIf you are not an MTurk worker, please send an email to nolan.lem@gmail.com with the Experiment Completion Code as the subject of the email. In order to complete the \nexperiment, when you are ready please press space bar and wait until you see a text box appear that says \"Thanks for your patience\" where you can click 'ok'. \n\nIf you are an MTurk worker, please press the space bar to be redirected to the MTurk experiment \nhomepage where you can input the code into the Experiment Completion Code box. "
+48.281	EXP	text_5: font = "Arial"
+48.281	EXP	text_5: color = {"_hex":"#FFFFFF","_rgb":[1,1,1]}
+48.281	EXP	text_5: contrast = 1
+48.281	EXP	text_5: height = 0.05
+48.281	EXP	text_5: bold = false
+48.281	EXP	text_5: italic = false
+48.281	EXP	text_5: alignHoriz = "left"
+48.281	EXP	text_5: alignVert = "center"
+48.281	EXP	text_5: wrapWidth = 1
+48.281	EXP	text_5: flipHoriz = false
+48.281	EXP	text_5: flipVert = false
+48.281	EXP	goodbyetxt: units = "height"
+48.281	EXP	goodbyetxt: ori = 0
+48.281	EXP	goodbyetxt: opacity = 1
+48.281	EXP	goodbyetxt: pos = [0,0]
+48.281	EXP	goodbyetxt: size = undefined
+48.281	EXP	goodbyetxt: text = "The test is over!\n\nThank you so much!!"
+48.281	EXP	goodbyetxt: font = "Arial"
+48.281	EXP	goodbyetxt: color = {"_hex":"#FFFFFF","_rgb":[1,1,1]}
+48.281	EXP	goodbyetxt: contrast = 1
+48.281	EXP	goodbyetxt: height = 0.05
+48.281	EXP	goodbyetxt: bold = false
+48.281	EXP	goodbyetxt: italic = false
+48.281	EXP	goodbyetxt: alignHoriz = "left"
+48.281	EXP	goodbyetxt: alignVert = "center"
+48.281	EXP	goodbyetxt: wrapWidth = 1
+48.281	EXP	goodbyetxt: flipHoriz = false
+48.281	EXP	goodbyetxt: flipVert = false
+48.281	EXP	instructiontxt: autoDraw = true
+49.671	DATA	Keydown:  
+49.696000000000005	EXP	instructiontxt: autoDraw = false
+49.696000000000005	EXP	Sound: secs = -1
+49.696000000000005	EXP	Sound: volume = 1
+49.696000000000005	EXP	Sound: loops = 0
+49.696000000000005	EXP	Sound: volume = 1
+51.836000000000006	DATA	Keydown:  
+52.638000000000005	DATA	Keydown:  
+53.508	DATA	Keydown:  
+54.311	DATA	Keydown:  
+55.436	DATA	Keydown:  
+56.451	DATA	Keydown:  
+57.554	DATA	Keydown:  
+58.437000000000005	DATA	Keydown:  
+59.44	DATA	Keydown:  
+60.531000000000006	DATA	Keydown:  
+61.514	DATA	Keydown:  
+62.571000000000005	DATA	Keydown:  
+63.54	DATA	Keydown:  
+64.67699999999999	DATA	Keydown:  
+65.78099999999999	DATA	Keydown:  
+66.76299999999999	DATA	Keydown:  
+67.804	DATA	Keydown:  
+68.857	DATA	Keydown:  
+69.899	DATA	Keydown:  
+70.14999999999999	DATA	Keydown:  
+70.91	DATA	Keydown:  
+72.92399999999999	EXP	text: autoDraw = true
+73.646	DATA	Keydown:  
+73.66099999999999	EXP	text: autoDraw = false
+73.66099999999999	EXP	Sound: secs = -1
+73.66099999999999	EXP	Sound: volume = 1
+73.66099999999999	EXP	Sound: loops = 0
+73.66099999999999	EXP	Sound: volume = 1
+79.615	DATA	Keydown:  
+80.3	DATA	Keydown:  
+80.699	DATA	Keydown:  
+81.065	DATA	Keydown:  
+81.46799999999999	DATA	Keydown:  
+81.82	DATA	Keydown:  
+82.241	DATA	Keydown:  
+82.588	DATA	Keydown:  
+82.973	DATA	Keydown:  
+83.357	DATA	Keydown:  
+83.776	DATA	Keydown:  
+84.128	DATA	Keydown:  
+84.493	DATA	Keydown:  
+84.86099999999999	DATA	Keydown:  
+85.265	DATA	Keydown:  
+85.631	DATA	Keydown:  
+85.999	DATA	Keydown:  
+86.384	DATA	Keydown:  
+86.735	DATA	Keydown:  
+87.104	DATA	Keydown:  
+87.472	DATA	Keydown:  
+87.822	DATA	Keydown:  
+88.22399999999999	DATA	Keydown:  
+88.574	DATA	Keydown:  
+89.009	DATA	Keydown:  
+89.37899999999999	DATA	Keydown:  
+89.731	DATA	Keydown:  
+90.115	DATA	Keydown:  
+90.482	DATA	Keydown:  
+90.86699999999999	DATA	Keydown:  
+91.25	DATA	Keydown:  
+92.33699999999999	EXP	text: autoDraw = true
+93.574	DATA	Keydown:  
+93.58999999999999	EXP	text: autoDraw = false
+93.58999999999999	EXP	Sound: secs = -1
+93.58999999999999	EXP	Sound: volume = 1
+93.58999999999999	EXP	Sound: loops = 0
+93.58999999999999	EXP	Sound: volume = 1
+99.026	DATA	Keydown:  
+99.475	DATA	Keydown:  
+99.71	DATA	Keydown:  
+99.994	DATA	Keydown:  
+100.261	DATA	Keydown:  
+100.464	DATA	Keydown:  
+100.732	DATA	Keydown:  
+100.982	DATA	Keydown:  
+101.198	DATA	Keydown:  
+101.5	DATA	Keydown:  
+101.701	DATA	Keydown:  
+101.901	DATA	Keydown:  
+102.252	DATA	Keydown:  
+102.437	DATA	Keydown:  
+102.603	DATA	Keydown:  
+102.92	DATA	Keydown:  
+103.073	DATA	Keydown:  
+103.24	DATA	Keydown:  
+103.574	DATA	Keydown:  
+103.74199999999999	DATA	Keydown:  
+103.90899999999999	DATA	Keydown:  
+104.259	DATA	Keydown:  
+104.42699999999999	DATA	Keydown:  
+104.594	DATA	Keydown:  
+104.945	DATA	Keydown:  
+105.09599999999999	DATA	Keydown:  
+105.279	DATA	Keydown:  
+105.649	DATA	Keydown:  
+106.08	DATA	Keydown:  
+106.838	DATA	Keydown:  
+107.54599999999999	DATA	Keydown:  
+108.241	DATA	Keydown:  
+108.923	DATA	Keydown:  
+109.66	DATA	Keydown:  
+111.396	EXP	text: autoDraw = true
+113.28999999999999	DATA	Keydown:  
+113.306	EXP	text: autoDraw = false
+113.306	EXP	Sound: secs = -1
+113.306	EXP	Sound: volume = 1
+113.306	EXP	Sound: loops = 0
+113.306	EXP	Sound: volume = 1
+115.56	DATA	Keydown:  
+116.146	DATA	Keydown:  
+116.767	DATA	Keydown:  
+117.417	DATA	Keydown:  
+118.104	DATA	Keydown:  
+118.657	DATA	Keydown:  
+119.39	DATA	Keydown:  
+120.044	DATA	Keydown:  
+120.713	DATA	Keydown:  
+121.39999999999999	DATA	Keydown:  
+122.03099999999999	DATA	Keydown:  
+122.667	DATA	Keydown:  
+123.405	DATA	Keydown:  
+124.122	DATA	Keydown:  
+124.777	DATA	Keydown:  
+125.479	DATA	Keydown:  
+126.014	DATA	Keydown:  
+126.564	DATA	Keydown:  
+127.201	DATA	Keydown:  
+128.689	EXP	text: autoDraw = true
+129.609	DATA	Keydown:  
+129.652	EXP	text: autoDraw = false
+129.652	EXP	text_2: autoDraw = true
+135.888	DATA	Keydown:  
+135.913	EXP	text_2: autoDraw = false
+135.913	EXP	Sound: secs = -1
+135.913	EXP	Sound: volume = 1
+135.913	EXP	Sound: loops = 0
+135.913	EXP	Sound: volume = 1
+139.12	DATA	Keydown:  
+139.319	DATA	Keydown:  
+139.754	DATA	Keydown:  
+139.92	DATA	Keydown:  
+140.389	DATA	Keydown:  
+140.55599999999998	DATA	Keydown:  
+140.945	DATA	Keydown:  
+141.096	DATA	Keydown:  
+141.626	DATA	Keydown:  
+141.76	DATA	Keydown:  
+142.213	DATA	Keydown:  
+142.364	DATA	Keydown:  
+142.785	DATA	Keydown:  
+142.94899999999998	DATA	Keydown:  
+143.352	DATA	Keydown:  
+143.517	DATA	Keydown:  
+144.069	DATA	Keydown:  
+144.236	DATA	Keydown:  
+144.657	DATA	Keydown:  
+144.821	DATA	Keydown:  
+145.343	DATA	Keydown:  
+145.494	DATA	Keydown:  
+145.877	DATA	Keydown:  
+146.061	DATA	Keydown:  
+146.68099999999998	DATA	Keydown:  
+146.814	DATA	Keydown:  
+147.249	DATA	Keydown:  
+147.367	DATA	Keydown:  
+147.951	DATA	Keydown:  
+148.084	DATA	Keydown:  
+148.569	DATA	Keydown:  
+148.686	DATA	Keydown:  
+149.156	DATA	Keydown:  
+149.289	DATA	Keydown:  
+149.807	DATA	Keydown:  
+149.941	DATA	Keydown:  
+150.46	DATA	Keydown:  
+150.60900000000004	DATA	Keydown:  
+152.061	EXP	text_3: autoDraw = true
+160.1	DATA	Keydown:  
+160.119	EXP	text_3: autoDraw = false
+160.119	EXP	Sound: secs = -1
+160.119	EXP	Sound: volume = 1
+160.119	EXP	Sound: loops = 0
+160.119	EXP	Sound: volume = 1
+162.13	DATA	Keydown:  
+162.627	DATA	Keydown:  
+162.795	DATA	Keydown:  
+163.315	DATA	Keydown:  
+163.665	DATA	Keydown:  
+163.998	DATA	Keydown:  
+164.284	DATA	Keydown:  
+164.602	DATA	Keydown:  
+164.924	DATA	Keydown:  
+165.269	DATA	Keydown:  
+165.60299999999998	DATA	Keydown:  
+165.956	DATA	Keydown:  
+166.307	DATA	Keydown:  
+166.641	DATA	Keydown:  
+166.946	DATA	Keydown:  
+167.29	DATA	Keydown:  
+167.625	DATA	Keydown:  
+167.945	DATA	Keydown:  
+168.282	DATA	Keydown:  
+168.627	DATA	Keydown:  
+168.96099999999998	DATA	Keydown:  
+169.295	DATA	Keydown:  
+169.635	DATA	Keydown:  
+169.986	DATA	Keydown:  
+170.333	DATA	Keydown:  
+170.687	DATA	Keydown:  
+171.026	DATA	Keydown:  
+171.389	DATA	Keydown:  
+171.756	DATA	Keydown:  
+172.091	DATA	Keydown:  
+172.439	DATA	Keydown:  
+172.773	DATA	Keydown:  
+173.115	DATA	Keydown:  
+173.465	DATA	Keydown:  
+173.82	DATA	Keydown:  
+174.164	DATA	Keydown:  
+174.499	DATA	Keydown:  
+174.834	DATA	Keydown:  
+175.168	DATA	Keydown:  
+175.517	DATA	Keydown:  
+175.85999999999999	DATA	Keydown:  
+176.219	DATA	Keydown:  
+176.573	DATA	Keydown:  
+176.922	DATA	Keydown:  
+177.276	DATA	Keydown:  
+177.643	DATA	Keydown:  
+178.011	DATA	Keydown:  
+178.396	DATA	Keydown:  
+178.74699999999999	DATA	Keydown:  
+179.099	DATA	Keydown:  
+179.462	DATA	Keydown:  
+179.816	DATA	Keydown:  
+180.151	DATA	Keydown:  
+180.49	DATA	Keydown:  
+182.172	EXP	text_3: autoDraw = true
+187.695	DATA	Keydown:  
+187.708	EXP	text_3: autoDraw = false
+187.708	EXP	Sound: secs = -1
+187.708	EXP	Sound: volume = 1
+187.708	EXP	Sound: loops = 0
+187.708	EXP	Sound: volume = 1
+193.909	DATA	Keydown:  
+194.114	DATA	Keydown:  
+194.364	DATA	Keydown:  
+194.545	DATA	Keydown:  
+194.737	DATA	Keydown:  
+194.933	DATA	Keydown:  
+195.114	DATA	Keydown:  
+195.301	DATA	Keydown:  
+195.48	DATA	Keydown:  
+195.641	DATA	Keydown:  
+195.815	DATA	Keydown:  
+195.986	DATA	Keydown:  
+196.17	DATA	Keydown:  
+196.338	DATA	Keydown:  
+196.522	DATA	Keydown:  
+196.69	DATA	Keydown:  
+196.841	DATA	Keydown:  
+197.005	DATA	Keydown:  
+197.145	DATA	Keydown:  
+197.34	DATA	Keydown:  
+197.458	DATA	Keydown:  
+197.621	DATA	Keydown:  
+197.762	DATA	Keydown:  
+197.913	DATA	Keydown:  
+198.057	DATA	Keydown:  
+198.21	DATA	Keydown:  
+198.363	DATA	Keydown:  
+198.544	DATA	Keydown:  
+198.698	DATA	Keydown:  
+198.867	DATA	Keydown:  
+199.034	DATA	Keydown:  
+199.226	DATA	Keydown:  
+199.385	DATA	Keydown:  
+199.582	DATA	Keydown:  
+199.753	DATA	Keydown:  
+199.916	DATA	Keydown:  
+200.1	DATA	Keydown:  
+200.267	DATA	Keydown:  
+200.451	DATA	Keydown:  
+200.618	DATA	Keydown:  
+200.785	DATA	Keydown:  
+200.952	DATA	Keydown:  
+201.154	DATA	Keydown:  
+201.334	DATA	Keydown:  
+201.5	DATA	Keydown:  
+201.668	DATA	Keydown:  
+201.855	DATA	Keydown:  
+202.036	DATA	Keydown:  
+202.19	DATA	Keydown:  
+202.393	DATA	Keydown:  
+202.547	DATA	Keydown:  
+202.738	DATA	Keydown:  
+202.929	DATA	Keydown:  
+203.093	DATA	Keydown:  
+203.273	DATA	Keydown:  
+203.474	DATA	Keydown:  
+203.674	DATA	Keydown:  
+203.851	DATA	Keydown:  
+204.043	DATA	Keydown:  
+204.21	DATA	Keydown:  
+204.418	DATA	Keydown:  
+204.59799999999998	DATA	Keydown:  
+204.764	DATA	Keydown:  
+204.955	DATA	Keydown:  
+205.133	DATA	Keydown:  
+205.3	DATA	Keydown:  
+205.47899999999998	DATA	Keydown:  
+205.668	DATA	Keydown:  
+205.818	DATA	Keydown:  
+205.998	DATA	Keydown:  
+206.147	DATA	Keydown:  
+206.313	DATA	Keydown:  
+206.462	DATA	Keydown:  
+206.594	DATA	Keydown:  
+206.759	DATA	Keydown:  
+206.876	DATA	Keydown:  
+207.01	DATA	Keydown:  
+207.177	DATA	Keydown:  
+207.311	DATA	Keydown:  
+207.46099999999998	DATA	Keydown:  
+207.595	DATA	Keydown:  
+207.779	DATA	Keydown:  
+207.929	DATA	Keydown:  
+208.08	DATA	Keydown:  
+208.23	DATA	Keydown:  
+208.397	DATA	Keydown:  
+208.648	DATA	Keydown:  
+208.682	DATA	Keydown:  
+208.715	DATA	Keydown:  
+208.766	DATA	Keydown:  
+208.982	DATA	Keydown:  
+209.2	DATA	Keydown:  
+211.44	EXP	text_3: autoDraw = true
+216.156	DATA	Keydown:  
+216.173	EXP	text_3: autoDraw = false
+216.173	EXP	Sound: secs = -1
+216.173	EXP	Sound: volume = 1
+216.173	EXP	Sound: loops = 0
+216.173	EXP	Sound: volume = 1
+219.249	DATA	Keydown:  
+219.46699999999998	DATA	Keydown:  
+219.667	DATA	Keydown:  
+220.035	DATA	Keydown:  
+220.252	DATA	Keydown:  
+220.42	DATA	Keydown:  
+220.60299999999998	DATA	Keydown:  
+220.97199999999998	DATA	Keydown:  
+221.12199999999999	DATA	Keydown:  
+221.273	DATA	Keydown:  
+221.44	DATA	Keydown:  
+221.908	DATA	Keydown:  
+222.041	DATA	Keydown:  
+222.192	DATA	Keydown:  
+222.376	DATA	Keydown:  
+222.828	DATA	Keydown:  
+222.961	DATA	Keydown:  
+223.129	DATA	Keydown:  
+223.296	DATA	Keydown:  
+223.764	DATA	Keydown:  
+223.898	DATA	Keydown:  
+224.065	DATA	Keydown:  
+224.232	DATA	Keydown:  
+224.7	DATA	Keydown:  
+224.834	DATA	Keydown:  
+225.018	DATA	Keydown:  
+225.169	DATA	Keydown:  
+225.60399999999998	DATA	Keydown:  
+225.754	DATA	Keydown:  
+225.904	DATA	Keydown:  
+226.071	DATA	Keydown:  
+226.523	DATA	Keydown:  
+226.673	DATA	Keydown:  
+226.824	DATA	Keydown:  
+227.008	DATA	Keydown:  
+227.459	DATA	Keydown:  
+227.60999999999999	DATA	Keydown:  
+227.793	DATA	Keydown:  
+227.961	DATA	Keydown:  
+228.429	DATA	Keydown:  
+228.579	DATA	Keydown:  
+228.764	DATA	Keydown:  
+228.93	DATA	Keydown:  
+229.415	DATA	Keydown:  
+229.567	DATA	Keydown:  
+229.733	DATA	Keydown:  
+229.916	DATA	Keydown:  
+230.385	DATA	Keydown:  
+230.535	DATA	Keydown:  
+230.703	DATA	Keydown:  
+230.887	DATA	Keydown:  
+231.039	DATA	Keydown:  
+231.523	DATA	Keydown:  
+231.857	DATA	Keydown:  
+232.024	DATA	Keydown:  
+232.642	DATA	Keydown:  
+232.826	DATA	Keydown:  
+233.529	DATA	Keydown:  
+233.68	DATA	Keydown:  
+234.383	DATA	Keydown:  
+234.515	DATA	Keydown:  
+235.351	DATA	Keydown:  
+235.519	DATA	Keydown:  
+236.588	EXP	text_3: autoDraw = true
+246.555	DATA	Keydown:  
+246.572	EXP	text_3: autoDraw = false
+246.572	EXP	Sound: secs = -1
+246.572	EXP	Sound: volume = 1
+246.572	EXP	Sound: loops = 0
+246.572	EXP	Sound: volume = 1
+250.4	DATA	Keydown:  
+250.702	DATA	Keydown:  
+251.037	DATA	Keydown:  
+251.437	DATA	Keydown:  
+251.771	DATA	Keydown:  
+252.12199999999999	DATA	Keydown:  
+252.49	DATA	Keydown:  
+252.858	DATA	Keydown:  
+253.209	DATA	Keydown:  
+253.56	DATA	Keydown:  
+253.97799999999998	DATA	Keydown:  
+254.296	DATA	Keydown:  
+254.648	DATA	Keydown:  
+255.048	DATA	Keydown:  
+255.383	DATA	Keydown:  
+255.718	DATA	Keydown:  
+256.035	DATA	Keydown:  
+256.403	DATA	Keydown:  
+256.77	DATA	Keydown:  
+257.172	DATA	Keydown:  
+257.49	DATA	Keydown:  
+257.841	DATA	Keydown:  
+258.159	DATA	Keydown:  
+258.56	DATA	Keydown:  
+258.895	DATA	Keydown:  
+259.262	DATA	Keydown:  
+259.597	DATA	Keydown:  
+260.014	DATA	Keydown:  
+260.382	DATA	Keydown:  
+260.733	DATA	Keydown:  
+261.068	DATA	Keydown:  
+261.437	DATA	Keydown:  
+261.804	DATA	Keydown:  
+262.171	DATA	Keydown:  
+262.523	DATA	Keydown:  
+263.425	EXP	text_3: autoDraw = true
+264.045	DATA	Keydown:  
+264.061	EXP	text_3: autoDraw = false
+264.061	EXP	Sound: secs = -1
+264.061	EXP	Sound: volume = 1
+264.061	EXP	Sound: loops = 0
+264.061	EXP	Sound: volume = 1
+266.753	DATA	Keydown:  
+266.954	DATA	Keydown:  
+267.154	DATA	Keydown:  
+267.338	DATA	Keydown:  
+267.506	DATA	Keydown:  
+267.823	DATA	Keydown:  
+267.974	DATA	Keydown:  
+268.274	DATA	Keydown:  
+268.408	DATA	Keydown:  
+268.86	DATA	Keydown:  
+269.01	DATA	Keydown:  
+269.295	DATA	Keydown:  
+269.462	DATA	Keydown:  
+269.713	DATA	Keydown:  
+269.845	DATA	Keydown:  
+270.264	DATA	Keydown:  
+270.449	DATA	Keydown:  
+270.616	DATA	Keydown:  
+270.967	DATA	Keydown:  
+271.139	DATA	Keydown:  
+271.298	DATA	Keydown:  
+271.435	DATA	Keydown:  
+271.758	DATA	Keydown:  
+271.911	DATA	Keydown:  
+272.092	DATA	Keydown:  
+272.354	DATA	Keydown:  
+272.606	DATA	Keydown:  
+272.871	DATA	Keydown:  
+273.156	DATA	Keydown:  
+273.425	DATA	Keydown:  
+273.576	DATA	Keydown:  
+273.826	DATA	Keydown:  
+274.061	DATA	Keydown:  
+274.344	DATA	Keydown:  
+274.629	DATA	Keydown:  
+274.779	DATA	Keydown:  
+275.012	DATA	Keydown:  
+275.264	DATA	Keydown:  
+275.514	DATA	Keydown:  
+275.632	DATA	Keydown:  
+275.899	DATA	Keydown:  
+276.033	DATA	Keydown:  
+276.285	DATA	Keydown:  
+276.535	DATA	Keydown:  
+276.819	DATA	Keydown:  
+277.103	DATA	Keydown:  
+277.238	DATA	Keydown:  
+277.538	DATA	Keydown:  
+277.822	DATA	Keydown:  
+278.106	DATA	Keydown:  
+278.424	DATA	Keydown:  
+278.759	DATA	Keydown:  
+279.478	DATA	Keydown:  
+279.779	DATA	Keydown:  
+280.062	DATA	Keydown:  
+280.28	DATA	Keydown:  
+280.481	DATA	Keydown:  
+280.815	DATA	Keydown:  
+283.072	DATA	Keydown:  
+283.256	DATA	Keydown:  
+283.524	DATA	Keydown:  
+283.691	DATA	Keydown:  
+283.892	DATA	Keydown:  
+284.076	DATA	Keydown:  
+284.276	DATA	Keydown:  
+284.392	EXP	text_3: autoDraw = true
+284.661	DATA	Keydown:  
+284.677	EXP	text_3: autoDraw = false
+284.677	EXP	Sound: secs = -1
+284.677	EXP	Sound: volume = 1
+284.677	EXP	Sound: loops = 0
+284.677	EXP	Sound: volume = 1
+284.826	DATA	Keydown:  
+288.809	DATA	Keydown:  
+288.924	DATA	Keydown:  
+289.132	DATA	Keydown:  
+289.628	DATA	Keydown:  
+289.794	DATA	Keydown:  
+290.33	DATA	Keydown:  
+290.698	DATA	Keydown:  
+291.216	DATA	Keydown:  
+291.667	DATA	Keydown:  
+292.152	DATA	Keydown:  
+292.503	DATA	Keydown:  
+292.971	DATA	Keydown:  
+293.171	DATA	Keydown:  
+293.774	DATA	Keydown:  
+293.991	DATA	Keydown:  
+294.693	DATA	Keydown:  
+294.876	DATA	Keydown:  
+295.53	DATA	Keydown:  
+295.712	DATA	Keydown:  
+296.316	DATA	Keydown:  
+296.4990000000001	DATA	Keydown:  
+297.118	DATA	Keydown:  
+297.302	DATA	Keydown:  
+297.704	DATA	Keydown:  
+298.188	DATA	Keydown:  
+298.807	DATA	Keydown:  
+299.841	DATA	Keydown:  
+300.312	DATA	Keydown:  
+300.479	DATA	Keydown:  
+301.198	DATA	Keydown:  
+301.698	DATA	Keydown:  
+302.837	DATA	Keydown:  
+304.174	EXP	text_3: autoDraw = true
+310.997	DATA	Keydown:  
+311.013	EXP	text_3: autoDraw = false
+311.013	EXP	Sound: secs = -1
+311.013	EXP	Sound: volume = 1
+311.013	EXP	Sound: loops = 0
+311.013	EXP	Sound: volume = 1
+311.197	DATA	Keydown:  
+312.752	DATA	Keydown:  
+313.337	DATA	Keydown:  
+314.056	DATA	Keydown:  
+314.642	DATA	Keydown:  
+315.193	DATA	Keydown:  
+315.779	DATA	Keydown:  
+316.347	DATA	Keydown:  
+316.899	DATA	Keydown:  
+317.45	DATA	Keydown:  
+318.002	DATA	Keydown:  
+318.588	DATA	Keydown:  
+319.156	DATA	Keydown:  
+319.708	DATA	Keydown:  
+320.259	DATA	Keydown:  
+320.762	DATA	Keydown:  
+321.263	DATA	Keydown:  
+321.848	DATA	Keydown:  
+322.383	DATA	Keydown:  
+322.951	DATA	Keydown:  
+323.536	EXP	text_3: autoDraw = true
+327.066	DATA	Keydown:  
+327.081	EXP	text_3: autoDraw = false
+327.081	EXP	Sound: secs = -1
+327.081	EXP	Sound: volume = 1
+327.081	EXP	Sound: loops = 0
+327.081	EXP	Sound: volume = 1
+330.191	DATA	Keydown:  
+330.877	DATA	Keydown:  
+331.462	DATA	Keydown:  
+331.764	DATA	Keydown:  
+332.064	DATA	Keydown:  
+332.416	DATA	Keydown:  
+332.734	DATA	Keydown:  
+333.084	DATA	Keydown:  
+333.386	DATA	Keydown:  
+333.687	DATA	Keydown:  
+334.004	DATA	Keydown:  
+334.355	DATA	Keydown:  
+334.674	DATA	Keydown:  
+335.024	DATA	Keydown:  
+335.342	DATA	Keydown:  
+335.642	DATA	Keydown:  
+335.962	DATA	Keydown:  
+336.278	DATA	Keydown:  
+336.613	DATA	Keydown:  
+336.98	DATA	Keydown:  
+337.298	DATA	Keydown:  
+337.582	DATA	Keydown:  
+337.917	DATA	Keydown:  
+338.251	DATA	Keydown:  
+338.552	DATA	Keydown:  
+338.871	DATA	Keydown:  
+339.204	DATA	Keydown:  
+339.539	DATA	Keydown:  
+339.822	DATA	Keydown:  
+340.158	DATA	Keydown:  
+340.441	DATA	Keydown:  
+340.793	DATA	Keydown:  
+341.111	DATA	Keydown:  
+341.445	DATA	Keydown:  
+341.779	DATA	Keydown:  
+343.484	EXP	text_3: autoDraw = true
+347.248	DATA	Keydown:  
+347.264	EXP	text_3: autoDraw = false
+347.264	EXP	Sound: secs = -1
+347.264	EXP	Sound: volume = 1
+347.264	EXP	Sound: loops = 0
+347.264	EXP	Sound: volume = 1
+351.545	DATA	Keydown:  
+352.203	DATA	Keydown:  
+352.868	DATA	Keydown:  
+353.515	DATA	Keydown:  
+354.171	DATA	Keydown:  
+354.887	DATA	Keydown:  
+355.591	DATA	Keydown:  
+356.293	DATA	Keydown:  
+356.978	DATA	Keydown:  
+357.647	DATA	Keydown:  
+358.25	DATA	Keydown:  
+358.885	DATA	Keydown:  
+359.52	DATA	Keydown:  
+360.222	DATA	Keydown:  
+360.925	DATA	Keydown:  
+361.591	DATA	Keydown:  
+362.229	DATA	Keydown:  
+364.218	EXP	text_3: autoDraw = true
+364.972	DATA	Keydown:  
+364.989	EXP	text_3: autoDraw = false
+364.989	EXP	Sound: secs = -1
+364.989	EXP	Sound: volume = 1
+364.989	EXP	Sound: loops = 0
+364.989	EXP	Sound: volume = 1
+368.199	DATA	Keydown:  
+368.901	DATA	Keydown:  
+369.118	DATA	Keydown:  
+369.419	DATA	Keydown:  
+369.868	DATA	Keydown:  
+370.121	DATA	Keydown:  
+370.288	DATA	Keydown:  
+370.673	DATA	Keydown:  
+370.824	DATA	Keydown:  
+371.442	DATA	Keydown:  
+371.626	DATA	Keydown:  
+372.278	DATA	Keydown:  
+372.462	DATA	Keydown:  
+372.98	DATA	Keydown:  
+373.181	DATA	Keydown:  
+373.716	DATA	Keydown:  
+373.867	DATA	Keydown:  
+374.569	DATA	Keydown:  
+374.736	DATA	Keydown:  
+375.288	DATA	Keydown:  
+375.471	DATA	Keydown:  
+376.1240000000001	DATA	Keydown:  
+376.291	DATA	Keydown:  
+376.91	DATA	Keydown:  
+377.077	DATA	Keydown:  
+377.613	DATA	Keydown:  
+377.796	DATA	Keydown:  
+378.38100000000003	DATA	Keydown:  
+378.565	DATA	Keydown:  
+379.133	DATA	Keydown:  
+379.301	DATA	Keydown:  
+379.951	DATA	Keydown:  
+380.137	DATA	Keydown:  
+380.789	DATA	Keydown:  
+380.973	DATA	Keydown:  
+381.558	DATA	Keydown:  
+381.72499999999997	DATA	Keydown:  
+382.627	EXP	text_3: autoDraw = true
+382.964	DATA	Keydown:  
+382.979	EXP	text_3: autoDraw = false
+382.979	EXP	Sound: secs = -1
+382.979	EXP	Sound: volume = 1
+382.979	EXP	Sound: loops = 0
+382.979	EXP	Sound: volume = 1
+386.005	DATA	Keydown:  
+386.626	DATA	Keydown:  
+387.327	DATA	Keydown:  
+387.979	DATA	Keydown:  
+388.681	DATA	Keydown:  
+389.34999999999997	DATA	Keydown:  
+390.035	DATA	Keydown:  
+390.688	DATA	Keydown:  
+391.357	DATA	Keydown:  
+392.04200000000003	DATA	Keydown:  
+392.711	DATA	Keydown:  
+393.363	DATA	Keydown:  
+394.049	DATA	Keydown:  
+394.751	DATA	Keydown:  
+395.42	DATA	Keydown:  
+396.088	DATA	Keydown:  
+396.758	DATA	Keydown:  
+397.409	DATA	Keydown:  
+398.68	EXP	text_3: autoDraw = true
+399.351	DATA	Keydown:  
+399.367	EXP	text_3: autoDraw = false
+399.367	EXP	Sound: secs = -1
+399.367	EXP	Sound: volume = 1
+399.367	EXP	Sound: loops = 0
+399.367	EXP	Sound: volume = 1
+402.159	DATA	Keydown:  
+402.476	DATA	Keydown:  
+402.777	DATA	Keydown:  
+403.094	DATA	Keydown:  
+403.245	DATA	Keydown:  
+403.496	DATA	Keydown:  
+403.763	DATA	Keydown:  
+404.048	DATA	Keydown:  
+404.365	DATA	Keydown:  
+404.666	DATA	Keydown:  
+404.984	DATA	Keydown:  
+405.151	DATA	Keydown:  
+405.387	DATA	Keydown:  
+405.686	DATA	Keydown:  
+405.954	DATA	Keydown:  
+406.272	DATA	Keydown:  
+406.389	DATA	Keydown:  
+406.656	DATA	Keydown:  
+406.907	DATA	Keydown:  
+407.157	DATA	Keydown:  
+407.459	DATA	Keydown:  
+407.609	DATA	Keydown:  
+407.843	DATA	Keydown:  
+408.111	DATA	Keydown:  
+408.345	DATA	Keydown:  
+408.67900000000003	DATA	Keydown:  
+408.914	DATA	Keydown:  
+409.214	DATA	Keydown:  
+409.532	DATA	Keydown:  
+409.666	DATA	Keydown:  
+409.932	DATA	Keydown:  
+410.219	DATA	Keydown:  
+410.385	DATA	Keydown:  
+410.619	DATA	Keydown:  
+410.92	DATA	Keydown:  
+411.187	DATA	Keydown:  
+411.94	DATA	Keydown:  
+412.24	EXP	text_3: autoDraw = true
+412.609	DATA	Keydown:  
+412.626	EXP	text_3: autoDraw = false
+412.626	EXP	Sound: secs = -1
+412.626	EXP	Sound: volume = 1
+412.626	EXP	Sound: loops = 0
+412.626	EXP	Sound: volume = 1
+414.246	DATA	Keydown:  
+414.582	DATA	Keydown:  
+414.7490000000001	DATA	Keydown:  
+414.983	DATA	Keydown:  
+415.117	DATA	Keydown:  
+415.568	DATA	Keydown:  
+415.719	DATA	Keydown:  
+416.555	DATA	Keydown:  
+416.723	DATA	Keydown:  
+416.956	DATA	Keydown:  
+417.274	DATA	Keydown:  
+417.44100000000003	DATA	Keydown:  
+417.609	DATA	Keydown:  
+417.776	DATA	Keydown:  
+418.093	DATA	Keydown:  
+418.244	DATA	Keydown:  
+418.411	DATA	Keydown:  
+418.729	DATA	Keydown:  
+418.896	DATA	Keydown:  
+419.096	DATA	Keydown:  
+419.531	DATA	Keydown:  
+419.715	DATA	Keydown:  
+419.915	DATA	Keydown:  
+420.099	DATA	Keydown:  
+420.41700000000003	DATA	Keydown:  
+420.602	DATA	Keydown:  
+420.769	DATA	Keydown:  
+421.103	DATA	Keydown:  
+421.287	DATA	Keydown:  
+421.872	DATA	Keydown:  
+422.039	DATA	Keydown:  
+422.207	DATA	Keydown:  
+422.69100000000003	DATA	Keydown:  
+422.859	DATA	Keydown:  
+423.027	DATA	Keydown:  
+423.579	DATA	Keydown:  
+423.745	DATA	Keydown:  
+423.996	DATA	Keydown:  
+424.363	DATA	Keydown:  
+424.515	DATA	Keydown:  
+424.698	DATA	Keydown:  
+425.049	DATA	Keydown:  
+425.233	DATA	Keydown:  
+425.4	DATA	Keydown:  
+425.835	DATA	Keydown:  
+426.019	DATA	Keydown:  
+426.187	DATA	Keydown:  
+426.654	DATA	Keydown:  
+426.838	DATA	Keydown:  
+427.005	DATA	Keydown:  
+427.406	DATA	Keydown:  
+427.608	DATA	Keydown:  
+427.758	DATA	Keydown:  
+428.259	DATA	Keydown:  
+428.45300000000003	DATA	Keydown:  
+428.61	DATA	Keydown:  
+428.963	DATA	Keydown:  
+429.177	DATA	Keydown:  
+429.363	DATA	Keydown:  
+429.845	EXP	text_3: autoDraw = true
+434.448	DATA	Keydown:  
+434.464	EXP	text_3: autoDraw = false
+434.464	EXP	Sound: secs = -1
+434.464	EXP	Sound: volume = 1
+434.464	EXP	Sound: loops = 0
+434.464	EXP	Sound: volume = 1
+437.623	DATA	Keydown:  
+437.991	DATA	Keydown:  
+438.175	DATA	Keydown:  
+438.829	DATA	Keydown:  
+439.444	DATA	Keydown:  
+439.88100000000003	DATA	Keydown:  
+440.064	DATA	Keydown:  
+440.616	DATA	Keydown:  
+441.152	DATA	Keydown:  
+441.636	DATA	Keydown:  
+441.938	DATA	Keydown:  
+442.105	DATA	Keydown:  
+442.673	DATA	Keydown:  
+443.19100000000003	DATA	Keydown:  
+443.744	DATA	Keydown:  
+444.111	DATA	Keydown:  
+444.245	DATA	Keydown:  
+444.861	DATA	Keydown:  
+445.332	DATA	Keydown:  
+445.867	DATA	Keydown:  
+446.218	DATA	Keydown:  
+446.365	DATA	Keydown:  
+446.602	DATA	Keydown:  
+446.786	DATA	Keydown:  
+446.954	DATA	Keydown:  
+447.14300000000003	DATA	Keydown:  
+447.32	DATA	Keydown:  
+447.484	DATA	Keydown:  
+447.806	DATA	Keydown:  
+447.99	DATA	Keydown:  
+448.174	DATA	Keydown:  
+448.341	DATA	Keydown:  
+448.525	DATA	Keydown:  
+448.692	DATA	Keydown:  
+448.876	DATA	Keydown:  
+449.043	DATA	Keydown:  
+449.211	DATA	Keydown:  
+449.408	DATA	Keydown:  
+449.57800000000003	DATA	Keydown:  
+449.746	DATA	Keydown:  
+449.928	DATA	Keydown:  
+450.08	DATA	Keydown:  
+450.28000000000003	DATA	Keydown:  
+450.448	DATA	Keydown:  
+451.616	EXP	text_3: autoDraw = true
+452.071	DATA	Keydown:  
+452.087	EXP	text_3: autoDraw = false
+452.087	EXP	Sound: secs = -1
+452.087	EXP	Sound: volume = 1
+452.087	EXP	Sound: loops = 0
+452.087	EXP	Sound: volume = 1
+455.146	DATA	Keydown:  
+455.364	DATA	Keydown:  
+455.648	DATA	Keydown:  
+456.049	DATA	Keydown:  
+456.2	DATA	Keydown:  
+456.384	DATA	Keydown:  
+456.56600000000003	DATA	Keydown:  
+456.747	DATA	Keydown:  
+456.951	DATA	Keydown:  
+457.302	DATA	Keydown:  
+457.5	DATA	Keydown:  
+457.66700000000003	DATA	Keydown:  
+457.867	DATA	Keydown:  
+458.053	DATA	Keydown:  
+458.236	DATA	Keydown:  
+458.523	DATA	Keydown:  
+458.72499999999997	DATA	Keydown:  
+458.859	DATA	Keydown:  
+459.14300000000003	DATA	Keydown:  
+459.343	DATA	Keydown:  
+459.661	DATA	Keydown:  
+459.826	DATA	Keydown:  
+460.146	DATA	Keydown:  
+460.298	DATA	Keydown:  
+460.664	DATA	Keydown:  
+460.798	DATA	Keydown:  
+461.15	DATA	Keydown:  
+461.3	DATA	Keydown:  
+461.617	DATA	Keydown:  
+461.767	DATA	Keydown:  
+462.136	DATA	Keydown:  
+462.269	DATA	Keydown:  
+462.604	DATA	Keydown:  
+462.738	DATA	Keydown:  
+463.089	DATA	Keydown:  
+463.239	DATA	Keydown:  
+463.54	DATA	Keydown:  
+463.69100000000003	DATA	Keydown:  
+464.092	DATA	Keydown:  
+464.226	DATA	Keydown:  
+464.593	DATA	Keydown:  
+464.744	DATA	Keydown:  
+465.079	DATA	Keydown:  
+465.246	DATA	Keydown:  
+465.564	DATA	Keydown:  
+465.731	DATA	Keydown:  
+466.049	DATA	Keydown:  
+466.216	DATA	Keydown:  
+466.517	DATA	Keydown:  
+466.684	DATA	Keydown:  
+467.01800000000003	DATA	Keydown:  
+467.20300000000003	DATA	Keydown:  
+469.092	DATA	Keydown:  
+469.19100000000003	EXP	text_3: autoDraw = true
+469.761	DATA	Keydown:  
+469.778	EXP	text_3: autoDraw = false
+469.778	EXP	Sound: secs = -1
+469.778	EXP	Sound: volume = 1
+469.778	EXP	Sound: loops = 0
+469.778	EXP	Sound: volume = 1
+474.04	DATA	Keydown:  
+474.459	DATA	Keydown:  
+474.909	DATA	Keydown:  
+475.446	DATA	Keydown:  
+475.898	DATA	Keydown:  
+476.061	DATA	Keydown:  
+476.411	DATA	Keydown:  
+476.882	DATA	Keydown:  
+477.01	DATA	Keydown:  
+477.398	DATA	Keydown:  
+477.867	DATA	Keydown:  
+478	DATA	Keydown:  
+478.386	DATA	Keydown:  
+478.849	DATA	Keydown:  
+478.969	DATA	Keydown:  
+479.372	DATA	Keydown:  
+479.842	DATA	Keydown:  
+479.973	DATA	Keydown:  
+480.346	DATA	Keydown:  
+480.81	DATA	Keydown:  
+480.956	DATA	Keydown:  
+481.311	DATA	Keydown:  
+481.791	DATA	Keydown:  
+483.128	DATA	Keydown:  
+484.154	EXP	text_3: autoDraw = true
+486.44	DATA	Keydown:  
+486.46500000000003	EXP	text_3: autoDraw = false
+486.46500000000003	EXP	Sound: secs = -1
+486.46500000000003	EXP	Sound: volume = 1
+486.46500000000003	EXP	Sound: loops = 0
+486.46500000000003	EXP	Sound: volume = 1
+492.301	DATA	Keydown:  
+493.12	DATA	Keydown:  
+493.939	DATA	Keydown:  
+494.69100000000003	DATA	Keydown:  
+494.94100000000003	DATA	Keydown:  
+494.97499999999997	DATA	Keydown:  
+495.47700000000003	DATA	Keydown:  
+495.712	DATA	Keydown:  
+495.746	DATA	Keydown:  
+495.779	DATA	Keydown:  
+495.812	DATA	Keydown:  
+496.28000000000003	DATA	Keydown:  
+496.53000000000003	DATA	Keydown:  
+496.564	DATA	Keydown:  
+496.597	DATA	Keydown:  
+496.63100000000003	DATA	Keydown:  
+497.099	DATA	Keydown:  
+497.935	DATA	Keydown:  
+498.73699999999997	DATA	Keydown:  
+499.524	DATA	Keydown:  
+500.275	DATA	Keydown:  
+501.045	DATA	Keydown:  
+501.86400000000003	DATA	Keydown:  
+502.617	DATA	Keydown:  
+503.42	DATA	Keydown:  
+504.24	DATA	Keydown:  
+505.108	DATA	Keydown:  
+505.47499999999997	DATA	Keydown:  
+505.811	DATA	Keydown:  
+506.17900000000003	DATA	Keydown:  
+506.496	EXP	text_3: autoDraw = true
+506.58	DATA	Keydown:  
+506.596	EXP	text_3: autoDraw = false
+506.596	EXP	Sound: secs = -1
+506.596	EXP	Sound: volume = 1
+506.596	EXP	Sound: loops = 0
+506.596	EXP	Sound: volume = 1
+507.065	DATA	Keydown:  
+509.355	DATA	Keydown:  
+509.556	DATA	Keydown:  
+509.872	DATA	Keydown:  
+510.074	DATA	Keydown:  
+510.443	DATA	Keydown:  
+510.593	DATA	Keydown:  
+510.76	DATA	Keydown:  
+510.945	DATA	Keydown:  
+511.162	DATA	Keydown:  
+511.321	DATA	Keydown:  
+511.513	DATA	Keydown:  
+511.713	DATA	Keydown:  
+511.87899999999996	DATA	Keydown:  
+512.0640000000001	DATA	Keydown:  
+512.2620000000001	DATA	Keydown:  
+512.4470000000001	DATA	Keydown:  
+512.629	DATA	Keydown:  
+512.8130000000001	DATA	Keydown:  
+512.9970000000001	DATA	Keydown:  
+513.166	DATA	Keydown:  
+513.368	DATA	Keydown:  
+513.5690000000001	DATA	Keydown:  
+513.7370000000001	DATA	Keydown:  
+513.937	DATA	Keydown:  
+514.104	DATA	Keydown:  
+514.2710000000001	DATA	Keydown:  
+514.4380000000001	DATA	Keydown:  
+514.6060000000001	DATA	Keydown:  
+514.773	DATA	Keydown:  
+514.9390000000001	DATA	Keydown:  
+515.09	DATA	Keydown:  
+515.258	DATA	Keydown:  
+515.442	DATA	Keydown:  
+515.609	DATA	Keydown:  
+515.8100000000001	DATA	Keydown:  
+515.993	DATA	Keydown:  
+516.144	DATA	Keydown:  
+516.3280000000001	DATA	Keydown:  
+516.528	DATA	Keydown:  
+516.6800000000001	DATA	Keydown:  
+516.897	DATA	Keydown:  
+517.08	DATA	Keydown:  
+517.248	DATA	Keydown:  
+517.4480000000001	DATA	Keydown:  
+517.666	DATA	Keydown:  
+517.8660000000001	DATA	Keydown:  
+518.0500000000001	DATA	Keydown:  
+518.235	DATA	Keydown:  
+518.4010000000001	DATA	Keydown:  
+518.586	DATA	Keydown:  
+518.769	DATA	Keydown:  
+518.937	DATA	Keydown:  
+519.1370000000001	DATA	Keydown:  
+519.288	DATA	Keydown:  
+519.4390000000001	DATA	Keydown:  
+519.6220000000001	DATA	Keydown:  
+519.806	DATA	Keydown:  
+519.974	DATA	Keydown:  
+520.157	DATA	Keydown:  
+521.4110000000001	DATA	Keydown:  
+521.4440000000001	EXP	text_3: autoDraw = true
+521.8140000000001	DATA	Keydown:  
+521.8290000000001	EXP	text_3: autoDraw = false
+521.8290000000001	EXP	Sound: secs = -1
+521.8290000000001	EXP	Sound: volume = 1
+521.8290000000001	EXP	Sound: loops = 0
+521.8290000000001	EXP	Sound: volume = 1
+524.354	DATA	Keydown:  
+525.0210000000001	DATA	Keydown:  
+525.407	DATA	Keydown:  
+525.8090000000001	DATA	Keydown:  
+526.11	DATA	Keydown:  
+526.494	DATA	Keydown:  
+526.812	DATA	Keydown:  
+527.163	DATA	Keydown:  
+527.5480000000001	DATA	Keydown:  
+527.8990000000001	DATA	Keydown:  
+528.267	DATA	Keydown:  
+528.6510000000001	DATA	Keydown:  
+529.019	DATA	Keydown:  
+529.3700000000001	DATA	Keydown:  
+529.7220000000001	DATA	Keydown:  
+530.089	DATA	Keydown:  
+530.4580000000001	DATA	Keydown:  
+530.8080000000001	DATA	Keydown:  
+531.1590000000001	DATA	Keydown:  
+531.5440000000001	DATA	Keydown:  
+531.8620000000001	DATA	Keydown:  
+532.2790000000002	DATA	Keydown:  
+532.6970000000001	DATA	Keydown:  
+533.0150000000001	DATA	Keydown:  
+533.316	DATA	Keydown:  
+533.7020000000001	DATA	Keydown:  
+534.0690000000001	DATA	Keydown:  
+534.4200000000001	DATA	Keydown:  
+534.788	DATA	Keydown:  
+535.172	DATA	Keydown:  
+535.5240000000001	DATA	Keydown:  
+535.8750000000001	DATA	Keydown:  
+536.259	DATA	Keydown:  
+536.594	DATA	Keydown:  
+536.9440000000001	DATA	Keydown:  
+537.3620000000001	DATA	Keydown:  
+537.6800000000001	DATA	Keydown:  
+538.065	DATA	Keydown:  
+538.884	DATA	Keydown:  
+539.335	EXP	text_3: autoDraw = true
+539.7710000000001	DATA	Keydown:  
+539.787	EXP	text_3: autoDraw = false
+539.787	EXP	Sound: secs = -1
+539.787	EXP	Sound: volume = 1
+539.787	EXP	Sound: loops = 0
+539.787	EXP	Sound: volume = 1
+542.831	DATA	Keydown:  
+543.0310000000001	DATA	Keydown:  
+543.35	DATA	Keydown:  
+543.5160000000001	DATA	Keydown:  
+543.8180000000001	DATA	Keydown:  
+543.9670000000001	DATA	Keydown:  
+544.3520000000001	DATA	Keydown:  
+544.503	DATA	Keydown:  
+544.918	DATA	Keydown:  
+545.0540000000001	DATA	Keydown:  
+545.422	DATA	Keydown:  
+545.6730000000001	DATA	Keydown:  
+546.008	DATA	Keydown:  
+546.158	DATA	Keydown:  
+546.542	DATA	Keydown:  
+546.7260000000001	DATA	Keydown:  
+547.1780000000001	DATA	Keydown:  
+547.345	DATA	Keydown:  
+547.763	DATA	Keydown:  
+547.9300000000001	DATA	Keydown:  
+548.398	DATA	Keydown:  
+548.566	DATA	Keydown:  
+549.0680000000001	DATA	Keydown:  
+549.235	DATA	Keydown:  
+549.686	DATA	Keydown:  
+549.8340000000001	DATA	Keydown:  
+550.321	DATA	Keydown:  
+550.455	DATA	Keydown:  
+550.8570000000001	DATA	Keydown:  
+551.0070000000001	DATA	Keydown:  
+551.4250000000001	DATA	Keydown:  
+551.576	DATA	Keydown:  
+552.027	DATA	Keydown:  
+552.1780000000001	DATA	Keydown:  
+552.595	DATA	Keydown:  
+552.7460000000001	DATA	Keydown:  
+553.163	DATA	Keydown:  
+553.2810000000001	DATA	Keydown:  
+553.682	DATA	Keydown:  
+553.816	DATA	Keydown:  
+554.2170000000001	DATA	Keydown:  
+554.451	DATA	Keydown:  
+556.341	EXP	text_3: autoDraw = true
+556.927	DATA	Keydown:  
+556.9430000000001	EXP	text_3: autoDraw = false
+556.9430000000001	EXP	Sound: secs = -1
+556.9430000000001	EXP	Sound: volume = 1
+556.9430000000001	EXP	Sound: loops = 0
+556.9430000000001	EXP	Sound: volume = 1
+557.2940000000001	DATA	Keydown:  
+557.6450000000001	DATA	Keydown:  
+559.1840000000001	DATA	Keydown:  
+559.5350000000001	DATA	Keydown:  
+559.7180000000001	DATA	Keydown:  
+559.884	DATA	Keydown:  
+560.2370000000001	DATA	Keydown:  
+560.4040000000002	DATA	Keydown:  
+560.5880000000001	DATA	Keydown:  
+560.738	DATA	Keydown:  
+561.0060000000001	DATA	Keydown:  
+561.1400000000001	DATA	Keydown:  
+561.307	DATA	Keydown:  
+561.441	DATA	Keydown:  
+561.7080000000001	DATA	Keydown:  
+561.859	DATA	Keydown:  
+562.0260000000001	DATA	Keydown:  
+562.1600000000001	DATA	Keydown:  
+562.4440000000001	DATA	Keydown:  
+562.6110000000001	DATA	Keydown:  
+562.7450000000001	DATA	Keydown:  
+562.9290000000001	DATA	Keydown:  
+563.3130000000001	DATA	Keydown:  
+563.464	DATA	Keydown:  
+563.6310000000001	DATA	Keydown:  
+563.7980000000001	DATA	Keydown:  
+563.9820000000001	DATA	Keydown:  
+564.2500000000001	DATA	Keydown:  
+564.4000000000001	DATA	Keydown:  
+564.5840000000001	DATA	Keydown:  
+564.735	DATA	Keydown:  
+564.9520000000001	DATA	Keydown:  
+565.1700000000001	DATA	Keydown:  
+565.3700000000001	DATA	Keydown:  
+565.6540000000002	DATA	Keydown:  
+565.839	DATA	Keydown:  
+566.0730000000001	DATA	Keydown:  
+566.307	DATA	Keydown:  
+566.508	DATA	Keydown:  
+566.8240000000001	DATA	Keydown:  
+567.0250000000001	DATA	Keydown:  
+567.4100000000001	DATA	Keydown:  
+567.5770000000001	DATA	Keydown:  
+567.9950000000001	DATA	Keydown:  
+568.363	DATA	Keydown:  
+568.7980000000001	DATA	Keydown:  
+569.0150000000001	DATA	Keydown:  
+569.2990000000001	DATA	Keydown:  
+569.8330000000001	DATA	Keydown:  
+569.984	DATA	Keydown:  
+570.2690000000001	DATA	Keydown:  
+570.4200000000001	DATA	Keydown:  
+570.7370000000001	DATA	Keydown:  
+570.888	DATA	Keydown:  
+571.172	DATA	Keydown:  
+571.3230000000001	DATA	Keydown:  
+571.606	DATA	Keydown:  
+571.791	DATA	Keydown:  
+572.2940000000001	DATA	Keydown:  
+572.527	DATA	Keydown:  
+572.86	DATA	Keydown:  
+573.897	DATA	Keydown:  
+574.716	EXP	text_3: autoDraw = true
+604.498	DATA	Keydown:  
+604.5150000000001	EXP	text_3: autoDraw = false
+604.5150000000001	EXP	Sound: secs = -1
+604.5150000000001	EXP	Sound: volume = 1
+604.5150000000001	EXP	Sound: loops = 0
+604.5150000000001	EXP	Sound: volume = 1
+609.581	DATA	Keydown:  
+610.2980000000001	DATA	Keydown:  
+610.5000000000001	DATA	Keydown:  
+611.1850000000001	DATA	Keydown:  
+611.369	DATA	Keydown:  
+611.9380000000001	DATA	Keydown:  
+612.1890000000001	DATA	Keydown:  
+612.2220000000001	DATA	Keydown:  
+612.2560000000001	DATA	Keydown:  
+612.2890000000001	DATA	Keydown:  
+612.807	DATA	Keydown:  
+613.009	DATA	Keydown:  
+613.643	DATA	Keydown:  
+613.8940000000001	DATA	Keydown:  
+614.479	DATA	Keydown:  
+614.681	DATA	Keydown:  
+615.3320000000001	DATA	Keydown:  
+615.5830000000001	DATA	Keydown:  
+615.6160000000001	DATA	Keydown:  
+615.6500000000001	DATA	Keydown:  
+615.6830000000001	DATA	Keydown:  
+616.1510000000001	DATA	Keydown:  
+616.3520000000001	DATA	Keydown:  
+616.9540000000001	DATA	Keydown:  
+617.74	DATA	Keydown:  
+617.9570000000001	DATA	Keydown:  
+618.5770000000001	DATA	Keydown:  
+619.4290000000001	DATA	Keydown:  
+619.63	DATA	Keydown:  
+620.264	DATA	Keydown:  
+621.0500000000001	DATA	Keydown:  
+621.2180000000001	DATA	Keydown:  
+621.903	DATA	Keydown:  
+622.7230000000001	DATA	Keydown:  
+622.8900000000001	DATA	Keydown:  
+623.5590000000001	DATA	Keydown:  
+625.8990000000001	EXP	text_3: autoDraw = true
+632.3380000000001	DATA	Keydown:  
+632.354	EXP	text_3: autoDraw = false
+632.354	EXP	Sound: secs = -1
+632.354	EXP	Sound: volume = 1
+632.354	EXP	Sound: loops = 0
+632.354	EXP	Sound: volume = 1
+636.066	DATA	Keydown:  
+636.45	DATA	Keydown:  
+636.6010000000001	DATA	Keydown:  
+636.969	DATA	Keydown:  
+637.1690000000001	DATA	Keydown:  
+637.604	DATA	Keydown:  
+637.738	DATA	Keydown:  
+638.0720000000001	DATA	Keydown:  
+638.2560000000001	DATA	Keydown:  
+638.691	DATA	Keydown:  
+638.8750000000001	DATA	Keydown:  
+639.3100000000001	DATA	Keydown:  
+639.493	DATA	Keydown:  
+639.859	DATA	Keydown:  
+640.028	DATA	Keydown:  
+640.413	DATA	Keydown:  
+640.5640000000001	DATA	Keydown:  
+640.965	DATA	Keydown:  
+641.1160000000001	DATA	Keydown:  
+641.5000000000001	DATA	Keydown:  
+641.667	DATA	Keydown:  
+642.0350000000001	DATA	Keydown:  
+642.336	DATA	Keydown:  
+642.6880000000001	DATA	Keydown:  
+642.8370000000001	DATA	Keydown:  
+643.2220000000001	DATA	Keydown:  
+643.373	DATA	Keydown:  
+645.129	DATA	Keydown:  
+645.4630000000001	DATA	Keydown:  
+645.613	DATA	Keydown:  
+646.0640000000001	DATA	Keydown:  
+646.216	DATA	Keydown:  
+647.402	EXP	text_3: autoDraw = true
+675.177	DATA	Keydown:  
+675.1930000000001	EXP	text_3: autoDraw = false
+675.1930000000001	EXP	Sound: secs = -1
+675.1930000000001	EXP	Sound: volume = 1
+675.1930000000001	EXP	Sound: loops = 0
+675.1930000000001	EXP	Sound: volume = 1
+677.249	DATA	Keydown:  
+677.4330000000001	DATA	Keydown:  
+677.768	DATA	Keydown:  
+677.9190000000001	DATA	Keydown:  
+678.1020000000001	DATA	Keydown:  
+678.3040000000001	DATA	Keydown:  
+678.4870000000001	DATA	Keydown:  
+678.6540000000002	DATA	Keydown:  
+678.9050000000001	DATA	Keydown:  
+679.0720000000001	DATA	Keydown:  
+679.255	DATA	Keydown:  
+679.456	DATA	Keydown:  
+679.69	DATA	Keydown:  
+679.974	DATA	Keydown:  
+680.124	DATA	Keydown:  
+680.3090000000001	DATA	Keydown:  
+680.5590000000001	DATA	Keydown:  
+680.744	DATA	Keydown:  
+680.9280000000001	DATA	Keydown:  
+681.1450000000001	DATA	Keydown:  
+681.3960000000001	DATA	Keydown:  
+681.581	DATA	Keydown:  
+681.797	DATA	Keydown:  
+681.965	DATA	Keydown:  
+682.215	DATA	Keydown:  
+682.3990000000001	DATA	Keydown:  
+682.5830000000001	DATA	Keydown:  
+683.118	DATA	Keydown:  
+683.302	DATA	Keydown:  
+683.586	DATA	Keydown:  
+683.8370000000001	DATA	Keydown:  
+684.0540000000001	DATA	Keydown:  
+684.606	DATA	Keydown:  
+684.7560000000001	DATA	Keydown:  
+684.99	DATA	Keydown:  
+685.258	DATA	Keydown:  
+686.028	DATA	Keydown:  
+686.2610000000001	DATA	Keydown:  
+686.446	DATA	Keydown:  
+686.7470000000001	DATA	Keydown:  
+686.9300000000001	DATA	Keydown:  
+687.1980000000001	DATA	Keydown:  
+687.3660000000001	DATA	Keydown:  
+687.7320000000001	DATA	Keydown:  
+687.8990000000001	DATA	Keydown:  
+688.1680000000001	DATA	Keydown:  
+688.369	DATA	Keydown:  
+688.586	DATA	Keydown:  
+688.7700000000001	DATA	Keydown:  
+688.9540000000001	DATA	Keydown:  
+689.254	DATA	Keydown:  
+689.455	DATA	Keydown:  
+689.74	DATA	Keydown:  
+690.09	DATA	Keydown:  
+690.408	DATA	Keydown:  
+690.6590000000001	DATA	Keydown:  
+690.9440000000001	DATA	Keydown:  
+691.2130000000001	DATA	Keydown:  
+691.4770000000001	DATA	Keydown:  
+691.7460000000001	DATA	Keydown:  
+692.047	DATA	Keydown:  
+692.214	DATA	Keydown:  
+692.4490000000001	DATA	Keydown:  
+692.682	DATA	Keydown:  
+692.9330000000001	DATA	Keydown:  
+693.1170000000001	DATA	Keydown:  
+693.3510000000001	DATA	Keydown:  
+693.585	DATA	Keydown:  
+693.903	DATA	Keydown:  
+694.1370000000001	DATA	Keydown:  
+694.388	DATA	Keydown:  
+694.604	DATA	Keydown:  
+694.806	DATA	Keydown:  
+695.0400000000001	DATA	Keydown:  
+695.273	DATA	Keydown:  
+696.0770000000001	DATA	Keydown:  
+696.325	EXP	text_3: autoDraw = true
+696.629	DATA	Keydown:  
+696.6440000000001	EXP	text_3: autoDraw = false
+696.6440000000001	EXP	Sound: secs = -1
+696.6440000000001	EXP	Sound: volume = 1
+696.6440000000001	EXP	Sound: loops = 0
+696.6440000000001	EXP	Sound: volume = 1
+697.1790000000001	DATA	Keydown:  
+698.6680000000001	DATA	Keydown:  
+699.3370000000001	DATA	Keydown:  
+699.5210000000001	DATA	Keydown:  
+699.8870000000001	DATA	Keydown:  
+700.408	DATA	Keydown:  
+701.0100000000001	DATA	Keydown:  
+701.5110000000001	DATA	Keydown:  
+702.046	DATA	Keydown:  
+702.5970000000001	DATA	Keydown:  
+703.1830000000001	DATA	Keydown:  
+703.7020000000001	DATA	Keydown:  
+704.2860000000001	DATA	Keydown:  
+704.788	DATA	Keydown:  
+705.407	DATA	Keydown:  
+705.9250000000001	DATA	Keydown:  
+706.46	DATA	Keydown:  
+707.062	DATA	Keydown:  
+707.63	DATA	Keydown:  
+708.166	DATA	Keydown:  
+708.701	DATA	Keydown:  
+709.671	DATA	Keydown:  
+710.004	EXP	text_3: autoDraw = true
+711.4780000000001	DATA	Keydown:  
+711.493	EXP	text_3: autoDraw = false
+711.493	EXP	Sound: secs = -1
+711.493	EXP	Sound: volume = 1
+711.493	EXP	Sound: loops = 0
+711.493	EXP	Sound: volume = 1
+713.4340000000001	DATA	Keydown:  
+714.671	DATA	Keydown:  
+714.9200000000001	DATA	Keydown:  
+715.306	DATA	Keydown:  
+715.4730000000001	DATA	Keydown:  
+715.74	DATA	Keydown:  
+716.075	DATA	Keydown:  
+716.2420000000001	DATA	Keydown:  
+716.5260000000001	DATA	Keydown:  
+716.8940000000001	DATA	Keydown:  
+717.3290000000001	DATA	Keydown:  
+717.73	DATA	Keydown:  
+718.181	DATA	Keydown:  
+718.6170000000001	DATA	Keydown:  
+719.0680000000001	DATA	Keydown:  
+719.5190000000001	DATA	Keydown:  
+719.9870000000001	DATA	Keydown:  
+720.4390000000001	DATA	Keydown:  
+720.7900000000001	DATA	Keydown:  
+721.225	DATA	Keydown:  
+721.658	DATA	Keydown:  
+722.0780000000001	DATA	Keydown:  
+722.446	DATA	Keydown:  
+722.8470000000001	DATA	Keydown:  
+723.282	DATA	Keydown:  
+723.666	DATA	Keydown:  
+724.0340000000001	DATA	Keydown:  
+725.7220000000001	EXP	text_3: autoDraw = true
+727.58	DATA	Keydown:  
+727.5960000000001	EXP	text_3: autoDraw = false
+727.5960000000001	EXP	Sound: secs = -1
+727.5960000000001	EXP	Sound: volume = 1
+727.5960000000001	EXP	Sound: loops = 0
+727.5960000000001	EXP	Sound: volume = 1
+730.806	DATA	Keydown:  
+731.3410000000001	DATA	Keydown:  
+731.6080000000001	DATA	Keydown:  
+731.993	DATA	Keydown:  
+732.1930000000001	DATA	Keydown:  
+732.445	DATA	Keydown:  
+732.7450000000001	DATA	Keydown:  
+732.946	DATA	Keydown:  
+733.163	DATA	Keydown:  
+733.4470000000001	DATA	Keydown:  
+733.6990000000001	DATA	Keydown:  
+733.9820000000001	DATA	Keydown:  
+734.2	DATA	Keydown:  
+734.4340000000001	DATA	Keydown:  
+734.7020000000001	DATA	Keydown:  
+734.9350000000001	DATA	Keydown:  
+735.2030000000001	DATA	Keydown:  
+735.5540000000001	DATA	Keydown:  
+735.8380000000001	DATA	Keydown:  
+736.09	DATA	Keydown:  
+736.34	DATA	Keydown:  
+736.5740000000001	DATA	Keydown:  
+736.8090000000001	DATA	Keydown:  
+737.0590000000001	DATA	Keydown:  
+737.3100000000001	DATA	Keydown:  
+737.561	DATA	Keydown:  
+737.8280000000001	DATA	Keydown:  
+738.0630000000001	DATA	Keydown:  
+738.3470000000001	DATA	Keydown:  
+738.6150000000001	DATA	Keydown:  
+738.849	DATA	Keydown:  
+739.133	DATA	Keydown:  
+739.4010000000001	DATA	Keydown:  
+739.6510000000001	DATA	Keydown:  
+739.8660000000001	DATA	Keydown:  
+740.118	DATA	Keydown:  
+740.3870000000001	DATA	Keydown:  
+740.604	DATA	Keydown:  
+740.855	DATA	Keydown:  
+741.089	DATA	Keydown:  
+741.307	DATA	Keydown:  
+741.5070000000001	DATA	Keydown:  
+741.7070000000001	DATA	Keydown:  
+741.9090000000001	DATA	Keydown:  
+742.1220000000001	DATA	Keydown:  
+742.3270000000001	DATA	Keydown:  
+742.561	DATA	Keydown:  
+742.778	DATA	Keydown:  
+742.979	DATA	Keydown:  
+743.647	DATA	Keydown:  
+744.9180000000001	EXP	text_3: autoDraw = true
+747.46	DATA	Keydown:  
+747.4760000000001	EXP	text_3: autoDraw = false
+747.4760000000001	EXP	Sound: secs = -1
+747.4760000000001	EXP	Sound: volume = 1
+747.4760000000001	EXP	Sound: loops = 0
+747.4760000000001	EXP	Sound: volume = 1
+750.2840000000001	DATA	Keydown:  
+750.6370000000001	DATA	Keydown:  
+750.9710000000001	DATA	Keydown:  
+751.3050000000001	DATA	Keydown:  
+751.6560000000001	DATA	Keydown:  
+752.041	DATA	Keydown:  
+752.393	DATA	Keydown:  
+752.7270000000001	DATA	Keydown:  
+753.0780000000001	DATA	Keydown:  
+753.3950000000001	DATA	Keydown:  
+753.731	DATA	Keydown:  
+754.0310000000001	DATA	Keydown:  
+754.3990000000001	DATA	Keydown:  
+754.7840000000001	DATA	Keydown:  
+755.134	DATA	Keydown:  
+755.503	DATA	Keydown:  
+755.8370000000001	DATA	Keydown:  
+756.171	DATA	Keydown:  
+756.5730000000001	DATA	Keydown:  
+756.8910000000001	DATA	Keydown:  
+757.1920000000001	DATA	Keydown:  
+757.5590000000001	DATA	Keydown:  
+757.8270000000001	DATA	Keydown:  
+758.1270000000001	DATA	Keydown:  
+758.4620000000001	DATA	Keydown:  
+758.763	DATA	Keydown:  
+759.0640000000001	DATA	Keydown:  
+759.398	DATA	Keydown:  
+759.6830000000001	DATA	Keydown:  
+759.9830000000001	DATA	Keydown:  
+760.1850000000001	DATA	Keydown:  
+760.4520000000001	DATA	Keydown:  
+760.768	DATA	Keydown:  
+760.9710000000001	DATA	Keydown:  
+761.4050000000001	DATA	Keydown:  
+761.605	DATA	Keydown:  
+762.057	DATA	Keydown:  
+762.2740000000001	DATA	Keydown:  
+762.7760000000001	DATA	Keydown:  
+763.195	DATA	Keydown:  
+763.5260000000001	DATA	Keydown:  
+766.0160000000001	EXP	text_3: autoDraw = true
+766.0540000000001	DATA	Keydown:  
+766.066	EXP	text_3: autoDraw = false
+766.066	EXP	Sound: secs = -1
+766.066	EXP	Sound: volume = 1
+766.066	EXP	Sound: loops = 0
+766.066	EXP	Sound: volume = 1
+768.9290000000001	DATA	Keydown:  
+769.2420000000001	DATA	Keydown:  
+769.561	DATA	Keydown:  
+769.7600000000001	DATA	Keydown:  
+770.0790000000001	DATA	Keydown:  
+770.2800000000001	DATA	Keydown:  
+770.4960000000001	DATA	Keydown:  
+770.715	DATA	Keydown:  
+770.898	DATA	Keydown:  
+771.086	DATA	Keydown:  
+771.2810000000001	DATA	Keydown:  
+771.4540000000001	DATA	Keydown:  
+771.666	DATA	Keydown:  
+771.9190000000001	DATA	Keydown:  
+772.118	DATA	Keydown:  
+772.3180000000001	DATA	Keydown:  
+772.5190000000001	DATA	Keydown:  
+772.72	DATA	Keydown:  
+772.9200000000001	DATA	Keydown:  
+773.1740000000001	DATA	Keydown:  
+773.4230000000001	DATA	Keydown:  
+773.6780000000001	DATA	Keydown:  
+773.8620000000001	DATA	Keydown:  
+774.094	DATA	Keydown:  
+774.277	DATA	Keydown:  
+774.4770000000001	DATA	Keydown:  
+774.6890000000001	DATA	Keydown:  
+774.8940000000001	DATA	Keydown:  
+775.0770000000001	DATA	Keydown:  
+775.311	DATA	Keydown:  
+775.5260000000001	DATA	Keydown:  
+775.749	DATA	Keydown:  
+775.981	DATA	Keydown:  
+776.1790000000001	DATA	Keydown:  
+776.383	DATA	Keydown:  
+776.566	DATA	Keydown:  
+776.806	DATA	Keydown:  
+777.0350000000001	DATA	Keydown:  
+777.249	DATA	Keydown:  
+777.4540000000001	DATA	Keydown:  
+777.653	DATA	Keydown:  
+777.8710000000001	DATA	Keydown:  
+778.152	DATA	Keydown:  
+778.3890000000001	DATA	Keydown:  
+778.759	DATA	Keydown:  
+778.9620000000001	DATA	Keydown:  
+779.195	EXP	text_3: autoDraw = true
+779.229	DATA	Keydown:  
+779.2570000000001	EXP	text_3: autoDraw = false
+779.2570000000001	EXP	Sound: secs = -1
+779.2570000000001	EXP	Sound: volume = 1
+779.2570000000001	EXP	Sound: loops = 0
+779.2570000000001	EXP	Sound: volume = 1
+779.461	DATA	Keydown:  
+779.7070000000001	DATA	Keydown:  
+779.941	DATA	Keydown:  
+781.9040000000002	DATA	Keydown:  
+782.2040000000001	DATA	Keydown:  
+782.3900000000001	DATA	Keydown:  
+782.7570000000001	DATA	Keydown:  
+782.941	DATA	Keydown:  
+783.36	DATA	Keydown:  
+783.5440000000001	DATA	Keydown:  
+784.128	DATA	Keydown:  
+784.3130000000001	DATA	Keydown:  
+784.8290000000001	DATA	Keydown:  
+785.0640000000001	DATA	Keydown:  
+785.4000000000001	DATA	Keydown:  
+785.6500000000001	DATA	Keydown:  
+785.9010000000001	DATA	Keydown:  
+786.219	DATA	Keydown:  
+786.436	DATA	Keydown:  
+786.7370000000001	DATA	Keydown:  
+786.9380000000001	DATA	Keydown:  
+787.2220000000001	DATA	Keydown:  
+787.456	DATA	Keydown:  
+787.7570000000001	DATA	Keydown:  
+787.94	DATA	Keydown:  
+788.2090000000001	DATA	Keydown:  
+788.4250000000001	DATA	Keydown:  
+788.6930000000001	DATA	Keydown:  
+788.9100000000001	DATA	Keydown:  
+789.2120000000001	DATA	Keydown:  
+789.412	DATA	Keydown:  
+789.7470000000001	DATA	Keydown:  
+789.9290000000001	DATA	Keydown:  
+790.166	DATA	Keydown:  
+790.3990000000001	DATA	Keydown:  
+790.7180000000001	DATA	Keydown:  
+791.0010000000001	DATA	Keydown:  
+791.1840000000001	DATA	Keydown:  
+791.4190000000001	DATA	Keydown:  
+791.8380000000001	DATA	Keydown:  
+792.07	DATA	Keydown:  
+792.3050000000001	DATA	Keydown:  
+792.7900000000001	DATA	Keydown:  
+793.057	DATA	Keydown:  
+793.3080000000001	DATA	Keydown:  
+793.542	DATA	Keydown:  
+793.8100000000001	DATA	Keydown:  
+794.3620000000001	DATA	Keydown:  
+794.5790000000001	DATA	Keydown:  
+796.5690000000001	EXP	text_3: autoDraw = true
+798.359	DATA	Keydown:  
+798.374	EXP	text_3: autoDraw = false
+798.374	EXP	Sound: secs = -1
+798.374	EXP	Sound: volume = 1
+798.374	EXP	Sound: loops = 0
+798.374	EXP	Sound: volume = 1
+800.2460000000001	DATA	Keydown:  
+800.4480000000001	DATA	Keydown:  
+801.586	DATA	Keydown:  
+801.9530000000001	DATA	Keydown:  
+802.287	DATA	Keydown:  
+802.839	DATA	Keydown:  
+803.1730000000001	DATA	Keydown:  
+803.8420000000001	DATA	Keydown:  
+804.076	DATA	Keydown:  
+804.6450000000001	DATA	Keydown:  
+804.9620000000001	DATA	Keydown:  
+805.5490000000001	DATA	Keydown:  
+805.782	DATA	Keydown:  
+806.316	DATA	Keydown:  
+806.5680000000001	DATA	Keydown:  
+807.186	DATA	Keydown:  
+807.3870000000001	DATA	Keydown:  
+808.123	DATA	Keydown:  
+808.3910000000001	DATA	Keydown:  
+809.0590000000001	DATA	Keydown:  
+809.3940000000001	DATA	Keydown:  
+810.0450000000001	DATA	Keydown:  
+810.33	DATA	Keydown:  
+810.898	DATA	Keydown:  
+811.1500000000001	DATA	Keydown:  
+811.633	DATA	Keydown:  
+811.8510000000001	DATA	Keydown:  
+812.153	DATA	Keydown:  
+812.605	DATA	Keydown:  
+812.855	DATA	Keydown:  
+813.441	DATA	Keydown:  
+813.6750000000001	DATA	Keydown:  
+814.142	DATA	Keydown:  
+814.662	DATA	Keydown:  
+815.196	DATA	Keydown:  
+815.647	DATA	Keydown:  
+816.032	DATA	Keydown:  
+816.283	DATA	Keydown:  
+816.8340000000001	DATA	Keydown:  
+818.255	EXP	text_3: autoDraw = true
+829.2930000000001	DATA	Keydown:  
+829.3090000000001	EXP	text_3: autoDraw = false
+829.3090000000001	EXP	Sound: secs = -1
+829.3090000000001	EXP	Sound: volume = 1
+829.3090000000001	EXP	Sound: loops = 0
+829.3090000000001	EXP	Sound: volume = 1
+833.455	DATA	Keydown:  
+833.6890000000001	DATA	Keydown:  
+834.1740000000001	DATA	Keydown:  
+834.508	DATA	Keydown:  
+835.027	DATA	Keydown:  
+835.277	DATA	Keydown:  
+835.731	DATA	Keydown:  
+835.9630000000001	DATA	Keydown:  
+836.565	DATA	Keydown:  
+836.749	DATA	Keydown:  
+837.2660000000001	DATA	Keydown:  
+837.4520000000001	DATA	Keydown:  
+838.0530000000001	DATA	Keydown:  
+838.253	DATA	Keydown:  
+838.706	DATA	Keydown:  
+838.9390000000001	DATA	Keydown:  
+839.408	DATA	Keydown:  
+839.6080000000001	DATA	Keydown:  
+840.2570000000001	DATA	Keydown:  
+840.4420000000001	DATA	Keydown:  
+840.9760000000001	DATA	Keydown:  
+841.177	DATA	Keydown:  
+841.681	DATA	Keydown:  
+841.9140000000001	DATA	Keydown:  
+842.4000000000001	DATA	Keydown:  
+842.6170000000001	DATA	Keydown:  
+843.07	DATA	Keydown:  
+843.32	DATA	Keydown:  
+843.888	DATA	Keydown:  
+844.0910000000001	DATA	Keydown:  
+844.5240000000001	DATA	Keydown:  
+844.759	DATA	Keydown:  
+845.2940000000001	DATA	Keydown:  
+845.5110000000001	DATA	Keydown:  
+846.113	DATA	Keydown:  
+846.33	DATA	Keydown:  
+848.2360000000001	EXP	text_3: autoDraw = true
+849.7760000000001	DATA	Keydown:  
+849.7930000000001	EXP	text_3: autoDraw = false
+849.7930000000001	EXP	Sound: secs = -1
+849.7930000000001	EXP	Sound: volume = 1
+849.7930000000001	EXP	Sound: loops = 0
+849.7930000000001	EXP	Sound: volume = 1
+851.9190000000001	DATA	Keydown:  
+852.166	DATA	Keydown:  
+852.4010000000001	DATA	Keydown:  
+852.8340000000001	DATA	Keydown:  
+853.0530000000001	DATA	Keydown:  
+853.6320000000001	DATA	Keydown:  
+853.8460000000001	DATA	Keydown:  
+854.2800000000001	DATA	Keydown:  
+854.5390000000001	DATA	Keydown:  
+855.0980000000001	DATA	Keydown:  
+855.3000000000001	DATA	Keydown:  
+855.782	DATA	Keydown:  
+856.018	DATA	Keydown:  
+856.6320000000001	DATA	Keydown:  
+856.8810000000001	DATA	Keydown:  
+857.417	DATA	Keydown:  
+857.768	DATA	Keydown:  
+858.4440000000001	DATA	Keydown:  
+858.6600000000001	DATA	Keydown:  
+859.1550000000001	DATA	Keydown:  
+859.356	DATA	Keydown:  
+859.964	DATA	Keydown:  
+860.1800000000001	DATA	Keydown:  
+860.5780000000001	DATA	Keydown:  
+861.479	DATA	Keydown:  
+862.315	DATA	Keydown:  
+863.0010000000001	DATA	Keydown:  
+863.6350000000001	DATA	Keydown:  
+864.6730000000001	DATA	Keydown:  
+865.5590000000001	DATA	Keydown:  
+866.2280000000001	DATA	Keydown:  
+867.0640000000001	DATA	Keydown:  
+867.8670000000001	DATA	Keydown:  
+868.3170000000001	EXP	text_3: autoDraw = true
+869.272	DATA	Keydown:  
+869.2880000000001	EXP	text_3: autoDraw = false
+869.2880000000001	EXP	Sound: secs = -1
+869.2880000000001	EXP	Sound: volume = 1
+869.2880000000001	EXP	Sound: loops = 0
+869.2880000000001	EXP	Sound: volume = 1
+870.541	DATA	Keydown:  
+871.2940000000001	DATA	Keydown:  
+871.945	DATA	Keydown:  
+872.464	DATA	Keydown:  
+872.932	DATA	Keydown:  
+873.234	DATA	Keydown:  
+873.485	DATA	Keydown:  
+873.7360000000001	DATA	Keydown:  
+873.9860000000001	DATA	Keydown:  
+874.22	DATA	Keydown:  
+874.4710000000001	DATA	Keydown:  
+874.738	DATA	Keydown:  
+874.989	DATA	Keydown:  
+875.2400000000001	DATA	Keydown:  
+875.475	DATA	Keydown:  
+875.7420000000001	DATA	Keydown:  
+875.993	DATA	Keydown:  
+876.243	DATA	Keydown:  
+876.5110000000001	DATA	Keydown:  
+876.7620000000001	DATA	Keydown:  
+877.263	DATA	Keydown:  
+877.4970000000001	DATA	Keydown:  
+877.782	DATA	Keydown:  
+878.033	DATA	Keydown:  
+878.316	DATA	Keydown:  
+878.551	DATA	Keydown:  
+878.7850000000001	DATA	Keydown:  
+879.003	DATA	Keydown:  
+879.254	DATA	Keydown:  
+879.504	DATA	Keydown:  
+879.755	DATA	Keydown:  
+880.005	DATA	Keydown:  
+880.2570000000001	DATA	Keydown:  
+880.5240000000001	DATA	Keydown:  
+880.7750000000001	DATA	Keydown:  
+881.0260000000001	DATA	Keydown:  
+881.2600000000001	DATA	Keydown:  
+881.5110000000001	DATA	Keydown:  
+882.0620000000001	DATA	Keydown:  
+883.2660000000001	EXP	text_3: autoDraw = true
+884.755	DATA	Keydown:  
+884.7710000000001	EXP	text_3: autoDraw = false
+884.7710000000001	EXP	Sound: secs = -1
+884.7710000000001	EXP	Sound: volume = 1
+884.7710000000001	EXP	Sound: loops = 0
+884.7710000000001	EXP	Sound: volume = 1
+887.2460000000001	DATA	Keydown:  
+887.8130000000001	DATA	Keydown:  
+888.1650000000001	DATA	Keydown:  
+888.5500000000001	DATA	Keydown:  
+888.7180000000001	DATA	Keydown:  
+889.052	DATA	Keydown:  
+889.3190000000001	DATA	Keydown:  
+889.571	DATA	Keydown:  
+889.754	DATA	Keydown:  
+890.005	DATA	Keydown:  
+890.291	DATA	Keydown:  
+890.557	DATA	Keydown:  
+890.8580000000001	DATA	Keydown:  
+890.9920000000001	DATA	Keydown:  
+891.2420000000001	DATA	Keydown:  
+891.5260000000001	DATA	Keydown:  
+891.8270000000001	DATA	Keydown:  
+892.296	DATA	Keydown:  
+892.546	DATA	Keydown:  
+892.831	DATA	Keydown:  
+893.1310000000001	DATA	Keydown:  
+893.282	DATA	Keydown:  
+893.533	DATA	Keydown:  
+893.8850000000001	DATA	Keydown:  
+894.219	DATA	Keydown:  
+894.5360000000001	DATA	Keydown:  
+894.6540000000002	DATA	Keydown:  
+894.9380000000001	DATA	Keydown:  
+895.272	DATA	Keydown:  
+895.624	DATA	Keydown:  
+895.791	DATA	Keydown:  
+896.0580000000001	DATA	Keydown:  
+896.3420000000001	DATA	Keydown:  
+896.6270000000001	DATA	Keydown:  
+896.927	DATA	Keydown:  
+897.2790000000002	DATA	Keydown:  
+897.5960000000001	DATA	Keydown:  
+897.88	DATA	Keydown:  
+897.9970000000001	DATA	Keydown:  
+898.2810000000001	DATA	Keydown:  
+898.5830000000001	DATA	Keydown:  
+898.8670000000001	DATA	Keydown:  
+899.1510000000001	DATA	Keydown:  
+899.2850000000001	DATA	Keydown:  
+899.5530000000001	DATA	Keydown:  
+899.82	DATA	Keydown:  
+900.0870000000001	DATA	Keydown:  
+900.4050000000001	DATA	Keydown:  
+900.6890000000001	DATA	Keydown:  
+900.839	DATA	Keydown:  
+901.0910000000001	DATA	Keydown:  
+902.076	EXP	text_3: autoDraw = true
+902.73	DATA	Keydown:  
+902.7460000000001	EXP	text_3: autoDraw = false
+902.7460000000001	EXP	Sound: secs = -1
+902.7460000000001	EXP	Sound: volume = 1
+902.7460000000001	EXP	Sound: loops = 0
+902.7460000000001	EXP	Sound: volume = 1
+903.465	DATA	Keydown:  
+904.969	DATA	Keydown:  
+905.321	DATA	Keydown:  
+905.6890000000001	DATA	Keydown:  
+906.008	DATA	Keydown:  
+906.4910000000001	DATA	Keydown:  
+906.7420000000001	DATA	Keydown:  
+907.277	DATA	Keydown:  
+907.5630000000001	DATA	Keydown:  
+908.0300000000001	DATA	Keydown:  
+908.331	DATA	Keydown:  
+908.849	DATA	Keydown:  
+909.1510000000001	DATA	Keydown:  
+909.686	DATA	Keydown:  
+909.9520000000001	DATA	Keydown:  
+910.488	DATA	Keydown:  
+910.7220000000001	DATA	Keydown:  
+911.1400000000001	DATA	Keydown:  
+911.3750000000001	DATA	Keydown:  
+911.6080000000001	DATA	Keydown:  
+912.042	DATA	Keydown:  
+912.2600000000001	DATA	Keydown:  
+912.695	DATA	Keydown:  
+912.912	DATA	Keydown:  
+913.464	DATA	Keydown:  
+913.7320000000001	DATA	Keydown:  
+914.316	DATA	Keydown:  
+914.552	DATA	Keydown:  
+915.0360000000001	DATA	Keydown:  
+915.354	DATA	Keydown:  
+915.956	DATA	Keydown:  
+916.19	DATA	Keydown:  
+916.6590000000001	DATA	Keydown:  
+916.941	DATA	Keydown:  
+917.494	DATA	Keydown:  
+917.7280000000001	DATA	Keydown:  
+918.33	DATA	Keydown:  
+918.5630000000001	DATA	Keydown:  
+919.2160000000001	DATA	Keydown:  
+919.4330000000001	DATA	Keydown:  
+919.8650000000001	DATA	Keydown:  
+920.1350000000001	DATA	Keydown:  
+921.6070000000001	EXP	text_3: autoDraw = true
+923.5490000000001	DATA	Keydown:  
+923.565	EXP	text_3: autoDraw = false
+923.565	EXP	Sound: secs = -1
+923.565	EXP	Sound: volume = 1
+923.565	EXP	Sound: loops = 0
+923.565	EXP	Sound: volume = 1
+926.479	DATA	Keydown:  
+926.8620000000001	DATA	Keydown:  
+927.1440000000001	DATA	Keydown:  
+927.46	DATA	Keydown:  
+927.724	DATA	Keydown:  
+927.9770000000001	DATA	Keydown:  
+928.2790000000002	DATA	Keydown:  
+928.5970000000001	DATA	Keydown:  
+928.864	DATA	Keydown:  
+929.1980000000001	DATA	Keydown:  
+929.4660000000001	DATA	Keydown:  
+929.734	DATA	Keydown:  
+930.017	DATA	Keydown:  
+930.3360000000001	DATA	Keydown:  
+930.6370000000001	DATA	Keydown:  
+930.9050000000001	DATA	Keydown:  
+931.171	DATA	Keydown:  
+931.488	DATA	Keydown:  
+931.791	DATA	Keydown:  
+932.0250000000001	DATA	Keydown:  
+932.3090000000001	DATA	Keydown:  
+932.6260000000001	DATA	Keydown:  
+932.9110000000001	DATA	Keydown:  
+933.2120000000001	DATA	Keydown:  
+933.5290000000002	DATA	Keydown:  
+933.8130000000001	DATA	Keydown:  
+934.081	DATA	Keydown:  
+934.3480000000001	DATA	Keydown:  
+934.633	DATA	Keydown:  
+934.9330000000001	DATA	Keydown:  
+935.2180000000001	DATA	Keydown:  
+935.5190000000001	DATA	Keydown:  
+935.8030000000001	DATA	Keydown:  
+936.0880000000001	DATA	Keydown:  
+936.3710000000001	DATA	Keydown:  
+936.6550000000001	DATA	Keydown:  
+937.475	EXP	text_3: autoDraw = true
+939.6840000000001	DATA	Keydown:  
+939.7	EXP	text_3: autoDraw = false
+939.7	EXP	Sound: secs = -1
+939.7	EXP	Sound: volume = 1
+939.7	EXP	Sound: loops = 0
+939.7	EXP	Sound: volume = 1
+942.157	DATA	Keydown:  
+942.642	DATA	Keydown:  
+943.629	DATA	Keydown:  
+944.3650000000001	DATA	Keydown:  
+945.167	DATA	Keydown:  
+945.9870000000001	DATA	Keydown:  
+946.7210000000001	DATA	Keydown:  
+947.407	DATA	Keydown:  
+948.0430000000001	DATA	Keydown:  
+948.7620000000001	DATA	Keydown:  
+949.465	DATA	Keydown:  
+950.099	DATA	Keydown:  
+950.802	DATA	Keydown:  
+951.5540000000001	DATA	Keydown:  
+952.172	DATA	Keydown:  
+952.9420000000001	DATA	Keydown:  
+953.662	DATA	Keydown:  
+954.397	DATA	Keydown:  
+955.1320000000001	DATA	Keydown:  
+955.835	DATA	Keydown:  
+956.7880000000001	DATA	Keydown:  
+957.4060000000001	DATA	Keydown:  
+957.4730000000001	EXP	text_3: autoDraw = true
+957.926	DATA	Keydown:  
+957.9420000000001	EXP	text_3: autoDraw = false
+957.9420000000001	EXP	Sound: secs = -1
+957.9420000000001	EXP	Sound: volume = 1
+957.9420000000001	EXP	Sound: loops = 0
+957.9420000000001	EXP	Sound: volume = 1
+960.0970000000001	DATA	Keydown:  
+960.566	DATA	Keydown:  
+960.835	DATA	Keydown:  
+961.3190000000001	DATA	Keydown:  
+962.0550000000001	DATA	Keydown:  
+962.307	DATA	Keydown:  
+962.8910000000001	DATA	Keydown:  
+963.225	DATA	Keydown:  
+963.426	DATA	Keydown:  
+963.6270000000001	DATA	Keydown:  
+964.363	DATA	Keydown:  
+964.8620000000001	DATA	Keydown:  
+965.081	DATA	Keydown:  
+965.6500000000001	DATA	Keydown:  
+965.9010000000001	DATA	Keydown:  
+966.1010000000001	DATA	Keydown:  
+966.335	DATA	Keydown:  
+966.936	DATA	Keydown:  
+967.3050000000001	DATA	Keydown:  
+967.5060000000001	DATA	Keydown:  
+967.739	DATA	Keydown:  
+968.0250000000001	DATA	Keydown:  
+968.392	DATA	Keydown:  
+968.6590000000001	DATA	Keydown:  
+968.8430000000001	DATA	Keydown:  
+969.0440000000001	DATA	Keydown:  
+969.345	DATA	Keydown:  
+969.6790000000001	DATA	Keydown:  
+969.9630000000001	DATA	Keydown:  
+970.148	DATA	Keydown:  
+970.3650000000001	DATA	Keydown:  
+970.666	DATA	Keydown:  
+970.9670000000001	DATA	Keydown:  
+971.2350000000001	DATA	Keydown:  
+971.4190000000001	DATA	Keydown:  
+971.6020000000001	DATA	Keydown:  
+971.9530000000001	DATA	Keydown:  
+972.205	DATA	Keydown:  
+972.5390000000001	DATA	Keydown:  
+972.739	DATA	Keydown:  
+972.907	DATA	Keydown:  
+973.291	DATA	Keydown:  
+974.412	DATA	Keydown:  
+975.0300000000001	EXP	text_3: autoDraw = true
+975.047	DATA	Keydown:  
+975.0860000000001	EXP	text_3: autoDraw = false
+975.0860000000001	EXP	text_4: autoDraw = true
+975.652	DATA	Keydown:  
+975.6800000000001	EXP	text_4: autoDraw = false
+975.6800000000001	EXP	Sound: secs = -1
+975.6800000000001	EXP	Sound: volume = 1
+975.6800000000001	EXP	Sound: loops = 0
+975.6800000000001	EXP	Sound: volume = 1
+980.6490000000001	DATA	Keydown:  
+981.033	DATA	Keydown:  
+981.451	DATA	Keydown:  
+981.9180000000001	DATA	Keydown:  
+982.3870000000001	DATA	Keydown:  
+982.8050000000001	DATA	Keydown:  
+983.2570000000001	DATA	Keydown:  
+983.6750000000001	DATA	Keydown:  
+984.109	DATA	Keydown:  
+984.5620000000001	DATA	Keydown:  
+985.028	DATA	Keydown:  
+985.481	DATA	Keydown:  
+985.9150000000001	DATA	Keydown:  
+986.383	DATA	Keydown:  
+986.835	DATA	Keydown:  
+987.2690000000001	DATA	Keydown:  
+987.6210000000001	DATA	Keydown:  
+988.123	DATA	Keydown:  
+988.5740000000001	DATA	Keydown:  
+989.042	DATA	Keydown:  
+989.4760000000001	DATA	Keydown:  
+989.9430000000001	DATA	Keydown:  
+990.263	DATA	Keydown:  
+990.8820000000001	DATA	Keydown:  
+991.2160000000001	DATA	Keydown:  
+991.783	DATA	Keydown:  
+992.2360000000001	DATA	Keydown:  
+992.6880000000001	DATA	Keydown:  
+993.1390000000001	DATA	Keydown:  
+993.557	DATA	Keydown:  
+993.9910000000001	DATA	Keydown:  
+994.4110000000001	DATA	Keydown:  
+994.8770000000001	DATA	Keydown:  
+995.2950000000001	DATA	Keydown:  
+995.7470000000001	DATA	Keydown:  
+997.5500000000001	EXP	next_prompt_trial2: autoDraw = true
+1004.359	DATA	Keydown:  
+1004.3750000000001	EXP	next_prompt_trial2: autoDraw = false
+1004.3750000000001	EXP	Sound: secs = -1
+1004.3750000000001	EXP	Sound: volume = 1
+1004.3750000000001	EXP	Sound: loops = 0
+1004.3750000000001	EXP	Sound: volume = 1
+1007.34	DATA	Keydown:  
+1007.705	DATA	Keydown:  
+1008.1850000000001	DATA	Keydown:  
+1008.5350000000001	DATA	Keydown:  
+1008.821	DATA	Keydown:  
+1009.123	DATA	Keydown:  
+1009.4250000000001	DATA	Keydown:  
+1009.743	DATA	Keydown:  
+1010.0430000000001	DATA	Keydown:  
+1010.344	DATA	Keydown:  
+1010.6450000000001	DATA	Keydown:  
+1010.9630000000001	DATA	Keydown:  
+1011.297	DATA	Keydown:  
+1011.5980000000001	DATA	Keydown:  
+1011.8990000000001	DATA	Keydown:  
+1012.2170000000001	DATA	Keydown:  
+1012.5020000000001	DATA	Keydown:  
+1012.802	DATA	Keydown:  
+1013.1200000000001	DATA	Keydown:  
+1013.436	DATA	Keydown:  
+1013.739	DATA	Keydown:  
+1014.057	DATA	Keydown:  
+1014.374	DATA	Keydown:  
+1014.6750000000001	DATA	Keydown:  
+1015.0110000000001	DATA	Keydown:  
+1015.3280000000001	DATA	Keydown:  
+1015.595	DATA	Keydown:  
+1015.9300000000001	DATA	Keydown:  
+1016.2570000000001	DATA	Keydown:  
+1016.5770000000001	DATA	Keydown:  
+1016.8280000000001	DATA	Keydown:  
+1017.1150000000001	DATA	Keydown:  
+1017.4680000000001	DATA	Keydown:  
+1017.7860000000001	DATA	Keydown:  
+1018.051	DATA	Keydown:  
+1018.3030000000001	DATA	Keydown:  
+1018.6370000000001	DATA	Keydown:  
+1018.956	DATA	Keydown:  
+1019.291	DATA	Keydown:  
+1021.129	EXP	next_prompt_trial2: autoDraw = true
+1022.0490000000001	DATA	Keydown:  
+1022.0770000000001	EXP	next_prompt_trial2: autoDraw = false
+1022.0770000000001	EXP	Sound: secs = -1
+1022.0770000000001	EXP	Sound: volume = 1
+1022.0770000000001	EXP	Sound: loops = 0
+1022.0770000000001	EXP	Sound: volume = 1
+1023.721	DATA	Keydown:  
+1024.374	DATA	Keydown:  
+1024.708	DATA	Keydown:  
+1025.392	DATA	Keydown:  
+1026.463	DATA	Keydown:  
+1026.982	DATA	Keydown:  
+1027.6670000000001	DATA	Keydown:  
+1027.9180000000001	DATA	Keydown:  
+1027.952	DATA	Keydown:  
+1027.9850000000001	DATA	Keydown:  
+1028.371	DATA	Keydown:  
+1029.0890000000002	DATA	Keydown:  
+1029.8390000000002	DATA	Keydown:  
+1030.4270000000001	DATA	Keydown:  
+1031.1280000000002	DATA	Keydown:  
+1031.814	DATA	Keydown:  
+1032.467	DATA	Keydown:  
+1033.219	DATA	Keydown:  
+1033.837	DATA	Keydown:  
+1034.5230000000001	DATA	Keydown:  
+1035.325	DATA	Keydown:  
+1035.911	DATA	Keydown:  
+1036.63	DATA	Keydown:  
+1037.582	EXP	next_prompt_trial2: autoDraw = true
+1039.1560000000002	DATA	Keydown:  
+1039.173	EXP	next_prompt_trial2: autoDraw = false
+1039.173	EXP	Sound: secs = -1
+1039.173	EXP	Sound: volume = 1
+1039.173	EXP	Sound: loops = 0
+1039.173	EXP	Sound: volume = 1
+1040.54	DATA	Keydown:  
+1041.5620000000001	DATA	Keydown:  
+1041.981	DATA	Keydown:  
+1042.631	DATA	Keydown:  
+1043.268	DATA	Keydown:  
+1043.9540000000002	DATA	Keydown:  
+1044.7060000000001	DATA	Keydown:  
+1045.392	DATA	Keydown:  
+1046.094	DATA	Keydown:  
+1046.8960000000002	DATA	Keydown:  
+1047.765	DATA	Keydown:  
+1048.585	DATA	Keydown:  
+1049.2710000000002	DATA	Keydown:  
+1050.123	DATA	Keydown:  
+1051.1090000000002	DATA	Keydown:  
+1052.0120000000002	DATA	Keydown:  
+1052.732	DATA	Keydown:  
+1053.5510000000002	DATA	Keydown:  
+1054.304	DATA	Keydown:  
+1055.173	DATA	Keydown:  
+1056.761	EXP	next_prompt_trial2: autoDraw = true
+1056.846	DATA	Keydown:  
+1056.862	EXP	next_prompt_trial2: autoDraw = false
+1056.862	EXP	Sound: secs = -1
+1056.862	EXP	Sound: volume = 1
+1056.862	EXP	Sound: loops = 0
+1056.862	EXP	Sound: volume = 1
+1059.537	DATA	Keydown:  
+1060.088	DATA	Keydown:  
+1060.691	DATA	Keydown:  
+1061.443	DATA	Keydown:  
+1062.0620000000001	DATA	Keydown:  
+1062.6970000000001	DATA	Keydown:  
+1063.382	DATA	Keydown:  
+1064.102	DATA	Keydown:  
+1064.886	DATA	Keydown:  
+1065.472	DATA	Keydown:  
+1066.1580000000001	DATA	Keydown:  
+1066.8110000000001	DATA	Keydown:  
+1067.596	DATA	Keydown:  
+1068.333	DATA	Keydown:  
+1069.0510000000002	DATA	Keydown:  
+1069.669	DATA	Keydown:  
+1070.422	DATA	Keydown:  
+1071.059	DATA	Keydown:  
+1071.7930000000001	DATA	Keydown:  
+1072.4450000000002	DATA	Keydown:  
+1073.163	DATA	Keydown:  
+1074.8500000000001	EXP	next_prompt_trial2: autoDraw = true
+1079.67	DATA	Keydown:  
+1079.6860000000001	EXP	next_prompt_trial2: autoDraw = false
+1079.6860000000001	EXP	Sound: secs = -1
+1079.6860000000001	EXP	Sound: volume = 1
+1079.6860000000001	EXP	Sound: loops = 0
+1079.6860000000001	EXP	Sound: volume = 1
+1082.795	DATA	Keydown:  
+1083.365	DATA	Keydown:  
+1084.0500000000002	DATA	Keydown:  
+1084.702	DATA	Keydown:  
+1085.324	DATA	Keydown:  
+1085.8890000000001	DATA	Keydown:  
+1086.575	DATA	Keydown:  
+1087.243	DATA	Keydown:  
+1087.961	DATA	Keydown:  
+1088.698	DATA	Keydown:  
+1089.133	DATA	Keydown:  
+1089.833	DATA	Keydown:  
+1090.789	DATA	Keydown:  
+1091.256	DATA	Keydown:  
+1091.909	DATA	Keydown:  
+1092.511	DATA	Keydown:  
+1093.247	DATA	Keydown:  
+1093.915	DATA	Keydown:  
+1094.601	DATA	Keydown:  
+1095.371	DATA	Keydown:  
+1096.189	DATA	Keydown:  
+1096.4060000000002	EXP	next_prompt_trial2: autoDraw = true
+1096.876	DATA	Keydown:  
+1096.892	EXP	next_prompt_trial2: autoDraw = false
+1096.892	EXP	Sound: secs = -1
+1096.892	EXP	Sound: volume = 1
+1096.892	EXP	Sound: loops = 0
+1096.892	EXP	Sound: volume = 1
+1098.747	DATA	Keydown:  
+1099.366	DATA	Keydown:  
+1100.519	DATA	Keydown:  
+1101.3220000000001	DATA	Keydown:  
+1101.958	DATA	Keydown:  
+1102.66	DATA	Keydown:  
+1103.413	DATA	Keydown:  
+1104.0310000000002	DATA	Keydown:  
+1104.717	DATA	Keydown:  
+1106.1380000000001	DATA	Keydown:  
+1106.824	DATA	Keydown:  
+1107.525	DATA	Keydown:  
+1108.3790000000001	DATA	Keydown:  
+1109.181	DATA	Keydown:  
+1109.832	DATA	Keydown:  
+1110.519	DATA	Keydown:  
+1111.487	DATA	Keydown:  
+1112.1570000000002	DATA	Keydown:  
+1112.8110000000001	DATA	Keydown:  
+1113.5610000000001	DATA	Keydown:  
+1114.315	DATA	Keydown:  
+1115.6680000000001	DATA	Keydown:  
+1116.4370000000001	DATA	Keydown:  
+1117.1570000000002	DATA	Keydown:  
+1118.009	DATA	Keydown:  
+1119.414	EXP	next_prompt_trial2: autoDraw = true
+1119.8480000000002	DATA	Keydown:  
+1119.864	EXP	next_prompt_trial2: autoDraw = false
+1119.864	EXP	Sound: secs = -1
+1119.864	EXP	Sound: volume = 1
+1119.864	EXP	Sound: loops = 0
+1119.864	EXP	Sound: volume = 1
+1120.4840000000002	DATA	Keydown:  
+1122.123	DATA	Keydown:  
+1122.825	DATA	Keydown:  
+1123.443	DATA	Keydown:  
+1124.113	DATA	Keydown:  
+1124.732	DATA	Keydown:  
+1125.451	DATA	Keydown:  
+1126.0700000000002	DATA	Keydown:  
+1126.7540000000001	DATA	Keydown:  
+1127.423	DATA	Keydown:  
+1128.059	DATA	Keydown:  
+1128.661	DATA	Keydown:  
+1129.414	DATA	Keydown:  
+1130.133	DATA	Keydown:  
+1130.835	DATA	Keydown:  
+1131.636	DATA	Keydown:  
+1132.3390000000004	DATA	Keydown:  
+1133.058	DATA	Keydown:  
+1133.862	DATA	Keydown:  
+1134.5790000000002	DATA	Keydown:  
+1135.317	DATA	Keydown:  
+1136.202	DATA	Keydown:  
+1136.8200000000002	DATA	Keydown:  
+1137.5800000000002	DATA	Keydown:  
+1138.439	EXP	next_prompt_trial2: autoDraw = true
+1140.3500000000001	DATA	Keydown:  
+1140.366	EXP	next_prompt_trial2: autoDraw = false
+1140.366	EXP	Sound: secs = -1
+1140.366	EXP	Sound: volume = 1
+1140.366	EXP	Sound: loops = 0
+1140.366	EXP	Sound: volume = 1
+1141.267	DATA	Keydown:  
+1142.605	DATA	Keydown:  
+1142.838	DATA	Keydown:  
+1143.2920000000001	DATA	Keydown:  
+1143.4750000000001	DATA	Keydown:  
+1143.9270000000001	DATA	Keydown:  
+1144.095	DATA	Keydown:  
+1144.6470000000002	DATA	Keydown:  
+1144.796	DATA	Keydown:  
+1145.2810000000002	DATA	Keydown:  
+1145.432	DATA	Keydown:  
+1145.95	DATA	Keydown:  
+1146.117	DATA	Keydown:  
+1146.636	DATA	Keydown:  
+1146.787	DATA	Keydown:  
+1147.238	DATA	Keydown:  
+1147.405	DATA	Keydown:  
+1147.9070000000002	DATA	Keydown:  
+1148.0710000000001	DATA	Keydown:  
+1148.557	DATA	Keydown:  
+1148.7240000000002	DATA	Keydown:  
+1149.228	DATA	Keydown:  
+1149.395	DATA	Keydown:  
+1149.894	DATA	Keydown:  
+1150.0620000000001	DATA	Keydown:  
+1150.68	DATA	Keydown:  
+1151.2350000000001	DATA	Keydown:  
+1151.384	DATA	Keydown:  
+1151.885	DATA	Keydown:  
+1152.036	DATA	Keydown:  
+1152.5710000000001	DATA	Keydown:  
+1152.738	DATA	Keydown:  
+1153.2060000000001	DATA	Keydown:  
+1153.374	DATA	Keydown:  
+1153.9250000000002	DATA	Keydown:  
+1154.026	DATA	Keydown:  
+1154.6280000000002	DATA	Keydown:  
+1155.565	EXP	next_prompt_trial2: autoDraw = true
+1160.9950000000001	DATA	Keydown:  
+1161.009	EXP	next_prompt_trial2: autoDraw = false
+1161.009	EXP	Sound: secs = -1
+1161.009	EXP	Sound: volume = 1
+1161.009	EXP	Sound: loops = 0
+1161.009	EXP	Sound: volume = 1
+1163.479	DATA	Keydown:  
+1163.941	DATA	Keydown:  
+1164.527	DATA	Keydown:  
+1164.963	DATA	Keydown:  
+1165.547	DATA	Keydown:  
+1165.998	DATA	Keydown:  
+1166.433	DATA	Keydown:  
+1166.9170000000001	DATA	Keydown:  
+1167.403	DATA	Keydown:  
+1167.92	DATA	Keydown:  
+1168.405	DATA	Keydown:  
+1168.873	DATA	Keydown:  
+1169.342	DATA	Keydown:  
+1169.76	DATA	Keydown:  
+1170.278	DATA	Keydown:  
+1170.731	DATA	Keydown:  
+1171.1480000000001	DATA	Keydown:  
+1171.614	DATA	Keydown:  
+1172.117	DATA	Keydown:  
+1172.67	DATA	Keydown:  
+1173.69	EXP	next_prompt_trial2: autoDraw = true
+1174.243	DATA	Keydown:  
+1174.259	EXP	next_prompt_trial2: autoDraw = false
+1174.259	EXP	Sound: secs = -1
+1174.259	EXP	Sound: volume = 1
+1174.259	EXP	Sound: loops = 0
+1174.259	EXP	Sound: volume = 1
+1175.328	DATA	Keydown:  
+1177.469	DATA	Keydown:  
+1178.555	DATA	Keydown:  
+1179.3590000000002	DATA	Keydown:  
+1180.076	DATA	Keydown:  
+1180.813	DATA	Keydown:  
+1181.516	DATA	Keydown:  
+1182.251	DATA	Keydown:  
+1183.0700000000002	DATA	Keydown:  
+1183.823	DATA	Keydown:  
+1184.575	DATA	Keydown:  
+1185.3780000000002	DATA	Keydown:  
+1186.114	DATA	Keydown:  
+1186.833	DATA	Keydown:  
+1187.518	DATA	Keydown:  
+1188.287	DATA	Keydown:  
+1189.107	DATA	Keydown:  
+1189.776	DATA	Keydown:  
+1190.394	DATA	Keydown:  
+1191.1970000000001	DATA	Keydown:  
+1191.9830000000002	DATA	Keydown:  
+1193.972	EXP	next_prompt_trial2: autoDraw = true
+1198.354	DATA	Keydown:  
+1198.3700000000001	EXP	next_prompt_trial2: autoDraw = false
+1198.3700000000001	EXP	Sound: secs = -1
+1198.3700000000001	EXP	Sound: volume = 1
+1198.3700000000001	EXP	Sound: loops = 0
+1198.3700000000001	EXP	Sound: volume = 1
+1199.9730000000002	DATA	Keydown:  
+1200.3580000000002	DATA	Keydown:  
+1200.894	DATA	Keydown:  
+1201.145	DATA	Keydown:  
+1201.4450000000002	DATA	Keydown:  
+1201.713	DATA	Keydown:  
+1201.948	DATA	Keydown:  
+1202.182	DATA	Keydown:  
+1202.416	DATA	Keydown:  
+1202.635	DATA	Keydown:  
+1202.8690000000001	DATA	Keydown:  
+1203.102	DATA	Keydown:  
+1203.3200000000002	DATA	Keydown:  
+1203.5210000000002	DATA	Keydown:  
+1203.737	DATA	Keydown:  
+1203.9550000000002	DATA	Keydown:  
+1204.1560000000002	DATA	Keydown:  
+1204.357	DATA	Keydown:  
+1204.5910000000001	DATA	Keydown:  
+1204.807	DATA	Keydown:  
+1204.99	DATA	Keydown:  
+1205.191	DATA	Keydown:  
+1205.391	DATA	Keydown:  
+1205.577	DATA	Keydown:  
+1205.7930000000001	DATA	Keydown:  
+1205.9940000000001	DATA	Keydown:  
+1206.178	DATA	Keydown:  
+1206.3790000000001	DATA	Keydown:  
+1206.5790000000002	DATA	Keydown:  
+1206.797	DATA	Keydown:  
+1206.998	DATA	Keydown:  
+1207.248	DATA	Keydown:  
+1207.4650000000001	DATA	Keydown:  
+1207.7	DATA	Keydown:  
+1207.9180000000001	DATA	Keydown:  
+1208.151	DATA	Keydown:  
+1208.3690000000001	DATA	Keydown:  
+1208.587	DATA	Keydown:  
+1208.8210000000001	DATA	Keydown:  
+1209.0710000000001	DATA	Keydown:  
+1209.2720000000002	DATA	Keydown:  
+1209.489	DATA	Keydown:  
+1209.689	DATA	Keydown:  
+1209.89	DATA	Keydown:  
+1210.092	DATA	Keydown:  
+1210.275	DATA	Keydown:  
+1210.476	DATA	Keydown:  
+1210.6760000000002	DATA	Keydown:  
+1210.876	DATA	Keydown:  
+1211.077	DATA	Keydown:  
+1211.278	DATA	Keydown:  
+1211.461	DATA	Keydown:  
+1211.679	DATA	Keydown:  
+1211.864	DATA	Keydown:  
+1212.048	DATA	Keydown:  
+1212.248	DATA	Keydown:  
+1212.4650000000001	DATA	Keydown:  
+1212.633	DATA	Keydown:  
+1212.834	DATA	Keydown:  
+1213.034	DATA	Keydown:  
+1213.2350000000001	DATA	Keydown:  
+1213.4350000000002	DATA	Keydown:  
+1213.636	DATA	Keydown:  
+1213.8190000000002	DATA	Keydown:  
+1214.0700000000002	DATA	Keydown:  
+1214.2540000000001	DATA	Keydown:  
+1214.472	DATA	Keydown:  
+1214.6570000000002	DATA	Keydown:  
+1214.857	DATA	Keydown:  
+1215.057	DATA	Keydown:  
+1215.258	DATA	Keydown:  
+1215.458	DATA	Keydown:  
+1215.643	DATA	Keydown:  
+1215.8400000000001	DATA	Keydown:  
+1216.0420000000001	DATA	Keydown:  
+1216.243	DATA	Keydown:  
+1216.461	DATA	Keydown:  
+1217.498	EXP	next_prompt_trial2: autoDraw = true
+1219.3700000000001	DATA	Keydown:  
+1219.3870000000002	EXP	next_prompt_trial2: autoDraw = false
+1219.3870000000002	EXP	Sound: secs = -1
+1219.3870000000002	EXP	Sound: volume = 1
+1219.3870000000002	EXP	Sound: loops = 0
+1219.3870000000002	EXP	Sound: volume = 1
+1222.229	DATA	Keydown:  
+1222.433	DATA	Keydown:  
+1222.6460000000002	DATA	Keydown:  
+1222.814	DATA	Keydown:  
+1222.997	DATA	Keydown:  
+1223.181	DATA	Keydown:  
+1223.382	DATA	Keydown:  
+1223.5690000000002	DATA	Keydown:  
+1223.749	DATA	Keydown:  
+1223.921	DATA	Keydown:  
+1224.1170000000002	DATA	Keydown:  
+1224.3010000000002	DATA	Keydown:  
+1224.489	DATA	Keydown:  
+1224.654	DATA	Keydown:  
+1224.853	DATA	Keydown:  
+1225.0210000000002	DATA	Keydown:  
+1225.2230000000002	DATA	Keydown:  
+1225.423	DATA	Keydown:  
+1225.592	DATA	Keydown:  
+1225.7740000000001	DATA	Keydown:  
+1225.959	DATA	Keydown:  
+1226.144	DATA	Keydown:  
+1226.344	DATA	Keydown:  
+1226.5620000000001	DATA	Keydown:  
+1226.7450000000001	DATA	Keydown:  
+1226.929	DATA	Keydown:  
+1227.1460000000002	DATA	Keydown:  
+1227.363	DATA	Keydown:  
+1227.5810000000001	DATA	Keydown:  
+1227.798	DATA	Keydown:  
+1227.982	DATA	Keydown:  
+1228.183	DATA	Keydown:  
+1228.383	DATA	Keydown:  
+1228.584	DATA	Keydown:  
+1228.785	DATA	Keydown:  
+1228.969	DATA	Keydown:  
+1229.17	DATA	Keydown:  
+1229.3770000000002	DATA	Keydown:  
+1229.586	DATA	Keydown:  
+1229.8210000000001	DATA	Keydown:  
+1230.0220000000002	DATA	Keydown:  
+1230.2230000000002	DATA	Keydown:  
+1230.424	DATA	Keydown:  
+1230.624	DATA	Keydown:  
+1230.824	DATA	Keydown:  
+1231.025	DATA	Keydown:  
+1231.21	DATA	Keydown:  
+1231.393	DATA	Keydown:  
+1231.6080000000002	DATA	Keydown:  
+1233.4840000000002	EXP	next_prompt_trial2: autoDraw = true
+1234.438	DATA	Keydown:  
+1234.4550000000002	EXP	next_prompt_trial2: autoDraw = false
+1234.4550000000002	EXP	Sound: secs = -1
+1234.4550000000002	EXP	Sound: volume = 1
+1234.4550000000002	EXP	Sound: loops = 0
+1234.4550000000002	EXP	Sound: volume = 1
+1238.165	DATA	Keydown:  
+1238.366	DATA	Keydown:  
+1238.584	DATA	Keydown:  
+1238.7830000000001	DATA	Keydown:  
+1239.018	DATA	Keydown:  
+1239.2350000000001	DATA	Keydown:  
+1239.4360000000001	DATA	Keydown:  
+1239.621	DATA	Keydown:  
+1239.8690000000001	DATA	Keydown:  
+1240.056	DATA	Keydown:  
+1240.288	DATA	Keydown:  
+1240.607	DATA	Keydown:  
+1240.775	DATA	Keydown:  
+1241.1090000000002	DATA	Keydown:  
+1241.326	DATA	Keydown:  
+1241.576	DATA	Keydown:  
+1241.861	DATA	Keydown:  
+1242.028	DATA	Keydown:  
+1242.345	DATA	Keydown:  
+1242.596	DATA	Keydown:  
+1242.78	DATA	Keydown:  
+1243.0310000000002	DATA	Keydown:  
+1243.4660000000001	DATA	Keydown:  
+1243.65	DATA	Keydown:  
+1243.883	DATA	Keydown:  
+1244.134	DATA	Keydown:  
+1244.553	DATA	Keydown:  
+1244.737	DATA	Keydown:  
+1245.0710000000001	DATA	Keydown:  
+1245.238	DATA	Keydown:  
+1245.622	DATA	Keydown:  
+1245.823	DATA	Keydown:  
+1246.123	DATA	Keydown:  
+1246.324	DATA	Keydown:  
+1246.6090000000002	DATA	Keydown:  
+1246.8780000000002	DATA	Keydown:  
+1247.095	DATA	Keydown:  
+1247.412	DATA	Keydown:  
+1247.612	DATA	Keydown:  
+1247.864	DATA	Keydown:  
+1248.0810000000001	DATA	Keydown:  
+1248.3480000000002	DATA	Keydown:  
+1248.632	DATA	Keydown:  
+1249.1000000000001	DATA	Keydown:  
+1249.268	DATA	Keydown:  
+1249.603	DATA	Keydown:  
+1249.787	DATA	Keydown:  
+1250.1370000000002	DATA	Keydown:  
+1250.3210000000001	DATA	Keydown:  
+1250.7050000000002	DATA	Keydown:  
+1250.9060000000002	DATA	Keydown:  
+1251.307	DATA	Keydown:  
+1251.457	DATA	Keydown:  
+1251.775	DATA	Keydown:  
+1251.942	DATA	Keydown:  
+1252.227	DATA	Keydown:  
+1252.3770000000002	DATA	Keydown:  
+1252.729	DATA	Keydown:  
+1252.8970000000002	DATA	Keydown:  
+1253.213	DATA	Keydown:  
+1253.43	DATA	Keydown:  
+1253.8000000000002	DATA	Keydown:  
+1253.9830000000002	DATA	Keydown:  
+1254.334	DATA	Keydown:  
+1254.499	DATA	Keydown:  
+1254.8010000000002	DATA	Keydown:  
+1254.968	DATA	Keydown:  
+1255.287	DATA	Keydown:  
+1255.471	DATA	Keydown:  
+1255.872	DATA	Keydown:  
+1256.055	DATA	Keydown:  
+1256.4070000000002	DATA	Keydown:  
+1256.592	DATA	Keydown:  
+1256.942	DATA	Keydown:  
+1257.126	DATA	Keydown:  
+1257.477	DATA	Keydown:  
+1257.661	DATA	Keydown:  
+1258.078	DATA	Keydown:  
+1258.246	DATA	Keydown:  
+1258.53	DATA	Keydown:  
+1259.6000000000001	EXP	next_prompt_trial2: autoDraw = true
+1263.265	DATA	Keydown:  
+1263.28	EXP	next_prompt_trial2: autoDraw = false
+1263.28	EXP	Sound: secs = -1
+1263.28	EXP	Sound: volume = 1
+1263.28	EXP	Sound: loops = 0
+1263.28	EXP	Sound: volume = 1
+1265.837	DATA	Keydown:  
+1266.056	DATA	Keydown:  
+1266.623	DATA	Keydown:  
+1266.7930000000001	DATA	Keydown:  
+1267.025	DATA	Keydown:  
+1267.209	DATA	Keydown:  
+1267.459	DATA	Keydown:  
+1267.643	DATA	Keydown:  
+1267.9450000000002	DATA	Keydown:  
+1268.162	DATA	Keydown:  
+1268.4460000000001	DATA	Keydown:  
+1268.6460000000002	DATA	Keydown:  
+1268.931	DATA	Keydown:  
+1269.0810000000001	DATA	Keydown:  
+1269.382	DATA	Keydown:  
+1269.549	DATA	Keydown:  
+1269.815	DATA	Keydown:  
+1269.9830000000002	DATA	Keydown:  
+1270.2340000000002	DATA	Keydown:  
+1270.402	DATA	Keydown:  
+1270.653	DATA	Keydown:  
+1270.854	DATA	Keydown:  
+1271.038	DATA	Keydown:  
+1271.239	DATA	Keydown:  
+1271.44	DATA	Keydown:  
+1271.64	DATA	Keydown:  
+1271.809	DATA	Keydown:  
+1271.991	DATA	Keydown:  
+1272.141	DATA	Keydown:  
+1272.2920000000001	DATA	Keydown:  
+1272.4250000000002	DATA	Keydown:  
+1272.593	DATA	Keydown:  
+1272.759	DATA	Keydown:  
+1272.9270000000001	DATA	Keydown:  
+1273.078	DATA	Keydown:  
+1273.228	DATA	Keydown:  
+1273.3960000000002	DATA	Keydown:  
+1273.563	DATA	Keydown:  
+1273.746	DATA	Keydown:  
+1273.9470000000001	DATA	Keydown:  
+1274.131	DATA	Keydown:  
+1274.315	DATA	Keydown:  
+1274.482	DATA	Keydown:  
+1274.6650000000002	DATA	Keydown:  
+1274.8500000000001	DATA	Keydown:  
+1275.017	DATA	Keydown:  
+1275.1850000000002	DATA	Keydown:  
+1275.335	DATA	Keydown:  
+1275.5020000000002	DATA	Keydown:  
+1275.736	DATA	Keydown:  
+1275.9180000000001	DATA	Keydown:  
+1276.088	DATA	Keydown:  
+1276.2720000000002	DATA	Keydown:  
+1276.441	DATA	Keydown:  
+1276.622	DATA	Keydown:  
+1276.7900000000002	DATA	Keydown:  
+1276.957	DATA	Keydown:  
+1277.141	DATA	Keydown:  
+1277.325	DATA	Keydown:  
+1278.326	DATA	Keydown:  
+1279.114	EXP	next_prompt_trial2: autoDraw = true
+1279.567	DATA	Keydown:  
+1279.583	EXP	next_prompt_trial2: autoDraw = false
+1279.583	EXP	Sound: secs = -1
+1279.583	EXP	Sound: volume = 1
+1279.583	EXP	Sound: loops = 0
+1279.583	EXP	Sound: volume = 1
+1282.5420000000001	DATA	Keydown:  
+1282.7250000000001	DATA	Keydown:  
+1283.126	DATA	Keydown:  
+1283.345	DATA	Keydown:  
+1283.846	DATA	Keydown:  
+1284.03	DATA	Keydown:  
+1284.5990000000002	DATA	Keydown:  
+1284.799	DATA	Keydown:  
+1285.3010000000002	DATA	Keydown:  
+1285.4840000000002	DATA	Keydown:  
+1285.903	DATA	Keydown:  
+1286.121	DATA	Keydown:  
+1286.337	DATA	Keydown:  
+1286.6370000000002	DATA	Keydown:  
+1286.837	DATA	Keydown:  
+1287.0210000000002	DATA	Keydown:  
+1287.2710000000002	DATA	Keydown:  
+1287.457	DATA	Keydown:  
+1287.6570000000002	DATA	Keydown:  
+1287.914	DATA	Keydown:  
+1288.095	DATA	Keydown:  
+1288.323	DATA	Keydown:  
+1288.505	DATA	Keydown:  
+1288.7720000000002	DATA	Keydown:  
+1288.9920000000002	DATA	Keydown:  
+1289.16	DATA	Keydown:  
+1289.48	DATA	Keydown:  
+1289.662	DATA	Keydown:  
+1289.828	DATA	Keydown:  
+1290.096	DATA	Keydown:  
+1290.297	DATA	Keydown:  
+1290.51	DATA	Keydown:  
+1290.833	DATA	Keydown:  
+1291.067	DATA	Keydown:  
+1291.247	DATA	Keydown:  
+1291.5810000000001	DATA	Keydown:  
+1291.815	DATA	Keydown:  
+1291.982	DATA	Keydown:  
+1292.317	DATA	Keydown:  
+1292.517	DATA	Keydown:  
+1292.689	DATA	Keydown:  
+1293.025	DATA	Keydown:  
+1293.2250000000001	DATA	Keydown:  
+1293.4070000000002	DATA	Keydown:  
+1293.73	DATA	Keydown:  
+1293.913	DATA	Keydown:  
+1294.0800000000002	DATA	Keydown:  
+1294.5610000000001	DATA	Keydown:  
+1294.7440000000001	DATA	Keydown:  
+1294.931	DATA	Keydown:  
+1296.354	EXP	next_prompt_trial2: autoDraw = true
+1299.1000000000001	DATA	Keydown:  
+1299.1270000000002	EXP	next_prompt_trial2: autoDraw = false
+1299.1270000000002	EXP	Sound: secs = -1
+1299.1270000000002	EXP	Sound: volume = 1
+1299.1270000000002	EXP	Sound: loops = 0
+1299.1270000000002	EXP	Sound: volume = 1
+1302.875	DATA	Keydown:  
+1303.297	DATA	Keydown:  
+1303.711	DATA	Keydown:  
+1304.1940000000002	DATA	Keydown:  
+1304.546	DATA	Keydown:  
+1305.0500000000002	DATA	Keydown:  
+1305.449	DATA	Keydown:  
+1305.9	DATA	Keydown:  
+1306.419	DATA	Keydown:  
+1306.72	DATA	Keydown:  
+1307.221	DATA	Keydown:  
+1307.64	DATA	Keydown:  
+1308.073	DATA	Keydown:  
+1308.508	DATA	Keydown:  
+1308.928	DATA	Keydown:  
+1309.361	DATA	Keydown:  
+1309.88	DATA	Keydown:  
+1310.1970000000001	DATA	Keydown:  
+1310.7150000000001	DATA	Keydown:  
+1310.932	DATA	Keydown:  
+1311.3670000000002	DATA	Keydown:  
+1311.651	DATA	Keydown:  
+1312.1870000000001	DATA	Keydown:  
+1312.4560000000001	DATA	Keydown:  
+1313.008	DATA	Keydown:  
+1313.257	DATA	Keydown:  
+1313.441	DATA	Keydown:  
+1314.027	DATA	Keydown:  
+1314.261	DATA	Keydown:  
+1314.428	DATA	Keydown:  
+1314.864	DATA	Keydown:  
+1315.064	DATA	Keydown:  
+1315.229	DATA	Keydown:  
+1315.732	DATA	Keydown:  
+1315.949	DATA	Keydown:  
+1316.201	DATA	Keydown:  
+1316.669	DATA	Keydown:  
+1316.853	DATA	Keydown:  
+1317.087	DATA	Keydown:  
+1317.555	DATA	Keydown:  
+1317.7060000000001	DATA	Keydown:  
+1317.972	DATA	Keydown:  
+1318.6750000000002	DATA	Keydown:  
+1318.826	DATA	Keydown:  
+1320.179	EXP	next_prompt_trial2: autoDraw = true
+1324.3960000000002	DATA	Keydown:  
+1324.413	EXP	next_prompt_trial2: autoDraw = false
+1324.413	EXP	Sound: secs = -1
+1324.413	EXP	Sound: volume = 1
+1324.413	EXP	Sound: loops = 0
+1324.413	EXP	Sound: volume = 1
+1327.3210000000001	DATA	Keydown:  
+1327.7040000000002	DATA	Keydown:  
+1327.939	DATA	Keydown:  
+1328.207	DATA	Keydown:  
+1328.457	DATA	Keydown:  
+1328.708	DATA	Keydown:  
+1328.943	DATA	Keydown:  
+1329.16	DATA	Keydown:  
+1329.394	DATA	Keydown:  
+1329.645	DATA	Keydown:  
+1329.826	DATA	Keydown:  
+1330.0610000000001	DATA	Keydown:  
+1330.3300000000002	DATA	Keydown:  
+1330.564	DATA	Keydown:  
+1330.7810000000002	DATA	Keydown:  
+1330.9830000000002	DATA	Keydown:  
+1331.2	DATA	Keydown:  
+1331.384	DATA	Keydown:  
+1331.6170000000002	DATA	Keydown:  
+1331.834	DATA	Keydown:  
+1332.0520000000001	DATA	Keydown:  
+1332.27	DATA	Keydown:  
+1332.471	DATA	Keydown:  
+1332.6870000000001	DATA	Keydown:  
+1332.904	DATA	Keydown:  
+1333.122	DATA	Keydown:  
+1333.356	DATA	Keydown:  
+1333.557	DATA	Keydown:  
+1333.775	DATA	Keydown:  
+1333.991	DATA	Keydown:  
+1334.259	DATA	Keydown:  
+1334.476	DATA	Keydown:  
+1334.693	DATA	Keydown:  
+1334.894	DATA	Keydown:  
+1335.1290000000001	DATA	Keydown:  
+1335.3290000000002	DATA	Keydown:  
+1335.53	DATA	Keydown:  
+1335.73	DATA	Keydown:  
+1335.9470000000001	DATA	Keydown:  
+1336.1650000000002	DATA	Keydown:  
+1336.365	DATA	Keydown:  
+1336.6170000000002	DATA	Keydown:  
+1336.817	DATA	Keydown:  
+1337.035	DATA	Keydown:  
+1337.2520000000002	DATA	Keydown:  
+1337.47	DATA	Keydown:  
+1337.67	DATA	Keydown:  
+1337.871	DATA	Keydown:  
+1338.0720000000001	DATA	Keydown:  
+1338.289	DATA	Keydown:  
+1338.5230000000001	DATA	Keydown:  
+1338.74	DATA	Keydown:  
+1338.9740000000002	DATA	Keydown:  
+1339.191	DATA	Keydown:  
+1339.409	DATA	Keydown:  
+1339.6100000000001	DATA	Keydown:  
+1339.827	DATA	Keydown:  
+1340.044	DATA	Keydown:  
+1340.228	DATA	Keydown:  
+1340.479	DATA	Keydown:  
+1340.713	DATA	Keydown:  
+1340.981	DATA	Keydown:  
+1341.132	DATA	Keydown:  
+1341.366	DATA	Keydown:  
+1341.567	DATA	Keydown:  
+1341.7830000000001	DATA	Keydown:  
+1342.0980000000002	DATA	Keydown:  
+1342.3020000000001	DATA	Keydown:  
+1342.537	DATA	Keydown:  
+1342.737	DATA	Keydown:  
+1342.9550000000002	DATA	Keydown:  
+1343.189	DATA	Keydown:  
+1343.4060000000002	DATA	Keydown:  
+1343.623	DATA	Keydown:  
+1343.8410000000001	DATA	Keydown:  
+1344.0420000000001	DATA	Keydown:  
+1344.259	DATA	Keydown:  
+1344.476	DATA	Keydown:  
+1344.6940000000002	DATA	Keydown:  
+1344.928	DATA	Keydown:  
+1345.162	DATA	Keydown:  
+1345.3790000000001	DATA	Keydown:  
+1345.597	DATA	Keydown:  
+1345.813	DATA	Keydown:  
+1346.015	DATA	Keydown:  
+1346.2160000000001	DATA	Keydown:  
+1346.433	DATA	Keydown:  
+1346.6670000000001	DATA	Keydown:  
+1346.868	DATA	Keydown:  
+1347.085	DATA	Keydown:  
+1347.336	DATA	Keydown:  
+1347.519	DATA	Keydown:  
+1347.7540000000001	DATA	Keydown:  
+1349.824	EXP	next_prompt_trial2: autoDraw = true
+1356.95	DATA	Keydown:  
+1356.9660000000001	EXP	next_prompt_trial2: autoDraw = false
+1356.9660000000001	EXP	Sound: secs = -1
+1356.9660000000001	EXP	Sound: volume = 1
+1356.9660000000001	EXP	Sound: loops = 0
+1356.9660000000001	EXP	Sound: volume = 1
+1359.6580000000001	DATA	Keydown:  
+1359.909	DATA	Keydown:  
+1360.261	DATA	Keydown:  
+1360.441	DATA	Keydown:  
+1360.746	DATA	Keydown:  
+1360.8970000000002	DATA	Keydown:  
+1361.18	DATA	Keydown:  
+1361.3480000000002	DATA	Keydown:  
+1361.615	DATA	Keydown:  
+1361.799	DATA	Keydown:  
+1362.084	DATA	Keydown:  
+1362.251	DATA	Keydown:  
+1362.535	DATA	Keydown:  
+1362.719	DATA	Keydown:  
+1363.053	DATA	Keydown:  
+1363.237	DATA	Keydown:  
+1363.568	DATA	Keydown:  
+1363.7350000000001	DATA	Keydown:  
+1364.068	DATA	Keydown:  
+1364.221	DATA	Keydown:  
+1364.5210000000002	DATA	Keydown:  
+1364.689	DATA	Keydown:  
+1365.005	DATA	Keydown:  
+1365.174	DATA	Keydown:  
+1365.49	DATA	Keydown:  
+1365.726	DATA	Keydown:  
+1365.976	DATA	Keydown:  
+1366.16	DATA	Keydown:  
+1366.4440000000002	DATA	Keydown:  
+1366.612	DATA	Keydown:  
+1366.981	DATA	Keydown:  
+1367.1460000000002	DATA	Keydown:  
+1367.431	DATA	Keydown:  
+1367.5990000000002	DATA	Keydown:  
+1367.8990000000001	DATA	Keydown:  
+1368.0500000000002	DATA	Keydown:  
+1368.4170000000001	DATA	Keydown:  
+1368.567	DATA	Keydown:  
+1368.92	DATA	Keydown:  
+1369.087	DATA	Keydown:  
+1369.472	DATA	Keydown:  
+1369.6380000000001	DATA	Keydown:  
+1371.211	DATA	Keydown:  
+1371.593	EXP	next_prompt_trial2: autoDraw = true
+1374.9560000000001	DATA	Keydown:  
+1374.9730000000002	EXP	next_prompt_trial2: autoDraw = false
+1374.9730000000002	EXP	Sound: secs = -1
+1374.9730000000002	EXP	Sound: volume = 1
+1374.9730000000002	EXP	Sound: loops = 0
+1374.9730000000002	EXP	Sound: volume = 1
+1377.364	DATA	Keydown:  
+1377.547	DATA	Keydown:  
+1377.9	DATA	Keydown:  
+1378.0990000000002	DATA	Keydown:  
+1378.684	DATA	Keydown:  
+1378.953	DATA	Keydown:  
+1379.353	DATA	Keydown:  
+1379.607	DATA	Keydown:  
+1379.904	DATA	Keydown:  
+1380.307	DATA	Keydown:  
+1380.51	DATA	Keydown:  
+1380.728	DATA	Keydown:  
+1381.096	DATA	Keydown:  
+1381.28	DATA	Keydown:  
+1381.48	DATA	Keydown:  
+1381.798	DATA	Keydown:  
+1381.998	DATA	Keydown:  
+1382.1650000000002	DATA	Keydown:  
+1382.516	DATA	Keydown:  
+1382.699	DATA	Keydown:  
+1382.916	DATA	Keydown:  
+1383.317	DATA	Keydown:  
+1383.468	DATA	Keydown:  
+1383.6680000000001	DATA	Keydown:  
+1384.2040000000002	DATA	Keydown:  
+1384.355	DATA	Keydown:  
+1384.5720000000001	DATA	Keydown:  
+1385.0220000000002	DATA	Keydown:  
+1385.238	DATA	Keydown:  
+1385.4560000000001	DATA	Keydown:  
+1385.892	DATA	Keydown:  
+1386.076	DATA	Keydown:  
+1386.594	DATA	Keydown:  
+1386.8290000000002	DATA	Keydown:  
+1387.3970000000002	DATA	Keydown:  
+1387.68	DATA	Keydown:  
+1388.1390000000001	DATA	Keydown:  
+1388.402	DATA	Keydown:  
+1389.019	DATA	Keydown:  
+1389.2530000000002	DATA	Keydown:  
+1389.7720000000002	DATA	Keydown:  
+1390.057	DATA	Keydown:  
+1390.557	DATA	Keydown:  
+1390.876	DATA	Keydown:  
+1391.46	DATA	Keydown:  
+1391.727	DATA	Keydown:  
+1393.8500000000001	EXP	next_prompt_trial2: autoDraw = true
+1396.6460000000002	DATA	Keydown:  
+1396.662	EXP	next_prompt_trial2: autoDraw = false
+1396.662	EXP	Sound: secs = -1
+1396.662	EXP	Sound: volume = 1
+1396.662	EXP	Sound: loops = 0
+1396.662	EXP	Sound: volume = 1
+1399.3020000000001	DATA	Keydown:  
+1399.756	DATA	Keydown:  
+1400.0880000000002	DATA	Keydown:  
+1400.5900000000001	DATA	Keydown:  
+1400.9080000000001	DATA	Keydown:  
+1401.343	DATA	Keydown:  
+1401.726	DATA	Keydown:  
+1402.112	DATA	Keydown:  
+1402.4950000000001	DATA	Keydown:  
+1402.913	DATA	Keydown:  
+1403.332	DATA	Keydown:  
+1403.7	DATA	Keydown:  
+1404.118	DATA	Keydown:  
+1404.501	DATA	Keydown:  
+1404.903	DATA	Keydown:  
+1405.606	DATA	Keydown:  
+1405.9920000000002	DATA	Keydown:  
+1406.4440000000002	DATA	Keydown:  
+1406.845	DATA	Keydown:  
+1407.2450000000001	DATA	Keydown:  
+1407.613	DATA	Keydown:  
+1408.0980000000002	DATA	Keydown:  
+1408.5500000000002	DATA	Keydown:  
+1408.9840000000002	DATA	Keydown:  
+1409.404	DATA	Keydown:  
+1409.8020000000001	DATA	Keydown:  
+1410.203	DATA	Keydown:  
+1410.64	DATA	Keydown:  
+1411.058	DATA	Keydown:  
+1411.46	DATA	Keydown:  
+1411.842	DATA	Keydown:  
+1412.362	DATA	Keydown:  
+1412.797	DATA	Keydown:  
+1413.182	DATA	Keydown:  
+1413.632	DATA	Keydown:  
+1413.95	DATA	Keydown:  
+1414.318	DATA	Keydown:  
+1414.703	DATA	Keydown:  
+1415.0700000000002	DATA	Keydown:  
+1417.2440000000001	EXP	next_prompt_trial2: autoDraw = true
+1427.8290000000002	DATA	Keydown:  
+1427.845	EXP	next_prompt_trial2: autoDraw = false
+1427.845	EXP	Sound: secs = -1
+1427.845	EXP	Sound: volume = 1
+1427.845	EXP	Sound: loops = 0
+1427.845	EXP	Sound: volume = 1
+1429.451	DATA	Keydown:  
+1429.8500000000001	DATA	Keydown:  
+1430.238	DATA	Keydown:  
+1430.654	DATA	Keydown:  
+1431.0230000000001	DATA	Keydown:  
+1431.356	DATA	Keydown:  
+1431.7420000000002	DATA	Keydown:  
+1431.976	DATA	Keydown:  
+1432.327	DATA	Keydown:  
+1432.511	DATA	Keydown:  
+1432.8780000000002	DATA	Keydown:  
+1433.095	DATA	Keydown:  
+1433.479	DATA	Keydown:  
+1433.6470000000002	DATA	Keydown:  
+1434.048	DATA	Keydown:  
+1434.267	DATA	Keydown:  
+1434.618	DATA	Keydown:  
+1434.833	DATA	Keydown:  
+1435.286	DATA	Keydown:  
+1435.536	DATA	Keydown:  
+1435.8700000000001	DATA	Keydown:  
+1436.053	DATA	Keydown:  
+1436.4560000000001	DATA	Keydown:  
+1436.674	DATA	Keydown:  
+1437.0420000000001	DATA	Keydown:  
+1437.243	DATA	Keydown:  
+1437.6100000000001	DATA	Keydown:  
+1437.8110000000001	DATA	Keydown:  
+1438.2140000000004	DATA	Keydown:  
+1438.3960000000002	DATA	Keydown:  
+1438.73	DATA	Keydown:  
+1438.9150000000002	DATA	Keydown:  
+1439.2820000000002	DATA	Keydown:  
+1439.499	DATA	Keydown:  
+1439.916	DATA	Keydown:  
+1440.134	DATA	Keydown:  
+1440.5020000000002	DATA	Keydown:  
+1440.702	DATA	Keydown:  
+1441.053	DATA	Keydown:  
+1441.237	DATA	Keydown:  
+1442.1570000000002	EXP	next_prompt_trial2: autoDraw = true
+1444.2340000000002	DATA	Keydown:  
+1444.249	EXP	next_prompt_trial2: autoDraw = false
+1444.249	EXP	Sound: secs = -1
+1444.249	EXP	Sound: volume = 1
+1444.249	EXP	Sound: loops = 0
+1444.249	EXP	Sound: volume = 1
+1444.95	DATA	Keydown:  
+1446.7230000000002	DATA	Keydown:  
+1447.191	DATA	Keydown:  
+1447.491	DATA	Keydown:  
+1447.862	DATA	Keydown:  
+1448.1770000000001	DATA	Keydown:  
+1448.614	DATA	Keydown:  
+1448.9630000000002	DATA	Keydown:  
+1449.3500000000001	DATA	Keydown:  
+1449.682	DATA	Keydown:  
+1449.9830000000002	DATA	Keydown:  
+1450.334	DATA	Keydown:  
+1450.6860000000001	DATA	Keydown:  
+1451.0220000000002	DATA	Keydown:  
+1451.374	DATA	Keydown:  
+1451.7060000000001	DATA	Keydown:  
+1452.0910000000001	DATA	Keydown:  
+1452.4080000000001	DATA	Keydown:  
+1452.776	DATA	Keydown:  
+1453.01	DATA	Keydown:  
+1453.2440000000001	DATA	Keydown:  
+1453.5620000000001	DATA	Keydown:  
+1453.746	DATA	Keydown:  
+1453.93	DATA	Keydown:  
+1454.2140000000004	DATA	Keydown:  
+1454.432	DATA	Keydown:  
+1454.615	DATA	Keydown:  
+1454.948	DATA	Keydown:  
+1455.1490000000001	DATA	Keydown:  
+1455.334	DATA	Keydown:  
+1455.635	DATA	Keydown:  
+1455.8020000000001	DATA	Keydown:  
+1456.02	DATA	Keydown:  
+1456.288	DATA	Keydown:  
+1456.472	DATA	Keydown:  
+1456.7060000000001	DATA	Keydown:  
+1456.939	DATA	Keydown:  
+1457.258	DATA	Keydown:  
+1457.458	DATA	Keydown:  
+1457.726	DATA	Keydown:  
+1457.9940000000001	DATA	Keydown:  
+1458.143	DATA	Keydown:  
+1458.428	DATA	Keydown:  
+1458.8290000000002	DATA	Keydown:  
+1459.1460000000002	DATA	Keydown:  
+1459.515	DATA	Keydown:  
+1459.8480000000002	DATA	Keydown:  
+1460.182	DATA	Keydown:  
+1461.738	EXP	next_prompt_trial2: autoDraw = true
+1466.99	DATA	Keydown:  
+1467.006	EXP	next_prompt_trial2: autoDraw = false
+1467.006	EXP	Sound: secs = -1
+1467.006	EXP	Sound: volume = 1
+1467.006	EXP	Sound: loops = 0
+1467.006	EXP	Sound: volume = 1
+1468.846	DATA	Keydown:  
+1469.182	DATA	Keydown:  
+1469.614	DATA	Keydown:  
+1470.0130000000001	DATA	Keydown:  
+1470.482	DATA	Keydown:  
+1470.8670000000002	DATA	Keydown:  
+1471.202	DATA	Keydown:  
+1471.585	DATA	Keydown:  
+1471.987	DATA	Keydown:  
+1472.355	DATA	Keydown:  
+1472.757	DATA	Keydown:  
+1473.125	DATA	Keydown:  
+1473.476	DATA	Keydown:  
+1473.861	DATA	Keydown:  
+1474.23	DATA	Keydown:  
+1474.5980000000002	DATA	Keydown:  
+1474.998	DATA	Keydown:  
+1475.3990000000001	DATA	Keydown:  
+1475.8000000000002	DATA	Keydown:  
+1476.152	DATA	Keydown:  
+1476.536	DATA	Keydown:  
+1476.8700000000001	DATA	Keydown:  
+1477.188	DATA	Keydown:  
+1477.622	DATA	Keydown:  
+1478.041	DATA	Keydown:  
+1478.4250000000002	DATA	Keydown:  
+1478.7930000000001	DATA	Keydown:  
+1479.1280000000002	DATA	Keydown:  
+1479.4950000000001	DATA	Keydown:  
+1479.931	DATA	Keydown:  
+1480.315	DATA	Keydown:  
+1480.65	DATA	Keydown:  
+1481.035	DATA	Keydown:  
+1481.402	DATA	Keydown:  
+1481.803	DATA	Keydown:  
+1482.222	DATA	Keydown:  
+1482.593	DATA	Keydown:  
+1482.942	DATA	Keydown:  
+1483.2920000000001	DATA	Keydown:  
+1483.6090000000002	DATA	Keydown:  
+1484.027	DATA	Keydown:  
+1484.394	DATA	Keydown:  
+1485.4470000000001	DATA	Keydown:  
+1485.948	EXP	next_prompt_trial2: autoDraw = true
+1489.53	DATA	Keydown:  
+1489.546	EXP	next_prompt_trial2: autoDraw = false
+1489.546	EXP	Sound: secs = -1
+1489.546	EXP	Sound: volume = 1
+1489.546	EXP	Sound: loops = 0
+1489.546	EXP	Sound: volume = 1
+1491.284	DATA	Keydown:  
+1491.7520000000002	DATA	Keydown:  
+1492.2710000000002	DATA	Keydown:  
+1492.8220000000001	DATA	Keydown:  
+1493.441	DATA	Keydown:  
+1494.009	DATA	Keydown:  
+1494.712	DATA	Keydown:  
+1495.381	DATA	Keydown:  
+1496.029	DATA	Keydown:  
+1496.654	DATA	Keydown:  
+1497.3690000000001	DATA	Keydown:  
+1498.0220000000002	DATA	Keydown:  
+1498.654	DATA	Keydown:  
+1499.294	DATA	Keydown:  
+1500.0610000000001	DATA	Keydown:  
+1500.68	DATA	Keydown:  
+1501.366	DATA	Keydown:  
+1502.0690000000002	DATA	Keydown:  
+1502.8210000000001	DATA	Keydown:  
+1503.5910000000001	DATA	Keydown:  
+1504.645	EXP	next_prompt_trial2: autoDraw = true
+1504.6460000000002	DATA	Keydown:  
+1504.673	EXP	next_prompt_trial2: autoDraw = false
+1504.673	EXP	Sound: secs = -1
+1504.673	EXP	Sound: volume = 1
+1504.673	EXP	Sound: loops = 0
+1504.673	EXP	Sound: volume = 1
+1506.2330000000002	DATA	Keydown:  
+1507.1190000000001	DATA	Keydown:  
+1507.8200000000002	DATA	Keydown:  
+1508.4560000000001	DATA	Keydown:  
+1509.1090000000002	DATA	Keydown:  
+1509.71	DATA	Keydown:  
+1510.3110000000001	DATA	Keydown:  
+1510.847	DATA	Keydown:  
+1511.366	DATA	Keydown:  
+1511.951	DATA	Keydown:  
+1512.605	DATA	Keydown:  
+1513.189	DATA	Keydown:  
+1513.857	DATA	Keydown:  
+1514.493	DATA	Keydown:  
+1515.0110000000002	DATA	Keydown:  
+1515.663	DATA	Keydown:  
+1516.334	DATA	Keydown:  
+1516.951	DATA	Keydown:  
+1517.403	DATA	Keydown:  
+1518.289	EXP	next_prompt_trial2: autoDraw = true
+1523.5910000000001	DATA	Keydown:  
+1523.6080000000002	EXP	next_prompt_trial2: autoDraw = false
+1523.6080000000002	EXP	Sound: secs = -1
+1523.6080000000002	EXP	Sound: volume = 1
+1523.6080000000002	EXP	Sound: loops = 0
+1523.6080000000002	EXP	Sound: volume = 1
+1526.0800000000002	DATA	Keydown:  
+1526.865	DATA	Keydown:  
+1527.468	DATA	Keydown:  
+1527.902	DATA	Keydown:  
+1528.22	DATA	Keydown:  
+1528.4560000000001	DATA	Keydown:  
+1528.722	DATA	Keydown:  
+1528.9730000000002	DATA	Keydown:  
+1529.173	DATA	Keydown:  
+1529.3410000000001	DATA	Keydown:  
+1529.458	DATA	Keydown:  
+1529.692	DATA	Keydown:  
+1529.8410000000001	DATA	Keydown:  
+1529.976	DATA	Keydown:  
+1530.226	DATA	Keydown:  
+1530.3770000000002	DATA	Keydown:  
+1530.496	DATA	Keydown:  
+1530.7450000000001	DATA	Keydown:  
+1530.8960000000002	DATA	Keydown:  
+1531.046	DATA	Keydown:  
+1531.28	DATA	Keydown:  
+1531.429	DATA	Keydown:  
+1531.5790000000002	DATA	Keydown:  
+1531.813	DATA	Keydown:  
+1531.9640000000004	DATA	Keydown:  
+1532.115	DATA	Keydown:  
+1532.365	DATA	Keydown:  
+1532.5	DATA	Keydown:  
+1532.634	DATA	Keydown:  
+1532.884	DATA	Keydown:  
+1533.018	DATA	Keydown:  
+1533.153	DATA	Keydown:  
+1533.403	DATA	Keydown:  
+1533.537	DATA	Keydown:  
+1533.671	DATA	Keydown:  
+1533.939	DATA	Keydown:  
+1534.073	DATA	Keydown:  
+1534.2060000000001	DATA	Keydown:  
+1534.4740000000002	DATA	Keydown:  
+1534.624	DATA	Keydown:  
+1534.958	DATA	Keydown:  
+1535.1080000000002	DATA	Keydown:  
+1535.226	DATA	Keydown:  
+1535.496	DATA	Keydown:  
+1535.644	DATA	Keydown:  
+1535.977	DATA	Keydown:  
+1536.112	DATA	Keydown:  
+1538.267	EXP	next_prompt_trial2: autoDraw = true
+1541.481	DATA	Keydown:  
+1541.497	EXP	next_prompt_trial2: autoDraw = false
+1541.497	EXP	Sound: secs = -1
+1541.497	EXP	Sound: volume = 1
+1541.497	EXP	Sound: loops = 0
+1541.497	EXP	Sound: volume = 1
+1544.122	DATA	Keydown:  
+1545.4920000000002	DATA	Keydown:  
+1545.976	DATA	Keydown:  
+1546.2820000000002	DATA	Keydown:  
+1546.679	DATA	Keydown:  
+1547.3980000000001	DATA	Keydown:  
+1548.5030000000002	DATA	Keydown:  
+1549.255	DATA	Keydown:  
+1549.4920000000002	DATA	Keydown:  
+1550.107	DATA	Keydown:  
+1550.709	DATA	Keydown:  
+1551.5120000000002	DATA	Keydown:  
+1552.315	DATA	Keydown:  
+1553.001	DATA	Keydown:  
+1553.768	DATA	Keydown:  
+1554.47	DATA	Keydown:  
+1555.2740000000001	DATA	Keydown:  
+1556.027	DATA	Keydown:  
+1556.813	DATA	Keydown:  
+1557.549	DATA	Keydown:  
+1558.635	EXP	next_prompt_trial2: autoDraw = true
+1559.038	DATA	Keydown:  
+1559.054	EXP	next_prompt_trial2: autoDraw = false
+1559.054	EXP	Sound: secs = -1
+1559.054	EXP	Sound: volume = 1
+1559.054	EXP	Sound: loops = 0
+1559.054	EXP	Sound: volume = 1
+1560.0220000000002	DATA	Keydown:  
+1560.909	DATA	Keydown:  
+1561.7610000000002	DATA	Keydown:  
+1562.449	DATA	Keydown:  
+1563.267	DATA	Keydown:  
+1564.121	DATA	Keydown:  
+1564.938	DATA	Keydown:  
+1565.625	DATA	Keydown:  
+1566.394	DATA	Keydown:  
+1567.0790000000002	DATA	Keydown:  
+1567.765	DATA	Keydown:  
+1568.448	DATA	Keydown:  
+1568.7	DATA	Keydown:  
+1569.118	DATA	Keydown:  
+1569.8200000000002	DATA	Keydown:  
+1570.557	DATA	Keydown:  
+1571.276	DATA	Keydown:  
+1571.928	DATA	Keydown:  
+1572.613	DATA	Keydown:  
+1573.25	DATA	Keydown:  
+1573.9170000000001	DATA	Keydown:  
+1574.6860000000001	DATA	Keydown:  
+1575.457	DATA	Keydown:  
+1576.693	DATA	Keydown:  
+1577.595	EXP	next_prompt_trial2: autoDraw = true
+1578.5020000000002	DATA	Keydown:  
+1578.518	EXP	next_prompt_trial2: autoDraw = false
+1578.518	EXP	Sound: secs = -1
+1578.518	EXP	Sound: volume = 1
+1578.518	EXP	Sound: loops = 0
+1578.518	EXP	Sound: volume = 1
+1582.2810000000002	DATA	Keydown:  
+1582.798	DATA	Keydown:  
+1583.433	DATA	Keydown:  
+1584.034	DATA	Keydown:  
+1584.6360000000002	DATA	Keydown:  
+1585.354	DATA	Keydown:  
+1586.0230000000001	DATA	Keydown:  
+1586.758	DATA	Keydown:  
+1587.327	DATA	Keydown:  
+1588.096	DATA	Keydown:  
+1588.786	DATA	Keydown:  
+1589.535	DATA	Keydown:  
+1590.22	DATA	Keydown:  
+1590.9740000000002	DATA	Keydown:  
+1591.741	DATA	Keydown:  
+1592.4440000000002	DATA	Keydown:  
+1593.097	DATA	Keydown:  
+1595.1680000000001	EXP	next_prompt_trial2: autoDraw = true
+1596.794	DATA	Keydown:  
+1596.8100000000002	EXP	next_prompt_trial2: autoDraw = false
+1596.8100000000002	EXP	Sound: secs = -1
+1596.8100000000002	EXP	Sound: volume = 1
+1596.8100000000002	EXP	Sound: loops = 0
+1596.8100000000002	EXP	Sound: volume = 1
+1600.0220000000002	DATA	Keydown:  
+1600.3880000000001	DATA	Keydown:  
+1600.555	DATA	Keydown:  
+1600.805	DATA	Keydown:  
+1601.0240000000001	DATA	Keydown:  
+1601.257	DATA	Keydown:  
+1601.5600000000002	DATA	Keydown:  
+1601.741	DATA	Keydown:  
+1601.892	DATA	Keydown:  
+1602.1760000000002	DATA	Keydown:  
+1602.477	DATA	Keydown:  
+1602.844	DATA	Keydown:  
+1603.094	DATA	Keydown:  
+1603.413	DATA	Keydown:  
+1603.564	DATA	Keydown:  
+1603.7150000000001	DATA	Keydown:  
+1604	DATA	Keydown:  
+1604.3490000000002	DATA	Keydown:  
+1604.6170000000002	DATA	Keydown:  
+1605.017	DATA	Keydown:  
+1605.3020000000001	DATA	Keydown:  
+1605.6360000000002	DATA	Keydown:  
+1605.971	DATA	Keydown:  
+1606.1390000000001	DATA	Keydown:  
+1606.289	DATA	Keydown:  
+1606.607	DATA	Keydown:  
+1606.9250000000002	DATA	Keydown:  
+1607.2420000000002	DATA	Keydown:  
+1607.575	DATA	Keydown:  
+1607.88	DATA	Keydown:  
+1608.212	DATA	Keydown:  
+1608.5130000000001	DATA	Keydown:  
+1608.7140000000004	DATA	Keydown:  
+1608.847	DATA	Keydown:  
+1609.132	DATA	Keydown:  
+1609.4	DATA	Keydown:  
+1609.7330000000002	DATA	Keydown:  
+1609.9830000000002	DATA	Keydown:  
+1610.353	DATA	Keydown:  
+1610.518	DATA	Keydown:  
+1610.6860000000001	DATA	Keydown:  
+1611.0400000000002	DATA	Keydown:  
+1611.3390000000004	DATA	Keydown:  
+1611.6570000000002	DATA	Keydown:  
+1613.496	DATA	Keydown:  
+1613.6950000000002	EXP	next_prompt_trial2: autoDraw = true
+1614.266	DATA	Keydown:  
+1614.2820000000002	EXP	next_prompt_trial2: autoDraw = false
+1614.2820000000002	EXP	Sound: secs = -1
+1614.2820000000002	EXP	Sound: volume = 1
+1614.2820000000002	EXP	Sound: loops = 0
+1614.2820000000002	EXP	Sound: volume = 1
+1616.337	DATA	Keydown:  
+1617.074	DATA	Keydown:  
+1617.257	DATA	Keydown:  
+1617.709	DATA	Keydown:  
+1617.8600000000001	DATA	Keydown:  
+1618.28	DATA	Keydown:  
+1618.428	DATA	Keydown:  
+1618.8480000000002	DATA	Keydown:  
+1619.046	DATA	Keydown:  
+1619.568	DATA	Keydown:  
+1619.7320000000002	DATA	Keydown:  
+1620.166	DATA	Keydown:  
+1620.336	DATA	Keydown:  
+1620.836	DATA	Keydown:  
+1620.987	DATA	Keydown:  
+1621.489	DATA	Keydown:  
+1621.64	DATA	Keydown:  
+1622.123	DATA	Keydown:  
+1622.2740000000001	DATA	Keydown:  
+1622.6090000000002	DATA	Keydown:  
+1622.76	DATA	Keydown:  
+1623.2640000000001	DATA	Keydown:  
+1623.4270000000001	DATA	Keydown:  
+1623.7620000000002	DATA	Keydown:  
+1623.912	DATA	Keydown:  
+1624.547	DATA	Keydown:  
+1624.916	DATA	Keydown:  
+1625.0990000000002	DATA	Keydown:  
+1625.536	DATA	Keydown:  
+1625.701	DATA	Keydown:  
+1626.135	DATA	Keydown:  
+1626.269	DATA	Keydown:  
+1626.7720000000002	DATA	Keydown:  
+1626.905	DATA	Keydown:  
+1627.373	DATA	Keydown:  
+1627.5240000000001	DATA	Keydown:  
+1628.009	DATA	Keydown:  
+1628.16	DATA	Keydown:  
+1628.611	DATA	Keydown:  
+1630.332	EXP	next_prompt_trial2: autoDraw = true
+1631.0210000000002	DATA	Keydown:  
+1631.037	EXP	next_prompt_trial2: autoDraw = false
+1631.037	EXP	Sound: secs = -1
+1631.037	EXP	Sound: volume = 1
+1631.037	EXP	Sound: loops = 0
+1631.037	EXP	Sound: volume = 1
+1633.961	DATA	Keydown:  
+1634.432	DATA	Keydown:  
+1634.5310000000002	DATA	Keydown:  
+1634.9150000000002	DATA	Keydown:  
+1635.3500000000001	DATA	Keydown:  
+1635.852	DATA	Keydown:  
+1636.304	DATA	Keydown:  
+1636.432	DATA	Keydown:  
+1636.806	DATA	Keydown:  
+1637.24	DATA	Keydown:  
+1637.7240000000002	DATA	Keydown:  
+1638.208	DATA	Keydown:  
+1638.313	DATA	Keydown:  
+1638.726	DATA	Keydown:  
+1639.162	DATA	Keydown:  
+1639.613	DATA	Keydown:  
+1640.065	DATA	Keydown:  
+1640.2	DATA	Keydown:  
+1640.584	DATA	Keydown:  
+1641.0510000000002	DATA	Keydown:  
+1641.5020000000002	DATA	Keydown:  
+1641.988	DATA	Keydown:  
+1642.104	DATA	Keydown:  
+1643.1750000000002	DATA	Keydown:  
+1643.5420000000001	EXP	next_prompt_trial2: autoDraw = true
+1645.535	DATA	Keydown:  
+1645.5510000000002	EXP	next_prompt_trial2: autoDraw = false
+1645.5510000000002	EXP	Sound: secs = -1
+1645.5510000000002	EXP	Sound: volume = 1
+1645.5510000000002	EXP	Sound: loops = 0
+1645.5510000000002	EXP	Sound: volume = 1
+1648.19	DATA	Keydown:  
+1648.4920000000002	DATA	Keydown:  
+1648.843	DATA	Keydown:  
+1648.993	DATA	Keydown:  
+1649.3780000000002	DATA	Keydown:  
+1649.5120000000002	DATA	Keydown:  
+1649.747	DATA	Keydown:  
+1650.03	DATA	Keydown:  
+1650.3310000000001	DATA	Keydown:  
+1650.4820000000002	DATA	Keydown:  
+1650.736	DATA	Keydown:  
+1650.883	DATA	Keydown:  
+1651.3010000000002	DATA	Keydown:  
+1651.4340000000002	DATA	Keydown:  
+1651.8200000000002	DATA	Keydown:  
+1651.986	DATA	Keydown:  
+1652.4560000000001	DATA	Keydown:  
+1652.789	DATA	Keydown:  
+1652.9560000000001	DATA	Keydown:  
+1653.324	DATA	Keydown:  
+1653.459	DATA	Keydown:  
+1653.977	DATA	Keydown:  
+1654.143	DATA	Keydown:  
+1654.277	DATA	Keydown:  
+1654.664	DATA	Keydown:  
+1655.048	DATA	Keydown:  
+1655.163	DATA	Keydown:  
+1655.481	DATA	Keydown:  
+1655.614	DATA	Keydown:  
+1655.9820000000002	DATA	Keydown:  
+1656.1360000000002	DATA	Keydown:  
+1656.5520000000001	DATA	Keydown:  
+1656.719	DATA	Keydown:  
+1656.852	DATA	Keydown:  
+1657.1870000000001	DATA	Keydown:  
+1657.3210000000001	DATA	Keydown:  
+1658.324	DATA	Keydown:  
+1659.326	EXP	next_prompt_trial2: autoDraw = true
+1661.169	DATA	Keydown:  
+1661.1850000000002	EXP	next_prompt_trial2: autoDraw = false
+1661.1850000000002	EXP	Sound: secs = -1
+1661.1850000000002	EXP	Sound: volume = 1
+1661.1850000000002	EXP	Sound: loops = 0
+1661.1850000000002	EXP	Sound: volume = 1
+1665.113	DATA	Keydown:  
+1665.381	DATA	Keydown:  
+1665.8310000000001	DATA	Keydown:  
+1666.217	DATA	Keydown:  
+1666.351	DATA	Keydown:  
+1666.618	DATA	Keydown:  
+1666.852	DATA	Keydown:  
+1667.154	DATA	Keydown:  
+1667.287	DATA	Keydown:  
+1667.5210000000002	DATA	Keydown:  
+1667.755	DATA	Keydown:  
+1667.972	DATA	Keydown:  
+1668.2240000000002	DATA	Keydown:  
+1668.3410000000001	DATA	Keydown:  
+1668.558	DATA	Keydown:  
+1668.775	DATA	Keydown:  
+1669.01	DATA	Keydown:  
+1669.126	DATA	Keydown:  
+1669.361	DATA	Keydown:  
+1669.612	DATA	Keydown:  
+1669.827	DATA	Keydown:  
+1670.045	DATA	Keydown:  
+1670.314	DATA	Keydown:  
+1670.4640000000004	DATA	Keydown:  
+1670.664	DATA	Keydown:  
+1670.931	DATA	Keydown:  
+1671.198	DATA	Keydown:  
+1671.3020000000001	DATA	Keydown:  
+1671.517	DATA	Keydown:  
+1671.6850000000002	DATA	Keydown:  
+1671.817	DATA	Keydown:  
+1671.9850000000001	DATA	Keydown:  
+1672.2350000000001	DATA	Keydown:  
+1672.452	DATA	Keydown:  
+1672.586	DATA	Keydown:  
+1672.77	DATA	Keydown:  
+1672.99	DATA	Keydown:  
+1673.24	DATA	Keydown:  
+1674.241	DATA	Keydown:  
+1675.144	EXP	next_prompt_trial2: autoDraw = true
+1684.9460000000001	DATA	Keydown:  
+1684.9730000000002	EXP	next_prompt_trial2: autoDraw = false
+1684.9730000000002	EXP	Sound: secs = -1
+1684.9730000000002	EXP	Sound: volume = 1
+1684.9730000000002	EXP	Sound: loops = 0
+1684.9730000000002	EXP	Sound: volume = 1
+1686.832	DATA	Keydown:  
+1687.217	DATA	Keydown:  
+1687.635	DATA	Keydown:  
+1687.986	DATA	Keydown:  
+1688.3220000000001	DATA	Keydown:  
+1688.673	DATA	Keydown:  
+1688.993	DATA	Keydown:  
+1689.3570000000002	DATA	Keydown:  
+1689.7250000000001	DATA	Keydown:  
+1690.0430000000001	DATA	Keydown:  
+1690.395	DATA	Keydown:  
+1690.746	DATA	Keydown:  
+1691.114	DATA	Keydown:  
+1691.449	DATA	Keydown:  
+1691.832	DATA	Keydown:  
+1692.133	DATA	Keydown:  
+1692.5210000000002	DATA	Keydown:  
+1692.8690000000001	DATA	Keydown:  
+1693.203	DATA	Keydown:  
+1693.539	DATA	Keydown:  
+1693.9060000000002	DATA	Keydown:  
+1694.256	DATA	Keydown:  
+1694.557	DATA	Keydown:  
+1694.909	DATA	Keydown:  
+1695.227	DATA	Keydown:  
+1695.596	DATA	Keydown:  
+1695.93	DATA	Keydown:  
+1696.296	DATA	Keydown:  
+1696.6490000000001	DATA	Keydown:  
+1697.017	DATA	Keydown:  
+1697.4170000000001	DATA	Keydown:  
+1697.818	DATA	Keydown:  
+1698.171	DATA	Keydown:  
+1698.555	DATA	Keydown:  
+1698.8880000000001	DATA	Keydown:  
+1700.41	EXP	next_prompt_trial2: autoDraw = true
+1702.537	DATA	Keydown:  
+1702.5510000000002	EXP	next_prompt_trial2: autoDraw = false
+1702.5510000000002	EXP	Sound: secs = -1
+1702.5510000000002	EXP	Sound: volume = 1
+1702.5510000000002	EXP	Sound: loops = 0
+1702.5510000000002	EXP	Sound: volume = 1
+1702.721	DATA	Keydown:  
+1703.9550000000002	DATA	Keydown:  
+1704.182	DATA	Keydown:  
+1704.791	DATA	Keydown:  
+1705.1750000000002	DATA	Keydown:  
+1705.611	DATA	Keydown:  
+1706.028	DATA	Keydown:  
+1706.429	DATA	Keydown:  
+1706.8300000000002	DATA	Keydown:  
+1707.217	DATA	Keydown:  
+1707.5330000000001	DATA	Keydown:  
+1707.967	DATA	Keydown:  
+1708.236	DATA	Keydown:  
+1708.553	DATA	Keydown:  
+1708.9050000000002	DATA	Keydown:  
+1709.172	DATA	Keydown:  
+1709.441	DATA	Keydown:  
+1709.941	DATA	Keydown:  
+1710.21	DATA	Keydown:  
+1710.577	DATA	Keydown:  
+1710.9270000000001	DATA	Keydown:  
+1711.179	DATA	Keydown:  
+1711.7130000000002	DATA	Keydown:  
+1711.914	DATA	Keydown:  
+1712.3000000000002	DATA	Keydown:  
+1712.516	DATA	Keydown:  
+1713.0690000000002	DATA	Keydown:  
+1713.268	DATA	Keydown:  
+1713.673	DATA	Keydown:  
+1713.921	DATA	Keydown:  
+1714.221	DATA	Keydown:  
+1714.5400000000002	DATA	Keydown:  
+1714.875	DATA	Keydown:  
+1715.442	DATA	Keydown:  
+1715.6770000000001	DATA	Keydown:  
+1716.1970000000001	DATA	Keydown:  
+1716.4470000000001	DATA	Keydown:  
+1716.681	DATA	Keydown:  
+1717.317	DATA	Keydown:  
+1717.5510000000002	DATA	Keydown:  
+1717.785	DATA	Keydown:  
+1718.354	DATA	Keydown:  
+1718.555	DATA	Keydown:  
+1719.106	DATA	Keydown:  
+1719.323	DATA	Keydown:  
+1719.7920000000001	DATA	Keydown:  
+1720.326	DATA	Keydown:  
+1720.8110000000001	DATA	Keydown:  
+1721.029	DATA	Keydown:  
+1721.363	DATA	Keydown:  
+1721.817	DATA	Keydown:  
+1722.0810000000001	DATA	Keydown:  
+1722.381	DATA	Keydown:  
+1722.631	DATA	Keydown:  
+1722.817	DATA	Keydown:  
+1723.568	DATA	Keydown:  
+1723.786	DATA	Keydown:  
+1724.3570000000002	DATA	Keydown:  
+1724.557	DATA	Keydown:  
+1726.1950000000002	EXP	next_prompt_trial2: autoDraw = true
+1744.823	DATA	Keydown:  
+1744.8400000000001	EXP	next_prompt_trial2: autoDraw = false
+1744.8400000000001	EXP	Sound: secs = -1
+1744.8400000000001	EXP	Sound: volume = 1
+1744.8400000000001	EXP	Sound: loops = 0
+1744.8400000000001	EXP	Sound: volume = 1
+1746.361	DATA	Keydown:  
+1746.712	DATA	Keydown:  
+1746.881	DATA	Keydown:  
+1747.2450000000001	DATA	Keydown:  
+1747.3960000000002	DATA	Keydown:  
+1747.681	DATA	Keydown:  
+1747.851	DATA	Keydown:  
+1748.1490000000001	DATA	Keydown:  
+1748.353	DATA	Keydown:  
+1748.616	DATA	Keydown:  
+1748.834	DATA	Keydown:  
+1749.084	DATA	Keydown:  
+1749.3860000000002	DATA	Keydown:  
+1749.603	DATA	Keydown:  
+1749.8860000000002	DATA	Keydown:  
+1750.154	DATA	Keydown:  
+1750.4250000000002	DATA	Keydown:  
+1750.673	DATA	Keydown:  
+1750.94	DATA	Keydown:  
+1751.19	DATA	Keydown:  
+1751.4250000000002	DATA	Keydown:  
+1751.6760000000002	DATA	Keydown:  
+1751.909	DATA	Keydown:  
+1752.1770000000001	DATA	Keydown:  
+1752.412	DATA	Keydown:  
+1752.664	DATA	Keydown:  
+1752.8960000000002	DATA	Keydown:  
+1753.13	DATA	Keydown:  
+1753.365	DATA	Keydown:  
+1753.632	DATA	Keydown:  
+1753.883	DATA	Keydown:  
+1754.134	DATA	Keydown:  
+1754.384	DATA	Keydown:  
+1754.635	DATA	Keydown:  
+1754.873	DATA	Keydown:  
+1755.14	DATA	Keydown:  
+1755.3890000000001	DATA	Keydown:  
+1755.672	DATA	Keydown:  
+1756.424	EXP	next_prompt_trial2: autoDraw = true
+1780.038	DATA	Keydown:  
+1780.054	EXP	next_prompt_trial2: autoDraw = false
+1780.054	EXP	Sound: secs = -1
+1780.054	EXP	Sound: volume = 1
+1780.054	EXP	Sound: loops = 0
+1780.054	EXP	Sound: volume = 1
+1782.3100000000002	DATA	Keydown:  
+1783.3290000000002	DATA	Keydown:  
+1783.5800000000002	DATA	Keydown:  
+1783.613	DATA	Keydown:  
+1783.6460000000002	DATA	Keydown:  
+1784.097	DATA	Keydown:  
+1784.9170000000001	DATA	Keydown:  
+1785.721	DATA	Keydown:  
+1786.5710000000001	DATA	Keydown:  
+1787.307	DATA	Keydown:  
+1788.1940000000002	DATA	Keydown:  
+1788.997	DATA	Keydown:  
+1789.75	DATA	Keydown:  
+1790.534	DATA	Keydown:  
+1791.3210000000001	DATA	Keydown:  
+1792.124	DATA	Keydown:  
+1792.9260000000002	DATA	Keydown:  
+1793.7620000000002	DATA	Keydown:  
+1794.499	DATA	Keydown:  
+1795.3690000000001	DATA	Keydown:  
+1796.2050000000002	DATA	Keydown:  
+1796.9730000000002	DATA	Keydown:  
+1797.808	DATA	Keydown:  
+1799.7320000000002	EXP	next_prompt_trial2: autoDraw = true
+1802.4270000000001	DATA	Keydown:  
+1802.443	EXP	next_prompt_trial2: autoDraw = false
+1802.443	EXP	Sound: secs = -1
+1802.443	EXP	Sound: volume = 1
+1802.443	EXP	Sound: loops = 0
+1802.443	EXP	Sound: volume = 1
+1803.6770000000001	DATA	Keydown:  
+1805.0330000000001	DATA	Keydown:  
+1805.3670000000002	DATA	Keydown:  
+1805.7520000000002	DATA	Keydown:  
+1806.0700000000002	DATA	Keydown:  
+1806.42	DATA	Keydown:  
+1806.737	DATA	Keydown:  
+1807.105	DATA	Keydown:  
+1807.4560000000001	DATA	Keydown:  
+1807.824	DATA	Keydown:  
+1808.192	DATA	Keydown:  
+1808.544	DATA	Keydown:  
+1808.911	DATA	Keydown:  
+1809.2630000000001	DATA	Keydown:  
+1809.63	DATA	Keydown:  
+1809.9830000000002	DATA	Keydown:  
+1810.2820000000002	DATA	Keydown:  
+1810.6200000000001	DATA	Keydown:  
+1810.919	DATA	Keydown:  
+1811.269	DATA	Keydown:  
+1811.586	DATA	Keydown:  
+1811.924	DATA	Keydown:  
+1812.239	DATA	Keydown:  
+1812.556	DATA	Keydown:  
+1812.892	DATA	Keydown:  
+1813.275	DATA	Keydown:  
+1813.593	DATA	Keydown:  
+1813.911	DATA	Keydown:  
+1814.2450000000001	DATA	Keydown:  
+1814.516	DATA	Keydown:  
+1814.8310000000001	DATA	Keydown:  
+1815.1000000000001	DATA	Keydown:  
+1815.499	DATA	Keydown:  
+1815.8090000000002	DATA	Keydown:  
+1816.073	DATA	Keydown:  
+1816.372	DATA	Keydown:  
+1816.671	DATA	Keydown:  
+1816.9540000000002	DATA	Keydown:  
+1817.255	DATA	Keydown:  
+1817.5890000000004	DATA	Keydown:  
+1817.9250000000002	DATA	Keydown:  
+1819.595	EXP	next_prompt_trial2: autoDraw = true
+1821.3200000000002	DATA	Keydown:  
+1821.433	EXP	next_prompt_trial2: autoDraw = false
+1821.433	EXP	text_5: autoDraw = true
+1822.9350000000002	DATA	Keydown:  
+1822.9640000000004	EXP	text_5: autoDraw = false
+1822.9640000000004	EXP	goodbyetxt: autoDraw = true
+1824.5980000000002	DATA	Keydown:  

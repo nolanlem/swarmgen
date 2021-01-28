@@ -1,0 +1,271 @@
+0.060999999986961484	EXP	Created Window = Window( name=Window, fullscr=true, color=#808080, units=height, waitBlanking=true, autoLog=true, size=[1366,657] )
+142.64600000000792	DATA	Keydown: Shift
+143.0889999999781	DATA	Keydown: Shift
+143.12300000002142	DATA	Keydown: Shift
+143.17999999999302	DATA	Keydown: Shift
+143.204000000027	DATA	Keydown: Shift
+143.2150000000256	DATA	Keydown: Shift
+143.24200000002747	DATA	Keydown: Shift
+143.27899999998044	DATA	Keydown: Shift
+143.30400000000373	DATA	Keydown: Shift
+143.3190000000177	DATA	Keydown: Shift
+143.33600000001024	DATA	Keydown: Shift
+143.3630000000121	DATA	Keydown: Shift
+143.39600000000792	DATA	Keydown: Shift
+143.4220000000205	DATA	Keydown: Shift
+143.43700000003446	DATA	Keydown: Shift
+143.46000000002095	DATA	Keydown: Shift
+143.4890000000014	DATA	Keydown: Shift
+143.5119999999879	DATA	Keydown: Shift
+143.5360000000219	DATA	Keydown: Shift
+143.56200000003446	DATA	Keydown: Shift
+143.58299999998417	DATA	Keydown: Shift
+143.59399999998277	DATA	Keydown: Q
+144.04800000000978	DATA	Keydown: R
+147.89000000001397	DATA	Keydown: undefined
+149.41800000000512	DATA	Keydown: undefined
+151.03899999998976	DATA	Keydown: undefined
+153.23600000003353	DATA	Keydown: undefined
+155.27899999998044	DATA	Keydown: undefined
+159.1699999999837	DATA	Keydown: undefined
+160.4529999999795	DATA	Keydown: undefined
+161.77600000001257	DATA	Keydown: Backspace
+169.13900000002468	DATA	Keydown: y
+169.4320000000298	DATA	Keydown: e
+169.6820000000298	DATA	Keydown: s
+174.04899999999907	EXP	Created instructiontxt = TextStim( name=instructiontxt, win=Window( name=Window, fullscr=true, color=#808080, ~), autoDraw=null, autoLog=true, units=height, ori=null, opacity=1, pos=[0,0], size=undefined, text=Welcome to tapping experiment. 
+
+You will hear a s~, font=Arial, color=#FFFFFF, contrast=1, height=0.05, bold=null, italic=null, alignHoriz=left, alignVert=center, wrapWidth=1, flipHoriz=null, flipVert=null )
+174.08400000003166	EXP	Created TonePlayer = TonePlayer( name=TonePlayer, note=A4, duration_s=-1, volume=1, loops=null, soundLibrary="TONE_JS", autoLog=true )
+174.08500000002095	EXP	Created text = TextStim( name=text, win=Window( name=Window, fullscr=true, color=#808080, ~), autoDraw=null, autoLog=true, units=height, ori=null, opacity=1, pos=[0,0], size=undefined, text=Ready for the next trial?
+
+press space bar to star~, font=Arial, color=#FFFFFF, contrast=1, height=0.05, bold=null, italic=null, alignHoriz=left, alignVert=center, wrapWidth=1, flipHoriz=null, flipVert=null )
+174.08600000001024	EXP	Created text_2 = TextStim( name=text_2, win=Window( name=Window, fullscr=true, color=#808080, ~), autoDraw=null, autoLog=true, units=height, ori=null, opacity=1, pos=[0,0], size=undefined, text=Practice trials are over.
+
+Now we are going to sta~, font=Arial, color=#FFFFFF, contrast=1, height=0.05, bold=null, italic=null, alignHoriz=left, alignVert=center, wrapWidth=1, flipHoriz=null, flipVert=null )
+174.09299999999348	EXP	Created TonePlayer = TonePlayer( name=TonePlayer, note=A4, duration_s=-1, volume=1, loops=null, soundLibrary="TONE_JS", autoLog=true )
+174.09600000001956	EXP	Created text_3 = TextStim( name=text_3, win=Window( name=Window, fullscr=true, color=#808080, ~), autoDraw=null, autoLog=true, units=height, ori=null, opacity=1, pos=[0,0], size=undefined, text=Ready for the next trial?
+
+Press space bar to star~, font=Arial, color=#FFFFFF, contrast=1, height=0.05, bold=null, italic=null, alignHoriz=left, alignVert=center, wrapWidth=1, flipHoriz=null, flipVert=null )
+174.09700000000885	EXP	Created text_4 = TextStim( name=text_4, win=Window( name=Window, fullscr=true, color=#808080, ~), autoDraw=null, autoLog=true, units=height, ori=null, opacity=1, pos=[0,0], size=undefined, text=Great! This is the half-way break. 
+
+Please take y~, font=Arial, color=#FFFFFF, contrast=1, height=0.05, bold=null, italic=null, alignHoriz=left, alignVert=center, wrapWidth=1, flipHoriz=null, flipVert=null )
+174.1030000000028	EXP	Created TonePlayer = TonePlayer( name=TonePlayer, note=A4, duration_s=-1, volume=1, loops=null, soundLibrary="TONE_JS", autoLog=true )
+174.13799999997718	EXP	Created next_prompt_trial2 = TextStim( name=next_prompt_trial2, win=Window( name=Window, fullscr=true, color=#808080, ~), autoDraw=null, autoLog=true, units=height, ori=null, opacity=1, pos=[0,0], size=undefined, text=Ready for the next trial? 
+
+Press space bar to sta~, font=Arial, color=#FFFFFF, contrast=1, height=0.05, bold=null, italic=null, alignHoriz=left, alignVert=center, wrapWidth=1, flipHoriz=null, flipVert=null )
+174.14000000001397	EXP	Created completion_text = TextStim( name=completion_text, win=Window( name=Window, fullscr=true, color=#808080, ~), autoDraw=null, autoLog=true, units=height, ori=null, opacity=1, pos=[0,0], size=undefined, text=Thanks for your participation! 
+
+Here is your expe~, font=Arial, color=#FFFFFF, contrast=1, height=0.05, bold=null, italic=null, alignHoriz=left, alignVert=center, wrapWidth=1, flipHoriz=null, flipVert=null )
+174.14400000002934	EXP	Created goodbyetxt = TextStim( name=goodbyetxt, win=Window( name=Window, fullscr=true, color=#808080, ~), autoDraw=null, autoLog=true, units=height, ori=null, opacity=1, pos=[0,0], size=undefined, text=The test is over!
+
+Thank you so much!!, font=Arial, color=#FFFFFF, contrast=1, height=0.05, bold=null, italic=null, alignHoriz=left, alignVert=center, wrapWidth=1, flipHoriz=null, flipVert=null )
+174.18900000001304	EXP	instructiontxt: units = "height"
+174.18900000001304	EXP	instructiontxt: ori = 0
+174.18900000001304	EXP	instructiontxt: opacity = 1
+174.18900000001304	EXP	instructiontxt: pos = [0,0]
+174.18900000001304	EXP	instructiontxt: size = undefined
+174.18900000001304	EXP	instructiontxt: text = "Welcome to tapping experiment. \n\nYou will hear a sequence of tones.\nUse the index finger of your dominant hand \nto tap the spacebar at where you think the beat \nis throughout the sound file at each trial. \n\nWhen you are ready, press the spacebar to begin the practice."
+174.18900000001304	EXP	instructiontxt: font = "Arial"
+174.18900000001304	EXP	instructiontxt: color = {"_hex":"#FFFFFF","_rgb":[1,1,1]}
+174.18900000001304	EXP	instructiontxt: contrast = 1
+174.18900000001304	EXP	instructiontxt: height = 0.05
+174.18900000001304	EXP	instructiontxt: bold = false
+174.18900000001304	EXP	instructiontxt: italic = false
+174.18900000001304	EXP	instructiontxt: alignHoriz = "left"
+174.18900000001304	EXP	instructiontxt: alignVert = "center"
+174.18900000001304	EXP	instructiontxt: wrapWidth = 1
+174.18900000001304	EXP	instructiontxt: flipHoriz = false
+174.18900000001304	EXP	instructiontxt: flipVert = false
+174.18900000001304	EXP	Sound: secs = -1
+174.18900000001304	EXP	Sound: volume = 1
+174.18900000001304	EXP	Sound: loops = 0
+174.18900000001304	EXP	Sound: volume = 1
+174.18900000001304	EXP	text: units = "height"
+174.18900000001304	EXP	text: ori = 0
+174.18900000001304	EXP	text: opacity = 1
+174.18900000001304	EXP	text: pos = [0,0]
+174.18900000001304	EXP	text: size = undefined
+174.18900000001304	EXP	text: text = "Ready for the next trial?\n\npress space bar to start."
+174.18900000001304	EXP	text: font = "Arial"
+174.18900000001304	EXP	text: color = {"_hex":"#FFFFFF","_rgb":[1,1,1]}
+174.18900000001304	EXP	text: contrast = 1
+174.18900000001304	EXP	text: height = 0.05
+174.18900000001304	EXP	text: bold = false
+174.18900000001304	EXP	text: italic = false
+174.18900000001304	EXP	text: alignHoriz = "left"
+174.18900000001304	EXP	text: alignVert = "center"
+174.18900000001304	EXP	text: wrapWidth = 1
+174.18900000001304	EXP	text: flipHoriz = false
+174.18900000001304	EXP	text: flipVert = false
+174.18900000001304	EXP	text_2: units = "height"
+174.18900000001304	EXP	text_2: ori = 0
+174.18900000001304	EXP	text_2: opacity = 1
+174.18900000001304	EXP	text_2: pos = [0,0]
+174.18900000001304	EXP	text_2: size = undefined
+174.18900000001304	EXP	text_2: text = "Practice trials are over.\n\nNow we are going to start the real test trials.\nThe total session length will be about 28 minutes, but we will have a short break at the half way mark.\n\nIf you are ready, please space bar."
+174.18900000001304	EXP	text_2: font = "Arial"
+174.18900000001304	EXP	text_2: color = {"_hex":"#FFFFFF","_rgb":[1,1,1]}
+174.18900000001304	EXP	text_2: contrast = 1
+174.18900000001304	EXP	text_2: height = 0.05
+174.18900000001304	EXP	text_2: bold = false
+174.18900000001304	EXP	text_2: italic = false
+174.18900000001304	EXP	text_2: alignHoriz = "left"
+174.18900000001304	EXP	text_2: alignVert = "center"
+174.18900000001304	EXP	text_2: wrapWidth = 1
+174.18900000001304	EXP	text_2: flipHoriz = false
+174.18900000001304	EXP	text_2: flipVert = false
+174.18900000001304	EXP	Sound: secs = -1
+174.18900000001304	EXP	Sound: volume = 1
+174.18900000001304	EXP	Sound: loops = 0
+174.18900000001304	EXP	Sound: volume = 1
+174.18900000001304	EXP	text_3: units = "height"
+174.18900000001304	EXP	text_3: ori = 0
+174.18900000001304	EXP	text_3: opacity = 1
+174.18900000001304	EXP	text_3: pos = [0,0]
+174.18900000001304	EXP	text_3: size = undefined
+174.18900000001304	EXP	text_3: text = "Ready for the next trial?\n\nPress space bar to start."
+174.18900000001304	EXP	text_3: font = "Arial"
+174.18900000001304	EXP	text_3: color = {"_hex":"#FFFFFF","_rgb":[1,1,1]}
+174.18900000001304	EXP	text_3: contrast = 1
+174.18900000001304	EXP	text_3: height = 0.05
+174.18900000001304	EXP	text_3: bold = false
+174.18900000001304	EXP	text_3: italic = false
+174.18900000001304	EXP	text_3: alignHoriz = "left"
+174.18900000001304	EXP	text_3: alignVert = "center"
+174.18900000001304	EXP	text_3: wrapWidth = 1
+174.18900000001304	EXP	text_3: flipHoriz = false
+174.18900000001304	EXP	text_3: flipVert = false
+174.18900000001304	EXP	text_4: units = "height"
+174.18900000001304	EXP	text_4: ori = 0
+174.18900000001304	EXP	text_4: opacity = 1
+174.18900000001304	EXP	text_4: pos = [0,0]
+174.18900000001304	EXP	text_4: size = undefined
+174.18900000001304	EXP	text_4: text = "Great! This is the half-way break. \n\nPlease take your time. \n\nWhen you are ready to start the second-half of the test trials, please press space bar. "
+174.18900000001304	EXP	text_4: font = "Arial"
+174.18900000001304	EXP	text_4: color = {"_hex":"#FFFFFF","_rgb":[1,1,1]}
+174.18900000001304	EXP	text_4: contrast = 1
+174.18900000001304	EXP	text_4: height = 0.05
+174.18900000001304	EXP	text_4: bold = false
+174.18900000001304	EXP	text_4: italic = false
+174.18900000001304	EXP	text_4: alignHoriz = "left"
+174.18900000001304	EXP	text_4: alignVert = "center"
+174.18900000001304	EXP	text_4: wrapWidth = 1
+174.18900000001304	EXP	text_4: flipHoriz = false
+174.18900000001304	EXP	text_4: flipVert = false
+174.18900000001304	EXP	Sound: secs = -1
+174.18900000001304	EXP	Sound: volume = 1
+174.18900000001304	EXP	Sound: loops = 0
+174.18900000001304	EXP	Sound: volume = 1
+174.18900000001304	EXP	next_prompt_trial2: units = "height"
+174.18900000001304	EXP	next_prompt_trial2: ori = 0
+174.18900000001304	EXP	next_prompt_trial2: opacity = 1
+174.18900000001304	EXP	next_prompt_trial2: pos = [0,0]
+174.18900000001304	EXP	next_prompt_trial2: size = undefined
+174.18900000001304	EXP	next_prompt_trial2: text = "Ready for the next trial? \n\nPress space bar to start. "
+174.18900000001304	EXP	next_prompt_trial2: font = "Arial"
+174.18900000001304	EXP	next_prompt_trial2: color = {"_hex":"#FFFFFF","_rgb":[1,1,1]}
+174.18900000001304	EXP	next_prompt_trial2: contrast = 1
+174.18900000001304	EXP	next_prompt_trial2: height = 0.05
+174.18900000001304	EXP	next_prompt_trial2: bold = false
+174.18900000001304	EXP	next_prompt_trial2: italic = false
+174.18900000001304	EXP	next_prompt_trial2: alignHoriz = "left"
+174.18900000001304	EXP	next_prompt_trial2: alignVert = "center"
+174.18900000001304	EXP	next_prompt_trial2: wrapWidth = 1
+174.18900000001304	EXP	next_prompt_trial2: flipHoriz = false
+174.18900000001304	EXP	next_prompt_trial2: flipVert = false
+174.18900000001304	EXP	completion_text: units = "height"
+174.18900000001304	EXP	completion_text: ori = 0
+174.18900000001304	EXP	completion_text: opacity = 1
+174.18900000001304	EXP	completion_text: pos = [0,0]
+174.18900000001304	EXP	completion_text: size = undefined
+174.18900000001304	EXP	completion_text: text = "Thanks for your participation! \n\nHere is your experiment completion code: \n\n9158 \n\nPlease write down this code as you will need it in order to receive payment.\n\nIf you are not an MTurk worker, please send an email to nolan.lem@gmail.com with the Experiment Completion Code as the subject of the email. In order to complete the \nexperiment, when you are ready please press space bar and wait until you see a text box appear that says \"Thanks for your patience\" where you can click 'ok'. \n\nIf you are an MTurk worker, please press the space bar to be redirected to the MTurk experiment \nhomepage where you can input the code into the Experiment Completion Code box. "
+174.18900000001304	EXP	completion_text: font = "Arial"
+174.18900000001304	EXP	completion_text: color = {"_hex":"#FFFFFF","_rgb":[1,1,1]}
+174.18900000001304	EXP	completion_text: contrast = 1
+174.18900000001304	EXP	completion_text: height = 0.05
+174.18900000001304	EXP	completion_text: bold = false
+174.18900000001304	EXP	completion_text: italic = false
+174.18900000001304	EXP	completion_text: alignHoriz = "left"
+174.18900000001304	EXP	completion_text: alignVert = "center"
+174.18900000001304	EXP	completion_text: wrapWidth = 1
+174.18900000001304	EXP	completion_text: flipHoriz = false
+174.18900000001304	EXP	completion_text: flipVert = false
+174.18900000001304	EXP	goodbyetxt: units = "height"
+174.18900000001304	EXP	goodbyetxt: ori = 0
+174.18900000001304	EXP	goodbyetxt: opacity = 1
+174.18900000001304	EXP	goodbyetxt: pos = [0,0]
+174.18900000001304	EXP	goodbyetxt: size = undefined
+174.18900000001304	EXP	goodbyetxt: text = "The test is over!\n\nThank you so much!!"
+174.18900000001304	EXP	goodbyetxt: font = "Arial"
+174.18900000001304	EXP	goodbyetxt: color = {"_hex":"#FFFFFF","_rgb":[1,1,1]}
+174.18900000001304	EXP	goodbyetxt: contrast = 1
+174.18900000001304	EXP	goodbyetxt: height = 0.05
+174.18900000001304	EXP	goodbyetxt: bold = false
+174.18900000001304	EXP	goodbyetxt: italic = false
+174.18900000001304	EXP	goodbyetxt: alignHoriz = "left"
+174.18900000001304	EXP	goodbyetxt: alignVert = "center"
+174.18900000001304	EXP	goodbyetxt: wrapWidth = 1
+174.18900000001304	EXP	goodbyetxt: flipHoriz = false
+174.18900000001304	EXP	goodbyetxt: flipVert = false
+174.18900000001304	EXP	instructiontxt: autoDraw = true
+177.1469999999972	DATA	Keydown:  
+177.19000000000233	EXP	instructiontxt: autoDraw = false
+177.19000000000233	EXP	Sound: secs = -1
+177.19000000000233	EXP	Sound: volume = 1
+177.19000000000233	EXP	Sound: loops = 0
+177.19000000000233	EXP	Sound: volume = 1
+194.02700000000186	DATA	Mouse: 0 button down, pos=(611,417)
+194.10399999999208	DATA	Mouse: 0 button down, pos=(611,417)
+195.27799999999115	DATA	Keydown:  
+195.5	EXP	text: autoDraw = true
+197.15600000001723	DATA	Keydown:  
+197.17999999999302	EXP	text: autoDraw = false
+197.17999999999302	EXP	text_2: autoDraw = true
+204.08699999999953	DATA	Keydown:  
+204.1140000000014	EXP	text_2: autoDraw = false
+204.1140000000014	EXP	Sound: secs = -1
+204.1140000000014	EXP	Sound: volume = 1
+204.1140000000014	EXP	Sound: loops = 0
+204.1140000000014	EXP	Sound: volume = 1
+208.4670000000042	DATA	Keydown: ArrowRight
+209.44900000002235	DATA	Keydown: ArrowUp
+209.81300000002375	DATA	Keydown: ArrowLeft
+210.0559999999823	DATA	Keydown: ArrowRight
+211.27000000001863	DATA	Keydown:  
+212.84399999998277	DATA	Mouse: 2 button down, pos=(611,417)
+213	DATA	Mouse: 2 button down, pos=(611,417)
+213.98300000000745	DATA	Mouse: 0 button down, pos=(566,337)
+214.0910000000149	DATA	Mouse: 0 button down, pos=(566,337)
+214.7060000000056	DATA	Mouse: wheel shift=(0,100), pos=(501,374)
+215.01500000001397	DATA	Mouse: wheel shift=(0,100), pos=(501,374)
+215.07400000002235	DATA	Mouse: wheel shift=(0,100), pos=(501,374)
+215.57500000001164	DATA	Mouse: wheel shift=(0,-100), pos=(501,374)
+215.67800000001444	DATA	Mouse: wheel shift=(0,-100), pos=(501,374)
+216.3850000000093	DATA	Mouse: 2 button down, pos=(568,298)
+216.3969999999972	DATA	Mouse: 2 button down, pos=(568,298)
+218.86800000001676	DATA	Mouse: 0 button down, pos=(502,383)
+218.96000000002095	DATA	Mouse: 0 button down, pos=(502,383)
+220.71100000001024	DATA	Keydown: ArrowRight
+221.0800000000163	DATA	Keydown: ArrowUp
+221.37200000003213	EXP	text_3: autoDraw = true
+221.44500000000698	DATA	Keydown: ArrowLeft
+221.58699999999953	DATA	Keydown: ArrowRight
+221.86200000002282	DATA	Keydown: ArrowDown
+223.02500000002328	DATA	Keydown:  
+223.05900000000838	EXP	text_3: autoDraw = false
+223.05900000000838	EXP	text_4: autoDraw = true
+227.27600000001257	DATA	Keydown:  
+227.28200000000652	EXP	text_4: autoDraw = false
+227.28200000000652	EXP	Sound: secs = -1
+227.28200000000652	EXP	Sound: volume = 1
+227.28200000000652	EXP	Sound: loops = 0
+227.28200000000652	EXP	Sound: volume = 1
+244.46000000002095	EXP	next_prompt_trial2: autoDraw = true
+247.76799999998184	DATA	Keydown:  
+247.78000000002794	EXP	next_prompt_trial2: autoDraw = false
+247.78000000002794	EXP	completion_text: autoDraw = true
+248.1240000000107	DATA	Keydown:  
+248.14000000001397	EXP	completion_text: autoDraw = false
+248.14000000001397	EXP	goodbyetxt: autoDraw = true
+253.24200000002747	DATA	Keydown:  

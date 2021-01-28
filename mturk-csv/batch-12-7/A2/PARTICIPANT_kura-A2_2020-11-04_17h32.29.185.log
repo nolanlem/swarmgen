@@ -1,0 +1,2206 @@
+0.0442499999771826	EXP	Created Window = Window( name=Window, fullscr=true, color=#808080, units=height, waitBlanking=true, autoLog=true, size=[1341,828] )
+2.7303650000249036	DATA	Keydown: Shift
+2.879644999979064	DATA	Keydown: H
+3.024069999984931	DATA	Keydown: H
+3.3704499999876134	DATA	Keydown: Tab
+6.043550000002142	DATA	Keydown: Tab
+8.002510000020266	DATA	Keydown: y
+8.058230000024196	DATA	Keydown: e
+8.138229999982286	DATA	Keydown: s
+8.565194999973755	DATA	Keydown: Tab
+14.490210000018124	DATA	Keydown: Shift
+14.634725000010803	DATA	Keydown: T
+14.788775000022724	DATA	Keydown: a
+14.890015000011772	DATA	Keydown: o
+15.751879999996163	DATA	Keydown: t
+15.93460999999661	DATA	Keydown: r
+16.060779999999795	DATA	Keydown: o
+16.134135000000242	DATA	Keydown: n
+16.234194999968167	DATA	Keydown: i
+16.281230000022333	DATA	Keydown: c
+16.380774999968708	DATA	Keydown: s
+16.868625000002794	DATA	Keydown: Tab
+18.38579500000924	DATA	Keydown: 0
+19.22996999998577	DATA	Keydown: Backspace
+19.348170000012033	DATA	Keydown: 1
+20.156230000022333	DATA	Keydown: Tab
+21.00461499998346	DATA	Keydown: n
+21.210459999972954	DATA	Keydown: o
+73.12982999999076	DATA	Keydown: a
+73.21781000000192	DATA	Keydown: p
+73.36151499999687	DATA	Keydown: p
+73.40319500002079	DATA	Keydown: l
+73.52884500002256	DATA	Keydown: e
+73.60201999999117	DATA	Keydown:  
+74.46632000000682	DATA	Keydown: e
+74.56153499998618	DATA	Keydown: a
+74.61733999999706	DATA	Keydown: r
+74.82961000001524	DATA	Keydown: b
+74.9294649999938	DATA	Keydown: u
+75.2048450000002	DATA	Keydown: d
+75.26543500000844	DATA	Keydown: s
+76.0515599999926	DATA	Keydown: ,
+76.12972999998601	DATA	Keydown:  
+76.24534999998286	DATA	Keydown: w
+76.34833499998786	DATA	Keydown: i
+76.48787999997148	DATA	Keydown: r
+76.55401999998139	DATA	Keydown: e
+76.73965499998303	DATA	Keydown: d
+79.77399000001606	DATA	Keydown: Shift
+79.83737999998266	DATA	Keydown: F
+80.13147000002209	DATA	Keydown: Tab
+81.25814499997068	DATA	Keydown: 2
+81.34930000000168	DATA	Keydown: 9
+81.55030000000261	DATA	Keydown: Tab
+82.71951000002446	DATA	Keydown: Shift
+82.93460999999661	DATA	Keydown: R
+83.12128500000108	DATA	Keydown: Tab
+87.44205999997212	DATA	Keydown: y
+87.56239500001539	DATA	Keydown: e
+87.63173500000266	DATA	Keydown: s
+95.4130100000184	EXP	Created instructiontxt = TextStim( name=instructiontxt, win=Window( name=Window, fullscr=true, color=#808080, ~), autoDraw=null, autoLog=true, units=height, ori=null, opacity=1, pos=[0,0], size=undefined, text=Welcome to tapping experiment. 
+
+You will hear a s~, font=Arial, color=#FFFFFF, contrast=1, height=0.05, bold=null, italic=null, alignHoriz=left, alignVert=center, wrapWidth=1, flipHoriz=null, flipVert=null )
+95.41749999998137	EXP	Created TonePlayer = TonePlayer( name=TonePlayer, note=A4, duration_s=-1, volume=1, loops=null, soundLibrary="TONE_JS", autoLog=true )
+95.41811999998754	EXP	Created text = TextStim( name=text, win=Window( name=Window, fullscr=true, color=#808080, ~), autoDraw=null, autoLog=true, units=height, ori=null, opacity=1, pos=[0,0], size=undefined, text=Ready for the next trial?
+
+press space bar to star~, font=Arial, color=#FFFFFF, contrast=1, height=0.05, bold=null, italic=null, alignHoriz=left, alignVert=center, wrapWidth=1, flipHoriz=null, flipVert=null )
+95.41844999999739	EXP	Created text_2 = TextStim( name=text_2, win=Window( name=Window, fullscr=true, color=#808080, ~), autoDraw=null, autoLog=true, units=height, ori=null, opacity=1, pos=[0,0], size=undefined, text=Practice trials are over.
+
+Now we are going to sta~, font=Arial, color=#FFFFFF, contrast=1, height=0.05, bold=null, italic=null, alignHoriz=left, alignVert=center, wrapWidth=1, flipHoriz=null, flipVert=null )
+95.42018999997526	EXP	Created TonePlayer = TonePlayer( name=TonePlayer, note=A4, duration_s=-1, volume=1, loops=null, soundLibrary="TONE_JS", autoLog=true )
+95.4206300000078	EXP	Created text_3 = TextStim( name=text_3, win=Window( name=Window, fullscr=true, color=#808080, ~), autoDraw=null, autoLog=true, units=height, ori=null, opacity=1, pos=[0,0], size=undefined, text=Ready for the next trial?
+
+Press space bar to star~, font=Arial, color=#FFFFFF, contrast=1, height=0.05, bold=null, italic=null, alignHoriz=left, alignVert=center, wrapWidth=1, flipHoriz=null, flipVert=null )
+95.4216449999949	EXP	Created text_4 = TextStim( name=text_4, win=Window( name=Window, fullscr=true, color=#808080, ~), autoDraw=null, autoLog=true, units=height, ori=null, opacity=1, pos=[0,0], size=undefined, text=Great! This is the half-way break. 
+
+Please take y~, font=Arial, color=#FFFFFF, contrast=1, height=0.05, bold=null, italic=null, alignHoriz=left, alignVert=center, wrapWidth=1, flipHoriz=null, flipVert=null )
+95.42252500000177	EXP	Created TonePlayer = TonePlayer( name=TonePlayer, note=A4, duration_s=-1, volume=1, loops=null, soundLibrary="TONE_JS", autoLog=true )
+95.42294499999844	EXP	Created next_prompt_trial2 = TextStim( name=next_prompt_trial2, win=Window( name=Window, fullscr=true, color=#808080, ~), autoDraw=null, autoLog=true, units=height, ori=null, opacity=1, pos=[0,0], size=undefined, text=Ready for the next trial? 
+
+Press space bar to sta~, font=Arial, color=#FFFFFF, contrast=1, height=0.05, bold=null, italic=null, alignHoriz=left, alignVert=center, wrapWidth=1, flipHoriz=null, flipVert=null )
+95.42328499996802	EXP	Created completion_text = TextStim( name=completion_text, win=Window( name=Window, fullscr=true, color=#808080, ~), autoDraw=null, autoLog=true, units=height, ori=null, opacity=1, pos=[0,0], size=undefined, text=Thanks for your participation! 
+
+Here is your expe~, font=Arial, color=#FFFFFF, contrast=1, height=0.05, bold=null, italic=null, alignHoriz=left, alignVert=center, wrapWidth=1, flipHoriz=null, flipVert=null )
+95.42367499996908	EXP	Created goodbyetxt = TextStim( name=goodbyetxt, win=Window( name=Window, fullscr=true, color=#808080, ~), autoDraw=null, autoLog=true, units=height, ori=null, opacity=1, pos=[0,0], size=undefined, text=The test is over!
+
+Thank you so much!!, font=Arial, color=#FFFFFF, contrast=1, height=0.05, bold=null, italic=null, alignHoriz=left, alignVert=center, wrapWidth=1, flipHoriz=null, flipVert=null )
+95.46605499996804	EXP	instructiontxt: units = "height"
+95.46605499996804	EXP	instructiontxt: ori = 0
+95.46605499996804	EXP	instructiontxt: opacity = 1
+95.46605499996804	EXP	instructiontxt: pos = [0,0]
+95.46605499996804	EXP	instructiontxt: size = undefined
+95.46605499996804	EXP	instructiontxt: text = "Welcome to tapping experiment. \n\nYou will hear a sequence of tones.\nUse the index finger of your dominant hand \nto tap the spacebar at where you think the beat is throughout the sound file at each trial.\n\nWhen you are ready, press the spacebar to begin the practice."
+95.46605499996804	EXP	instructiontxt: font = "Arial"
+95.46605499996804	EXP	instructiontxt: color = {"_hex":"#FFFFFF","_rgb":[1,1,1]}
+95.46605499996804	EXP	instructiontxt: contrast = 1
+95.46605499996804	EXP	instructiontxt: height = 0.05
+95.46605499996804	EXP	instructiontxt: bold = false
+95.46605499996804	EXP	instructiontxt: italic = false
+95.46605499996804	EXP	instructiontxt: alignHoriz = "left"
+95.46605499996804	EXP	instructiontxt: alignVert = "center"
+95.46605499996804	EXP	instructiontxt: wrapWidth = 1
+95.46605499996804	EXP	instructiontxt: flipHoriz = false
+95.46605499996804	EXP	instructiontxt: flipVert = false
+95.46605499996804	EXP	Sound: secs = -1
+95.46605499996804	EXP	Sound: volume = 1
+95.46605499996804	EXP	Sound: loops = 0
+95.46605499996804	EXP	Sound: volume = 1
+95.46605499996804	EXP	text: units = "height"
+95.46605499996804	EXP	text: ori = 0
+95.46605499996804	EXP	text: opacity = 1
+95.46605499996804	EXP	text: pos = [0,0]
+95.46605499996804	EXP	text: size = undefined
+95.46605499996804	EXP	text: text = "Ready for the next trial?\n\npress space bar to start."
+95.46605499996804	EXP	text: font = "Arial"
+95.46605499996804	EXP	text: color = {"_hex":"#FFFFFF","_rgb":[1,1,1]}
+95.46605499996804	EXP	text: contrast = 1
+95.46605499996804	EXP	text: height = 0.05
+95.46605499996804	EXP	text: bold = false
+95.46605499996804	EXP	text: italic = false
+95.46605499996804	EXP	text: alignHoriz = "left"
+95.46605499996804	EXP	text: alignVert = "center"
+95.46605499996804	EXP	text: wrapWidth = 1
+95.46605499996804	EXP	text: flipHoriz = false
+95.46605499996804	EXP	text: flipVert = false
+95.46605499996804	EXP	text_2: units = "height"
+95.46605499996804	EXP	text_2: ori = 0
+95.46605499996804	EXP	text_2: opacity = 1
+95.46605499996804	EXP	text_2: pos = [0,0]
+95.46605499996804	EXP	text_2: size = undefined
+95.46605499996804	EXP	text_2: text = "Practice trials are over.\n\nNow we are going to start the real test trials.\nThe total session length will be about 28 minutes, but we will have a short break at the half way mark.\n\nIf you are ready, please space bar."
+95.46605499996804	EXP	text_2: font = "Arial"
+95.46605499996804	EXP	text_2: color = {"_hex":"#FFFFFF","_rgb":[1,1,1]}
+95.46605499996804	EXP	text_2: contrast = 1
+95.46605499996804	EXP	text_2: height = 0.05
+95.46605499996804	EXP	text_2: bold = false
+95.46605499996804	EXP	text_2: italic = false
+95.46605499996804	EXP	text_2: alignHoriz = "left"
+95.46605499996804	EXP	text_2: alignVert = "center"
+95.46605499996804	EXP	text_2: wrapWidth = 1
+95.46605499996804	EXP	text_2: flipHoriz = false
+95.46605499996804	EXP	text_2: flipVert = false
+95.46605499996804	EXP	Sound: secs = -1
+95.46605499996804	EXP	Sound: volume = 1
+95.46605499996804	EXP	Sound: loops = 0
+95.46605499996804	EXP	Sound: volume = 1
+95.46605499996804	EXP	text_3: units = "height"
+95.46605499996804	EXP	text_3: ori = 0
+95.46605499996804	EXP	text_3: opacity = 1
+95.46605499996804	EXP	text_3: pos = [0,0]
+95.46605499996804	EXP	text_3: size = undefined
+95.46605499996804	EXP	text_3: text = "Ready for the next trial?\n\nPress space bar to start."
+95.46605499996804	EXP	text_3: font = "Arial"
+95.46605499996804	EXP	text_3: color = {"_hex":"#FFFFFF","_rgb":[1,1,1]}
+95.46605499996804	EXP	text_3: contrast = 1
+95.46605499996804	EXP	text_3: height = 0.05
+95.46605499996804	EXP	text_3: bold = false
+95.46605499996804	EXP	text_3: italic = false
+95.46605499996804	EXP	text_3: alignHoriz = "left"
+95.46605499996804	EXP	text_3: alignVert = "center"
+95.46605499996804	EXP	text_3: wrapWidth = 1
+95.46605499996804	EXP	text_3: flipHoriz = false
+95.46605499996804	EXP	text_3: flipVert = false
+95.46605499996804	EXP	text_4: units = "height"
+95.46605499996804	EXP	text_4: ori = 0
+95.46605499996804	EXP	text_4: opacity = 1
+95.46605499996804	EXP	text_4: pos = [0,0]
+95.46605499996804	EXP	text_4: size = undefined
+95.46605499996804	EXP	text_4: text = "Great! This is the half-way break. \n\nPlease take your time. \n\nWhen you are ready to start the second-half of the test trials, please press space bar. "
+95.46605499996804	EXP	text_4: font = "Arial"
+95.46605499996804	EXP	text_4: color = {"_hex":"#FFFFFF","_rgb":[1,1,1]}
+95.46605499996804	EXP	text_4: contrast = 1
+95.46605499996804	EXP	text_4: height = 0.05
+95.46605499996804	EXP	text_4: bold = false
+95.46605499996804	EXP	text_4: italic = false
+95.46605499996804	EXP	text_4: alignHoriz = "left"
+95.46605499996804	EXP	text_4: alignVert = "center"
+95.46605499996804	EXP	text_4: wrapWidth = 1
+95.46605499996804	EXP	text_4: flipHoriz = false
+95.46605499996804	EXP	text_4: flipVert = false
+95.46605499996804	EXP	Sound: secs = -1
+95.46605499996804	EXP	Sound: volume = 1
+95.46605499996804	EXP	Sound: loops = 0
+95.46605499996804	EXP	Sound: volume = 1
+95.46605499996804	EXP	next_prompt_trial2: units = "height"
+95.46605499996804	EXP	next_prompt_trial2: ori = 0
+95.46605499996804	EXP	next_prompt_trial2: opacity = 1
+95.46605499996804	EXP	next_prompt_trial2: pos = [0,0]
+95.46605499996804	EXP	next_prompt_trial2: size = undefined
+95.46605499996804	EXP	next_prompt_trial2: text = "Ready for the next trial? \n\nPress space bar to start. "
+95.46605499996804	EXP	next_prompt_trial2: font = "Arial"
+95.46605499996804	EXP	next_prompt_trial2: color = {"_hex":"#FFFFFF","_rgb":[1,1,1]}
+95.46605499996804	EXP	next_prompt_trial2: contrast = 1
+95.46605499996804	EXP	next_prompt_trial2: height = 0.05
+95.46605499996804	EXP	next_prompt_trial2: bold = false
+95.46605499996804	EXP	next_prompt_trial2: italic = false
+95.46605499996804	EXP	next_prompt_trial2: alignHoriz = "left"
+95.46605499996804	EXP	next_prompt_trial2: alignVert = "center"
+95.46605499996804	EXP	next_prompt_trial2: wrapWidth = 1
+95.46605499996804	EXP	next_prompt_trial2: flipHoriz = false
+95.46605499996804	EXP	next_prompt_trial2: flipVert = false
+95.46605499996804	EXP	completion_text: units = "height"
+95.46605499996804	EXP	completion_text: ori = 0
+95.46605499996804	EXP	completion_text: opacity = 1
+95.46605499996804	EXP	completion_text: pos = [0,0]
+95.46605499996804	EXP	completion_text: size = undefined
+95.46605499996804	EXP	completion_text: text = "Thanks for your participation! \n\nHere is your experiment completion code: \n\n9158 \n\nPlease write down this code as you will need it in order to receive payment.\n\nIf you are not an MTurk worker, please send an email to nolan.lem@gmail.com with the Experiment Completion Code as the subject of the email. In order to complete the \nexperiment, when you are ready please press space bar and wait until you see a text box appear that says \"Thanks for your patience\" where you can click 'ok'. \n\nIf you are an MTurk worker, please press the space bar to be redirected to the MTurk experiment \nhomepage where you can input the code into the Experiment Completion Code box. "
+95.46605499996804	EXP	completion_text: font = "Arial"
+95.46605499996804	EXP	completion_text: color = {"_hex":"#FFFFFF","_rgb":[1,1,1]}
+95.46605499996804	EXP	completion_text: contrast = 1
+95.46605499996804	EXP	completion_text: height = 0.05
+95.46605499996804	EXP	completion_text: bold = false
+95.46605499996804	EXP	completion_text: italic = false
+95.46605499996804	EXP	completion_text: alignHoriz = "left"
+95.46605499996804	EXP	completion_text: alignVert = "center"
+95.46605499996804	EXP	completion_text: wrapWidth = 1
+95.46605499996804	EXP	completion_text: flipHoriz = false
+95.46605499996804	EXP	completion_text: flipVert = false
+95.46605499996804	EXP	goodbyetxt: units = "height"
+95.46605499996804	EXP	goodbyetxt: ori = 0
+95.46605499996804	EXP	goodbyetxt: opacity = 1
+95.46605499996804	EXP	goodbyetxt: pos = [0,0]
+95.46605499996804	EXP	goodbyetxt: size = undefined
+95.46605499996804	EXP	goodbyetxt: text = "The test is over!\n\nThank you so much!!"
+95.46605499996804	EXP	goodbyetxt: font = "Arial"
+95.46605499996804	EXP	goodbyetxt: color = {"_hex":"#FFFFFF","_rgb":[1,1,1]}
+95.46605499996804	EXP	goodbyetxt: contrast = 1
+95.46605499996804	EXP	goodbyetxt: height = 0.05
+95.46605499996804	EXP	goodbyetxt: bold = false
+95.46605499996804	EXP	goodbyetxt: italic = false
+95.46605499996804	EXP	goodbyetxt: alignHoriz = "left"
+95.46605499996804	EXP	goodbyetxt: alignVert = "center"
+95.46605499996804	EXP	goodbyetxt: wrapWidth = 1
+95.46605499996804	EXP	goodbyetxt: flipHoriz = false
+95.46605499996804	EXP	goodbyetxt: flipVert = false
+95.46605499996804	EXP	instructiontxt: autoDraw = true
+120.84255499998108	DATA	Mouse: 0 button down, pos=(923.12890625,804.62109375)
+120.92648000002373	DATA	Mouse: 0 button down, pos=(923.12890625,804.62109375)
+121.40215500001796	DATA	Keydown:  
+121.42141499998979	EXP	instructiontxt: autoDraw = false
+121.42141499998979	EXP	Sound: secs = -1
+121.42141499998979	EXP	Sound: volume = 1
+121.42141499998979	EXP	Sound: loops = 0
+121.42141499998979	EXP	Sound: volume = 1
+124.81711499998346	DATA	Keydown:  
+125.31193000002531	DATA	Keydown:  
+125.83303500001784	DATA	Keydown:  
+126.3307049999712	DATA	Keydown:  
+126.85723000002326	DATA	Keydown:  
+127.35168000002159	DATA	Keydown:  
+127.8224550000159	DATA	Keydown:  
+128.3327200000058	DATA	Keydown:  
+128.85346499999287	DATA	Keydown:  
+129.3548600000213	DATA	Keydown:  
+129.87468000000808	DATA	Keydown:  
+130.3763850000105	DATA	Keydown:  
+130.90747500001453	DATA	Keydown:  
+131.41067999997176	DATA	Keydown:  
+131.90399500000058	DATA	Keydown:  
+132.3912850000197	DATA	Keydown:  
+132.8788100000238	DATA	Keydown:  
+133.39540999999736	DATA	Keydown:  
+133.9146850000252	DATA	Keydown:  
+136.0485200000112	EXP	text: autoDraw = true
+137.32442999997875	DATA	Keydown:  
+137.3315050000092	EXP	text: autoDraw = false
+137.3315050000092	EXP	Sound: secs = -1
+137.3315050000092	EXP	Sound: volume = 1
+137.3315050000092	EXP	Sound: loops = 0
+137.3315050000092	EXP	Sound: volume = 1
+139.89767500001471	DATA	Keydown:  
+141.3694999999716	DATA	Keydown:  
+142.23690000001807	DATA	Keydown:  
+143.14169499999844	DATA	Keydown:  
+144.08883999998216	DATA	Keydown:  
+144.8753049999941	DATA	Keydown:  
+145.64344499999424	DATA	Keydown:  
+146.41070000000764	DATA	Keydown:  
+147.2615849999711	DATA	Keydown:  
+148.06969500001287	DATA	Keydown:  
+148.9237950000097	DATA	Keydown:  
+149.8126100000227	DATA	Keydown:  
+150.678974999988	DATA	Keydown:  
+151.5089900000021	DATA	Keydown:  
+152.26915499998722	DATA	Keydown:  
+153.1085299999686	DATA	Keydown:  
+153.96365499997046	DATA	Keydown:  
+154.76897999999346	DATA	Keydown:  
+157.14448999997694	EXP	text: autoDraw = true
+158.48515000002226	DATA	Keydown:  
+158.49687500001164	EXP	text: autoDraw = false
+158.49687500001164	EXP	Sound: secs = -1
+158.49687500001164	EXP	Sound: volume = 1
+158.49687500001164	EXP	Sound: loops = 0
+158.49687500001164	EXP	Sound: volume = 1
+161.6840450000018	DATA	Keydown:  
+162.25595500000054	DATA	Keydown:  
+162.80103500001132	DATA	Keydown:  
+163.42361499997787	DATA	Keydown:  
+164.00764000002528	DATA	Keydown:  
+164.56765500002075	DATA	Keydown:  
+165.11687500000698	DATA	Keydown:  
+165.70806500001345	DATA	Keydown:  
+166.29381000000285	DATA	Keydown:  
+166.86853500001598	DATA	Keydown:  
+167.41174499999033	DATA	Keydown:  
+168.03972499998054	DATA	Keydown:  
+168.62869500002125	DATA	Keydown:  
+169.17289500002516	DATA	Keydown:  
+169.75564499996835	DATA	Keydown:  
+170.3574849999859	DATA	Keydown:  
+170.96922999998787	DATA	Keydown:  
+171.5863750000135	DATA	Keydown:  
+173.53881499997806	EXP	text: autoDraw = true
+174.78383500000928	DATA	Keydown:  
+174.79072499996983	EXP	text: autoDraw = false
+174.79072499996983	EXP	Sound: secs = -1
+174.79072499996983	EXP	Sound: volume = 1
+174.79072499996983	EXP	Sound: loops = 0
+174.79072499996983	EXP	Sound: volume = 1
+183.19044500001473	DATA	Keydown:  
+183.72418499999912	DATA	Keydown:  
+184.23827999999048	DATA	Keydown:  
+184.75442000001203	DATA	Keydown:  
+185.29282500001136	DATA	Keydown:  
+185.85106000001542	DATA	Keydown:  
+186.3650749999797	DATA	Keydown:  
+186.9070499999798	DATA	Keydown:  
+188.75955999997677	EXP	text: autoDraw = true
+189.5620849999832	DATA	Keydown:  
+189.56874999997672	EXP	text: autoDraw = false
+189.56874999997672	EXP	text_2: autoDraw = true
+196.08091000001878	DATA	Keydown:  
+196.0920449999976	EXP	text_2: autoDraw = false
+196.0920449999976	EXP	Sound: secs = -1
+196.0920449999976	EXP	Sound: volume = 1
+196.0920449999976	EXP	Sound: loops = 0
+196.0920449999976	EXP	Sound: volume = 1
+201.56098499998916	DATA	Keydown:  
+202.3748899999773	DATA	Keydown:  
+204.05671999999322	DATA	Keydown:  
+204.64747500000522	DATA	Keydown:  
+205.27396500000032	DATA	Keydown:  
+206.1285800000187	DATA	Keydown:  
+207.20896000001812	DATA	Keydown:  
+208.40253999998095	DATA	Keydown:  
+209.34220999997342	DATA	Keydown:  
+213.18527499999618	EXP	text_3: autoDraw = true
+213.67099499999313	DATA	Keydown:  
+213.68426499998895	EXP	text_3: autoDraw = false
+213.68426499998895	EXP	Sound: secs = -1
+213.68426499998895	EXP	Sound: volume = 1
+213.68426499998895	EXP	Sound: loops = 0
+213.68426499998895	EXP	Sound: volume = 1
+219.33858999999939	DATA	Keydown:  
+219.73086000001058	DATA	Keydown:  
+220.5309750000015	DATA	Keydown:  
+221.5196499999729	DATA	Keydown:  
+222.04048000002513	DATA	Keydown:  
+222.43334499996854	DATA	Keydown:  
+222.8315650000004	DATA	Keydown:  
+223.55044500000076	DATA	Keydown:  
+223.9457200000179	DATA	Keydown:  
+224.37164500000654	DATA	Keydown:  
+224.76040500000818	DATA	Keydown:  
+225.20025499997428	DATA	Keydown:  
+225.66413499996997	DATA	Keydown:  
+226.06788499996765	DATA	Keydown:  
+226.48495000001276	DATA	Keydown:  
+226.85337999998592	DATA	Keydown:  
+227.2597700000042	DATA	Keydown:  
+227.9438300000038	DATA	Keydown:  
+228.30384000000777	DATA	Keydown:  
+228.72194000001764	DATA	Keydown:  
+230.5135799999698	EXP	text_3: autoDraw = true
+231.45151500002248	DATA	Keydown:  
+231.46260999998776	EXP	text_3: autoDraw = false
+231.46260999998776	EXP	Sound: secs = -1
+231.46260999998776	EXP	Sound: volume = 1
+231.46260999998776	EXP	Sound: loops = 0
+231.46260999998776	EXP	Sound: volume = 1
+233.63524999999208	DATA	Keydown:  
+234.14190499996766	DATA	Keydown:  
+234.55875500000548	DATA	Keydown:  
+234.98232499998994	DATA	Keydown:  
+235.450130000012	DATA	Keydown:  
+235.85865999996895	DATA	Keydown:  
+236.29367500002263	DATA	Keydown:  
+236.7043399999966	DATA	Keydown:  
+237.1083000000217	DATA	Keydown:  
+237.5757449999801	DATA	Keydown:  
+238.02747500000987	DATA	Keydown:  
+238.53278999996837	DATA	Keydown:  
+238.9707150000031	DATA	Keydown:  
+239.45555000001332	DATA	Keydown:  
+239.91570999997202	DATA	Keydown:  
+240.35591500002192	DATA	Keydown:  
+240.7877200000221	DATA	Keydown:  
+241.24137000000337	DATA	Keydown:  
+242.29570000001695	EXP	text_3: autoDraw = true
+243.30810000002384	DATA	Keydown:  
+243.31385500001488	EXP	text_3: autoDraw = false
+243.31385500001488	EXP	Sound: secs = -1
+243.31385500001488	EXP	Sound: volume = 1
+243.31385500001488	EXP	Sound: loops = 0
+243.31385500001488	EXP	Sound: volume = 1
+246.79351499996847	DATA	Keydown:  
+247.58413500001188	DATA	Keydown:  
+248.37802000000374	DATA	Keydown:  
+249.15229499997804	DATA	Keydown:  
+249.92713500000536	DATA	Keydown:  
+250.6803100000252	DATA	Keydown:  
+251.47276500001317	DATA	Keydown:  
+252.19037999998545	DATA	Keydown:  
+252.94903999997769	DATA	Keydown:  
+253.73628499999177	DATA	Keydown:  
+254.54032500000903	DATA	Keydown:  
+255.2639049999998	DATA	Keydown:  
+256.00740000000224	DATA	Keydown:  
+256.7849849999766	DATA	Keydown:  
+257.526595000003	DATA	Keydown:  
+258.3326999999699	DATA	Keydown:  
+259.0674049999798	DATA	Keydown:  
+259.879345000023	DATA	Keydown:  
+260.6603400000022	DATA	Keydown:  
+262.4434950000141	EXP	text_3: autoDraw = true
+263.0270850000088	DATA	Keydown:  
+263.0451250000042	EXP	text_3: autoDraw = false
+263.0451250000042	EXP	Sound: secs = -1
+263.0451250000042	EXP	Sound: volume = 1
+263.0451250000042	EXP	Sound: loops = 0
+263.0451250000042	EXP	Sound: volume = 1
+269.62313500000164	DATA	Keydown:  
+270.6586649999954	DATA	Keydown:  
+272.048844999983	DATA	Keydown:  
+273.2219749999931	DATA	Keydown:  
+275.5087150000036	DATA	Keydown:  
+276.11189499998	DATA	Keydown:  
+276.6583400000236	DATA	Keydown:  
+278.19790999998804	EXP	text_3: autoDraw = true
+279.41551000002073	DATA	Keydown:  
+279.4330249999766	EXP	text_3: autoDraw = false
+279.4330249999766	EXP	Sound: secs = -1
+279.4330249999766	EXP	Sound: volume = 1
+279.4330249999766	EXP	Sound: loops = 0
+279.4330249999766	EXP	Sound: volume = 1
+285.0774000000092	DATA	Keydown:  
+285.6137100000051	DATA	Keydown:  
+286.262155000004	DATA	Keydown:  
+286.7865350000211	DATA	Keydown:  
+287.3403249999974	DATA	Keydown:  
+287.87600499996915	DATA	Keydown:  
+288.4634049999877	DATA	Keydown:  
+290.2898849999765	DATA	Keydown:  
+290.79875499999616	DATA	Keydown:  
+291.4996200000169	DATA	Keydown:  
+292.20173500000965	DATA	Keydown:  
+293.124450000003	DATA	Keydown:  
+295.38617499999236	DATA	Keydown:  
+295.91025499999523	EXP	text_3: autoDraw = true
+296.4930549999699	DATA	Keydown:  
+296.511679999996	EXP	text_3: autoDraw = false
+296.511679999996	EXP	Sound: secs = -1
+296.511679999996	EXP	Sound: volume = 1
+296.511679999996	EXP	Sound: loops = 0
+296.511679999996	EXP	Sound: volume = 1
+300.5054200000013	DATA	Keydown:  
+301.65576499997405	DATA	Keydown:  
+302.46779000002425	DATA	Keydown:  
+303.2355300000054	DATA	Keydown:  
+303.9752950000111	DATA	Keydown:  
+305.63228999997955	DATA	Keydown:  
+306.4913049999741	DATA	Keydown:  
+307.4010750000016	DATA	Keydown:  
+308.1863749999902	DATA	Keydown:  
+309.0066799999913	DATA	Keydown:  
+309.9372200000216	DATA	Keydown:  
+310.8054349999875	DATA	Keydown:  
+311.77208500000415	DATA	Keydown:  
+313.5028099999763	DATA	Keydown:  
+314.4069250000175	DATA	Keydown:  
+315.3894749999745	DATA	Keydown:  
+318.59885499998927	DATA	Keydown:  
+320.3584350000019	DATA	Keydown:  
+321.48633500002325	EXP	text_3: autoDraw = true
+322.5281650000252	DATA	Keydown:  
+322.5366599999834	EXP	text_3: autoDraw = false
+322.5366599999834	EXP	Sound: secs = -1
+322.5366599999834	EXP	Sound: volume = 1
+322.5366599999834	EXP	Sound: loops = 0
+322.5366599999834	EXP	Sound: volume = 1
+326.35164000000805	DATA	Keydown:  
+327.04574500001036	DATA	Keydown:  
+327.71296500001336	DATA	Keydown:  
+328.3671800000011	DATA	Keydown:  
+329.02578999998514	DATA	Keydown:  
+329.6484449999989	DATA	Keydown:  
+330.26834999996936	DATA	Keydown:  
+330.9516949999961	DATA	Keydown:  
+331.63367499999003	DATA	Keydown:  
+332.2850149999722	DATA	Keydown:  
+332.947994999995	DATA	Keydown:  
+333.61969500000123	DATA	Keydown:  
+334.23915999999736	DATA	Keydown:  
+334.9245450000162	DATA	Keydown:  
+335.52723000000697	DATA	Keydown:  
+336.1490449999692	DATA	Keydown:  
+336.8021249999874	DATA	Keydown:  
+339.04304000001866	EXP	text_3: autoDraw = true
+340.71932500001276	DATA	Keydown:  
+340.7338699999964	EXP	text_3: autoDraw = false
+340.7338699999964	EXP	Sound: secs = -1
+340.7338699999964	EXP	Sound: volume = 1
+340.7338699999964	EXP	Sound: loops = 0
+340.7338699999964	EXP	Sound: volume = 1
+343.6576200000127	DATA	Keydown:  
+344.4055149999913	DATA	Keydown:  
+345.204550000024	DATA	Keydown:  
+346.0459499999997	DATA	Keydown:  
+346.8761999999988	DATA	Keydown:  
+347.6897400000016	DATA	Keydown:  
+348.5136599999969	DATA	Keydown:  
+349.25358999997843	DATA	Keydown:  
+350.00468999997247	DATA	Keydown:  
+350.75194500002544	DATA	Keydown:  
+351.56777500000317	DATA	Keydown:  
+352.29583999997703	DATA	Keydown:  
+353.09919500001706	DATA	Keydown:  
+353.88954000000376	DATA	Keydown:  
+354.695074999996	DATA	Keydown:  
+355.495745000022	DATA	Keydown:  
+356.33740999997826	DATA	Keydown:  
+357.08830499998294	DATA	Keydown:  
+357.8987099999795	DATA	Keydown:  
+358.606129999971	EXP	text_3: autoDraw = true
+360.1482650000253	DATA	Keydown:  
+360.16537000000244	EXP	text_3: autoDraw = false
+360.16537000000244	EXP	Sound: secs = -1
+360.16537000000244	EXP	Sound: volume = 1
+360.16537000000244	EXP	Sound: loops = 0
+360.16537000000244	EXP	Sound: volume = 1
+362.50170000002254	DATA	Keydown:  
+363.02758499997435	DATA	Keydown:  
+363.53990500001237	DATA	Keydown:  
+364.0401500000153	DATA	Keydown:  
+364.5187000000151	DATA	Keydown:  
+365.0060049999738	DATA	Keydown:  
+365.50538499996765	DATA	Keydown:  
+365.9884149999707	DATA	Keydown:  
+366.4713900000206	DATA	Keydown:  
+366.9773849999765	DATA	Keydown:  
+367.4541099999915	DATA	Keydown:  
+367.9486550000147	DATA	Keydown:  
+368.41842499998165	DATA	Keydown:  
+368.91048500000034	DATA	Keydown:  
+369.4314000000013	DATA	Keydown:  
+369.90381499996874	DATA	Keydown:  
+370.3822700000019	DATA	Keydown:  
+370.89671499998076	DATA	Keydown:  
+371.4025799999945	DATA	Keydown:  
+372.34714999998687	EXP	text_3: autoDraw = true
+373.02019499999005	DATA	Keydown:  
+373.0322649999871	EXP	text_3: autoDraw = false
+373.0322649999871	EXP	Sound: secs = -1
+373.0322649999871	EXP	Sound: volume = 1
+373.0322649999871	EXP	Sound: loops = 0
+373.0322649999871	EXP	Sound: volume = 1
+375.27931999997236	DATA	Keydown:  
+375.88825000001816	DATA	Keydown:  
+376.49812000000384	DATA	Keydown:  
+377.1130199999898	DATA	Keydown:  
+377.6778199999826	DATA	Keydown:  
+378.2150750000146	DATA	Keydown:  
+378.78787499998	DATA	Keydown:  
+379.37073500000406	DATA	Keydown:  
+379.916035000002	DATA	Keydown:  
+380.52012000000104	DATA	Keydown:  
+381.03583499998786	DATA	Keydown:  
+381.6754850000143	DATA	Keydown:  
+382.2298600000213	DATA	Keydown:  
+382.79531499999575	DATA	Keydown:  
+383.36749500001315	DATA	Keydown:  
+383.9394350000075	DATA	Keydown:  
+384.5033149999799	DATA	Keydown:  
+385.07539499999257	DATA	Keydown:  
+385.66135499998927	DATA	Keydown:  
+386.5674299999955	EXP	text_3: autoDraw = true
+387.44150000001537	DATA	Keydown:  
+387.45090499997605	EXP	text_3: autoDraw = false
+387.45090499997605	EXP	Sound: secs = -1
+387.45090499997605	EXP	Sound: volume = 1
+387.45090499997605	EXP	Sound: loops = 0
+387.45090499997605	EXP	Sound: volume = 1
+390.3626349999686	DATA	Keydown:  
+391.1205549999722	DATA	Keydown:  
+391.850465000025	DATA	Keydown:  
+392.6498450000072	DATA	Keydown:  
+394.93287000001874	DATA	Keydown:  
+395.66512000001967	DATA	Keydown:  
+396.38511500001187	DATA	Keydown:  
+397.14971500000684	DATA	Keydown:  
+397.8768249999848	DATA	Keydown:  
+398.6016800000216	DATA	Keydown:  
+399.2970750000095	DATA	Keydown:  
+400.0011800000211	DATA	Keydown:  
+400.6922650000197	DATA	Keydown:  
+401.378069999977	DATA	Keydown:  
+402.1270599999698	DATA	Keydown:  
+402.86495999997715	DATA	Keydown:  
+404.6633649999858	EXP	text_3: autoDraw = true
+406.0165150000248	DATA	Keydown:  
+406.0307400000165	EXP	text_3: autoDraw = false
+406.0307400000165	EXP	Sound: secs = -1
+406.0307400000165	EXP	Sound: volume = 1
+406.0307400000165	EXP	Sound: loops = 0
+406.0307400000165	EXP	Sound: volume = 1
+408.6726250000065	DATA	Keydown:  
+409.26741500000935	DATA	Keydown:  
+409.8127649999806	DATA	Keydown:  
+410.3943999999901	DATA	Keydown:  
+411.0446450000163	DATA	Keydown:  
+411.69153499999084	DATA	Keydown:  
+412.3052649999736	DATA	Keydown:  
+412.94200999999885	DATA	Keydown:  
+413.52646500000264	DATA	Keydown:  
+414.08003999997163	DATA	Keydown:  
+414.7243599999929	DATA	Keydown:  
+415.3652449999936	DATA	Keydown:  
+415.9578399999882	DATA	Keydown:  
+416.575514999975	DATA	Keydown:  
+417.2137849999708	DATA	Keydown:  
+417.82386000000406	DATA	Keydown:  
+418.41678500000853	DATA	Keydown:  
+418.99882500001695	DATA	Keydown:  
+419.60472499998286	DATA	Keydown:  
+420.9244099999778	EXP	text_3: autoDraw = true
+422.1041550000082	DATA	Keydown:  
+422.107864999969	EXP	text_3: autoDraw = false
+422.107864999969	EXP	Sound: secs = -1
+422.107864999969	EXP	Sound: volume = 1
+422.107864999969	EXP	Sound: loops = 0
+422.107864999969	EXP	Sound: volume = 1
+427.79337999998825	DATA	Keydown:  
+428.4273950000061	DATA	Keydown:  
+429.1722399999853	DATA	Keydown:  
+429.9090599999763	DATA	Keydown:  
+430.611969999969	DATA	Keydown:  
+431.357405000017	DATA	Keydown:  
+432.145589999971	DATA	Keydown:  
+432.89421499997843	DATA	Keydown:  
+433.6119249999756	DATA	Keydown:  
+434.3388300000224	DATA	Keydown:  
+435.0619200000074	DATA	Keydown:  
+435.81695000000764	DATA	Keydown:  
+436.61391499999445	DATA	Keydown:  
+437.3186749999877	DATA	Keydown:  
+438.1076350000221	DATA	Keydown:  
+439.98862499999814	EXP	text_3: autoDraw = true
+441.0718549999874	DATA	Keydown:  
+441.08889000001363	EXP	text_3: autoDraw = false
+441.08889000001363	EXP	Sound: secs = -1
+441.08889000001363	EXP	Sound: volume = 1
+441.08889000001363	EXP	Sound: loops = 0
+441.08889000001363	EXP	Sound: volume = 1
+444.9243300000089	DATA	Keydown:  
+445.69268500001635	DATA	Keydown:  
+446.47127999999793	DATA	Keydown:  
+447.246295000019	DATA	Keydown:  
+448.0784049999784	DATA	Keydown:  
+448.8861700000125	DATA	Keydown:  
+449.67856500000926	DATA	Keydown:  
+450.4786450000247	DATA	Keydown:  
+451.2752399999881	DATA	Keydown:  
+452.03742999996757	DATA	Keydown:  
+452.84642999997595	DATA	Keydown:  
+453.5717149999691	DATA	Keydown:  
+454.4120600000024	DATA	Keydown:  
+455.2105650000158	DATA	Keydown:  
+456.0049749999889	DATA	Keydown:  
+456.7844000000041	DATA	Keydown:  
+457.5890650000074	DATA	Keydown:  
+458.33574000000954	DATA	Keydown:  
+459.65502499998547	EXP	text_3: autoDraw = true
+461.8164949999773	DATA	Keydown:  
+461.82004999998026	EXP	text_3: autoDraw = false
+461.82004999998026	EXP	Sound: secs = -1
+461.82004999998026	EXP	Sound: volume = 1
+461.82004999998026	EXP	Sound: loops = 0
+461.82004999998026	EXP	Sound: volume = 1
+466.68666000000667	DATA	Keydown:  
+467.30744000000414	DATA	Keydown:  
+467.9006299999892	DATA	Keydown:  
+468.52916999999434	DATA	Keydown:  
+469.091940000013	DATA	Keydown:  
+469.7097349999822	DATA	Keydown:  
+470.31026499997824	DATA	Keydown:  
+470.88620999996783	DATA	Keydown:  
+471.4915850000107	DATA	Keydown:  
+472.12374499998987	DATA	Keydown:  
+472.74537999997847	DATA	Keydown:  
+473.3829849999747	DATA	Keydown:  
+473.981930000009	DATA	Keydown:  
+474.5655399999814	DATA	Keydown:  
+475.16143500001635	DATA	Keydown:  
+475.73797499999637	DATA	Keydown:  
+476.43118999997387	DATA	Keydown:  
+478.32537999999477	EXP	text_3: autoDraw = true
+478.915869999968	DATA	Keydown:  
+478.9260200000135	EXP	text_3: autoDraw = false
+478.9260200000135	EXP	Sound: secs = -1
+478.9260200000135	EXP	Sound: volume = 1
+478.9260200000135	EXP	Sound: loops = 0
+478.9260200000135	EXP	Sound: volume = 1
+482.0279200000223	DATA	Keydown:  
+482.70644999999786	DATA	Keydown:  
+483.35692499997094	DATA	Keydown:  
+483.96366000000853	DATA	Keydown:  
+484.611344999983	DATA	Keydown:  
+485.2362299999804	DATA	Keydown:  
+485.8740349999862	DATA	Keydown:  
+486.50495500001125	DATA	Keydown:  
+487.13814499997534	DATA	Keydown:  
+487.7966749999905	DATA	Keydown:  
+488.377370000002	DATA	Keydown:  
+489.00146499997936	DATA	Keydown:  
+489.67106999998214	DATA	Keydown:  
+490.2681899999734	DATA	Keydown:  
+490.9054049999686	DATA	Keydown:  
+491.53307000000495	DATA	Keydown:  
+492.1827349999803	DATA	Keydown:  
+492.8130649999948	DATA	Keydown:  
+493.4238899999764	DATA	Keydown:  
+494.9198299999698	EXP	text_3: autoDraw = true
+495.848330000008	DATA	Keydown:  
+495.8533249999746	EXP	text_3: autoDraw = false
+495.8533249999746	EXP	Sound: secs = -1
+495.8533249999746	EXP	Sound: volume = 1
+495.8533249999746	EXP	Sound: loops = 0
+495.8533249999746	EXP	Sound: volume = 1
+501.022014999995	DATA	Keydown:  
+501.6160849999869	DATA	Keydown:  
+502.58103499998106	DATA	Keydown:  
+503.2028949999949	DATA	Keydown:  
+504.1630700000096	DATA	Keydown:  
+504.6238599999924	DATA	Keydown:  
+506.1254900000058	DATA	Keydown:  
+506.6692299999995	DATA	Keydown:  
+508.20500499999616	DATA	Keydown:  
+509.4885200000135	EXP	text_3: autoDraw = true
+510.2388899999787	DATA	Keydown:  
+510.24702499998966	EXP	text_3: autoDraw = false
+510.24702499998966	EXP	Sound: secs = -1
+510.24702499998966	EXP	Sound: volume = 1
+510.24702499998966	EXP	Sound: loops = 0
+510.24702499998966	EXP	Sound: volume = 1
+514.0148749999935	DATA	Keydown:  
+514.7411149999825	DATA	Keydown:  
+515.5175450000097	DATA	Keydown:  
+516.3068799999892	DATA	Keydown:  
+517.2929349999758	DATA	Keydown:  
+518.1164499999722	DATA	Keydown:  
+518.9198600000236	DATA	Keydown:  
+519.7822600000072	DATA	Keydown:  
+520.5968799999682	DATA	Keydown:  
+521.4320300000254	DATA	Keydown:  
+522.2928349999711	DATA	Keydown:  
+523.1035099999863	DATA	Keydown:  
+523.8972899999935	DATA	Keydown:  
+524.7142149999854	DATA	Keydown:  
+525.5327249999973	DATA	Keydown:  
+526.3430950000184	DATA	Keydown:  
+527.1847500000149	DATA	Keydown:  
+527.9588699999731	DATA	Keydown:  
+530.5286600000109	EXP	text_3: autoDraw = true
+531.068105000013	DATA	Keydown:  
+531.0785700000124	EXP	text_3: autoDraw = false
+531.0785700000124	EXP	Sound: secs = -1
+531.0785700000124	EXP	Sound: volume = 1
+531.0785700000124	EXP	Sound: loops = 0
+531.0785700000124	EXP	Sound: volume = 1
+534.1627399999998	DATA	Keydown:  
+534.8915549999801	DATA	Keydown:  
+535.6086950000026	DATA	Keydown:  
+536.3521399999736	DATA	Keydown:  
+537.0320300000021	DATA	Keydown:  
+537.7536100000143	DATA	Keydown:  
+538.4701849999838	DATA	Keydown:  
+539.1511799999862	DATA	Keydown:  
+539.8730150000192	DATA	Keydown:  
+540.6103950000252	DATA	Keydown:  
+541.3035950000049	DATA	Keydown:  
+541.9940150000039	DATA	Keydown:  
+542.6734200000064	DATA	Keydown:  
+543.3902649999945	DATA	Keydown:  
+544.168394999986	DATA	Keydown:  
+544.8737149999943	DATA	Keydown:  
+545.5928350000177	DATA	Keydown:  
+546.2700750000076	DATA	Keydown:  
+546.9748000000254	DATA	Keydown:  
+548.2831499999738	EXP	text_3: autoDraw = true
+549.1178649999783	DATA	Keydown:  
+549.1341300000204	EXP	text_3: autoDraw = false
+549.1341300000204	EXP	Sound: secs = -1
+549.1341300000204	EXP	Sound: volume = 1
+549.1341300000204	EXP	Sound: loops = 0
+549.1341300000204	EXP	Sound: volume = 1
+556.8815300000133	DATA	Keydown:  
+559.1717599999974	DATA	Keydown:  
+560.282744999975	DATA	Keydown:  
+563.9549099999713	DATA	Keydown:  
+564.1230549999746	DATA	Keydown:  
+564.292369999981	DATA	Keydown:  
+564.4504200000083	DATA	Keydown:  
+564.7202800000086	DATA	Keydown:  
+564.879254999978	DATA	Keydown:  
+565.0390500000212	DATA	Keydown:  
+565.1890949999797	DATA	Keydown:  
+565.5316849999945	DATA	Keydown:  
+567.5959349999903	EXP	text_3: autoDraw = true
+568.039999999979	DATA	Keydown:  
+568.0467300000018	EXP	text_3: autoDraw = false
+568.0467300000018	EXP	Sound: secs = -1
+568.0467300000018	EXP	Sound: volume = 1
+568.0467300000018	EXP	Sound: loops = 0
+568.0467300000018	EXP	Sound: volume = 1
+578.0018649999984	DATA	Keydown:  
+578.328674999997	DATA	Keydown:  
+578.7061799999792	DATA	Keydown:  
+578.9992600000114	DATA	Keydown:  
+579.6020399999688	DATA	Keydown:  
+580.0983000000124	DATA	Keydown:  
+580.6665299999877	DATA	Keydown:  
+580.9432350000134	DATA	Keydown:  
+581.2102900000173	DATA	Keydown:  
+582.17770499998	DATA	Keydown:  
+582.4232450000127	DATA	Keydown:  
+582.9899500000174	DATA	Keydown:  
+583.2486749999807	DATA	Keydown:  
+584.0210000000079	DATA	Keydown:  
+584.2600300000049	DATA	Keydown:  
+584.4623150000116	DATA	Keydown:  
+586.8772999999928	EXP	text_3: autoDraw = true
+587.4959449999733	DATA	Keydown:  
+587.512069999997	EXP	text_3: autoDraw = false
+587.512069999997	EXP	Sound: secs = -1
+587.512069999997	EXP	Sound: volume = 1
+587.512069999997	EXP	Sound: loops = 0
+587.512069999997	EXP	Sound: volume = 1
+591.5914500000072	DATA	Keydown:  
+592.0279149999842	DATA	Keydown:  
+592.4511850000126	DATA	Keydown:  
+592.8847800000221	DATA	Keydown:  
+593.3449849999743	DATA	Keydown:  
+593.7525899999891	DATA	Keydown:  
+594.155550000025	DATA	Keydown:  
+594.6009900000063	DATA	Keydown:  
+595.0562849999988	DATA	Keydown:  
+595.4448100000154	DATA	Keydown:  
+595.8849799999734	DATA	Keydown:  
+596.3282599999802	DATA	Keydown:  
+596.7316400000127	DATA	Keydown:  
+597.1668250000221	DATA	Keydown:  
+597.6063200000208	DATA	Keydown:  
+598.052480000013	DATA	Keydown:  
+598.5201699999743	DATA	Keydown:  
+600.7869749999954	EXP	text_3: autoDraw = true
+601.1456999999937	DATA	Keydown:  
+601.1533250000211	EXP	text_3: autoDraw = false
+601.1533250000211	EXP	Sound: secs = -1
+601.1533250000211	EXP	Sound: volume = 1
+601.1533250000211	EXP	Sound: loops = 0
+601.1533250000211	EXP	Sound: volume = 1
+604.398114999989	DATA	Keydown:  
+604.9072150000138	DATA	Keydown:  
+605.5559399999911	DATA	Keydown:  
+606.1759500000044	DATA	Keydown:  
+606.8289949999889	DATA	Keydown:  
+607.5047699999996	DATA	Keydown:  
+608.3780150000239	DATA	Keydown:  
+609.0436050000135	DATA	Keydown:  
+609.893395000021	DATA	Keydown:  
+610.6383149999892	DATA	Keydown:  
+611.3755399999791	DATA	Keydown:  
+612.1428699999815	DATA	Keydown:  
+612.9027849999839	DATA	Keydown:  
+614.1283249999979	DATA	Keydown:  
+614.9282399999793	DATA	Keydown:  
+616.2913800000097	DATA	Keydown:  
+617.4013799999957	DATA	Keydown:  
+618.3480800000252	DATA	Keydown:  
+619.3553349999711	DATA	Keydown:  
+625.5877699999837	EXP	text_3: autoDraw = true
+626.2234850000241	DATA	Keydown:  
+626.2433500000043	EXP	text_3: autoDraw = false
+626.2433500000043	EXP	Sound: secs = -1
+626.2433500000043	EXP	Sound: volume = 1
+626.2433500000043	EXP	Sound: loops = 0
+626.2433500000043	EXP	Sound: volume = 1
+630.3999900000053	DATA	Keydown:  
+631.2502499999828	DATA	Keydown:  
+632.0502899999847	DATA	Keydown:  
+632.900169999979	DATA	Keydown:  
+633.6639250000007	DATA	Keydown:  
+634.4989899999928	DATA	Keydown:  
+635.3092399999732	DATA	Keydown:  
+636.106764999975	DATA	Keydown:  
+636.8814249999705	DATA	Keydown:  
+637.6626999999862	DATA	Keydown:  
+638.4919849999715	DATA	Keydown:  
+639.3235850000056	DATA	Keydown:  
+640.1028299999889	DATA	Keydown:  
+640.9488450000063	DATA	Keydown:  
+641.7053999999771	DATA	Keydown:  
+642.5157149999868	DATA	Keydown:  
+643.2984999999753	DATA	Keydown:  
+644.150335000013	EXP	text_3: autoDraw = true
+644.945475000015	DATA	Keydown:  
+644.9516849999782	EXP	text_3: autoDraw = false
+644.9516849999782	EXP	Sound: secs = -1
+644.9516849999782	EXP	Sound: volume = 1
+644.9516849999782	EXP	Sound: loops = 0
+644.9516849999782	EXP	Sound: volume = 1
+647.3229750000173	DATA	Keydown:  
+647.9084150000126	DATA	Keydown:  
+648.5709400000051	DATA	Keydown:  
+649.1752299999935	DATA	Keydown:  
+649.7913849999895	DATA	Keydown:  
+650.4986250000075	DATA	Keydown:  
+651.1479849999887	DATA	Keydown:  
+651.7476899999892	DATA	Keydown:  
+652.3391500000143	DATA	Keydown:  
+653.0073100000154	DATA	Keydown:  
+653.6667499999749	DATA	Keydown:  
+654.2701849999721	DATA	Keydown:  
+654.8489849999896	DATA	Keydown:  
+655.47775000002	DATA	Keydown:  
+656.1401549999719	DATA	Keydown:  
+656.7306000000099	DATA	Keydown:  
+657.3655049999943	DATA	Keydown:  
+657.9796849999693	DATA	Keydown:  
+658.6305549999815	DATA	Keydown:  
+660.4134300000151	EXP	text_3: autoDraw = true
+663.3658249999862	DATA	Keydown:  
+663.3818949999986	EXP	text_3: autoDraw = false
+663.3818949999986	EXP	Sound: secs = -1
+663.3818949999986	EXP	Sound: volume = 1
+663.3818949999986	EXP	Sound: loops = 0
+663.3818949999986	EXP	Sound: volume = 1
+666.7777500000084	DATA	Keydown:  
+667.6429599999683	DATA	Keydown:  
+668.5562999999966	DATA	Keydown:  
+669.3265249999822	DATA	Keydown:  
+670.134160000016	DATA	Keydown:  
+670.8687149999896	DATA	Keydown:  
+671.6798149999813	DATA	Keydown:  
+672.5523299999768	DATA	Keydown:  
+673.4292049999931	DATA	Keydown:  
+674.0829249999952	DATA	Keydown:  
+674.8862000000081	DATA	Keydown:  
+675.7043200000189	DATA	Keydown:  
+676.4838800000143	DATA	Keydown:  
+677.293795000005	DATA	Keydown:  
+678.1515399999917	DATA	Keydown:  
+679.0301299999701	DATA	Keydown:  
+679.8188300000038	DATA	Keydown:  
+680.6033450000104	DATA	Keydown:  
+681.3949000000139	DATA	Keydown:  
+682.8107600000221	EXP	text_3: autoDraw = true
+683.97444000002	DATA	Keydown:  
+683.9790250000078	EXP	text_3: autoDraw = false
+683.9790250000078	EXP	Sound: secs = -1
+683.9790250000078	EXP	Sound: volume = 1
+683.9790250000078	EXP	Sound: loops = 0
+683.9790250000078	EXP	Sound: volume = 1
+688.1989649999887	DATA	Keydown:  
+688.7509100000025	DATA	Keydown:  
+689.9881300000125	DATA	Keydown:  
+690.8703850000165	DATA	Keydown:  
+691.960149999999	DATA	Keydown:  
+693.5668099999893	DATA	Keydown:  
+694.07686500001	DATA	Keydown:  
+694.6077500000247	DATA	Keydown:  
+695.1724399999948	DATA	Keydown:  
+695.7623850000091	DATA	Keydown:  
+696.7801650000038	DATA	Keydown:  
+699.3657150000217	EXP	text_3: autoDraw = true
+699.8796699999948	DATA	Keydown:  
+699.8837250000215	EXP	text_3: autoDraw = false
+699.8837250000215	EXP	Sound: secs = -1
+699.8837250000215	EXP	Sound: volume = 1
+699.8837250000215	EXP	Sound: loops = 0
+699.8837250000215	EXP	Sound: volume = 1
+703.5298799999873	DATA	Keydown:  
+704.2222699999693	DATA	Keydown:  
+704.9884149999707	DATA	Keydown:  
+705.8502749999752	DATA	Keydown:  
+706.661380000005	DATA	Keydown:  
+707.4403249999741	DATA	Keydown:  
+708.4573349999846	DATA	Keydown:  
+709.1670949999825	DATA	Keydown:  
+709.9777999999933	DATA	Keydown:  
+710.7166200000211	DATA	Keydown:  
+711.4743899999885	DATA	Keydown:  
+712.2599700000137	DATA	Keydown:  
+713.1075350000174	DATA	Keydown:  
+713.8753049999941	DATA	Keydown:  
+714.63036499999	DATA	Keydown:  
+715.3490449999808	DATA	Keydown:  
+716.1461099999724	DATA	Keydown:  
+716.9318649999914	DATA	Keydown:  
+719.9147399999783	EXP	text_3: autoDraw = true
+720.5663000000059	DATA	Keydown:  
+720.5754249999882	EXP	text_3: autoDraw = false
+720.5754249999882	EXP	Sound: secs = -1
+720.5754249999882	EXP	Sound: volume = 1
+720.5754249999882	EXP	Sound: loops = 0
+720.5754249999882	EXP	Sound: volume = 1
+723.386119999981	DATA	Keydown:  
+725.0435799999977	DATA	Keydown:  
+726.0025299999979	DATA	Keydown:  
+726.7707899999805	DATA	Keydown:  
+727.5174949999782	DATA	Keydown:  
+728.4031650000252	DATA	Keydown:  
+729.2452400000184	DATA	Keydown:  
+730.0958749999991	DATA	Keydown:  
+730.8954350000131	DATA	Keydown:  
+731.7163350000046	DATA	Keydown:  
+732.5396450000117	DATA	Keydown:  
+733.3909100000164	DATA	Keydown:  
+734.2749949999852	DATA	Keydown:  
+735.1120900000096	DATA	Keydown:  
+735.8866450000205	DATA	Keydown:  
+736.7781400000094	DATA	Keydown:  
+737.6287199999788	DATA	Keydown:  
+739.4301400000113	EXP	text_3: autoDraw = true
+739.7811450000154	DATA	Keydown:  
+739.7962950000074	EXP	text_3: autoDraw = false
+739.7962950000074	EXP	Sound: secs = -1
+739.7962950000074	EXP	Sound: volume = 1
+739.7962950000074	EXP	Sound: loops = 0
+739.7962950000074	EXP	Sound: volume = 1
+742.5373099999852	DATA	Keydown:  
+743.2327550000045	DATA	Keydown:  
+744.0041750000091	DATA	Keydown:  
+744.7024749999982	DATA	Keydown:  
+745.4603650000063	DATA	Keydown:  
+746.2521749999723	DATA	Keydown:  
+747.0083200000226	DATA	Keydown:  
+747.7090999999782	DATA	Keydown:  
+748.4670550000155	DATA	Keydown:  
+749.2361749999691	DATA	Keydown:  
+749.8926300000167	DATA	Keydown:  
+750.6024449999677	DATA	Keydown:  
+751.3627149999957	DATA	Keydown:  
+752.1321299999836	DATA	Keydown:  
+752.885895000014	DATA	Keydown:  
+753.6326150000095	DATA	Keydown:  
+754.3153799999855	DATA	Keydown:  
+754.9920450000209	DATA	Keydown:  
+755.7687399999704	DATA	Keydown:  
+756.7076999999699	EXP	text_3: autoDraw = true
+758.2551199999871	DATA	Keydown:  
+758.2585700000054	EXP	text_3: autoDraw = false
+758.2585700000054	EXP	Sound: secs = -1
+758.2585700000054	EXP	Sound: volume = 1
+758.2585700000054	EXP	Sound: loops = 0
+758.2585700000054	EXP	Sound: volume = 1
+762.0776450000121	DATA	Keydown:  
+762.6543800000218	DATA	Keydown:  
+763.2210300000152	DATA	Keydown:  
+763.7979899999918	DATA	Keydown:  
+764.4452049999963	DATA	Keydown:  
+765.0287450000178	DATA	Keydown:  
+765.587584999972	DATA	Keydown:  
+766.1474300000118	DATA	Keydown:  
+766.72663499997	DATA	Keydown:  
+767.3182449999731	DATA	Keydown:  
+767.9148999999743	DATA	Keydown:  
+768.4900849999976	DATA	Keydown:  
+769.0542750000022	DATA	Keydown:  
+769.6383500000229	DATA	Keydown:  
+770.2310399999842	DATA	Keydown:  
+770.80065499997	DATA	Keydown:  
+771.3836550000124	DATA	Keydown:  
+772.0064499999862	DATA	Keydown:  
+772.6307800000068	DATA	Keydown:  
+774.769970000023	EXP	text_3: autoDraw = true
+775.7593699999852	DATA	Keydown:  
+775.7702399999835	EXP	text_3: autoDraw = false
+775.7702399999835	EXP	Sound: secs = -1
+775.7702399999835	EXP	Sound: volume = 1
+775.7702399999835	EXP	Sound: loops = 0
+775.7702399999835	EXP	Sound: volume = 1
+778.3891699999804	DATA	Keydown:  
+778.9986449999851	DATA	Keydown:  
+779.6074249999947	DATA	Keydown:  
+780.1818000000203	DATA	Keydown:  
+780.7663549999706	DATA	Keydown:  
+781.3704349999898	DATA	Keydown:  
+781.971829999995	DATA	Keydown:  
+782.5829050000175	DATA	Keydown:  
+783.1865749999997	DATA	Keydown:  
+783.7757299999939	DATA	Keydown:  
+784.3534150000196	DATA	Keydown:  
+784.9716299999855	DATA	Keydown:  
+785.601324999996	DATA	Keydown:  
+786.1559099999722	DATA	Keydown:  
+786.7360750000225	DATA	Keydown:  
+787.3663700000034	DATA	Keydown:  
+787.986819999991	DATA	Keydown:  
+788.6052950000158	DATA	Keydown:  
+789.2005099999951	DATA	Keydown:  
+790.2070250000106	EXP	text_3: autoDraw = true
+791.3982800000231	DATA	Keydown:  
+791.4150050000171	EXP	text_3: autoDraw = false
+791.4150050000171	EXP	Sound: secs = -1
+791.4150050000171	EXP	Sound: volume = 1
+791.4150050000171	EXP	Sound: loops = 0
+791.4150050000171	EXP	Sound: volume = 1
+794.1494899999816	DATA	Keydown:  
+794.5466550000128	DATA	Keydown:  
+795.0636400000076	DATA	Keydown:  
+795.5647699999972	DATA	Keydown:  
+796.0625149999978	DATA	Keydown:  
+796.5755699999863	DATA	Keydown:  
+797.0856299999868	DATA	Keydown:  
+797.5909949999768	DATA	Keydown:  
+798.1079150000005	DATA	Keydown:  
+798.586725000001	DATA	Keydown:  
+799.1206050000037	DATA	Keydown:  
+799.6214850000106	DATA	Keydown:  
+800.114579999994	DATA	Keydown:  
+800.6170549999806	DATA	Keydown:  
+801.1116299999994	DATA	Keydown:  
+801.6475600000122	DATA	Keydown:  
+802.1377300000167	DATA	Keydown:  
+802.6203700000187	DATA	Keydown:  
+803.105579999974	DATA	Keydown:  
+803.6109200000064	DATA	Keydown:  
+805.4333149999729	EXP	text_3: autoDraw = true
+805.9325700000045	DATA	Keydown:  
+805.9384899999714	EXP	text_3: autoDraw = false
+805.9384899999714	EXP	Sound: secs = -1
+805.9384899999714	EXP	Sound: volume = 1
+805.9384899999714	EXP	Sound: loops = 0
+805.9384899999714	EXP	Sound: volume = 1
+810.9792649999727	DATA	Keydown:  
+811.4536349999835	DATA	Keydown:  
+811.941914999974	DATA	Keydown:  
+812.4627699999837	DATA	Keydown:  
+812.9526150000165	DATA	Keydown:  
+813.4298849999905	DATA	Keydown:  
+813.9346350000123	DATA	Keydown:  
+814.3875700000208	DATA	Keydown:  
+814.8225450000027	DATA	Keydown:  
+815.2860750000109	DATA	Keydown:  
+815.8065799999749	DATA	Keydown:  
+816.3023699999903	DATA	Keydown:  
+816.7291649999679	DATA	Keydown:  
+817.2100099999807	DATA	Keydown:  
+818.2685799999745	EXP	text_3: autoDraw = true
+818.7945000000182	DATA	Keydown:  
+818.8018649999867	EXP	text_3: autoDraw = false
+818.8018649999867	EXP	Sound: secs = -1
+818.8018649999867	EXP	Sound: volume = 1
+818.8018649999867	EXP	Sound: loops = 0
+818.8018649999867	EXP	Sound: volume = 1
+822.2451749999891	DATA	Keydown:  
+823.0129949999973	DATA	Keydown:  
+823.7365550000104	DATA	Keydown:  
+824.4581149999867	DATA	Keydown:  
+825.1870750000235	DATA	Keydown:  
+825.9148900000146	DATA	Keydown:  
+826.6250499999733	DATA	Keydown:  
+827.307519999973	DATA	Keydown:  
+828.0071350000217	DATA	Keydown:  
+828.7237099999911	DATA	Keydown:  
+829.4809000000241	DATA	Keydown:  
+830.1413949999842	DATA	Keydown:  
+830.8275049999938	DATA	Keydown:  
+831.5281599999871	DATA	Keydown:  
+832.2451599999913	DATA	Keydown:  
+832.9362499999697	DATA	Keydown:  
+833.676839999971	DATA	Keydown:  
+834.3787449999945	DATA	Keydown:  
+837.0480150000076	EXP	text_3: autoDraw = true
+838.9397149999859	DATA	Keydown:  
+838.9508449999848	EXP	text_3: autoDraw = false
+838.9508449999848	EXP	Sound: secs = -1
+838.9508449999848	EXP	Sound: volume = 1
+838.9508449999848	EXP	Sound: loops = 0
+838.9508449999848	EXP	Sound: volume = 1
+842.1938850000151	DATA	Keydown:  
+858.2140599999693	DATA	Keydown:  
+859.790474999987	DATA	Keydown:  
+864.4587199999951	EXP	text_3: autoDraw = true
+864.8879949999973	DATA	Keydown:  
+864.8915450000204	EXP	text_3: autoDraw = false
+864.8915450000204	EXP	Sound: secs = -1
+864.8915450000204	EXP	Sound: volume = 1
+864.8915450000204	EXP	Sound: loops = 0
+864.8915450000204	EXP	Sound: volume = 1
+868.0696800000151	DATA	Keydown:  
+868.8354749999708	DATA	Keydown:  
+869.610950000002	DATA	Keydown:  
+870.4145700000226	DATA	Keydown:  
+871.1734450000222	DATA	Keydown:  
+871.905849999981	DATA	Keydown:  
+872.64188499999	DATA	Keydown:  
+873.3621500000008	DATA	Keydown:  
+874.1344650000101	DATA	Keydown:  
+874.8068750000093	DATA	Keydown:  
+875.5150399999693	DATA	Keydown:  
+876.2623199999798	DATA	Keydown:  
+877.0324399999809	DATA	Keydown:  
+877.7402499999735	DATA	Keydown:  
+878.5096950000152	DATA	Keydown:  
+879.2310849999776	DATA	Keydown:  
+879.9673199999961	DATA	Keydown:  
+880.7459549999912	DATA	Keydown:  
+882.8880599999684	EXP	text_3: autoDraw = true
+883.3558049999992	DATA	Keydown:  
+883.3720500000054	EXP	text_3: autoDraw = false
+883.3720500000054	EXP	Sound: secs = -1
+883.3720500000054	EXP	Sound: volume = 1
+883.3720500000054	EXP	Sound: loops = 0
+883.3720500000054	EXP	Sound: volume = 1
+890.794590000005	DATA	Keydown:  
+891.2756299999892	DATA	Keydown:  
+891.6572949999827	DATA	Keydown:  
+892.0370600000024	DATA	Keydown:  
+892.4036600000109	DATA	Keydown:  
+892.9494399999967	DATA	Keydown:  
+893.286855000013	DATA	Keydown:  
+893.6702349999687	DATA	Keydown:  
+894.0035650000209	DATA	Keydown:  
+894.2499749999843	DATA	Keydown:  
+895.167145000014	DATA	Keydown:  
+895.9188749999739	DATA	Keydown:  
+896.3472000000183	DATA	Keydown:  
+896.6849899999797	DATA	Keydown:  
+897.9574850000208	DATA	Keydown:  
+900.7534350000205	EXP	text_3: autoDraw = true
+901.1415549999801	DATA	Keydown:  
+901.1518250000081	EXP	text_3: autoDraw = false
+901.1518250000081	EXP	Sound: secs = -1
+901.1518250000081	EXP	Sound: volume = 1
+901.1518250000081	EXP	Sound: loops = 0
+901.1518250000081	EXP	Sound: volume = 1
+904.3788250000216	DATA	Keydown:  
+905.6687500000116	DATA	Keydown:  
+907.3696650000056	DATA	Keydown:  
+908.0987399999867	DATA	Keydown:  
+909.0367449999903	DATA	Keydown:  
+910.2388149999897	DATA	Keydown:  
+911.1348550000112	DATA	Keydown:  
+912.384944999998	DATA	Keydown:  
+914.381074999983	DATA	Keydown:  
+916.014925000025	DATA	Keydown:  
+921.7169649999705	EXP	text_3: autoDraw = true
+930.192715000012	DATA	Keydown:  
+930.2160450000083	EXP	text_3: autoDraw = false
+930.2160450000083	EXP	text_4: autoDraw = true
+934.2542000000249	DATA	Keydown:  
+934.2765650000074	EXP	text_4: autoDraw = false
+934.2765650000074	EXP	Sound: secs = -1
+934.2765650000074	EXP	Sound: volume = 1
+934.2765650000074	EXP	Sound: loops = 0
+934.2765650000074	EXP	Sound: volume = 1
+936.9306300000171	DATA	Keydown:  
+937.486734999984	DATA	Keydown:  
+938.0803849999793	DATA	Keydown:  
+938.7035100000212	DATA	Keydown:  
+939.2277899999754	DATA	Keydown:  
+939.7419699999737	DATA	Keydown:  
+940.2481399999815	DATA	Keydown:  
+940.7558800000115	DATA	Keydown:  
+941.2786249999772	DATA	Keydown:  
+941.8476399999927	DATA	Keydown:  
+942.4736050000065	DATA	Keydown:  
+943.6466500000097	DATA	Keydown:  
+944.2576949999784	DATA	Keydown:  
+944.8157950000023	DATA	Keydown:  
+945.3664250000147	DATA	Keydown:  
+945.9352749999962	DATA	Keydown:  
+946.551295000012	DATA	Keydown:  
+947.1275349999778	DATA	Keydown:  
+948.2211549999774	EXP	next_prompt_trial2: autoDraw = true
+949.3032150000217	DATA	Keydown:  
+949.3214450000087	EXP	next_prompt_trial2: autoDraw = false
+949.3214450000087	EXP	Sound: secs = -1
+949.3214450000087	EXP	Sound: volume = 1
+949.3214450000087	EXP	Sound: loops = 0
+949.3214450000087	EXP	Sound: volume = 1
+951.9802199999685	DATA	Keydown:  
+952.7137649999931	DATA	Keydown:  
+953.6074399999925	DATA	Keydown:  
+954.4657199999783	DATA	Keydown:  
+955.282349999994	DATA	Keydown:  
+956.208255000005	DATA	Keydown:  
+957.0718299999717	DATA	Keydown:  
+957.8891200000071	DATA	Keydown:  
+958.7306899999967	DATA	Keydown:  
+959.6622199999983	DATA	Keydown:  
+960.5348399999784	DATA	Keydown:  
+961.3512800000026	DATA	Keydown:  
+962.2352100000135	DATA	Keydown:  
+963.0693450000254	DATA	Keydown:  
+963.9293349999934	DATA	Keydown:  
+964.7750450000167	DATA	Keydown:  
+965.6710549999843	DATA	Keydown:  
+966.6176649999688	DATA	Keydown:  
+968.2340299999923	EXP	next_prompt_trial2: autoDraw = true
+968.6782000000239	DATA	Keydown:  
+968.6857500000042	EXP	next_prompt_trial2: autoDraw = false
+968.6857500000042	EXP	Sound: secs = -1
+968.6857500000042	EXP	Sound: volume = 1
+968.6857500000042	EXP	Sound: loops = 0
+968.6857500000042	EXP	Sound: volume = 1
+981.2103399999905	DATA	Keydown:  
+985.9462400000193	EXP	next_prompt_trial2: autoDraw = true
+986.2918550000177	DATA	Keydown:  
+986.2964299999876	EXP	next_prompt_trial2: autoDraw = false
+986.2964299999876	EXP	Sound: secs = -1
+986.2964299999876	EXP	Sound: volume = 1
+986.2964299999876	EXP	Sound: loops = 0
+986.2964299999876	EXP	Sound: volume = 1
+994.1333350000205	DATA	Keydown:  
+995.8765799999819	DATA	Keydown:  
+998.619319999998	DATA	Keydown:  
+999.3898100000224	DATA	Keydown:  
+999.7920649999869	DATA	Keydown:  
+1001.8575249999994	DATA	Keydown:  
+1002.3076499999734	DATA	Keydown:  
+1002.6241349999909	DATA	Keydown:  
+1007.860074999975	DATA	Keydown:  
+1008.0566249999683	DATA	Keydown:  
+1009.3320049999747	DATA	Keydown:  
+1010.0140999999712	EXP	next_prompt_trial2: autoDraw = true
+1010.8240600000136	DATA	Keydown:  
+1010.839655000018	EXP	next_prompt_trial2: autoDraw = false
+1010.839655000018	EXP	Sound: secs = -1
+1010.839655000018	EXP	Sound: volume = 1
+1010.839655000018	EXP	Sound: loops = 0
+1010.839655000018	EXP	Sound: volume = 1
+1014.2107400000095	DATA	Keydown:  
+1014.9523599999957	DATA	Keydown:  
+1015.724589999998	DATA	Keydown:  
+1016.827099999995	DATA	Keydown:  
+1017.4146450000117	DATA	Keydown:  
+1018.3104450000101	DATA	Keydown:  
+1019.1291199999978	DATA	Keydown:  
+1019.9746549999691	DATA	Keydown:  
+1021.0537950000144	DATA	Keydown:  
+1021.2384099999908	DATA	Keydown:  
+1022.6751250000088	DATA	Keydown:  
+1023.4513300000108	DATA	Keydown:  
+1025.0573950000107	DATA	Keydown:  
+1025.8697299999767	DATA	Keydown:  
+1026.7056950000115	DATA	Keydown:  
+1027.4340700000175	DATA	Keydown:  
+1028.3429100000067	DATA	Keydown:  
+1030.1458499999717	EXP	next_prompt_trial2: autoDraw = true
+1053.5891899999697	DATA	Keydown:  
+1053.6029800000251	EXP	next_prompt_trial2: autoDraw = false
+1053.6029800000251	EXP	Sound: secs = -1
+1053.6029800000251	EXP	Sound: volume = 1
+1053.6029800000251	EXP	Sound: loops = 0
+1053.6029800000251	EXP	Sound: volume = 1
+1056.3706099999836	DATA	Keydown:  
+1056.977590000024	DATA	Keydown:  
+1057.622320000024	DATA	Keydown:  
+1058.2481200000038	DATA	Keydown:  
+1058.8408749999944	DATA	Keydown:  
+1059.4465249999776	DATA	Keydown:  
+1060.024860000005	DATA	Keydown:  
+1060.7091599999694	DATA	Keydown:  
+1061.350540000014	DATA	Keydown:  
+1061.8943950000103	DATA	Keydown:  
+1062.5360699999728	DATA	Keydown:  
+1063.1507749999873	DATA	Keydown:  
+1063.8005600000033	DATA	Keydown:  
+1064.3848100000178	DATA	Keydown:  
+1065.0073850000044	DATA	Keydown:  
+1065.5856299999868	DATA	Keydown:  
+1066.1633300000103	DATA	Keydown:  
+1066.7746599999955	DATA	Keydown:  
+1067.360950000002	DATA	Keydown:  
+1068.9570049999747	EXP	next_prompt_trial2: autoDraw = true
+1069.485954999982	DATA	Keydown:  
+1069.4893099999754	EXP	next_prompt_trial2: autoDraw = false
+1069.4893099999754	EXP	Sound: secs = -1
+1069.4893099999754	EXP	Sound: volume = 1
+1069.4893099999754	EXP	Sound: loops = 0
+1069.4893099999754	EXP	Sound: volume = 1
+1079.222844999982	DATA	Keydown:  
+1079.7812849999755	DATA	Keydown:  
+1080.5506750000059	DATA	Keydown:  
+1081.2419050000026	DATA	Keydown:  
+1081.9419800000032	DATA	Keydown:  
+1082.5984199999948	DATA	Keydown:  
+1085.0779800000018	DATA	Keydown:  
+1095.2993900000001	EXP	next_prompt_trial2: autoDraw = true
+1096.6364249999751	DATA	Keydown:  
+1096.651194999984	EXP	next_prompt_trial2: autoDraw = false
+1096.651194999984	EXP	Sound: secs = -1
+1096.651194999984	EXP	Sound: volume = 1
+1096.651194999984	EXP	Sound: loops = 0
+1096.651194999984	EXP	Sound: volume = 1
+1099.9142700000084	DATA	Keydown:  
+1100.5957550000167	DATA	Keydown:  
+1101.2798049999983	DATA	Keydown:  
+1101.8986300000106	DATA	Keydown:  
+1102.6332149999798	DATA	Keydown:  
+1103.3017899999977	DATA	Keydown:  
+1103.9921500000055	DATA	Keydown:  
+1104.6474949999829	DATA	Keydown:  
+1105.2689000000246	DATA	Keydown:  
+1105.9276599999866	DATA	Keydown:  
+1106.6385199999786	DATA	Keydown:  
+1107.325599999982	DATA	Keydown:  
+1107.9455849999795	DATA	Keydown:  
+1108.629885000002	DATA	Keydown:  
+1109.269495000015	DATA	Keydown:  
+1109.885569999984	DATA	Keydown:  
+1110.547744999989	DATA	Keydown:  
+1111.3110449999804	DATA	Keydown:  
+1112.0113450000063	DATA	Keydown:  
+1113.812180000008	EXP	next_prompt_trial2: autoDraw = true
+1115.0291050000233	DATA	Keydown:  
+1115.0468799999799	EXP	next_prompt_trial2: autoDraw = false
+1115.0468799999799	EXP	Sound: secs = -1
+1115.0468799999799	EXP	Sound: volume = 1
+1115.0468799999799	EXP	Sound: loops = 0
+1115.0468799999799	EXP	Sound: volume = 1
+1118.709830000007	DATA	Keydown:  
+1119.2267499999725	DATA	Keydown:  
+1119.7708550000098	DATA	Keydown:  
+1120.3269200000213	DATA	Keydown:  
+1120.9119150000042	DATA	Keydown:  
+1121.4868349999888	DATA	Keydown:  
+1122.0895349999773	DATA	Keydown:  
+1122.661604999972	DATA	Keydown:  
+1123.2539150000084	DATA	Keydown:  
+1123.8304699999862	DATA	Keydown:  
+1124.4278150000027	DATA	Keydown:  
+1124.9896399999852	DATA	Keydown:  
+1125.5826450000168	DATA	Keydown:  
+1126.176760000002	DATA	Keydown:  
+1126.7705599999754	DATA	Keydown:  
+1127.367595000018	DATA	Keydown:  
+1127.9433899999713	DATA	Keydown:  
+1128.4777350000222	DATA	Keydown:  
+1129.0983499999857	DATA	Keydown:  
+1131.209685000009	EXP	next_prompt_trial2: autoDraw = true
+1132.2093500000192	DATA	Keydown:  
+1132.225849999988	EXP	next_prompt_trial2: autoDraw = false
+1132.225849999988	EXP	Sound: secs = -1
+1132.225849999988	EXP	Sound: volume = 1
+1132.225849999988	EXP	Sound: loops = 0
+1132.225849999988	EXP	Sound: volume = 1
+1135.0330299999914	DATA	Keydown:  
+1135.4291700000176	DATA	Keydown:  
+1135.917379999999	DATA	Keydown:  
+1136.4287449999829	DATA	Keydown:  
+1136.9394200000097	DATA	Keydown:  
+1137.415009999997	DATA	Keydown:  
+1137.9102249999996	DATA	Keydown:  
+1138.4089149999782	DATA	Keydown:  
+1138.8978549999883	DATA	Keydown:  
+1139.399395000015	DATA	Keydown:  
+1139.8795599999721	DATA	Keydown:  
+1140.371849999996	DATA	Keydown:  
+1140.9161500000046	DATA	Keydown:  
+1141.407829999982	DATA	Keydown:  
+1141.90009499999	DATA	Keydown:  
+1142.39108999999	DATA	Keydown:  
+1142.920310000016	DATA	Keydown:  
+1143.4139999999898	DATA	Keydown:  
+1143.949879999971	DATA	Keydown:  
+1144.4663999999757	DATA	Keydown:  
+1146.1602950000088	EXP	next_prompt_trial2: autoDraw = true
+1150.6513799999957	DATA	Keydown:  
+1150.666584999999	EXP	next_prompt_trial2: autoDraw = false
+1150.666584999999	EXP	Sound: secs = -1
+1150.666584999999	EXP	Sound: volume = 1
+1150.666584999999	EXP	Sound: loops = 0
+1150.666584999999	EXP	Sound: volume = 1
+1153.8380749999778	DATA	Keydown:  
+1154.194684999995	DATA	Keydown:  
+1159.703749999986	DATA	Keydown:  
+1160.1869849999784	DATA	Keydown:  
+1160.7920249999734	DATA	Keydown:  
+1161.3095399999875	DATA	Keydown:  
+1161.8419449999928	DATA	Keydown:  
+1162.586494999996	DATA	Keydown:  
+1163.1561399999773	DATA	Keydown:  
+1163.645279999997	DATA	Keydown:  
+1166.2752399999881	EXP	next_prompt_trial2: autoDraw = true
+1166.6738800000167	DATA	Keydown:  
+1166.6775899999775	EXP	next_prompt_trial2: autoDraw = false
+1166.6775899999775	EXP	Sound: secs = -1
+1166.6775899999775	EXP	Sound: volume = 1
+1166.6775899999775	EXP	Sound: loops = 0
+1166.6775899999775	EXP	Sound: volume = 1
+1179.697824999981	DATA	Keydown:  
+1180.2113649999956	EXP	next_prompt_trial2: autoDraw = true
+1180.9081799999694	DATA	Keydown:  
+1180.9118599999929	EXP	next_prompt_trial2: autoDraw = false
+1180.9118599999929	EXP	Sound: secs = -1
+1180.9118599999929	EXP	Sound: volume = 1
+1180.9118599999929	EXP	Sound: loops = 0
+1180.9118599999929	EXP	Sound: volume = 1
+1185.0925150000257	DATA	Keydown:  
+1185.7052949999925	DATA	Keydown:  
+1186.4564900000114	DATA	Keydown:  
+1187.1075200000196	DATA	Keydown:  
+1187.837835000013	DATA	Keydown:  
+1189.3654899999965	DATA	Keydown:  
+1190.0200799999875	DATA	Keydown:  
+1190.7055299999774	DATA	Keydown:  
+1191.4224200000172	DATA	Keydown:  
+1192.3584549999796	DATA	Keydown:  
+1193.086249999993	DATA	Keydown:  
+1193.7690399999847	DATA	Keydown:  
+1195.382184999995	DATA	Keydown:  
+1196.7742549999966	DATA	Keydown:  
+1198.9804499999736	DATA	Keydown:  
+1200.7099750000052	EXP	next_prompt_trial2: autoDraw = true
+1201.305475000001	DATA	Keydown:  
+1201.3172699999996	EXP	next_prompt_trial2: autoDraw = false
+1201.3172699999996	EXP	Sound: secs = -1
+1201.3172699999996	EXP	Sound: volume = 1
+1201.3172699999996	EXP	Sound: loops = 0
+1201.3172699999996	EXP	Sound: volume = 1
+1203.2341949999682	DATA	Keydown:  
+1203.83461000002	DATA	Keydown:  
+1204.3371449999977	DATA	Keydown:  
+1205.0578600000008	DATA	Keydown:  
+1205.8530199999805	DATA	Keydown:  
+1206.5365999999922	DATA	Keydown:  
+1207.1896599999745	DATA	Keydown:  
+1207.8711800000165	DATA	Keydown:  
+1208.480745000008	DATA	Keydown:  
+1209.4245200000005	DATA	Keydown:  
+1210.2624450000003	DATA	Keydown:  
+1210.8263300000108	DATA	Keydown:  
+1211.349654999969	DATA	Keydown:  
+1211.8927150000236	DATA	Keydown:  
+1212.5831950000138	DATA	Keydown:  
+1212.937340000004	DATA	Keydown:  
+1213.8405350000248	DATA	Keydown:  
+1216.0358700000215	EXP	next_prompt_trial2: autoDraw = true
+1217.0714450000087	DATA	Keydown:  
+1217.0877650000039	EXP	next_prompt_trial2: autoDraw = false
+1217.0877650000039	EXP	Sound: secs = -1
+1217.0877650000039	EXP	Sound: volume = 1
+1217.0877650000039	EXP	Sound: loops = 0
+1217.0877650000039	EXP	Sound: volume = 1
+1219.9648399999714	DATA	Keydown:  
+1220.4726749999681	DATA	Keydown:  
+1221.0248850000207	DATA	Keydown:  
+1221.5846550000133	DATA	Keydown:  
+1221.9907249999815	DATA	Keydown:  
+1222.6996100000106	DATA	Keydown:  
+1224.3285100000212	DATA	Keydown:  
+1224.988859999983	DATA	Keydown:  
+1226.1337899999926	DATA	Keydown:  
+1226.5506150000147	DATA	Keydown:  
+1226.9882849999703	DATA	Keydown:  
+1227.4078200000222	DATA	Keydown:  
+1227.9047349999892	DATA	Keydown:  
+1228.3784500000183	DATA	Keydown:  
+1228.8385899999994	DATA	Keydown:  
+1230.7564949999796	EXP	next_prompt_trial2: autoDraw = true
+1231.6359449999873	DATA	Keydown:  
+1231.647185000009	EXP	next_prompt_trial2: autoDraw = false
+1231.647185000009	EXP	Sound: secs = -1
+1231.647185000009	EXP	Sound: volume = 1
+1231.647185000009	EXP	Sound: loops = 0
+1231.647185000009	EXP	Sound: volume = 1
+1245.0482699999702	EXP	next_prompt_trial2: autoDraw = true
+1245.6893500000006	DATA	Keydown:  
+1245.6994699999923	EXP	next_prompt_trial2: autoDraw = false
+1245.6994699999923	EXP	Sound: secs = -1
+1245.6994699999923	EXP	Sound: volume = 1
+1245.6994699999923	EXP	Sound: loops = 0
+1245.6994699999923	EXP	Sound: volume = 1
+1250.742350000015	DATA	Keydown:  
+1251.2549149999977	DATA	Keydown:  
+1251.7951800000155	DATA	Keydown:  
+1252.2530200000037	DATA	Keydown:  
+1252.822604999994	DATA	Keydown:  
+1253.3640349999769	DATA	Keydown:  
+1253.9536700000172	DATA	Keydown:  
+1254.557679999969	DATA	Keydown:  
+1255.2241500000237	DATA	Keydown:  
+1255.7499400000088	DATA	Keydown:  
+1256.310609999986	DATA	Keydown:  
+1256.914524999971	DATA	Keydown:  
+1257.4151749999728	DATA	Keydown:  
+1257.9852499999688	DATA	Keydown:  
+1258.579625000013	DATA	Keydown:  
+1260.7536650000256	EXP	next_prompt_trial2: autoDraw = true
+1261.231604999979	DATA	Keydown:  
+1261.243994999968	EXP	next_prompt_trial2: autoDraw = false
+1261.243994999968	EXP	Sound: secs = -1
+1261.243994999968	EXP	Sound: volume = 1
+1261.243994999968	EXP	Sound: loops = 0
+1261.243994999968	EXP	Sound: volume = 1
+1263.1188800000236	DATA	Keydown:  
+1263.6703950000228	DATA	Keydown:  
+1264.3236649999744	DATA	Keydown:  
+1265.0125700000208	DATA	Keydown:  
+1265.7128399999929	DATA	Keydown:  
+1266.3495649999822	DATA	Keydown:  
+1267.0137649999815	DATA	Keydown:  
+1267.6737200000207	DATA	Keydown:  
+1268.3159950000118	DATA	Keydown:  
+1268.9651650000014	DATA	Keydown:  
+1269.6441249999916	DATA	Keydown:  
+1270.3518949999707	DATA	Keydown:  
+1270.9032149999985	DATA	Keydown:  
+1271.5399449999677	DATA	Keydown:  
+1272.1181000000215	DATA	Keydown:  
+1272.7607449999778	DATA	Keydown:  
+1273.4183799999882	DATA	Keydown:  
+1274.0868899999768	DATA	Keydown:  
+1274.6773699999903	DATA	Keydown:  
+1275.3223899999866	DATA	Keydown:  
+1276.3955050000222	EXP	next_prompt_trial2: autoDraw = true
+1277.0194449999835	DATA	Keydown:  
+1277.0306800000253	EXP	next_prompt_trial2: autoDraw = false
+1277.0306800000253	EXP	Sound: secs = -1
+1277.0306800000253	EXP	Sound: volume = 1
+1277.0306800000253	EXP	Sound: loops = 0
+1277.0306800000253	EXP	Sound: volume = 1
+1278.966769999999	DATA	Keydown:  
+1279.6157600000151	DATA	Keydown:  
+1280.288509999984	DATA	Keydown:  
+1280.8888700000243	DATA	Keydown:  
+1281.5845850000042	DATA	Keydown:  
+1282.1756900000037	DATA	Keydown:  
+1282.8080549999722	DATA	Keydown:  
+1283.5088649999816	DATA	Keydown:  
+1284.1668400000199	DATA	Keydown:  
+1284.8429800000158	DATA	Keydown:  
+1285.534255000006	DATA	Keydown:  
+1286.2379000000074	DATA	Keydown:  
+1286.932214999979	DATA	Keydown:  
+1287.566754999978	DATA	Keydown:  
+1288.2883099999744	DATA	Keydown:  
+1288.979634999996	DATA	Keydown:  
+1289.6314249999705	DATA	Keydown:  
+1290.3721149999765	DATA	Keydown:  
+1290.9706799999694	DATA	Keydown:  
+1291.5781050000223	DATA	Keydown:  
+1292.5076450000051	EXP	next_prompt_trial2: autoDraw = true
+1293.6907999999821	DATA	Keydown:  
+1293.7076399999787	EXP	next_prompt_trial2: autoDraw = false
+1293.7076399999787	EXP	Sound: secs = -1
+1293.7076399999787	EXP	Sound: volume = 1
+1293.7076399999787	EXP	Sound: loops = 0
+1293.7076399999787	EXP	Sound: volume = 1
+1298.8314200000023	DATA	Keydown:  
+1299.6852300000028	DATA	Keydown:  
+1300.5098449999932	DATA	Keydown:  
+1301.4430099999881	DATA	Keydown:  
+1302.272724999988	DATA	Keydown:  
+1303.2062349999906	DATA	Keydown:  
+1304.0603450000053	DATA	Keydown:  
+1304.9426700000186	DATA	Keydown:  
+1305.9306750000105	DATA	Keydown:  
+1306.7978850000072	DATA	Keydown:  
+1307.6922149999882	DATA	Keydown:  
+1308.6490449999692	DATA	Keydown:  
+1309.4832349999924	DATA	Keydown:  
+1310.4027750000241	DATA	Keydown:  
+1311.3218449999695	DATA	Keydown:  
+1312.2096799999708	DATA	Keydown:  
+1313.145765000023	DATA	Keydown:  
+1314.0116450000205	DATA	Keydown:  
+1315.5573350000195	EXP	next_prompt_trial2: autoDraw = true
+1316.1022150000208	DATA	Keydown:  
+1316.1065700000036	EXP	next_prompt_trial2: autoDraw = false
+1316.1065700000036	EXP	Sound: secs = -1
+1316.1065700000036	EXP	Sound: volume = 1
+1316.1065700000036	EXP	Sound: loops = 0
+1316.1065700000036	EXP	Sound: volume = 1
+1320.267760000017	DATA	Keydown:  
+1320.7172300000093	DATA	Keydown:  
+1321.2502949999762	DATA	Keydown:  
+1321.678584999987	DATA	Keydown:  
+1322.1872999999905	DATA	Keydown:  
+1322.6372449999908	DATA	Keydown:  
+1323.1243300000206	DATA	Keydown:  
+1323.6061600000248	DATA	Keydown:  
+1324.1230450000148	DATA	Keydown:  
+1324.6427699999767	DATA	Keydown:  
+1325.0998750000144	DATA	Keydown:  
+1325.6129899999942	DATA	Keydown:  
+1326.110020000022	DATA	Keydown:  
+1326.6710450000246	DATA	Keydown:  
+1327.1940000000177	DATA	Keydown:  
+1327.7429600000032	DATA	Keydown:  
+1328.2667549999896	DATA	Keydown:  
+1330.261044999992	EXP	next_prompt_trial2: autoDraw = true
+1330.787239999976	DATA	Keydown:  
+1330.7941199999768	EXP	next_prompt_trial2: autoDraw = false
+1330.7941199999768	EXP	Sound: secs = -1
+1330.7941199999768	EXP	Sound: volume = 1
+1330.7941199999768	EXP	Sound: loops = 0
+1330.7941199999768	EXP	Sound: volume = 1
+1333.3355950000114	DATA	Keydown:  
+1334.0433049999992	DATA	Keydown:  
+1334.6499049999984	DATA	Keydown:  
+1335.5419550000224	DATA	Keydown:  
+1335.971974999993	DATA	Keydown:  
+1336.4325950000202	DATA	Keydown:  
+1336.8855999999796	DATA	Keydown:  
+1337.4163200000185	DATA	Keydown:  
+1338.0238849999732	DATA	Keydown:  
+1338.6449199999915	DATA	Keydown:  
+1339.2242199999746	DATA	Keydown:  
+1339.7811799999909	DATA	Keydown:  
+1340.332059999986	DATA	Keydown:  
+1340.8492599999881	DATA	Keydown:  
+1341.4172900000121	DATA	Keydown:  
+1341.9177650000202	DATA	Keydown:  
+1342.4681950000231	DATA	Keydown:  
+1342.989750000008	DATA	Keydown:  
+1343.5513449999853	DATA	Keydown:  
+1344.1014350000187	DATA	Keydown:  
+1344.6851749999914	DATA	Keydown:  
+1345.2637550000218	DATA	Keydown:  
+1346.4634550000192	DATA	Keydown:  
+1348.4235549999867	EXP	next_prompt_trial2: autoDraw = true
+1349.134320000012	DATA	Keydown:  
+1349.139994999976	EXP	next_prompt_trial2: autoDraw = false
+1349.139994999976	EXP	Sound: secs = -1
+1349.139994999976	EXP	Sound: volume = 1
+1349.139994999976	EXP	Sound: loops = 0
+1349.139994999976	EXP	Sound: volume = 1
+1351.1800599999842	DATA	Keydown:  
+1351.8432150000008	DATA	Keydown:  
+1352.483744999976	DATA	Keydown:  
+1353.0213949999888	DATA	Keydown:  
+1353.6172099999967	DATA	Keydown:  
+1354.2374200000195	DATA	Keydown:  
+1354.8678049999871	DATA	Keydown:  
+1355.4552849999745	DATA	Keydown:  
+1356.0359649999882	DATA	Keydown:  
+1356.607085000025	DATA	Keydown:  
+1357.2325899999705	DATA	Keydown:  
+1357.8797599999816	DATA	Keydown:  
+1358.4939000000013	DATA	Keydown:  
+1359.0607799999998	DATA	Keydown:  
+1359.705260000017	DATA	Keydown:  
+1360.3254549999838	DATA	Keydown:  
+1360.9335749999736	DATA	Keydown:  
+1361.5080699999817	DATA	Keydown:  
+1362.0917550000013	DATA	Keydown:  
+1362.7337350000162	DATA	Keydown:  
+1363.8999199999962	EXP	next_prompt_trial2: autoDraw = true
+1364.4660499999882	DATA	Keydown:  
+1364.4836500000092	EXP	next_prompt_trial2: autoDraw = false
+1364.4836500000092	EXP	Sound: secs = -1
+1364.4836500000092	EXP	Sound: volume = 1
+1364.4836500000092	EXP	Sound: loops = 0
+1364.4836500000092	EXP	Sound: volume = 1
+1367.3793650000007	DATA	Keydown:  
+1368.0369899999932	DATA	Keydown:  
+1368.7621749999817	DATA	Keydown:  
+1369.5440599999856	DATA	Keydown:  
+1370.2996050000074	DATA	Keydown:  
+1371.0834499999764	DATA	Keydown:  
+1371.9181450000033	DATA	Keydown:  
+1372.64234999998	DATA	Keydown:  
+1373.3487600000226	DATA	Keydown:  
+1374.1359449999873	DATA	Keydown:  
+1374.903720000002	DATA	Keydown:  
+1375.6318600000232	DATA	Keydown:  
+1376.3743399999803	DATA	Keydown:  
+1377.1606799999718	DATA	Keydown:  
+1377.9602750000195	DATA	Keydown:  
+1378.763794999977	DATA	Keydown:  
+1379.599749999994	DATA	Keydown:  
+1380.4885750000249	DATA	Keydown:  
+1381.1479399999953	DATA	Keydown:  
+1382.2468249999802	EXP	next_prompt_trial2: autoDraw = true
+1383.1540449999738	DATA	Keydown:  
+1383.1637800000026	EXP	next_prompt_trial2: autoDraw = false
+1383.1637800000026	EXP	Sound: secs = -1
+1383.1637800000026	EXP	Sound: volume = 1
+1383.1637800000026	EXP	Sound: loops = 0
+1383.1637800000026	EXP	Sound: volume = 1
+1386.3323749999981	DATA	Keydown:  
+1387.9717800000217	DATA	Keydown:  
+1389.1695750000072	DATA	Keydown:  
+1390.2449650000199	DATA	Keydown:  
+1391.7460599999758	DATA	Keydown:  
+1393.5879699999932	DATA	Keydown:  
+1393.8957500000251	DATA	Keydown:  
+1394.5126799999853	DATA	Keydown:  
+1394.8351350000012	DATA	Keydown:  
+1395.4858349999995	DATA	Keydown:  
+1395.7335949999979	DATA	Keydown:  
+1396.6259549999959	DATA	Keydown:  
+1396.8316650000052	DATA	Keydown:  
+1407.0642600000137	EXP	next_prompt_trial2: autoDraw = true
+1407.5801549999742	DATA	Keydown:  
+1407.5840699999826	EXP	next_prompt_trial2: autoDraw = false
+1407.5840699999826	EXP	Sound: secs = -1
+1407.5840699999826	EXP	Sound: volume = 1
+1407.5840699999826	EXP	Sound: loops = 0
+1407.5840699999826	EXP	Sound: volume = 1
+1410.4342349999934	DATA	Keydown:  
+1411.0861150000128	DATA	Keydown:  
+1411.6808399999863	DATA	Keydown:  
+1412.2948299999698	DATA	Keydown:  
+1412.9015350000118	DATA	Keydown:  
+1413.5357400000212	DATA	Keydown:  
+1414.193495000014	DATA	Keydown:  
+1414.7776799999992	DATA	Keydown:  
+1415.3909850000055	DATA	Keydown:  
+1416.0179750000243	DATA	Keydown:  
+1416.7474100000109	DATA	Keydown:  
+1417.4295399999828	DATA	Keydown:  
+1418.0800850000232	DATA	Keydown:  
+1418.6674599999678	DATA	Keydown:  
+1419.2814350000117	DATA	Keydown:  
+1419.8505000000005	DATA	Keydown:  
+1420.5756350000156	DATA	Keydown:  
+1421.2289100000053	DATA	Keydown:  
+1421.9094299999997	DATA	Keydown:  
+1423.4592500000144	EXP	next_prompt_trial2: autoDraw = true
+1424.322525000025	DATA	Keydown:  
+1424.326149999979	EXP	next_prompt_trial2: autoDraw = false
+1424.326149999979	EXP	Sound: secs = -1
+1424.326149999979	EXP	Sound: volume = 1
+1424.326149999979	EXP	Sound: loops = 0
+1424.326149999979	EXP	Sound: volume = 1
+1426.7525449999957	DATA	Keydown:  
+1427.727414999972	DATA	Keydown:  
+1428.5828099999926	DATA	Keydown:  
+1429.4408299999777	DATA	Keydown:  
+1430.321089999983	DATA	Keydown:  
+1431.204459999979	DATA	Keydown:  
+1431.997640000016	DATA	Keydown:  
+1432.7742650000146	DATA	Keydown:  
+1433.5743500000099	DATA	Keydown:  
+1434.4413749999949	DATA	Keydown:  
+1435.3046549999854	DATA	Keydown:  
+1436.139759999991	DATA	Keydown:  
+1436.948715000006	DATA	Keydown:  
+1437.827894999995	DATA	Keydown:  
+1438.6431350000203	DATA	Keydown:  
+1439.4904049999896	DATA	Keydown:  
+1440.3711699999985	DATA	Keydown:  
+1441.3074800000177	DATA	Keydown:  
+1442.1063350000186	DATA	Keydown:  
+1442.963864999998	DATA	Keydown:  
+1444.3080399999744	EXP	next_prompt_trial2: autoDraw = true
+1446.091614999983	DATA	Keydown:  
+1446.109534999996	EXP	next_prompt_trial2: autoDraw = false
+1446.109534999996	EXP	Sound: secs = -1
+1446.109534999996	EXP	Sound: volume = 1
+1446.109534999996	EXP	Sound: loops = 0
+1446.109534999996	EXP	Sound: volume = 1
+1448.3435549999704	DATA	Keydown:  
+1449.090659999987	DATA	Keydown:  
+1449.6254849999677	DATA	Keydown:  
+1450.1514149999712	DATA	Keydown:  
+1450.6294500000076	DATA	Keydown:  
+1451.0880449999822	DATA	Keydown:  
+1451.622310000006	DATA	Keydown:  
+1452.1387099999702	DATA	Keydown:  
+1452.6406950000091	DATA	Keydown:  
+1453.1223549999995	DATA	Keydown:  
+1453.6405350000132	DATA	Keydown:  
+1454.1519749999861	DATA	Keydown:  
+1454.705345000024	DATA	Keydown:  
+1455.1896599999745	DATA	Keydown:  
+1455.645680000016	DATA	Keydown:  
+1456.1349850000115	DATA	Keydown:  
+1456.6287599999923	DATA	Keydown:  
+1457.1765799999703	DATA	Keydown:  
+1457.6922550000018	DATA	Keydown:  
+1459.0280299999868	EXP	next_prompt_trial2: autoDraw = true
+1459.6708050000016	DATA	Keydown:  
+1459.6789049999788	EXP	next_prompt_trial2: autoDraw = false
+1459.6789049999788	EXP	Sound: secs = -1
+1459.6789049999788	EXP	Sound: volume = 1
+1459.6789049999788	EXP	Sound: loops = 0
+1459.6789049999788	EXP	Sound: volume = 1
+1463.4807049999945	DATA	Keydown:  
+1464.1893549999804	DATA	Keydown:  
+1464.8721249999944	DATA	Keydown:  
+1465.8412649999955	DATA	Keydown:  
+1466.7945000000182	DATA	Keydown:  
+1467.633919999993	DATA	Keydown:  
+1468.3086899999762	DATA	Keydown:  
+1469.2510400000028	DATA	Keydown:  
+1470.1204399999697	DATA	Keydown:  
+1470.8770599999698	DATA	Keydown:  
+1471.579214999976	DATA	Keydown:  
+1472.4082100000232	DATA	Keydown:  
+1473.17015000002	DATA	Keydown:  
+1473.9527099999832	DATA	Keydown:  
+1474.7259199999971	DATA	Keydown:  
+1475.6291399999755	DATA	Keydown:  
+1476.4557800000184	DATA	Keydown:  
+1477.2496500000125	DATA	Keydown:  
+1479.4418799999985	EXP	next_prompt_trial2: autoDraw = true
+1480.442630000005	DATA	Keydown:  
+1480.4596250000177	EXP	next_prompt_trial2: autoDraw = false
+1480.4596250000177	EXP	Sound: secs = -1
+1480.4596250000177	EXP	Sound: volume = 1
+1480.4596250000177	EXP	Sound: loops = 0
+1480.4596250000177	EXP	Sound: volume = 1
+1483.9188149999827	DATA	Keydown:  
+1484.8529449999915	DATA	Keydown:  
+1485.9729100000113	DATA	Keydown:  
+1486.5874000000185	DATA	Keydown:  
+1487.165084999986	DATA	Keydown:  
+1487.8263249999727	DATA	Keydown:  
+1488.49053499999	DATA	Keydown:  
+1489.1403699999792	DATA	Keydown:  
+1489.8120900000213	DATA	Keydown:  
+1490.5088799999794	DATA	Keydown:  
+1491.204859999998	DATA	Keydown:  
+1491.8591599999927	DATA	Keydown:  
+1492.4255450000055	DATA	Keydown:  
+1493.078135000018	DATA	Keydown:  
+1493.7191200000234	DATA	Keydown:  
+1494.3674800000153	DATA	Keydown:  
+1494.9677299999748	DATA	Keydown:  
+1495.6550099999877	DATA	Keydown:  
+1497.8720099999919	EXP	next_prompt_trial2: autoDraw = true
+1498.272500000021	DATA	Keydown:  
+1498.2897099999827	EXP	next_prompt_trial2: autoDraw = false
+1498.2897099999827	EXP	Sound: secs = -1
+1498.2897099999827	EXP	Sound: volume = 1
+1498.2897099999827	EXP	Sound: loops = 0
+1498.2897099999827	EXP	Sound: volume = 1
+1500.5503949999693	DATA	Keydown:  
+1501.098394999979	DATA	Keydown:  
+1501.7344049999956	DATA	Keydown:  
+1502.4556899999734	DATA	Keydown:  
+1503.2328049999778	DATA	Keydown:  
+1503.7830400000094	DATA	Keydown:  
+1504.522490000003	DATA	Keydown:  
+1505.222919999971	DATA	Keydown:  
+1505.8404650000157	DATA	Keydown:  
+1506.5544900000095	DATA	Keydown:  
+1507.1533649999765	DATA	Keydown:  
+1507.7531299999682	DATA	Keydown:  
+1508.5376999999862	DATA	Keydown:  
+1509.1623150000232	DATA	Keydown:  
+1509.8310150000034	DATA	Keydown:  
+1510.4403099999763	DATA	Keydown:  
+1511.1645199999912	DATA	Keydown:  
+1511.8351649999968	DATA	Keydown:  
+1512.5638799999724	DATA	Keydown:  
+1513.1400900000008	DATA	Keydown:  
+1514.4826250000042	EXP	next_prompt_trial2: autoDraw = true
+1514.9997200000216	DATA	Keydown:  
+1515.0160799999721	EXP	next_prompt_trial2: autoDraw = false
+1515.0160799999721	EXP	Sound: secs = -1
+1515.0160799999721	EXP	Sound: volume = 1
+1515.0160799999721	EXP	Sound: loops = 0
+1515.0160799999721	EXP	Sound: volume = 1
+1516.8294149999856	DATA	Keydown:  
+1517.6413199999952	DATA	Keydown:  
+1518.4021949999733	DATA	Keydown:  
+1519.0921600000001	DATA	Keydown:  
+1519.808944999997	DATA	Keydown:  
+1520.4137950000004	DATA	Keydown:  
+1521.1720750000095	DATA	Keydown:  
+1521.9651399999857	DATA	Keydown:  
+1522.734530000016	DATA	Keydown:  
+1523.5047049999703	DATA	Keydown:  
+1524.2205850000028	DATA	Keydown:  
+1524.957074999984	DATA	Keydown:  
+1525.667390000017	DATA	Keydown:  
+1526.3593049999909	DATA	Keydown:  
+1527.1030899999896	DATA	Keydown:  
+1527.8729000000167	DATA	Keydown:  
+1528.6344849999878	DATA	Keydown:  
+1529.3197700000019	DATA	Keydown:  
+1530.0310399999726	DATA	Keydown:  
+1530.7549049999798	DATA	Keydown:  
+1531.48801500001	EXP	next_prompt_trial2: autoDraw = true
+1532.1487900000066	DATA	Keydown:  
+1532.1624949999969	EXP	next_prompt_trial2: autoDraw = false
+1532.1624949999969	EXP	Sound: secs = -1
+1532.1624949999969	EXP	Sound: volume = 1
+1532.1624949999969	EXP	Sound: loops = 0
+1532.1624949999969	EXP	Sound: volume = 1
+1536.8821899999748	DATA	Keydown:  
+1537.6750049999682	DATA	Keydown:  
+1538.3042850000202	DATA	Keydown:  
+1538.9231850000215	DATA	Keydown:  
+1539.54561500001	DATA	Keydown:  
+1540.3096699999878	DATA	Keydown:  
+1541.0539599999902	DATA	Keydown:  
+1541.728454999975	DATA	Keydown:  
+1543.4358050000155	DATA	Keydown:  
+1544.2085099999676	DATA	Keydown:  
+1545.1645499999868	DATA	Keydown:  
+1545.7415150000015	DATA	Keydown:  
+1546.1627050000243	DATA	Keydown:  
+1546.7037899999996	DATA	Keydown:  
+1547.9551649999921	DATA	Keydown:  
+1549.833869999973	EXP	next_prompt_trial2: autoDraw = true
+1550.5990999999922	DATA	Keydown:  
+1550.6032399999676	EXP	next_prompt_trial2: autoDraw = false
+1550.6032399999676	EXP	Sound: secs = -1
+1550.6032399999676	EXP	Sound: volume = 1
+1550.6032399999676	EXP	Sound: loops = 0
+1550.6032399999676	EXP	Sound: volume = 1
+1552.94855500001	DATA	Keydown:  
+1553.5197349999798	DATA	Keydown:  
+1554.0607249999885	DATA	Keydown:  
+1554.6072350000031	DATA	Keydown:  
+1555.1577149999794	DATA	Keydown:  
+1555.7409449999686	DATA	Keydown:  
+1556.287330000021	DATA	Keydown:  
+1556.9965799999773	DATA	Keydown:  
+1557.4149699999834	DATA	Keydown:  
+1557.9507200000226	DATA	Keydown:  
+1558.5220449999906	DATA	Keydown:  
+1559.079469999997	DATA	Keydown:  
+1559.6774299999815	DATA	Keydown:  
+1560.2109150000033	DATA	Keydown:  
+1560.734775000019	DATA	Keydown:  
+1561.2959949999931	DATA	Keydown:  
+1561.822679999983	DATA	Keydown:  
+1562.3447949999827	DATA	Keydown:  
+1562.9161350000068	DATA	Keydown:  
+1564.0093399999896	EXP	next_prompt_trial2: autoDraw = true
+1564.3974249999737	DATA	Keydown:  
+1564.4096949999803	EXP	next_prompt_trial2: autoDraw = false
+1564.4096949999803	EXP	Sound: secs = -1
+1564.4096949999803	EXP	Sound: volume = 1
+1564.4096949999803	EXP	Sound: loops = 0
+1564.4096949999803	EXP	Sound: volume = 1
+1567.5666549999733	DATA	Keydown:  
+1568.1132750000106	DATA	Keydown:  
+1568.6654400000116	DATA	Keydown:  
+1569.2093149999855	DATA	Keydown:  
+1569.760650000011	DATA	Keydown:  
+1570.3311749999993	DATA	Keydown:  
+1570.8544249999686	DATA	Keydown:  
+1571.4003149999771	DATA	Keydown:  
+1571.9415399999707	DATA	Keydown:  
+1572.4755499999737	DATA	Keydown:  
+1573.0134800000233	DATA	Keydown:  
+1573.6248849999974	DATA	Keydown:  
+1574.2183949999744	DATA	Keydown:  
+1574.78581999999	DATA	Keydown:  
+1575.330799999996	DATA	Keydown:  
+1575.9016399999964	DATA	Keydown:  
+1576.466379999998	DATA	Keydown:  
+1577.0371600000071	DATA	Keydown:  
+1577.5819749999791	DATA	Keydown:  
+1579.5807800000184	EXP	next_prompt_trial2: autoDraw = true
+1580.1330750000197	DATA	Keydown:  
+1580.1474450000096	EXP	next_prompt_trial2: autoDraw = false
+1580.1474450000096	EXP	Sound: secs = -1
+1580.1474450000096	EXP	Sound: volume = 1
+1580.1474450000096	EXP	Sound: loops = 0
+1580.1474450000096	EXP	Sound: volume = 1
+1583.140139999974	DATA	Keydown:  
+1583.8904999999795	DATA	Keydown:  
+1584.7011949999724	DATA	Keydown:  
+1585.5169800000149	DATA	Keydown:  
+1586.3607549999724	DATA	Keydown:  
+1587.070539999986	DATA	Keydown:  
+1587.809409999987	DATA	Keydown:  
+1588.6111999999848	DATA	Keydown:  
+1589.3815900000045	DATA	Keydown:  
+1590.1970599999768	DATA	Keydown:  
+1591.0255149999866	DATA	Keydown:  
+1591.7786649999907	DATA	Keydown:  
+1592.6593850000063	DATA	Keydown:  
+1593.4642299999832	DATA	Keydown:  
+1594.265475000022	DATA	Keydown:  
+1595.0413699999917	DATA	Keydown:  
+1595.801615000004	DATA	Keydown:  
+1596.537394999992	DATA	Keydown:  
+1597.3100899999845	DATA	Keydown:  
+1598.6942500000005	EXP	next_prompt_trial2: autoDraw = true
+1602.1940049999976	DATA	Keydown:  
+1602.2047299999977	EXP	next_prompt_trial2: autoDraw = false
+1602.2047299999977	EXP	Sound: secs = -1
+1602.2047299999977	EXP	Sound: volume = 1
+1602.2047299999977	EXP	Sound: loops = 0
+1602.2047299999977	EXP	Sound: volume = 1
+1604.7080299999798	DATA	Keydown:  
+1605.3678649999783	DATA	Keydown:  
+1605.8293999999878	DATA	Keydown:  
+1606.241080000007	DATA	Keydown:  
+1606.7102600000217	DATA	Keydown:  
+1607.1375700000208	DATA	Keydown:  
+1607.5790050000069	DATA	Keydown:  
+1607.9922050000168	DATA	Keydown:  
+1608.4613799999934	DATA	Keydown:  
+1608.943024999986	DATA	Keydown:  
+1609.4518149999785	DATA	Keydown:  
+1609.9104500000249	DATA	Keydown:  
+1610.3378800000064	DATA	Keydown:  
+1610.8494649999775	DATA	Keydown:  
+1611.2576450000051	DATA	Keydown:  
+1611.7505099999835	DATA	Keydown:  
+1612.1477699999814	DATA	Keydown:  
+1612.5869449999882	DATA	Keydown:  
+1613.0538800000213	DATA	Keydown:  
+1614.75489500002	EXP	next_prompt_trial2: autoDraw = true
+1615.474509999971	DATA	Keydown:  
+1615.4892850000178	EXP	next_prompt_trial2: autoDraw = false
+1615.4892850000178	EXP	Sound: secs = -1
+1615.4892850000178	EXP	Sound: volume = 1
+1615.4892850000178	EXP	Sound: loops = 0
+1615.4892850000178	EXP	Sound: volume = 1
+1618.6619000000064	DATA	Keydown:  
+1619.5030600000173	DATA	Keydown:  
+1620.2985600000247	DATA	Keydown:  
+1621.1392500000075	DATA	Keydown:  
+1621.90545999998	DATA	Keydown:  
+1622.652209999971	DATA	Keydown:  
+1623.4871849999763	DATA	Keydown:  
+1624.6541699999943	DATA	Keydown:  
+1625.1036050000112	DATA	Keydown:  
+1625.875560000015	DATA	Keydown:  
+1626.6227749999962	DATA	Keydown:  
+1627.423840000003	DATA	Keydown:  
+1628.2142950000125	DATA	Keydown:  
+1629.0180149999796	DATA	Keydown:  
+1629.7505050000036	DATA	Keydown:  
+1630.424944999977	DATA	Keydown:  
+1631.2082700000028	DATA	Keydown:  
+1631.907814999984	DATA	Keydown:  
+1632.7250299999723	DATA	Keydown:  
+1634.5181100000045	EXP	next_prompt_trial2: autoDraw = true
+1635.186474999995	DATA	Keydown:  
+1635.2025499999872	EXP	next_prompt_trial2: autoDraw = false
+1635.2025499999872	EXP	Sound: secs = -1
+1635.2025499999872	EXP	Sound: volume = 1
+1635.2025499999872	EXP	Sound: loops = 0
+1635.2025499999872	EXP	Sound: volume = 1
+1637.8300649999874	DATA	Keydown:  
+1638.3683350000065	DATA	Keydown:  
+1638.9140950000146	DATA	Keydown:  
+1639.5151549999719	DATA	Keydown:  
+1640.1079349999782	DATA	Keydown:  
+1640.7268700000132	DATA	Keydown:  
+1641.2668650000123	DATA	Keydown:  
+1641.8445250000223	DATA	Keydown:  
+1642.5069699999876	DATA	Keydown:  
+1643.0932199999806	DATA	Keydown:  
+1643.5838649999932	DATA	Keydown:  
+1644.2345399999758	DATA	Keydown:  
+1644.7975650000153	DATA	Keydown:  
+1645.9932350000017	DATA	Keydown:  
+1646.6145350000006	DATA	Keydown:  
+1647.208975000016	DATA	Keydown:  
+1647.792535000015	DATA	Keydown:  
+1648.372789999994	DATA	Keydown:  
+1648.9768150000018	DATA	Keydown:  
+1650.6741349999793	EXP	next_prompt_trial2: autoDraw = true
+1651.115300000005	DATA	Keydown:  
+1651.123254999984	EXP	next_prompt_trial2: autoDraw = false
+1651.123254999984	EXP	Sound: secs = -1
+1651.123254999984	EXP	Sound: volume = 1
+1651.123254999984	EXP	Sound: loops = 0
+1651.123254999984	EXP	Sound: volume = 1
+1653.8538200000185	DATA	Keydown:  
+1654.6462750000064	DATA	Keydown:  
+1655.4332649999997	DATA	Keydown:  
+1656.2224699999788	DATA	Keydown:  
+1657.1093150000088	DATA	Keydown:  
+1657.8542400000151	DATA	Keydown:  
+1658.7913399999961	DATA	Keydown:  
+1659.4786050000112	DATA	Keydown:  
+1660.3298649999779	DATA	Keydown:  
+1661.0451549999998	DATA	Keydown:  
+1661.7897799999919	DATA	Keydown:  
+1662.5176549999742	DATA	Keydown:  
+1663.299485000025	DATA	Keydown:  
+1664.1508649999741	DATA	Keydown:  
+1664.8845899999724	DATA	Keydown:  
+1665.7248849999742	DATA	Keydown:  
+1666.5707599999732	DATA	Keydown:  
+1667.2295349999913	DATA	Keydown:  
+1667.993060000008	DATA	Keydown:  
+1669.2878950000159	DATA	Keydown:  
+1670.4712849999778	EXP	next_prompt_trial2: autoDraw = true
+1670.9019749999861	DATA	Keydown:  
+1670.9150599999703	EXP	next_prompt_trial2: autoDraw = false
+1670.9150599999703	EXP	completion_text: autoDraw = true
+1701.979869999981	DATA	Keydown: Meta
+1702.0683250000002	DATA	Keydown: Shift
+1711.3271599999862	DATA	Keydown:  
+1711.336399999971	EXP	completion_text: autoDraw = false
+1711.336399999971	EXP	goodbyetxt: autoDraw = true
